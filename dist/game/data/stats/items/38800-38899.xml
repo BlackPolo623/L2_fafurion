@@ -1,0 +1,2107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="38800" name="丹帝借來的安塔瑞斯殺刃" additionalName="8-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_twohand_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">1445</stat>
+			<stat type="mAtk">517</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="17767" level="1" /> 
+		</skills>
+	</item>
+	<item id="38801" name="丹帝借來的安塔瑞斯投弓" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_bow_i01" />
+		<set name="weapon_type" val="BOW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">1516</stat>
+			<stat type="mAtk">360</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="17768" level="1" /> 
+		</skills>
+	</item>
+	<item id="38802" name="丹帝借來的安塔瑞斯爆刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_onehand_magic_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">616</stat>
+			<stat type="mAtk">481</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="17769" level="1" /> 
+		</skills>
+	</item>
+	<item id="38803" name="丹帝借來的安塔瑞斯切刃" additionalName="8-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_onehand_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">1188</stat>
+			<stat type="mAtk">517</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="17770" level="1" /> 
+		</skills>
+	</item>
+	<item id="38804" name="丹帝借來的安塔瑞斯風暴者" additionalName="8-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_spear_i01" />
+		<set name="weapon_type" val="POLE" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="BRONZE" />
+		<stats>
+			<stat type="pAtk">1188</stat>
+			<stat type="mAtk">517</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="13115" level="1" /> 
+			<skill id="17771" level="1" /> 
+		</skills>
+	</item>
+	<item id="38805" name="丹帝借來的安塔瑞斯戰爪" additionalName="8-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_fist_i01" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">1445</stat>
+			<stat type="mAtk">517</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="17772" level="1" /> 
+		</skills>
+	</item>
+	<item id="38806" name="丹帝借來的安塔瑞斯復讎者" additionalName="8-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_onehand_blunt_i01" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FINE_STEEL" />
+		<stats>
+			<stat type="pAtk">1188</stat>
+			<stat type="mAtk">517</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+		<skills>
+			<skill id="17773" level="1" /> 
+		</skills>
+	</item>
+	<item id="38807" name="丹帝借來的安塔瑞斯雙鈍器" additionalName="8-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_dual_blunt_i01" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FINE_STEEL" />
+		<stats>
+			<stat type="pAtk">1445</stat>
+			<stat type="mAtk">517</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+		<skills>
+			<skill id="17774" level="1" /> 
+		</skills>
+	</item>
+	<item id="38808" name="丹帝借來的安塔瑞斯雙刀" additionalName="8-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_dual_sword_i01" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">1445</stat>
+			<stat type="mAtk">517</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="17775" level="1" /> 
+		</skills>
+	</item>
+	<item id="38809" name="丹帝借來的巴拉卡斯刨刀" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_valrakas_dagger_i01" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">673</stat>
+			<stat type="mAtk">360</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="17776" level="1" /> 
+		</skills>
+	</item>
+	<item id="38810" name="丹帝借來的巴拉卡斯切刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_valrakas_onehand_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">770</stat>
+			<stat type="mAtk">360</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="17777" level="1" /> 
+		</skills>
+	</item>
+	<item id="38811" name="丹帝借來的巴拉卡斯殺刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_valrakas_twohand_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">937</stat>
+			<stat type="mAtk">360</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="17778" level="1" /> 
+		</skills>
+	</item>
+	<item id="38812" name="丹帝借來的巴拉卡斯投弓" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_valrakas_bow_i01" />
+		<set name="weapon_type" val="BOW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">1516</stat>
+			<stat type="mAtk">360</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="17779" level="1" /> 
+		</skills>
+	</item>
+	<item id="38813" name="丹帝借來的巴拉卡斯爆刃" additionalName="8-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="STEEL" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">950</stat>
+			<stat type="mAtk">690</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="17780" level="1" /> 
+		</skills>
+	</item>
+	<item id="38814" name="丹帝借來的巴拉卡斯術杖" additionalName="8-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_blunt_i01" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">950</stat>
+			<stat type="mAtk">690</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+		<skills>
+			<skill id="17781" level="1" /> 
+		</skills>
+	</item>
+	<item id="38815" name="丹帝借來的巴拉卡斯報恨者" additionalName="8-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_valrakas_twohand_magic_blunt_i01" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">1157</stat>
+			<stat type="mAtk">759</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="accMagic">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+		<skills>
+			<skill id="17782" level="1" /> 
+		</skills>
+	</item>
+	<item id="38816" name="丹帝借來的林德拜爾刨刀" additionalName="8-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lind_dagger_i01" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">1039</stat>
+			<stat type="mAtk">517</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="17783" level="1" /> 
+		</skills>
+	</item>
+	<item id="38817" name="丹帝借來的林德拜爾投弓" additionalName="8-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lind_bow_i01" />
+		<set name="weapon_type" val="BOW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">2339</stat>
+			<stat type="mAtk">517</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="17784" level="1" /> 
+		</skills>
+	</item>
+	<item id="38818" name="丹帝借來的林德拜爾殺刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lind_twohand_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">937</stat>
+			<stat type="mAtk">360</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="17785" level="1" /> 
+		</skills>
+	</item>
+	<item id="38819" name="丹帝借來的林德拜爾術杖" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lind_onehand_magic_blunt_i01" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">616</stat>
+			<stat type="mAtk">481</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="17786" level="1" /> 
+		</skills>
+	</item>
+	<item id="38820" name="丹帝借來的林德拜爾切刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lind_onehand_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">770</stat>
+			<stat type="mAtk">360</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="17787" level="1" /> 
+		</skills>
+	</item>
+	<item id="38821" name="丹帝借來的林德拜爾射靈" additionalName="8-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lind_crossbow_i01" />
+		<set name="weapon_type" val="TWOHANDCROSSBOW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">2106</stat>
+			<stat type="mAtk">517</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="17788" level="1" /> 
+		</skills>
+	</item>
+	<item id="38822" name="丹帝借來的林德拜爾雙匕首" additionalName="8-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lind_dual_dagger_i01" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">1039</stat>
+			<stat type="mAtk">517</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="17789" level="1" /> 
+		</skills>
+	</item>
+	<item id="38823" name="傾注極致的安塔瑞斯刨刀" additionalName="15-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_dagger_i01" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">2523</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="8893" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8895" level="1" /> 
+			<skill id="17790" level="1" /> 
+		</skills>
+	</item>
+	<item id="38824" name="傾注極致的安塔瑞斯殺刃" additionalName="15-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_twohand_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">3509</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="8893" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8895" level="1" /> 
+			<skill id="17791" level="1" /> 
+		</skills>
+	</item>
+	<item id="38825" name="傾注極致的安塔瑞斯投弓" additionalName="15-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_bow_i01" />
+		<set name="weapon_type" val="BOW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">5678</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="8893" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8895" level="1" /> 
+			<skill id="17792" level="1" /> 
+		</skills>
+	</item>
+	<item id="38826" name="傾注極致的安塔瑞斯爆刃" additionalName="15-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_onehand_magic_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">2307</stat>
+			<stat type="mAtk">1676</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="8893" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8895" level="1" /> 
+			<skill id="17793" level="1" /> 
+		</skills>
+	</item>
+	<item id="38827" name="傾注極致的安塔瑞斯切刃" additionalName="15-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_onehand_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">2884</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="8893" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8895" level="1" /> 
+			<skill id="17794" level="1" /> 
+		</skills>
+	</item>
+	<item id="38828" name="傾注極致的安塔瑞斯風暴者" additionalName="15-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_spear_i01" />
+		<set name="weapon_type" val="POLE" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="BRONZE" />
+		<stats>
+			<stat type="pAtk">2884</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="13115" level="1" /> 
+			<skill id="8893" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8895" level="1" /> 
+			<skill id="17795" level="1" /> 
+		</skills>
+	</item>
+	<item id="38829" name="傾注極致的安塔瑞斯戰爪" additionalName="15-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_fist_i01" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">3509</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="8893" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8895" level="1" /> 
+			<skill id="17796" level="1" /> 
+		</skills>
+	</item>
+	<item id="38830" name="傾注極致的安塔瑞斯復讎者" additionalName="15-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_onehand_blunt_i01" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="FINE_STEEL" />
+		<stats>
+			<stat type="pAtk">2884</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+		<skills>
+			<skill id="8893" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8895" level="1" /> 
+			<skill id="17797" level="1" /> 
+		</skills>
+	</item>
+	<item id="38831" name="傾注極致的安塔瑞斯雙鈍器" additionalName="15-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_dual_blunt_i01" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="FINE_STEEL" />
+		<stats>
+			<stat type="pAtk">3509</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+		<skills>
+			<skill id="8893" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8895" level="1" /> 
+			<skill id="17798" level="1" /> 
+		</skills>
+	</item>
+	<item id="38832" name="傾注極致的安塔瑞斯雙刀" additionalName="15-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_antaras_dual_sword_i01" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">3509</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="8893" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8895" level="1" /> 
+			<skill id="17799" level="1" /> 
+		</skills>
+	</item>
+	<item id="38833" name="傾注極致的巴拉卡斯刨刀" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_valrakas_dagger_i01" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">2523</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="8896" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8897" level="1" /> 
+			<skill id="17800" level="1" /> 
+		</skills>
+	</item>
+	<item id="38834" name="傾注極致的巴拉卡斯切刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_valrakas_onehand_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">2884</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="8896" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8897" level="1" /> 
+			<skill id="17801" level="1" /> 
+		</skills>
+	</item>
+	<item id="38835" name="傾注極致的巴拉卡斯殺刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_valrakas_twohand_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">3509</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="8896" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8897" level="1" /> 
+			<skill id="17802" level="1" /> 
+		</skills>
+	</item>
+	<item id="38836" name="傾注極致的巴拉卡斯投弓" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_valrakas_bow_i01" />
+		<set name="weapon_type" val="BOW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">5678</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="8896" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8897" level="1" /> 
+			<skill id="17803" level="1" /> 
+		</skills>
+	</item>
+	<item id="38837" name="傾注極致的巴拉卡斯爆刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">2307</stat>
+			<stat type="mAtk">1676</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="8896" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8897" level="1" /> 
+			<skill id="17804" level="1" /> 
+		</skills>
+	</item>
+	<item id="38838" name="傾注極致的巴拉卡斯術杖" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_valrakas_onehand_magic_blunt_i01" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">2307</stat>
+			<stat type="mAtk">1676</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+		<skills>
+			<skill id="8896" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8897" level="1" /> 
+			<skill id="17805" level="1" /> 
+		</skills>
+	</item>
+	<item id="38839" name="傾注極致的巴拉卡斯報恨者" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_valrakas_twohand_magic_blunt_i01" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">2809</stat>
+			<stat type="mAtk">1843</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="accMagic">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+		<skills>
+			<skill id="8896" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="8897" level="1" /> 
+			<skill id="17806" level="1" /> 
+		</skills>
+	</item>
+	<item id="38840" name="傾注極致的林德拜爾刨刀" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lind_dagger_i01" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">2523</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="8899" level="1" /> 
+			<skill id="8898" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="17807" level="1" /> 
+		</skills>
+	</item>
+	<item id="38841" name="傾注極致的林德拜爾投弓" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lind_bow_i01" />
+		<set name="weapon_type" val="BOW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">5678</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="8899" level="1" /> 
+			<skill id="8898" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="17808" level="1" /> 
+		</skills>
+	</item>
+	<item id="38842" name="傾注極致的林德拜爾殺刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lind_twohand_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">3509</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="8899" level="1" /> 
+			<skill id="8898" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="17809" level="1" /> 
+		</skills>
+	</item>
+	<item id="38843" name="傾注極致的林德拜爾術杖" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lind_onehand_magic_blunt_i01" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">2307</stat>
+			<stat type="mAtk">1676</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="8899" level="1" /> 
+			<skill id="8898" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="17810" level="1" /> 
+		</skills>
+	</item>
+	<item id="38844" name="傾注極致的林德拜爾切刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lind_onehand_sword_i01" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">2884</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="8899" level="1" /> 
+			<skill id="8898" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="17811" level="1" /> 
+		</skills>
+	</item>
+	<item id="38845" name="傾注極致的林德拜爾射靈" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lind_crossbow_i01" />
+		<set name="weapon_type" val="TWOHANDCROSSBOW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">5113</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="randomDamage">5</stat>
+		</stats>
+		<skills>
+			<skill id="8899" level="1" /> 
+			<skill id="8898" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="17812" level="1" /> 
+		</skills>
+	</item>
+	<item id="38846" name="傾注極致的林德拜爾雙匕首" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lind_dual_dagger_i01" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="500" />
+		<set name="time" val="60" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">2884</stat>
+			<stat type="mAtk">1257</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">10</stat>
+		</stats>
+		<skills>
+			<skill id="8899" level="1" /> 
+			<skill id="8898" level="1" /> 
+			<skill id="8890" level="1" /> 
+			<skill id="17813" level="1" /> 
+		</skills>
+	</item>
+	<item id="38847" name="丹帝的封印解除捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_10th_dandi1" />
+		<set name="weight" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38848" name="龍武器傾注提升捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_10th_dandi1" />
+		<set name="weight" val="2" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38849" name="拉菲安洛茲的胸針" type="Armor">
+		
+		<set name="icon" val="icon.r2_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch" />
+		<set name="weight" val="10" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="13657" level="1" /> 
+		</skills>
+	</item>
+	<item id="38850" name="黃寶石" additionalName="Lv. 1" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_topaz_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17701" level="1" /> 
+		</skills>
+	</item>
+	<item id="38851" name="黃寶石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_topaz_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17701" level="2" /> 
+		</skills>
+	</item>
+	<item id="38852" name="黃寶石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_topaz_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17701" level="3" /> 
+		</skills>
+	</item>
+	<item id="38853" name="黃寶石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_topaz_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17701" level="4" /> 
+		</skills>
+	</item>
+	<item id="38854" name="黃寶石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_topaz_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17701" level="5" /> 
+		</skills>
+	</item>
+	<item id="38855" name="紅寶石" additionalName="Lv. 1" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="18717" level="1" /> 
+		</skills>
+	</item>
+	<item id="38856" name="紅寶石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="18717" level="2" /> 
+		</skills>
+	</item>
+	<item id="38857" name="紅寶石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="18717" level="3" /> 
+		</skills>
+	</item>
+	<item id="38858" name="紅寶石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="18717" level="4" /> 
+		</skills>
+	</item>
+	<item id="38859" name="紅寶石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="18717" level="5" /> 
+		</skills>
+	</item>
+	<item id="38860" name="緊急恢復寶石-Lv1" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="5" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17702" level="1" /> 
+		</skills>
+	</item>
+	<item id="38861" name="緊急恢復寶石-Lv2" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17702" level="2" /> 
+		</skills>
+	</item>
+	<item id="38862" name="緊急恢復寶石-Lv3" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17702" level="3" /> 
+		</skills>
+	</item>
+	<item id="38863" name="緊急恢復寶石-Lv4" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17702" level="4" /> 
+		</skills>
+	</item>
+	<item id="38864" name="緊急恢復寶石-Lv5" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17702" level="5" /> 
+		</skills>
+	</item>
+	<item id="38865" name="治癒量增加寶石-Lv1" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17703" level="1" /> 
+		</skills>
+	</item>
+	<item id="38866" name="治癒量增加寶石-Lv2" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17703" level="2" /> 
+		</skills>
+	</item>
+	<item id="38867" name="治癒量增加寶石- Lv3" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17703" level="3" /> 
+		</skills>
+	</item>
+	<item id="38868" name="治癒量增加寶石-Lv4" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17703" level="4" /> 
+		</skills>
+	</item>
+	<item id="38869" name="治癒量增加寶石-Lv5" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17703" level="5" /> 
+		</skills>
+	</item>
+	<item id="38870" name="黑曜石" additionalName="Lv. 1" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_obsidian_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17704" level="1" /> 
+		</skills>
+	</item>
+	<item id="38871" name="黑曜石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_obsidian_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17704" level="2" /> 
+		</skills>
+	</item>
+	<item id="38872" name="黑曜石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_obsidian_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17704" level="3" /> 
+		</skills>
+	</item>
+	<item id="38873" name="黑曜石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_obsidian_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17704" level="4" /> 
+		</skills>
+	</item>
+	<item id="38874" name="黑曜石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_obsidian_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17704" level="5" /> 
+		</skills>
+	</item>
+	<item id="38875" name="貓眼石" additionalName="Lv. 1" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_opal_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17705" level="1" /> 
+		</skills>
+	</item>
+	<item id="38876" name="貓眼石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_opal_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17705" level="2" /> 
+		</skills>
+	</item>
+	<item id="38877" name="貓眼石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_opal_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17705" level="3" /> 
+		</skills>
+	</item>
+	<item id="38878" name="貓眼石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_opal_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17705" level="4" /> 
+		</skills>
+	</item>
+	<item id="38879" name="貓眼石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_opal_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17705" level="5" /> 
+		</skills>
+	</item>
+	<item id="38880" name="綠寶石" additionalName="Lv. 1" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_emerald_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17825" level="1" /> 
+		</skills>
+	</item>
+	<item id="38881" name="綠寶石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_emerald_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17825" level="2" /> 
+		</skills>
+	</item>
+	<item id="38882" name="綠寶石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_emerald_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17825" level="3" /> 
+		</skills>
+	</item>
+	<item id="38883" name="綠寶石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_emerald_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17825" level="4" /> 
+		</skills>
+	</item>
+	<item id="38884" name="綠寶石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_emerald_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17825" level="5" /> 
+		</skills>
+	</item>
+	<item id="38885" name="海藍寶石" additionalName="Lv. 1" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_aquamarine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17823" level="1" /> 
+		</skills>
+	</item>
+	<item id="38886" name="海藍寶石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_aquamarine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17823" level="2" /> 
+		</skills>
+	</item>
+	<item id="38887" name="海藍寶石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_aquamarine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17823" level="3" /> 
+		</skills>
+	</item>
+	<item id="38888" name="海藍寶石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_aquamarine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17823" level="4" /> 
+		</skills>
+	</item>
+	<item id="38889" name="海藍寶石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_aquamarine_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17823" level="5" /> 
+		</skills>
+	</item>
+	<item id="38890" name="鑽石" additionalName="Lv. 1" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_diamond_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17708" level="1" /> 
+		</skills>
+	</item>
+	<item id="38891" name="鑽石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_diamond_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17708" level="2" /> 
+		</skills>
+	</item>
+	<item id="38892" name="鑽石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_diamond_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17708" level="3" /> 
+		</skills>
+	</item>
+	<item id="38893" name="鑽石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_diamond_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17708" level="4" /> 
+		</skills>
+	</item>
+	<item id="38894" name="鑽石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_diamond_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17708" level="5" /> 
+		</skills>
+	</item>
+	<item id="38895" name="珍珠" additionalName="Lv. 1" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_pearl_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17709" level="1" /> 
+		</skills>
+	</item>
+	<item id="38896" name="珍珠" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_pearl_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17709" level="2" /> 
+		</skills>
+	</item>
+	<item id="38897" name="珍珠" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_pearl_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17709" level="3" /> 
+		</skills>
+	</item>
+	<item id="38898" name="珍珠" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_pearl_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17709" level="4" /> 
+		</skills>
+	</item>
+	<item id="38899" name="珍珠" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_pearl_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17709" level="5" /> 
+		</skills>
+	</item>
+</list>

@@ -1,0 +1,1105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="40100" name="製作捲軸(英啟復讎者分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4205" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40101" name="製作捲軸(英啟戰爪分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4206" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40102" name="製作捲軸(英啟風暴者分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4207" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40103" name="製作捲軸(英啟投弓分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4208" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40104" name="製作捲軸(英啟射靈分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4209" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40105" name="製作捲軸(英啟爆刃分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4210" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40106" name="製作捲軸(英啟術杖分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4211" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40107" name="製作捲軸(英啟報恨者分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4212" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40108" name="製作捲軸(煉獄頭盔分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4213" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40109" name="製作捲軸(煉獄胸甲分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4214" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40110" name="製作捲軸(煉獄脛甲分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4215" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40111" name="製作捲軸(煉獄護手分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4216" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40112" name="製作捲軸(煉獄靴分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4217" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40113" name="製作捲軸(煉獄盾分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4218" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40114" name="製作捲軸(煉獄皮頭盔分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4219" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40115" name="製作捲軸(煉獄皮甲分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4220" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40116" name="製作捲軸(煉獄皮脛甲分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4221" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40117" name="製作捲軸(煉獄皮手套分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4222" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40118" name="製作捲軸(煉獄皮靴分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4223" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40119" name="製作捲軸(煉獄頭箍分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4224" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40120" name="製作捲軸(煉獄外衣分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4225" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40121" name="製作捲軸(煉獄長襪分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4226" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40122" name="製作捲軸(煉獄手套分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4227" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40123" name="製作捲軸(煉獄鞋分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4228" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40124" name="製作捲軸(煉獄符印分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4229" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40125" name="製作捲軸(煉獄項鏈分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4230" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40126" name="製作捲軸(煉獄耳環分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4231" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40127" name="製作捲軸(煉獄戒指分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4232" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40128" name="製作捲軸(幻靈刨刀分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4233" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40129" name="製作捲軸(幻靈切刃分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4234" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40130" name="製作捲軸(幻靈殺刃分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4235" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40131" name="製作捲軸(幻靈復讎者分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4236" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40132" name="製作捲軸(幻靈戰爪分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4237" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40133" name="製作捲軸(幻靈風暴者分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4238" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40134" name="製作捲軸(幻靈投弓分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4239" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40135" name="製作捲軸(幻靈射靈分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4240" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40136" name="製作捲軸(幻靈爆刃分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4241" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40137" name="製作捲軸(幻靈術杖分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4242" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40138" name="製作捲軸(幻靈報恨者分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4243" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40139" name="製作捲軸(卡戴拉頭盔分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4244" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40140" name="製作捲軸(卡戴拉胸甲分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4245" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40141" name="製作捲軸(卡戴拉脛甲分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4246" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40142" name="製作捲軸(卡戴拉護手分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4247" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40143" name="製作捲軸(卡戴拉靴分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4248" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40144" name="製作捲軸(卡戴拉盾分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4249" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40145" name="製作捲軸(卡戴拉皮頭盔分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4250" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40146" name="製作捲軸(卡戴拉皮甲分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4251" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40147" name="製作捲軸(卡戴拉皮脛甲分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4252" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40148" name="製作捲軸(卡戴拉皮手套分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4253" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40149" name="製作捲軸(卡戴拉皮靴分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4254" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40150" name="製作捲軸(卡戴拉頭箍分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4255" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40151" name="製作捲軸(卡戴拉外衣分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4256" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40152" name="製作捲軸(卡戴拉長襪分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4257" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40153" name="製作捲軸(卡戴拉手套分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4258" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40154" name="製作捲軸(卡戴拉鞋分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4259" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40155" name="製作捲軸(卡戴拉符印分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4260" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40156" name="製作捲軸(卡戴拉項鏈分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4261" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40157" name="製作捲軸(卡戴拉耳環分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4262" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40158" name="製作捲軸(卡戴拉戒指分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4263" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40159" name="製作捲軸(赫利奧斯刨刀分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4264" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40160" name="製作捲軸(赫利奧斯切刃分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4265" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40161" name="製作捲軸(赫利奧斯殺刃分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4266" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40162" name="製作捲軸(赫利奧斯復讎者分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4267" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40163" name="製作捲軸(赫利奧斯戰爪分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4268" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40164" name="製作捲軸(赫利奧斯風暴者分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4269" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40165" name="製作捲軸(赫利奧斯投弓分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4270" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40166" name="製作捲軸(赫利奧斯射靈分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4271" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40167" name="製作捲軸(赫利奧斯爆刃分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4272" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40168" name="製作捲軸(赫利奧斯術杖分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4273" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40169" name="製作捲軸(赫利奧斯報恨者分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4274" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40170" name="製作捲軸(艾迪奧斯頭盔分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4275" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40171" name="製作捲軸(艾迪奧斯胸甲分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4276" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40172" name="製作捲軸(艾迪奧斯脛甲分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4277" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40173" name="製作捲軸(艾迪奧斯護手分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4278" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40174" name="製作捲軸(艾迪奧斯靴分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4279" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40175" name="製作捲軸(艾迪奧斯盾分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4280" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40176" name="製作捲軸(艾迪奧斯皮頭盔分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4281" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40177" name="製作捲軸(艾迪奧斯皮甲分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4282" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40178" name="製作捲軸(艾迪奧斯皮脛甲分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4283" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40179" name="製作捲軸(艾迪奧斯皮手套分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4284" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40180" name="製作捲軸(艾迪奧斯皮靴分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4285" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40181" name="製作捲軸(艾迪奧斯頭箍分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4286" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40182" name="製作捲軸(艾迪奧斯外衣分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4287" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40183" name="製作捲軸(艾迪奧斯長襪分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4288" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40184" name="製作捲軸(艾迪奧斯手套分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4289" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40185" name="製作捲軸(艾迪奧斯鞋分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4290" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40186" name="製作捲軸(艾迪奧斯符印分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4291" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40187" name="製作捲軸(艾迪奧斯項鏈分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4292" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40188" name="製作捲軸(艾迪奧斯耳環分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4293" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40189" name="製作捲軸(艾迪奧斯戒指分解)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_gold_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4294" /> 
+		<set name="handler" val="Recipes" />
+		<set name="default_action" val="RECIPE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="40190" name="卡爾提亞迷宮入場券-等級85單人" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_kalie_instantzone_re" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="40191" name="卡爾提亞迷宮入場券-等級85隊伍" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_kalie_instantzone_re" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="40192" name="天運之地入場券" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_kalie_instantzone_re" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="40193" name="諾爾妮庭園入場券" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_kalie_instantzone_re" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="40194" name="歐塔比斯入場劵-一般" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_kalie_instantzone_re" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="40195" name="貝農村莊移動捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ItemSkills" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="SCROLL" />
+		<cond addName="1" msgId="113">
+			<player flyMounted="false" />
+		</cond>
+		<skills>
+			<skill id="18105" level="1" /> 
+		</skills>
+	</item>
+	<item id="40196" name="翼人手鐲" type="Armor">
+		
+		<set name="icon" val="icon.ertheia_bracelet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="BRACELET" />
+		<set name="weight" val="150" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="SILVER" />
+		<stats>
+			<stat type="maxMp">216</stat>
+		</stats>
+		<skills>
+			<skill id="18106" level="1" /> 
+		</skills>
+	</item>
+	<item id="40197" name="翼人靈魂之瓶禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_elite_marguene_collection_box_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="40198" name="防具分解製作捲軸袋" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="40199" name="武器分解製作捲軸袋" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+	</item>
+</list>

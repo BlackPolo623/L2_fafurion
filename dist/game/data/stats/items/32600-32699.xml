@@ -1,0 +1,2111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="32600" name="夢幻的薄暮皮頭盔" additionalName="Not in Use" type="Armor">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S80" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="875000" />
+		<set name="material" val="BONE" />
+		<stats>
+			<stat type="pDef">116</stat>
+		</stats>
+	</item>
+	<item id="32601" name="夢幻的薄暮頭盔" additionalName="Not in Use" type="Armor">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="S80" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="875000" />
+		<set name="material" val="BONE" />
+		<stats>
+			<stat type="pDef">116</stat>
+		</stats>
+	</item>
+	<item id="32602" name="夢幻的薄暮衛盾" additionalName="Not in Use" type="Armor">
+		<set name="icon" val="icon.weapon_vesper_verteidiger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S80" />
+		<set name="weight" val="1130" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="612500" />
+		<set name="material" val="DAMASCUS" />
+		<stats>
+			<stat type="sDef">371</stat>
+			<stat type="rShld">20</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
+	</item>
+	<item id="32603" name="夢幻的薄暮符印" additionalName="Not in Use" type="Armor">
+		<set name="icon" val="icon.verper_sigil_i00" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="S80" />
+		<set name="weight" val="920" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="612500" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pDef">17</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
+	</item>
+	<item id="32604" name="支援用奧爾比斯獎勵箱" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="price" val="100000" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="STEEL" />
+		<capsuled_items>
+			<item id="18568" min="1" max="1" chance="5" name="生命石-R95級" /> 
+			<item id="19167" min="1" max="1" chance="5" name="飾品用生命石-R95級" /> 
+			<item id="17754" min="2000" max="2000" chance="10" name="靈魂彈-R級" /> 
+			<item id="19441" min="1500" max="1500" chance="10" name="魔靈彈-R級" /> 
+			<item id="19442" min="1000" max="1000" chance="10" name="祝福的魔靈彈-R級" /> 
+			<item id="30357" min="3" max="3" chance="100" name="生命靈藥-R級" /> 
+			<item id="30358" min="3" max="3" chance="100" name="精神靈藥-R級" /> 
+			<item id="30359" min="3" max="3" chance="100" name="鬥志靈藥-R級" /> 
+			<item id="30360" min="1" max="1" chance="100" name="超強力生命靈藥-R級" /> 
+			<item id="30361" min="1" max="1" chance="100" name="超強力精神靈藥-R級" /> 
+			<item id="30362" min="1" max="1" chance="100" name="超強力鬥志靈藥-R級" /> 
+			<item id="32316" min="2" max="2" chance="100" name="祝福靈藥" /> 
+		</capsuled_items>
+	</item>
+	<item id="32605" name="上級奧爾比斯獎勵箱" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="price" val="5554218" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="STEEL" />
+		<capsuled_items>
+			<item id="18554" min="1" max="1" chance="0.4" name="紅色搜魂石-R95級" /> 
+			<item id="18555" min="1" max="1" chance="0.4" name="綠色搜魂石-R95級" /> 
+			<item id="18556" min="1" max="1" chance="0.4" name="藍色搜魂石-R95級" /> 
+			<item id="18569" min="1" max="1" chance="93" name="中級生命石-R95級" /> 
+			<item id="19167" min="1" max="1" chance="93" name="飾品用生命石-R95級" /> 
+			<item id="19514" min="1" max="1" chance="31" name="腐蝕的古代戰爭工匠的骨架" /> 
+			<item id="19515" min="1" max="1" chance="31" name="腐蝕的古代里澳林的模具" /> 
+			<item id="19516" min="1" max="1" chance="31" name="腐蝕的古代名匠砧鎖" /> 
+			<item id="19517" min="1" max="1" chance="31" name="腐蝕的古代戰爭工匠的模具" /> 
+			<item id="19309" min="1" max="1" chance="31" name="腐蝕的都蘭達合金" /> 
+			<item id="19310" min="1" max="1" chance="31" name="腐蝕的高級合成炭焦" /> 
+			<item id="19311" min="1" max="1" chance="31" name="腐蝕的拉托雷里姆" /> 
+			<item id="19312" min="1" max="1" chance="31" name="腐蝕的伊特紐合金" /> 
+			<item id="19313" min="1" max="1" chance="31" name="腐蝕的埃泰爾" /> 
+			<item id="19314" min="1" max="1" chance="31" name="腐蝕的黑鐵" /> 
+			<item id="17526" min="1" max="1" chance="13" name="武器強化捲軸-R級" /> 
+			<item id="17527" min="1" max="1" chance="13" name="防具強化捲軸-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="32606" name="高級奧爾比斯獎勵箱" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="price" val="7926800" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="STEEL" />
+		<capsuled_items>
+			<item id="18554" min="1" max="1" chance="0.6" name="紅色搜魂石-R95級" /> 
+			<item id="18555" min="1" max="1" chance="0.6" name="綠色搜魂石-R95級" /> 
+			<item id="18556" min="1" max="1" chance="0.6" name="藍色搜魂石-R95級" /> 
+			<item id="18569" min="1" max="1" chance="53" name="中級生命石-R95級" /> 
+			<item id="19167" min="1" max="1" chance="53" name="飾品用生命石-R95級" /> 
+			<item id="19514" min="1" max="1" chance="36" name="腐蝕的古代戰爭工匠的骨架" /> 
+			<item id="19515" min="1" max="1" chance="36" name="腐蝕的古代里澳林的模具" /> 
+			<item id="19516" min="1" max="1" chance="36" name="腐蝕的古代名匠砧鎖" /> 
+			<item id="19517" min="1" max="1" chance="36" name="腐蝕的古代戰爭工匠的模具" /> 
+			<item id="19309" min="1" max="1" chance="36" name="腐蝕的都蘭達合金" /> 
+			<item id="19310" min="1" max="1" chance="36" name="腐蝕的高級合成炭焦" /> 
+			<item id="19311" min="1" max="1" chance="36" name="腐蝕的拉托雷里姆" /> 
+			<item id="19312" min="1" max="1" chance="36" name="腐蝕的伊特紐合金" /> 
+			<item id="19313" min="1" max="1" chance="36" name="腐蝕的埃泰爾" /> 
+			<item id="19314" min="1" max="1" chance="36" name="腐蝕的黑鐵" /> 
+			<item id="17526" min="1" max="1" chance="14" name="武器強化捲軸-R級" /> 
+			<item id="17527" min="1" max="1" chance="14" name="防具強化捲軸-R級" /> 
+			<item id="19447" min="1" max="1" chance="1" name="祝福的武器強化捲軸-R級" /> 
+			<item id="19448" min="1" max="1" chance="1" name="祝福的防具強化捲軸-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="32607" name="特級奧爾比斯獎勵箱" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="price" val="1948100" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="STEEL" />
+		<capsuled_items>
+			<item id="18554" min="1" max="1" chance="1.4" name="紅色搜魂石-R95級" /> 
+			<item id="18555" min="1" max="1" chance="1.4" name="綠色搜魂石-R95級" /> 
+			<item id="18556" min="1" max="1" chance="1.4" name="藍色搜魂石-R95級" /> 
+			<item id="18569" min="1" max="1" chance="65" name="中級生命石-R95級" /> 
+			<item id="19167" min="1" max="1" chance="65" name="飾品用生命石-R95級" /> 
+			<item id="19514" min="1" max="1" chance="87" name="腐蝕的古代戰爭工匠的骨架" /> 
+			<item id="19515" min="1" max="1" chance="87" name="腐蝕的古代里澳林的模具" /> 
+			<item id="19516" min="1" max="1" chance="87" name="腐蝕的古代名匠砧鎖" /> 
+			<item id="19517" min="1" max="1" chance="87" name="腐蝕的古代戰爭工匠的模具" /> 
+			<item id="19309" min="1" max="1" chance="87" name="腐蝕的都蘭達合金" /> 
+			<item id="19310" min="1" max="1" chance="87" name="腐蝕的高級合成炭焦" /> 
+			<item id="19311" min="1" max="1" chance="87" name="腐蝕的拉托雷里姆" /> 
+			<item id="19312" min="1" max="1" chance="87" name="腐蝕的伊特紐合金" /> 
+			<item id="19313" min="1" max="1" chance="87" name="腐蝕的埃泰爾" /> 
+			<item id="19314" min="1" max="1" chance="87" name="腐蝕的黑鐵" /> 
+			<item id="17526" min="1" max="1" chance="28" name="武器強化捲軸-R級" /> 
+			<item id="17527" min="1" max="1" chance="28" name="防具強化捲軸-R級" /> 
+			<item id="19447" min="1" max="1" chance="2" name="祝福的武器強化捲軸-R級" /> 
+			<item id="19448" min="1" max="1" chance="2" name="祝福的防具強化捲軸-R級" /> 
+			<item id="19511" min="1" max="1" chance="0.2" name="黃色搜魂石碎片-R95級" /> 
+			<item id="19512" min="1" max="1" chance="0.2" name="藍綠色搜魂石碎片-R95級" /> 
+			<item id="19513" min="1" max="1" chance="0.2" name="紫色搜魂石碎片-R95級" /> 
+		</capsuled_items>
+	</item>
+	<item id="32608" name="永生襯衫" additionalName="HP" type="Armor">
+		
+		<set name="icon" val="icon.r1_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="85" />
+		<set name="weight" val="130" />
+		<set name="price" val="3997000" />
+		<set name="bodypart" val="underwear" />
+		<set name="enchant_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="UNDERWEAR" />
+		<set name="material" val="CRYSTAL" />
+		<stats>
+			<stat type="pDef">38</stat>
+		</stats>
+		<skills>
+			<skill id="13240" level="1" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="32609" name="永生襯衫" additionalName="MP" type="Armor">
+		
+		<set name="icon" val="icon.r1_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="85" />
+		<set name="weight" val="130" />
+		<set name="bodypart" val="underwear" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="UNDERWEAR" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="3997000" />
+		<set name="material" val="CRYSTAL" />
+		<stats>
+			<stat type="pDef">38</stat>
+		</stats>
+		<skills>
+			<skill id="13241" level="1" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="32610" name="永生襯衫" additionalName="CP" type="Armor">
+		
+		<set name="icon" val="icon.r1_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="85" />
+		<set name="weight" val="130" />
+		<set name="price" val="3997000" />
+		<set name="bodypart" val="underwear" />
+		<set name="enchant_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="UNDERWEAR" />
+		<set name="material" val="CRYSTAL" />
+		<stats>
+			<stat type="pDef">38</stat>
+		</stats>
+		<skills>
+			<skill id="13242" level="1" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="32611" name="煉獄襯衫" additionalName="HP" type="Armor">
+		
+		<set name="icon" val="icon.r2_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="254" />
+		<set name="weight" val="130" />
+		<set name="bodypart" val="underwear" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="UNDERWEAR" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="11941000" />
+		<set name="material" val="CRYSTAL" />
+		<stats>
+			<stat type="pDef">42</stat>
+		</stats>
+		<skills>
+			<skill id="13243" level="1" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="32612" name="煉獄襯衫" additionalName="MP" type="Armor">
+		
+		<set name="icon" val="icon.r2_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="254" />
+		<set name="weight" val="130" />
+		<set name="bodypart" val="underwear" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="UNDERWEAR" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="11941000" />
+		<set name="material" val="CRYSTAL" />
+		<stats>
+			<stat type="pDef">42</stat>
+		</stats>
+		<skills>
+			<skill id="13244" level="1" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="32613" name="煉獄襯衫" additionalName="CP" type="Armor">
+		
+		<set name="icon" val="icon.r2_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="254" />
+		<set name="weight" val="130" />
+		<set name="bodypart" val="underwear" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="UNDERWEAR" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="11941000" />
+		<set name="material" val="CRYSTAL" />
+		<stats>
+			<stat type="pDef">42</stat>
+		</stats>
+		<skills>
+			<skill id="13245" level="1" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="32614" name="卡戴拉襯衫" additionalName="HP" type="Armor">
+		
+		<set name="icon" val="icon.r95_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="582" />
+		<set name="weight" val="130" />
+		<set name="bodypart" val="underwear" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="UNDERWEAR" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="27296000" />
+		<set name="material" val="CRYSTAL" />
+		<stats>
+			<stat type="pDef">46</stat>
+		</stats>
+		<skills>
+			<skill id="13246" level="1" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="32615" name="卡戴拉襯衫" additionalName="MP" type="Armor">
+		
+		<set name="icon" val="icon.r95_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="582" />
+		<set name="weight" val="130" />
+		<set name="bodypart" val="underwear" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="UNDERWEAR" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="27296000" />
+		<set name="material" val="CRYSTAL" />
+		<stats>
+			<stat type="pDef">46</stat>
+		</stats>
+		<skills>
+			<skill id="13247" level="1" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="32616" name="卡戴拉襯衫" additionalName="CP" type="Armor">
+		
+		<set name="icon" val="icon.r95_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="582" />
+		<set name="weight" val="130" />
+		<set name="bodypart" val="underwear" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="UNDERWEAR" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="27296000" />
+		<set name="material" val="CRYSTAL" />
+		<stats>
+			<stat type="pDef">46</stat>
+		</stats>
+		<skills>
+			<skill id="13248" level="1" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="32617" name="艾迪奧斯襯衫" additionalName="HP" type="Armor">
+		
+		<set name="icon" val="icon.r991_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="1517" />
+		<set name="weight" val="130" />
+		<set name="bodypart" val="underwear" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="UNDERWEAR" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="71132000" />
+		<set name="material" val="CRYSTAL" />
+		<stats>
+			<stat type="pDef">48</stat>
+		</stats>
+		<skills>
+			<skill id="13249" level="1" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="32618" name="艾迪奧斯襯衫" additionalName="MP" type="Armor">
+		
+		<set name="icon" val="icon.r991_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="1517" />
+		<set name="weight" val="130" />
+		<set name="bodypart" val="underwear" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="UNDERWEAR" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="71132000" />
+		<set name="material" val="CRYSTAL" />
+		<stats>
+			<stat type="pDef">48</stat>
+		</stats>
+		<skills>
+			<skill id="13250" level="1" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="32619" name="艾迪奧斯襯衫" additionalName="CP" type="Armor">
+		
+		<set name="icon" val="icon.r991_shirt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="1517" />
+		<set name="weight" val="130" />
+		<set name="bodypart" val="underwear" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="UNDERWEAR" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="71132000" />
+		<set name="material" val="CRYSTAL" />
+		<stats>
+			<stat type="pDef">48</stat>
+		</stats>
+		<skills>
+			<skill id="13251" level="1" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="32620" name="下級魔法古文夾永生腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13160" level="1" /> 
+		</skills>
+	</item>
+	<item id="32621" name="普通魔法古文夾永生腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13161" level="2" /> 
+		</skills>
+	</item>
+	<item id="32622" name="上級魔法古文夾永生腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13162" level="3" /> 
+		</skills>
+	</item>
+	<item id="32623" name="特級魔法古文夾永生腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13163" level="4" /> 
+		</skills>
+	</item>
+	<item id="32624" name="下級魔法古文夾永生腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13164" level="1" /> 
+		</skills>
+	</item>
+	<item id="32625" name="普通魔法古文夾永生腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13165" level="2" /> 
+		</skills>
+	</item>
+	<item id="32626" name="上級魔法古文夾永生腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13166" level="3" /> 
+		</skills>
+	</item>
+	<item id="32627" name="特級魔法古文夾永生腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13167" level="4" /> 
+		</skills>
+	</item>
+	<item id="32628" name="下級魔法飾品永生腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13168" level="1" /> 
+		</skills>
+	</item>
+	<item id="32629" name="普通魔法飾品永生腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13169" level="2" /> 
+		</skills>
+	</item>
+	<item id="32630" name="上級魔法飾品永生腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13170" level="3" /> 
+		</skills>
+	</item>
+	<item id="32631" name="特級魔法飾品永生腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13171" level="4" /> 
+		</skills>
+	</item>
+	<item id="32632" name="下級魔法飾品永生腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13172" level="1" /> 
+		</skills>
+	</item>
+	<item id="32633" name="普通魔法飾品永生腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13173" level="2" /> 
+		</skills>
+	</item>
+	<item id="32634" name="上級魔法飾品永生腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13174" level="3" /> 
+		</skills>
+	</item>
+	<item id="32635" name="特級魔法飾品永生腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13175" level="4" /> 
+		</skills>
+	</item>
+	<item id="32636" name="下級魔法飾品永生腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13176" level="1" /> 
+		</skills>
+	</item>
+	<item id="32637" name="普通魔法飾品永生腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13177" level="2" /> 
+		</skills>
+	</item>
+	<item id="32638" name="上級魔法飾品永生腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13178" level="3" /> 
+		</skills>
+	</item>
+	<item id="32639" name="特級魔法飾品永生腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r1_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="42" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="1999000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">19</stat>
+		</stats>
+		<skills>
+			<skill id="13179" level="4" /> 
+		</skills>
+	</item>
+	<item id="32640" name="下級魔法古文夾煉獄腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13180" level="1" /> 
+		</skills>
+	</item>
+	<item id="32641" name="普通魔法古文夾煉獄腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13181" level="2" /> 
+		</skills>
+	</item>
+	<item id="32642" name="上級魔法古文夾煉獄腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13182" level="3" /> 
+		</skills>
+	</item>
+	<item id="32643" name="特級魔法古文夾煉獄腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13183" level="4" /> 
+		</skills>
+	</item>
+	<item id="32644" name="下級魔法古文夾煉獄腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13184" level="1" /> 
+		</skills>
+	</item>
+	<item id="32645" name="普通魔法古文夾煉獄腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13185" level="2" /> 
+		</skills>
+	</item>
+	<item id="32646" name="上級魔法古文夾煉獄腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13186" level="3" /> 
+		</skills>
+	</item>
+	<item id="32647" name="特級魔法古文夾煉獄腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13187" level="4" /> 
+		</skills>
+	</item>
+	<item id="32648" name="下級魔法飾品煉獄腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13188" level="1" /> 
+		</skills>
+	</item>
+	<item id="32649" name="普通魔法飾品煉獄腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13189" level="2" /> 
+		</skills>
+	</item>
+	<item id="32650" name="上級魔法飾品煉獄腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13190" level="3" /> 
+		</skills>
+	</item>
+	<item id="32651" name="特級魔法飾品煉獄腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13191" level="4" /> 
+		</skills>
+	</item>
+	<item id="32652" name="下級魔法飾品煉獄腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13192" level="1" /> 
+		</skills>
+	</item>
+	<item id="32653" name="普通魔法飾品煉獄腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13193" level="2" /> 
+		</skills>
+	</item>
+	<item id="32654" name="上級魔法飾品煉獄腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13194" level="3" /> 
+		</skills>
+	</item>
+	<item id="32655" name="特級魔法飾品煉獄腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="price" val="5970000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13195" level="4" /> 
+		</skills>
+	</item>
+	<item id="32656" name="下級魔法飾品煉獄腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13196" level="1" /> 
+		</skills>
+	</item>
+	<item id="32657" name="普通魔法飾品煉獄腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13197" level="2" /> 
+		</skills>
+	</item>
+	<item id="32658" name="上級魔法飾品煉獄腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="5970000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13198" level="3" /> 
+		</skills>
+	</item>
+	<item id="32659" name="特級魔法飾品煉獄腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r2_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="127" />
+		<set name="weight" val="440" />
+		<set name="price" val="5970000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">21</stat>
+		</stats>
+		<skills>
+			<skill id="13199" level="4" /> 
+		</skills>
+	</item>
+	<item id="32660" name="下級魔法古文夾卡戴拉腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="13648000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13200" level="1" /> 
+		</skills>
+	</item>
+	<item id="32661" name="普通魔法古文夾卡戴拉腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="13648000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13201" level="2" /> 
+		</skills>
+	</item>
+	<item id="32662" name="上級魔法古文夾卡戴拉腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="13648000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13202" level="3" /> 
+		</skills>
+	</item>
+	<item id="32663" name="特級魔法古文夾卡戴拉腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="13648000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13203" level="4" /> 
+		</skills>
+	</item>
+	<item id="32664" name="下級魔法古文夾卡戴拉腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="13648000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13204" level="1" /> 
+		</skills>
+	</item>
+	<item id="32665" name="普通魔法古文夾卡戴拉腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="13648000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13205" level="2" /> 
+		</skills>
+	</item>
+	<item id="32666" name="上級魔法古文夾卡戴拉腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="13648000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13206" level="3" /> 
+		</skills>
+	</item>
+	<item id="32667" name="特級魔法古文夾卡戴拉腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="price" val="13648000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13207" level="4" /> 
+		</skills>
+	</item>
+	<item id="32668" name="下級魔法飾品卡戴拉腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="13648000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13208" level="1" /> 
+		</skills>
+	</item>
+	<item id="32669" name="普通魔法飾品卡戴拉腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="13648000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13209" level="2" /> 
+		</skills>
+	</item>
+	<item id="32670" name="上級魔法飾品卡戴拉腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="13648000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13210" level="3" /> 
+		</skills>
+	</item>
+	<item id="32671" name="特級魔法飾品卡戴拉腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="price" val="13648000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13211" level="4" /> 
+		</skills>
+	</item>
+	<item id="32672" name="下級魔法飾品卡戴拉腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="13648000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13212" level="1" /> 
+		</skills>
+	</item>
+	<item id="32673" name="普通魔法飾品卡戴拉腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="13648000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13213" level="2" /> 
+		</skills>
+	</item>
+	<item id="32674" name="上級魔法飾品卡戴拉腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="price" val="13648000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13214" level="3" /> 
+		</skills>
+	</item>
+	<item id="32675" name="特級魔法飾品卡戴拉腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="price" val="13648000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13215" level="4" /> 
+		</skills>
+	</item>
+	<item id="32676" name="下級魔法飾品卡戴拉腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="13648000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13216" level="1" /> 
+		</skills>
+	</item>
+	<item id="32677" name="普通魔法飾品卡戴拉腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="13648000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13217" level="2" /> 
+		</skills>
+	</item>
+	<item id="32678" name="上級魔法飾品卡戴拉腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="price" val="13648000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13218" level="3" /> 
+		</skills>
+	</item>
+	<item id="32679" name="特級魔法飾品卡戴拉腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r95_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="291" />
+		<set name="weight" val="440" />
+		<set name="price" val="13648000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">23</stat>
+		</stats>
+		<skills>
+			<skill id="13219" level="4" /> 
+		</skills>
+	</item>
+	<item id="32680" name="下級魔法古文夾艾迪奧斯腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13220" level="1" /> 
+		</skills>
+	</item>
+	<item id="32681" name="普通魔法古文夾艾迪奧斯腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13221" level="2" /> 
+		</skills>
+	</item>
+	<item id="32682" name="上級魔法古文夾艾迪奧斯腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13222" level="3" /> 
+		</skills>
+	</item>
+	<item id="32683" name="特級魔法古文夾艾迪奧斯腰帶" additionalName="HP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13223" level="4" /> 
+		</skills>
+	</item>
+	<item id="32684" name="下級魔法古文夾艾迪奧斯腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13224" level="1" /> 
+		</skills>
+	</item>
+	<item id="32685" name="普通魔法古文夾艾迪奧斯腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13225" level="2" /> 
+		</skills>
+	</item>
+	<item id="32686" name="上級魔法古文夾艾迪奧斯腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13226" level="3" /> 
+		</skills>
+	</item>
+	<item id="32687" name="特級魔法古文夾艾迪奧斯腰帶" additionalName="MP Recovery" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pouch_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13227" level="4" /> 
+		</skills>
+	</item>
+	<item id="32688" name="下級魔法飾品艾迪奧斯腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13228" level="1" /> 
+		</skills>
+	</item>
+	<item id="32689" name="普通魔法飾品艾迪奧斯腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13229" level="2" /> 
+		</skills>
+	</item>
+	<item id="32690" name="上級魔法飾品艾迪奧斯腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13230" level="3" /> 
+		</skills>
+	</item>
+	<item id="32691" name="特級魔法飾品艾迪奧斯腰帶" additionalName="PvP Physical Attack" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13231" level="4" /> 
+		</skills>
+	</item>
+	<item id="32692" name="下級魔法飾品艾迪奧斯腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13232" level="1" /> 
+		</skills>
+	</item>
+	<item id="32693" name="普通魔法飾品艾迪奧斯腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13233" level="2" /> 
+		</skills>
+	</item>
+	<item id="32694" name="上級魔法飾品艾迪奧斯腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13234" level="3" /> 
+		</skills>
+	</item>
+	<item id="32695" name="特級魔法飾品艾迪奧斯腰帶" additionalName="PvP Skill Attack" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="price" val="35570000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13235" level="4" /> 
+		</skills>
+	</item>
+	<item id="32696" name="下級魔法飾品艾迪奧斯腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13236" level="1" /> 
+		</skills>
+	</item>
+	<item id="32697" name="普通魔法飾品艾迪奧斯腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13237" level="2" /> 
+		</skills>
+	</item>
+	<item id="32698" name="上級魔法飾品艾迪奧斯腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13238" level="3" /> 
+		</skills>
+	</item>
+	<item id="32699" name="特級魔法飾品艾迪奧斯腰帶" additionalName="PvP Defense" type="Armor">
+		
+		<set name="icon" val="icon.r99_magic_pin_belt_i00" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="R99" />
+		<set name="crystal_count" val="75" />
+		<set name="weight" val="440" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="BELT" />
+		<set name="immediate_effect" val="true" />
+		<set name="price" val="35570000" />
+		<set name="material" val="CLOTH" />
+		<stats>
+			<stat type="pDef">24</stat>
+		</stats>
+		<skills>
+			<skill id="13239" level="4" /> 
+		</skills>
+	</item>
+</list>

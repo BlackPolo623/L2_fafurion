@@ -1,0 +1,1010 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="45400" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45401" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45402" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45403" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="is_depositable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45404" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="is_depositable" val="false" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45405" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="is_depositable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45406" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="is_depositable" val="false" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45407" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45408" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45409" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45410" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45411" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45412" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45413" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45414" name="自動小提示確認用" additionalName="Test" type="EtcItem">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="price" val="300000" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45415" name="丹帝的全壘打球" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.icon.g_ev_homerunball" />
+		<set name="handler" val="ItemSkills" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="reuse_delay" val="300" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="POTION" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<skills>
+			<skill id="18209" level="1" /> 
+		</skills>
+	</item>
+	<item id="45416" name="藍色救援交換券(R)" type="EtcItem">
+		
+		<set name="icon" val="icon.blue_save_r" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_INC_PROP_ENCHT_WP" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45417" name="藍色救援交換券(R95)" type="EtcItem">
+		
+		<set name="icon" val="icon.blue_save_r95" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_INC_PROP_ENCHT_WP" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45418" name="藍色救援交換券(R99)" type="EtcItem">
+		
+		<set name="icon" val="icon.blue_save_r99" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_INC_PROP_ENCHT_WP" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45419" name="紅色救援交換券(R)" type="EtcItem">
+		
+		<set name="icon" val="icon.red_save_r" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_INC_PROP_ENCHT_WP" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45420" name="紅色救援交換券(R95)" type="EtcItem">
+		
+		<set name="icon" val="icon.red_save_r95" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_INC_PROP_ENCHT_WP" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45421" name="紅色救援交換券(R99)" type="EtcItem">
+		
+		<set name="icon" val="icon.red_save_r99" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_INC_PROP_ENCHT_WP" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45422" name="特級藍色救援交換券(R)" type="EtcItem">
+		
+		<set name="icon" val="icon.royal_blue_save_r" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_INC_PROP_ENCHT_WP" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45423" name="特級藍色救援交換券(R95)" type="EtcItem">
+		
+		<set name="icon" val="icon.royal_blue_save_r95" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_INC_PROP_ENCHT_WP" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45424" name="特級藍色救援交換券(R99)" type="EtcItem">
+		
+		<set name="icon" val="icon.royal_blue_save_r99" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_INC_PROP_ENCHT_WP" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45425" name="特級紅色救援交換券(R)" type="EtcItem">
+		
+		<set name="icon" val="icon.royal_red_save_r" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_INC_PROP_ENCHT_WP" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45426" name="特級紅色救援交換券(R95)" type="EtcItem">
+		
+		<set name="icon" val="icon.royal_red_save_r95" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_INC_PROP_ENCHT_WP" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45427" name="特級紅色救援交換券(R99)" type="EtcItem">
+		
+		<set name="icon" val="icon.royal_red_save_r99" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_INC_PROP_ENCHT_WP" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45428" name="奧里哈魯根箭" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_oricalcum_quiver_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="GOLD" />
+	</item>
+	<item id="45429" name="奧里哈魯根弩箭" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_oricalcum_bolt_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="etcitem_type" val="BOLT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="MITHRIL" />
+	</item>
+	<item id="45430" name="斯佩席亞入場券-極限" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="weight" val="5" />
+		<set name="price" val="12660421" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="handler" val="ItemSkills" />
+		<set name="reuse_delay" val="86400000" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45431" name="巴爾勒入場劵" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="weight" val="5" />
+		<set name="price" val="13112579" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="handler" val="ItemSkills" />
+		<set name="reuse_delay" val="86400000" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45432" name="卡爾提亞迷宮入場券-等級95隊伍" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="weight" val="5" />
+		<set name="price" val="13112579" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="handler" val="ItemSkills" />
+		<set name="reuse_delay" val="86400000" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45433" name="NC Dinos帽加工石" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair1" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="Appearance" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC" />
+		<set name="time" val="43200" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45434" name="NC Dinos帽加工石(限時30日)組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="45433" min="1" max="1" chance="100" name="NC Dinos帽加工石" /> 
+		</capsuled_items>
+	</item>
+	<item id="45435" name="NC Dinos选手服加工石" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="Appearance" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
+		<set name="time" val="43200" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="45436" name="NC Dinos选手服加工石(限時30日)組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="45435" min="1" max="1" chance="100" name="NC Dinos选手服加工石" /> 
+		</capsuled_items>
+	</item>
+	<item id="45437" name="巴溫戒指" additionalName="30-day" type="Armor">
+		
+		<set name="icon" val="icon.bm_ring_of_baium" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="S" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="GOLD" />
+		<stats>
+			<stat type="mDef">48</stat>
+			<stat type="maxMp">21</stat>
+		</stats>
+	</item>
+	<item id="45438" name="巴溫戒指(限時30日)組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="45437" min="1" max="1" chance="100" name="巴溫戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="45439" name="武器用高級強化輔助石-R級" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.ench_wp_potion_violet_i00" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_INC_PROP_ENCHT_WP" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45440" name="裴基成壺精手鐲" additionalName="1-day" type="Armor">
+		
+		<set name="icon" val="icon.bracelet_agathion_bm_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="1440" />
+		<set name="material" val="SILVER" />
+		<set name="bodypart" val="lbracelet" />
+	</item>
+	<item id="45441" name="來自星星的頂極巨星壺精禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="45440" min="1" max="1" chance="100" name="裴基成壺精手鐲" /> 
+		</capsuled_items>
+	</item>
+	<item id="45442" name="外星人的咕嘟咕嘟藥水" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_ev_draco_purple_bottle" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45443" name="L2B2變身藥劑" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_whiteday_herb" />
+		<set name="handler" val="ItemSkills" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="reuse_delay" val="300" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="POTION" />
+		<skills>
+			<skill id="18214" level="1" /> 
+		</skills>
+	</item>
+	<item id="45444" name="燃燒的沼澤傳送捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_questitem" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45445" name="封印的地獄邊界滯留捲軸" additionalName="30-min" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_exchange_ticket_i01" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="time" val="30" />
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45446" name="地獄邊界滯留捲軸" additionalName="30-min" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_exchange_ticket_i01" />
+		<set name="weight" val="30" />
+		<set name="is_depositable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="30" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45447" name="封印的地獄邊界滯留捲軸" additionalName="90-min" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_exchange_ticket_i02" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="time" val="90" />
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45448" name="地獄邊界滯留捲軸" additionalName="90-min" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_exchange_ticket_i02" />
+		<set name="weight" val="30" />
+		<set name="is_depositable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="90" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45449" name="岩漿結晶石" type="EtcItem">
+		
+		<set name="icon" val="icon.high_energy_condense_i02" />
+		<set name="is_depositable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_questitem" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="45450" name="攻速箭測試用" additionalName="Atk. Spd." type="EtcItem">
+		
+		<set name="icon" val="icon.etc_oricalcum_quiver_i00" />
+		<set name="price" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="etcitem_type" val="ARROW" />
+		<set name="material" val="GOLD" />
+	</item>
+	<item id="45451" name="夏勒普報酬箱" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45452" name="閃亮亮花瓣" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_flower_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="45453" name="閃亮亮帽禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45454" name="咕咕之愛" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_altair_enchant_scroll_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45455" name="佐羅帽加工石" additionalName="90-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC" />
+		<set name="time" val="129600" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45456" name="魔術師帽加工石" additionalName="90-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC" />
+		<set name="time" val="129600" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45457" name="拿破侖帽加工石" additionalName="90-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC" />
+		<set name="time" val="129600" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45458" name="暴走族口罩加工石" additionalName="90-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC" />
+		<set name="time" val="129600" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45459" name="佐羅帽加工石" additionalName="1-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC" />
+		<set name="time" val="1440" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45460" name="魔術師帽加工石" additionalName="1-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC" />
+		<set name="time" val="1440" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45461" name="拿破侖帽加工石" additionalName="1-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC" />
+		<set name="time" val="1440" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45462" name="暴走族口罩加工石" additionalName="1-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC" />
+		<set name="time" val="1440" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45463" name="無限的避難處入場券" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="reuse_delay" val="86400000" />
+		<skills>
+			<skill id="18222" level="1" /> 
+		</skills>
+	</item>
+	<item id="45464" name="佐羅帽" type="Armor">
+		
+		<set name="icon" val="icon.zorocap" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+	</item>
+	<item id="45465" name="暴走族口罩" type="Armor">
+		
+		<set name="icon" val="icon.crazy_driving_mask" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hair" />
+	</item>
+	<item id="45466" name="損壞的重啟捲軸箱子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45467" name="完整的重啟捲軸箱子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45468" name="損壞的凈化捲軸箱子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45469" name="完整的凈化捲軸箱子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45470" name="損壞的艾斯恩箱子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45471" name="完整的艾斯恩箱子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45472" name="閃光煙火" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_small_ultra_bomb_i00" />
+		<set name="weight" val="100" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="45473" name="新鮮青花魚" type="EtcItem">
+		
+		<set name="icon" val="icon.fish_normal_i04" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="45474" name="新鮮寬鰭鱲魚" type="EtcItem">
+		
+		<set name="icon" val="icon.fish_normal_i03" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="45475" name="新鮮比目魚" type="EtcItem">
+		
+		<set name="icon" val="icon.fish_normal_i06" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="45476" name="新鮮斑鱖魚" type="EtcItem">
+		
+		<set name="icon" val="icon.fish_normal_i05" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="45477" name="新鮮黑鱸魚" type="EtcItem">
+		
+		<set name="icon" val="icon.fish_normal_i08" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="45478" name="新鮮鯽魚" type="EtcItem">
+		
+		<set name="icon" val="icon.fish_normal_i07" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="45479" name="新鮮秋鮭魚" type="EtcItem">
+		
+		<set name="icon" val="icon.fish_normal_i10" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="45480" name="新鮮鰻魚" type="EtcItem">
+		
+		<set name="icon" val="icon.fish_normal_i09" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="45481" name="閃耀槍魚" type="EtcItem">
+		
+		<set name="icon" val="icon.fish_normal_i12" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="45482" name="閃耀鯰魚" type="EtcItem">
+		
+		<set name="icon" val="icon.fish_small_i11" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="45483" name="閃耀鮪魚" type="EtcItem">
+		
+		<set name="icon" val="icon.fish_normal_i14" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="45484" name="閃耀鯉魚" type="EtcItem">
+		
+		<set name="icon" val="icon.fish_normal_i13" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="45485" name="閃耀鯨魚" type="EtcItem">
+		
+		<set name="icon" val="icon.fish_huge_i15" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="45486" name="樹木寶箱" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i03" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="handler" val="ItemSkills" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18254" level="1" /> 
+		</skills>
+	</item>
+	<item id="45487" name="銀寶箱" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="handler" val="ItemSkills" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18255" level="1" /> 
+		</skills>
+	</item>
+	<item id="45488" name="金寶箱" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="handler" val="ItemSkills" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18256" level="1" /> 
+		</skills>
+	</item>
+	<item id="45489" name="加工魚" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_fish_scale_i01" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45490" name="魚珍珠" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_giran_fish_scale_i00" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45491" name="新鮮鯨魚油" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_fish_oil_i02" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="45492" name="一般釣竿" additionalName="30-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_fishing_rod_i03" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="FISHINGROD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="time" val="43200" />
+		<set name="material" val="BONE" />
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">1</stat>
+		</stats>
+	</item>
+	<item id="45493" name="限時30日釣竿箱子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="price" val="5000000" />
+		<set name="weight" val="100" />
+		<set name="material" val="PAPER" />
+		<capsuled_items>
+			<item id="45492" min="1" max="1" chance="100" name="一般釣竿" /> 
+		</capsuled_items>
+	</item>
+	<item id="45494" name="堅固釣竿" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_fishing_rod_i04" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="FISHINGROD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1000" />
+		<set name="commissionItemType" val="OTHER_WEAPON" />
+		<set name="material" val="BONE" />
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">1</stat>
+		</stats>
+	</item>
+	<item id="45495" name="一般魚餌" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_huge_lure" />
+		<set name="bodypart" val="lhand" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="LURE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="price" val="6000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="45496" name="特製魚餌" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00" />
+		<set name="bodypart" val="lhand" />
+		<set name="etcitem_type" val="LURE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+	</item>
+	<item id="45497" name="不使用漁靈彈" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_spirit_bullet_fish_i00" />
+		<set name="weight" val="3" />
+		<set name="etcitem_type" val="SOULSHOT" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="45498" name="釣魚準備物品箱" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="45495" min="50" max="50" chance="100" name="一般魚餌" /> 
+			<item id="38154" min="50" max="50" chance="100" name="漁靈彈" /> 
+		</capsuled_items>
+	</item>
+	<item id="45499" name="釣竿箱子" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i05" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="100" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="45492" min="1" max="1" chance="100" name="一般釣竿" /> 
+		</capsuled_items>
+	</item>
+</list>

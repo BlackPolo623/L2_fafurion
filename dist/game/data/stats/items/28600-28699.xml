@@ -1,0 +1,2005 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="28600" name="靈魂之石-艾爾摩" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_cloak_mineral_elmore" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="28601" name="靈魂之石-貝里歐斯" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_cloak_mineral_perios" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="28602" name="靈魂之石禮盒-傳說" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.icon.etc_g_bm_godspirit_box" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="28024" level="1" /> 
+		</skills>
+	</item>
+	<item id="28603" name="龍之寶箱" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_dragon_present" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="28604" name="閃耀的龍之寶箱" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_dragon_shinning_present" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="28605" name="+10 艾爾摩亞丁斗篷-傳說禮盒" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.icon.etc_g_bm_godspirit_box" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="28589" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="艾爾摩亞丁斗篷-傳說" /> 
+		</capsuled_items>
+	</item>
+	<item id="28606" name="+10 亞丁斗篷-傳說禮盒" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.icon.etc_g_bm_godspirit_box" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="28590" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="亞丁斗篷-傳說" /> 
+		</capsuled_items>
+	</item>
+	<item id="28607" name="+10 艾爾摩斗篷-傳說禮盒" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.icon.etc_g_bm_godspirit_box" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="28591" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="艾爾摩斗篷-傳說" /> 
+		</capsuled_items>
+	</item>
+	<item id="28608" name="+10 貝里歐斯斗篷-傳說禮盒" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.icon.etc_g_bm_godspirit_box" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="28592" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="貝里歐斯斗篷-傳說" /> 
+		</capsuled_items>
+	</item>
+	<item id="28609" name="上級班卓斯騎士團憑證" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_balthus_token" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="reuse_delay" val="120000" /> 
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="27859" level="1" /> 
+		</skills>
+	</item>
+	<item id="28610" name="經驗者二重奏手鐲禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="28611" name="回歸者二重奏手鐲禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="28612" name="皇家白色救援交換券(R99)" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_royal_white_save_ticket" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="28613" name="進化的處女座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_virgo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28130" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27349" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28614" name="進化的處女座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_virgo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28130" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27349" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28615" name="進化的處女座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_virgo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28130" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27349" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28616" name="進化的處女座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_virgo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28130" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27349" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28617" name="進化的處女座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_virgo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28130" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27349" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28618" name="進化的魔羯座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_capr_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28131" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27350" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28619" name="進化的魔羯座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_capr_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28131" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27350" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28620" name="進化的魔羯座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_capr_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28131" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27350" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28621" name="進化的魔羯座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_capr_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28131" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27350" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28622" name="進化的魔羯座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_capr_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28131" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27350" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28623" name="進化的天秤座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_lib_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28132" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27351" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28624" name="進化的天秤座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_lib_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28132" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27351" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28625" name="進化的天秤座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_lib_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28132" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27351" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28626" name="進化的天秤座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_lib_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28132" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27351" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28627" name="進化的天秤座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_lib_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28132" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27351" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28628" name="進化的牡羊座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aries_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28133" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27352" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28629" name="進化的牡羊座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aries_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28133" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27352" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28630" name="進化的牡羊座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aries_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28133" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27352" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28631" name="進化的牡羊座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aries_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28133" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27352" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28632" name="進化的牡羊座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aries_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28133" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27352" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28633" name="進化的金牛座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_tau_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28134" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27353" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28634" name="進化的金牛座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_tau_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28134" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27353" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28635" name="進化的金牛座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_tau_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28134" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27353" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28636" name="進化的金牛座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_tau_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28134" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27353" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28637" name="進化的金牛座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_tau_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28134" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27353" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28638" name="進化的獅子座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_leo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28135" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27354" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28639" name="進化的獅子座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_leo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28135" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27354" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28640" name="進化的獅子座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_leo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28135" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27354" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28641" name="進化的獅子座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_leo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28135" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27354" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28642" name="進化的獅子座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_leo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28135" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27354" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28643" name="進化的雙子座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_gem_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28136" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27355" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28644" name="進化的雙子座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_gem_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28136" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27355" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28645" name="進化的雙子座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_gem_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28136" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27355" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28646" name="進化的雙子座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_gem_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28136" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27355" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28647" name="進化的雙子座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_gem_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28136" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27355" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28648" name="進化的天蠍座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_sco_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28137" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27356" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28649" name="進化的天蠍座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_sco_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28137" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27356" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28650" name="進化的天蠍座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_sco_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28137" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27356" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28651" name="進化的天蠍座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_sco_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28137" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27356" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28652" name="進化的天蠍座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_sco_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28137" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27356" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28653" name="進化的水瓶座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aqu_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28138" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27357" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28654" name="進化的水瓶座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aqu_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28138" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27357" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28655" name="進化的水瓶座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aqu_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28138" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27357" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28656" name="進化的水瓶座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aqu_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28138" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27357" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28657" name="進化的水瓶座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aqu_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28138" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27357" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28658" name="進化的雙魚座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_pis_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28139" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27358" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28659" name="進化的雙魚座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_pis_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28139" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27358" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28660" name="進化的雙魚座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_pis_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28139" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27358" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28661" name="進化的雙魚座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_pis_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28139" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27358" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28662" name="進化的雙魚座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_pis_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28139" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27358" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28663" name="進化的射手座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_sag_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28140" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27359" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28664" name="進化的射手座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_sag_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28140" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27359" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28665" name="進化的射手座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_sag_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28140" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27359" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28666" name="進化的射手座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_sag_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28140" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27359" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28667" name="進化的射手座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_sag_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28140" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27359" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28668" name="進化的巨蟹座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_can_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28141" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27360" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28669" name="進化的巨蟹座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_can_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28141" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27360" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28670" name="進化的巨蟹座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_can_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28141" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27360" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28671" name="進化的巨蟹座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_can_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28141" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27360" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28672" name="進化的巨蟹座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_can_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="28141" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="2" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27360" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28673" name="進化的處女座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_virgo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28130" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27349" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28674" name="進化的處女座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_virgo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28130" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27349" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28675" name="進化的處女座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_virgo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28130" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27349" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28676" name="進化的處女座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_virgo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28130" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27349" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28677" name="進化的處女座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_virgo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28130" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27349" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28678" name="進化的魔羯座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_capr_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28131" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27350" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28679" name="進化的魔羯座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_capr_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28131" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27350" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28680" name="進化的魔羯座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_capr_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28131" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27350" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28681" name="進化的魔羯座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_capr_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28131" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27350" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28682" name="進化的魔羯座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_capr_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28131" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27350" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28683" name="進化的天秤座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_lib_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28132" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27351" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28684" name="進化的天秤座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_lib_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28132" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27351" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28685" name="進化的天秤座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_lib_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28132" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27351" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28686" name="進化的天秤座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_lib_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28132" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27351" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28687" name="進化的天秤座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_lib_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28132" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27351" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28688" name="進化的牡羊座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aries_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28133" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27352" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28689" name="進化的牡羊座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aries_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28133" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27352" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28690" name="進化的牡羊座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aries_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28133" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27352" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28691" name="進化的牡羊座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aries_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28133" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27352" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28692" name="進化的牡羊座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_aries_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28133" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27352" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28693" name="進化的金牛座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_tau_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28134" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27353" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28694" name="進化的金牛座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_tau_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28134" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27353" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28695" name="進化的金牛座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_tau_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28134" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="9" /> 
+			<skill id="27353" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28696" name="進化的金牛座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_tau_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28134" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="10" /> 
+			<skill id="27353" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28697" name="進化的金牛座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_tau_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28134" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="11" /> 
+			<skill id="27353" level="12" /> 
+			<skill id="35071" level="2" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28698" name="進化的獅子座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_leo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28135" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="7" /> 
+			<skill id="27354" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+	<item id="28699" name="進化的獅子座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.agathion_leo_star_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28135" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="26117" level="8" /> 
+			<skill id="27354" level="12" /> 
+			<skill id="35071" level="1" /> 
+			<skill id="28063" level="1" /> 
+		</skills>
+	</item>
+</list>

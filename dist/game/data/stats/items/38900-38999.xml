@@ -1,0 +1,1067 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="38900" name="1欄位胸針" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="bodypart" val="underwear" />
+	</item>
+	<item id="38901" name="2欄位胸針" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_onyx_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="bodypart" val="underwear" />
+	</item>
+	<item id="38902" name="3欄位胸針" type="Armor">
+		
+		<set name="icon" val="icon.r2_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="bodypart" val="underwear" />
+	</item>
+	<item id="38903" name="4欄位胸針" type="Armor">
+		
+		<set name="icon" val="icon.r2_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="bodypart" val="underwear" />
+	</item>
+	<item id="38904" name="5欄位胸針" type="Armor">
+		
+		<set name="icon" val="icon.r2_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="bodypart" val="underwear" />
+	</item>
+	<item id="38905" name="6欄位胸針" type="Armor">
+		
+		<set name="icon" val="icon.r2_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="bodypart" val="underwear" />
+	</item>
+	<item id="38906" name="10周年紀念道具" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_10th" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38907" name="秘密的碎片1" additionalName="The" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_ertheia1" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38908" name="秘密的碎片2" additionalName="People" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_ertheia2" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38909" name="秘密的碎片3" additionalName="Of" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_ertheia3" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38910" name="秘密的碎片4" additionalName="The" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_ertheia4" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38911" name="秘密的碎片5" additionalName="Wind" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_ertheia5" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38912" name="秘密的碎片6" additionalName="Er" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_ertheia6" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38913" name="秘密的碎片7" additionalName="The" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_ertheia7" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38914" name="秘密的碎片8" additionalName="Ia" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_ertheia8" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38915" name="回憶的碎片1-勝者呼喊" type="EtcItem">
+		<set name="icon" val="icon.ev_puzzle1" />
+		<set name="etcitem_type" val="CARD_EVENT" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="38916" name="回憶的碎片2-光彩盛年" type="EtcItem">
+		<set name="icon" val="icon.ev_puzzle2" />
+		<set name="etcitem_type" val="CARD_EVENT" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="38917" name="回憶的碎片3-誓血盟約" type="EtcItem">
+		<set name="icon" val="icon.ev_puzzle3" />
+		<set name="etcitem_type" val="CARD_EVENT" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="38918" name="回憶的碎片4-闇天使" type="EtcItem">
+		<set name="icon" val="icon.ev_puzzle4" />
+		<set name="etcitem_type" val="CARD_EVENT" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="38919" name="回憶的碎片5-格勒西亞" type="EtcItem">
+		<set name="icon" val="icon.ev_puzzle5" />
+		<set name="etcitem_type" val="CARD_EVENT" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="38920" name="回憶的碎片6-覺醒" type="EtcItem">
+		<set name="icon" val="icon.ev_puzzle6" />
+		<set name="etcitem_type" val="CARD_EVENT" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="38921" name="回憶的碎片7-塔武提" type="EtcItem">
+		<set name="icon" val="icon.ev_puzzle7" />
+		<set name="etcitem_type" val="CARD_EVENT" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="38922" name="回憶的碎片8-林德拜爾 " type="EtcItem">
+		<set name="icon" val="icon.ev_puzzle8" />
+		<set name="etcitem_type" val="CARD_EVENT" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="38923" name="葫蘆種子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_gourd_i00" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38924" name="大葫蘆種子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_gourd_i01" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38925" name="大師余義的魔杖" type="Weapon">
+		
+		<set name="icon" val="icon.yogi_stick_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="EVENT" />
+		<set name="material" val="WOOD" />
+		<stats>
+			<stat type="pAtk">11</stat>
+			<stat type="mAtk">12</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+	</item>
+	<item id="38926" name="大師余義的武器強化捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.yogi_scroll_of_enchant_weapon_grade_i00" />
+		<set name="etcitem_type" val="ENCHT_WP" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38927" name="藍寶石" additionalName="Lv. 1" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17818" level="1" /> 
+		</skills>
+	</item>
+	<item id="38928" name="藍寶石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17818" level="2" /> 
+		</skills>
+	</item>
+	<item id="38929" name="藍寶石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17819" level="2" /> 
+		</skills>
+	</item>
+	<item id="38930" name="藍寶石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17820" level="2" /> 
+		</skills>
+	</item>
+	<item id="38931" name="藍寶石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="17821" level="2" /> 
+		</skills>
+	</item>
+	<item id="38932" name="拉菲安洛茲的紅寶石盒子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_ruby_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38855" min="1" max="1" chance="100" name="紅寶石" /> 
+		</capsuled_items>
+	</item>
+	<item id="38933" name="拉菲安洛茲的藍寶石盒子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_sapphire_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38927" min="1" max="1" chance="100" name="藍寶石" /> 
+		</capsuled_items>
+	</item>
+	<item id="38934" name="拉菲安洛茲的黃寶石盒子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_topaz_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38850" min="1" max="1" chance="100" name="黃寶石" /> 
+		</capsuled_items>
+	</item>
+	<item id="38935" name="拉菲安洛茲的貓眼石盒子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_opal_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38875" min="1" max="1" chance="100" name="貓眼石" /> 
+		</capsuled_items>
+	</item>
+	<item id="38936" name="拉菲安洛茲的黑曜石盒子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_obsidian_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38870" min="1" max="1" chance="100" name="黑曜石" /> 
+		</capsuled_items>
+	</item>
+	<item id="38937" name="拉菲安洛茲的鑽石盒子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_diamond_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38890" min="1" max="1" chance="100" name="鑽石" /> 
+		</capsuled_items>
+	</item>
+	<item id="38938" name="拉菲安洛茲的綠寶石盒子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_emerald_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38880" min="1" max="1" chance="100" name="綠寶石" /> 
+		</capsuled_items>
+	</item>
+	<item id="38939" name="拉菲安洛茲的海藍寶石盒子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_aquamarine_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38885" min="1" max="1" chance="100" name="海藍寶石" /> 
+		</capsuled_items>
+	</item>
+	<item id="38940" name="拉菲安洛茲的珍珠盒子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_pearl_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38895" min="1" max="1" chance="100" name="珍珠" /> 
+		</capsuled_items>
+	</item>
+	<item id="38941" name="拉菲安洛茲的寶石盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="17824" level="1" /> 
+		</skills>
+	</item>
+	<item id="38942" name="拉菲安洛茲的寶石組合包" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38941" min="10" max="10" chance="100" name="拉菲安洛茲的寶石盒" /> 
+		</capsuled_items>
+	</item>
+	<item id="38943" name="拉菲安洛茲的高貴胸針盒子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_box_wish_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38767" min="1" max="1" chance="100" name="拉菲安洛茲的高貴胸針" /> 
+		</capsuled_items>
+	</item>
+	<item id="38944" name="拉菲安洛茲的華麗胸針盒子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_box_love_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38768" min="1" max="1" chance="100" name="拉菲安洛茲的華麗胸針" /> 
+		</capsuled_items>
+	</item>
+	<item id="38945" name="拉菲安洛茲的高貴胸針組合包" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_box_wish_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38941" min="30" max="30" chance="100" name="拉菲安洛茲的寶石盒" /> 
+			<item id="38943" min="1" max="1" chance="100" name="拉菲安洛茲的高貴胸針盒子" /> 
+		</capsuled_items>
+	</item>
+	<item id="38946" name="拉菲安洛茲的華麗胸針組合包" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_box_love_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38941" min="55" max="30" chance="100" name="拉菲安洛茲的寶石盒" /> 
+			<item id="38943" min="1" max="1" chance="100" name="拉菲安洛茲的高貴胸針盒子" /> 
+		</capsuled_items>
+	</item>
+	<item id="38947" name="10周年紀念時光膠囊" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_lucky_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="37718" min="1" max="1" chance="100" name="閃亮的殷海薩襯衫" /> 
+			<item id="39377" min="1" max="1" chance="100" name="10周年祝典斗篷禮盒" /> 
+		</capsuled_items>
+	</item>
+	<item id="38948" name="第10個生日快樂蛋糕禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38954" min="10" max="10" chance="100" name="10周年快樂蛋糕" /> 
+		</capsuled_items>
+	</item>
+	<item id="38949" name="10周年紀念設計師版" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_10th_present1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="38950" name="10周年歡迎禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_box_love_pack" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="38951" name="祝典斗篷-闇夜之黑" type="Armor">
+		
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="220" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="back" />
+		<stats>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
+		</stats>
+	</item>
+	<item id="38952" name="祝典斗篷-珍珠之白" type="Armor">
+		
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="220" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="back" />
+		<stats>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
+		</stats>
+	</item>
+	<item id="38953" name="祝典斗篷-血腥之紅" type="Armor">
+		
+		<set name="icon" val="BranchSys2.Icon.7anni_cloack_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="220" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="back" />
+		<stats>
+			<stat type="pDef">50</stat>
+			<stat type="mDef">40</stat>
+		</stats>
+	</item>
+	<item id="38954" name="10周年快樂蛋糕" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_10th_present3" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="38955" name="禮服加工石(限時100日)" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
+		<set name="handler" val="Appearance" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38956" name="NC Dinos选手服加工石(限時100日)" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
+		<set name="handler" val="Appearance" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38957" name="結婚面紗加工石(限時100日)" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC_FIXED" />
+		<set name="handler" val="Appearance" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38958" name="黑色幻影面具加工石(限時100日)" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC_FIXED" />
+		<set name="handler" val="Appearance" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38959" name="Dinos帽加工石(限時100日)" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC_FIXED" />
+		<set name="handler" val="Appearance" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="38960" name="+4 赫利奧斯刨刀交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_stanpid_i00" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38961" name="+4 赫利奧斯切刃交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_plenitas_i00" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38962" name="+4 赫利奧斯殺刃交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_bauen_i00" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1740" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38963" name="+4 赫利奧斯復讎者交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_qutram_i00" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1740" />
+		<set name="material" val="FINE_STEEL" />
+	</item>
+	<item id="38964" name="+4 赫利奧斯戰爪交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_durga_i00" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1550" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38965" name="+4 赫利奧斯風暴者交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_crabel_i00" />
+		<set name="weapon_type" val="POLE" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="2010" />
+		<set name="material" val="BRONZE" />
+	</item>
+	<item id="38966" name="+4 赫利奧斯投弓交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_castron_i00" />
+		<set name="weapon_type" val="BOW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38967" name="+4 赫利奧斯射靈交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_stilla_i00" />
+		<set name="weapon_type" val="TWOHANDCROSSBOW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="weight" val="1580" />
+		<set name="material" val="STEEL" />
+		<set name="bodypart" val="lrhand" />
+	</item>
+	<item id="38968" name="+4 赫利奧斯爆刃交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weaon_serapear_i00" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38969" name="+4 赫利奧斯術杖交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_pilia_i00" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1080" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="38970" name="+4 赫利奧斯報恨者交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_shaelon_i00" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1080" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="38971" name="+4 赫利奧斯雙刀交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_r_dualsword_i00" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38972" name="+4 赫利奧斯雙匕首交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="2050" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38973" name="+4 赫利奧斯雙鈍器交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="crystal_type" val="R99" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="material" val="FINE_STEEL" />
+	</item>
+	<item id="38974" name="+5 赫利奧斯刨刀交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_stanpid_i00" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38975" name="+5 赫利奧斯切刃交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_plenitas_i00" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38976" name="+5 赫利奧斯殺刃交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_bauen_i00" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1740" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38977" name="+5 赫利奧斯復讎者交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_qutram_i00" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1740" />
+		<set name="material" val="FINE_STEEL" />
+	</item>
+	<item id="38978" name="+5 赫利奧斯戰爪交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_durga_i00" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1550" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38979" name="+5 赫利奧斯風暴者交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_crabel_i00" />
+		<set name="weapon_type" val="POLE" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="2010" />
+		<set name="material" val="BRONZE" />
+	</item>
+	<item id="38980" name="+5 赫利奧斯投弓交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_castron_i00" />
+		<set name="weapon_type" val="BOW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38981" name="+5 赫利奧斯射靈交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_stilla_i00" />
+		<set name="weapon_type" val="TWOHANDCROSSBOW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="weight" val="1580" />
+		<set name="material" val="STEEL" />
+		<set name="bodypart" val="lrhand" />
+	</item>
+	<item id="38982" name="+5 赫利奧斯爆刃交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weaon_serapear_i00" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38983" name="+5 赫利奧斯術杖交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_pilia_i00" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1080" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="38984" name="+5 赫利奧斯報恨者交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_shaelon_i00" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1080" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="38985" name="+5 赫利奧斯雙刀交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_r_dualsword_i00" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38986" name="+5 赫利奧斯雙匕首交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="2050" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38987" name="+5 赫利奧斯雙鈍器交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_r_dualblunt_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="crystal_type" val="R99" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="material" val="FINE_STEEL" />
+	</item>
+	<item id="38988" name="+6 赫利奧斯刨刀交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_stanpid_i00" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38989" name="+6 赫利奧斯切刃交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_plenitas_i00" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38990" name="+6 赫利奧斯殺刃交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_bauen_i00" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1740" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38991" name="+6 赫利奧斯復讎者交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_qutram_i00" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1740" />
+		<set name="material" val="FINE_STEEL" />
+	</item>
+	<item id="38992" name="+6 赫利奧斯戰爪交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_durga_i00" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1550" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38993" name="+6 赫利奧斯風暴者交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_crabel_i00" />
+		<set name="weapon_type" val="POLE" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="2010" />
+		<set name="material" val="BRONZE" />
+	</item>
+	<item id="38994" name="+6 赫利奧斯投弓交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_castron_i00" />
+		<set name="weapon_type" val="BOW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38995" name="+6 赫利奧斯射靈交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_stilla_i00" />
+		<set name="weapon_type" val="TWOHANDCROSSBOW" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="weight" val="1580" />
+		<set name="material" val="STEEL" />
+		<set name="bodypart" val="lrhand" />
+	</item>
+	<item id="38996" name="+6 赫利奧斯爆刃交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weaon_serapear_i00" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="38997" name="+6 赫利奧斯術杖交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_pilia_i00" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="rhand" />
+		<set name="weight" val="1080" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="38998" name="+6 赫利奧斯報恨者交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_shaelon_i00" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1080" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="38999" name="+6 赫利奧斯雙刀交換券" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_r_dualsword_i00" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="default_action" val="EQUIP" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weight" val="1520" />
+		<set name="material" val="STEEL" />
+	</item>
+</list>

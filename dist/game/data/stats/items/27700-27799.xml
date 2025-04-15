@@ -1,0 +1,1823 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="27700" name="伊娃耳環-階段5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.earring_of_eva_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="109" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="EARRING" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<stats>
+			<stat type="mDef">320.0</stat>
+		</stats>
+		<skills>
+			<skill id="46785" level="1" type="ON_EQUIP" /> 
+			<skill id="46786" level="1" type="ON_UNEQUIP" /> 
+			<skill id="27652" level="5" /> 
+			<skill id="27752" level="5" /> 
+		</skills>
+	</item>
+	<item id="27701" name="伊娃耳環-階段6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.earring_of_eva_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="109" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="EARRING" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="GOLD" />
+		<stats>
+			<stat type="mDef">359.0</stat>
+		</stats>
+		<skills>
+			<skill id="46791" level="1" type="ON_EQUIP" /> 
+			<skill id="46792" level="1" type="ON_UNEQUIP" /> 
+			<skill id="27652" level="6" /> 
+			<skill id="27752" level="6" /> 
+		</skills>
+	</item>
+	<item id="27702" name="沙哈戒指-階段1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.ring_of_sayhas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="105" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="RING" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="SILVER" />
+		<stats>
+			<stat type="mDef">146.0</stat>
+		</stats>
+		<skills>
+			<skill id="46721" level="1" type="ON_EQUIP" /> 
+			<skill id="46722" level="1" type="ON_UNEQUIP" /> 
+			<skill id="27658" level="1" /> 
+		</skills>
+	</item>
+	<item id="27703" name="沙哈戒指-階段2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.ring_of_sayhas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="105" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="RING" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="SILVER" />
+		<stats>
+			<stat type="mDef">167.0</stat>
+		</stats>
+		<skills>
+			<skill id="46727" level="1" type="ON_EQUIP" /> 
+			<skill id="46728" level="1" type="ON_UNEQUIP" /> 
+			<skill id="27658" level="2" /> 
+			<skill id="27753" level="2" /> 
+			<skill id="46799" level="2" /> 
+		</skills>
+	</item>
+	<item id="27704" name="沙哈戒指-階段3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.ring_of_sayhas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="105" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="RING" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="SILVER" />
+		<stats>
+			<stat type="mDef">187.0</stat>
+		</stats>
+		<skills>
+			<skill id="46733" level="1" type="ON_EQUIP" /> 
+			<skill id="46734" level="1" type="ON_UNEQUIP" /> 
+			<skill id="27658" level="3" /> 
+			<skill id="27753" level="3" /> 
+			<skill id="46799" level="3" /> 
+		</skills>
+	</item>
+	<item id="27705" name="沙哈戒指-階段4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.ring_of_sayhas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="105" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="RING" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="SILVER" />
+		<stats>
+			<stat type="mDef">206.0</stat>
+		</stats>
+		<skills>
+			<skill id="46763" level="1" type="ON_EQUIP" /> 
+			<skill id="46764" level="1" type="ON_UNEQUIP" /> 
+			<skill id="27658" level="4" /> 
+			<skill id="27753" level="4" /> 
+			<skill id="46799" level="4" /> 
+		</skills>
+	</item>
+	<item id="27706" name="沙哈戒指-階段5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.ring_of_sayhas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="105" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="RING" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="SILVER" />
+		<stats>
+			<stat type="mDef">225.0</stat>
+		</stats>
+		<skills>
+			<skill id="46769" level="1" type="ON_EQUIP" /> 
+			<skill id="46770" level="1" type="ON_UNEQUIP" /> 
+			<skill id="27658" level="5" /> 
+			<skill id="27753" level="5" /> 
+			<skill id="46799" level="5" /> 
+		</skills>
+	</item>
+	<item id="27707" name="沙哈戒指-階段6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.ring_of_sayhas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="105" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="RING" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="SILVER" />
+		<stats>
+			<stat type="mDef">239.0</stat>
+		</stats>
+		<skills>
+			<skill id="46775" level="1" type="ON_EQUIP" /> 
+			<skill id="46776" level="1" type="ON_UNEQUIP" /> 
+			<skill id="27658" level="6" /> 
+			<skill id="27753" level="6" /> 
+			<skill id="46799" level="6" /> 
+		</skills>
+	</item>
+	<item id="27708" name="梅芙戒指-階段1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.ring_of_maphr_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="105" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="RING" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="SILVER" />
+		<stats>
+			<stat type="mDef">146.0</stat>
+		</stats>
+		<skills>
+			<skill id="46739" level="1" type="ON_EQUIP" /> 
+			<skill id="46740" level="1" type="ON_UNEQUIP" /> 
+			<skill id="27664" level="1" /> 
+		</skills>
+	</item>
+	<item id="27709" name="梅芙戒指-階段2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.ring_of_maphr_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="105" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="RING" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="SILVER" />
+		<stats>
+			<stat type="mDef">167.0</stat>
+		</stats>
+		<skills>
+			<skill id="46745" level="1" type="ON_EQUIP" /> 
+			<skill id="46746" level="1" type="ON_UNEQUIP" /> 
+			<skill id="27664" level="2" /> 
+			<skill id="27754" level="2" /> 
+			<skill id="46801" level="2" /> 
+		</skills>
+	</item>
+	<item id="27710" name="梅芙戒指-階段3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.ring_of_maphr_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="105" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="RING" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="SILVER" />
+		<stats>
+			<stat type="mDef">187.0</stat>
+		</stats>
+		<skills>
+			<skill id="46751" level="1" type="ON_EQUIP" /> 
+			<skill id="46752" level="1" type="ON_UNEQUIP" /> 
+			<skill id="27664" level="3" /> 
+			<skill id="27754" level="3" /> 
+			<skill id="46801" level="3" /> 
+		</skills>
+	</item>
+	<item id="27711" name="梅芙戒指-階段4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.ring_of_maphr_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="105" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="RING" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="SILVER" />
+		<stats>
+			<stat type="mDef">206.0</stat>
+		</stats>
+		<skills>
+			<skill id="46781" level="1" type="ON_EQUIP" /> 
+			<skill id="46782" level="1" type="ON_UNEQUIP" /> 
+			<skill id="27664" level="4" /> 
+			<skill id="27754" level="4" /> 
+			<skill id="46801" level="4" /> 
+		</skills>
+	</item>
+	<item id="27712" name="梅芙戒指-階段5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.ring_of_maphr_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="105" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="RING" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="SILVER" />
+		<stats>
+			<stat type="mDef">225.0</stat>
+		</stats>
+		<skills>
+			<skill id="46787" level="1" type="ON_EQUIP" /> 
+			<skill id="46788" level="1" type="ON_UNEQUIP" /> 
+			<skill id="27664" level="5" /> 
+			<skill id="27754" level="5" /> 
+			<skill id="46801" level="5" /> 
+		</skills>
+	</item>
+	<item id="27713" name="梅芙戒指-階段6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.ring_of_maphr_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="105" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="RING" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_destroyable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="SILVER" />
+		<stats>
+			<stat type="mDef">239.0</stat>
+		</stats>
+		<skills>
+			<skill id="46793" level="1" type="ON_EQUIP" /> 
+			<skill id="46794" level="1" type="ON_UNEQUIP" /> 
+			<skill id="27664" level="6" /> 
+			<skill id="27754" level="6" /> 
+			<skill id="46801" level="6" /> 
+		</skills>
+	</item>
+	<item id="27714" name="裝有玲瓏神靈魂之瓶" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.icon.energy_of_einhasad_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="27715" name="裝有華麗神靈魂之瓶" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.icon.energy_of_maphr_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="27716" name="裝有高貴神靈魂之瓶" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.icon.energy_of_grankein_i00" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="27717" name="製作捲軸(封印的格蘭肯項鏈 階段1)(50%)" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.Icon.etc_recipe_black_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5016" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27718" name="製作捲軸(封印的格蘭肯項鏈 階段2)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5017" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27719" name="製作捲軸(封印的格蘭肯項鏈 階段3)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5018" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27720" name="製作捲軸(封印的格蘭肯項鏈 階段4)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5019" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27721" name="製作捲軸(封印的格蘭肯項鏈 階段5)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5020" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27722" name="製作捲軸(封印的格蘭肯項鏈 階段6)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5021" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27723" name="製作捲軸(封印的殷海薩項鏈 階段1)(50%)" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.Icon.etc_recipe_black_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5022" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27724" name="製作捲軸(封印的殷海薩項鏈 階段2)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5023" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27725" name="製作捲軸(封印的殷海薩項鏈 階段3)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5024" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27726" name="製作捲軸(封印的殷海薩項鏈 階段4)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5025" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27727" name="製作捲軸(封印的殷海薩項鏈 階段5)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5026" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27728" name="製作捲軸(封印的殷海薩項鏈 階段6)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5027" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27729" name="製作捲軸(封印的帕格立歐耳環 階段1)(50%)" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.Icon.etc_recipe_black_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5028" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27730" name="製作捲軸(封印的帕格立歐耳環 階段2)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5029" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27731" name="製作捲軸(封印的帕格立歐耳環 階段3)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5030" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27732" name="製作捲軸(封印的帕格立歐耳環 階段4)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5031" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27733" name="製作捲軸(封印的帕格立歐耳環 階段5)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5032" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27734" name="製作捲軸(封印的帕格立歐耳環 階段6)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5033" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27735" name="製作捲軸(封印的伊娃耳環 階段1)(50%)" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.Icon.etc_recipe_black_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5034" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27736" name="製作捲軸(封印的伊娃耳環 階段2)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5035" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27737" name="製作捲軸(封印的伊娃耳環 階段3)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5036" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27738" name="製作捲軸(封印的伊娃耳環 階段4)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5037" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27739" name="製作捲軸(封印的伊娃耳環 階段5)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5038" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27740" name="製作捲軸(封印的伊娃耳環 階段6)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5039" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27741" name="製作捲軸(封印的沙哈戒指階段1)(50%)" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.Icon.etc_recipe_black_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5040" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27742" name="製作捲軸(封印的沙哈戒指階段2)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5041" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27743" name="製作捲軸(封印的沙哈戒指階段3)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5042" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27744" name="製作捲軸(封印的沙哈戒指階段4)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5043" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27745" name="製作捲軸(封印的沙哈戒指階段5)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5044" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27746" name="製作捲軸(封印的沙哈戒指階段6)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5045" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27747" name="製作捲軸(封印的梅芙戒指階段1)(50%)" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.Icon.etc_recipe_black_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5046" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27748" name="製作捲軸(封印的梅芙戒指階段2)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5047" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27749" name="製作捲軸(封印的梅芙戒指階段3)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5048" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27750" name="製作捲軸(封印的梅芙戒指階段4)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5049" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27751" name="製作捲軸(封印的梅芙戒指階段5)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5050" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27752" name="製作捲軸(封印的梅芙戒指階段6)(50%)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="5051" />
+		<set name="handler" val="Recipes" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="27753" name="幸運盒 1" additionalName="Dungeon" type="EtcItem">
+		
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="27754" name="幸運盒 2" additionalName="Dungeon" type="EtcItem">
+		
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="27755" name="幸運盒 3" additionalName="Dungeon" type="EtcItem">
+		
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="27756" name="7 閃亮的殷海薩襯衫組" type="EtcItem">
+		
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="27757" name="7 反擊襯衫組" type="EtcItem">
+		
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="27758" name="7 反魔襯衫組" type="EtcItem">
+		
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="27759" name="7 帕格立歐襯衫組" type="EtcItem">
+		
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="27760" name="7 沙哈襯衫組" type="EtcItem">
+		
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="27761" name="7 伊娃襯衫組" type="EtcItem">
+		
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="27762" name="7 梅芙襯衫組" type="EtcItem">
+		
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="27763" name="夏代的閃亮寶石盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_shhadai" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="27764" name="真艾迪奧斯頭盔" additionalName="Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">169</stat>
+		</stats>
+		<skills>
+			<skill id="27682" level="1" /> 
+			<skill id="27697" level="1" /> 
+		</skills>
+	</item>
+	<item id="27765" name="真艾迪奧斯胸甲" additionalName="Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t811_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">451</stat>
+		</stats>
+		<skills>
+			<skill id="27683" level="1" /> 
+			<skill id="27698" level="1" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="27766" name="真艾迪奧斯脛甲" additionalName="Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t811_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">282</stat>
+		</stats>
+		<skills>
+			<skill id="27684" level="1" /> 
+			<skill id="27699" level="1" /> 
+		</skills>
+	</item>
+	<item id="27767" name="真艾迪奧斯護手" additionalName="Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t811_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">113</stat>
+		</stats>
+		<skills>
+			<skill id="27685" level="1" /> 
+			<skill id="27700" level="1" /> 
+		</skills>
+	</item>
+	<item id="27768" name="真艾迪奧斯靴" additionalName="Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t811_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">113</stat>
+		</stats>
+		<skills>
+			<skill id="27686" level="1" /> 
+			<skill id="27701" level="1" /> 
+		</skills>
+	</item>
+	<item id="27769" name="真艾迪奧斯皮頭盔" additionalName="Light Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_leather_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">169</stat>
+		</stats>
+		<skills>
+			<skill id="27687" level="1" /> 
+			<skill id="27697" level="1" /> 
+		</skills>
+	</item>
+	<item id="27770" name="真艾迪奧斯皮甲" additionalName="Light Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t812_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">361</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
+		<skills>
+			<skill id="27688" level="1" /> 
+			<skill id="27698" level="1" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="27771" name="真艾迪奧斯皮脛甲" additionalName="Light Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t812_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">226</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
+		<skills>
+			<skill id="27689" level="1" /> 
+			<skill id="27699" level="1" /> 
+		</skills>
+	</item>
+	<item id="27772" name="真艾迪奧斯皮手套" additionalName="Light Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t812_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">113</stat>
+		</stats>
+		<skills>
+			<skill id="27690" level="1" /> 
+			<skill id="27700" level="1" /> 
+		</skills>
+	</item>
+	<item id="27773" name="真艾迪奧斯皮靴" additionalName="Light Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t812_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">113</stat>
+		</stats>
+		<skills>
+			<skill id="27691" level="1" /> 
+			<skill id="27701" level="1" /> 
+		</skills>
+	</item>
+	<item id="27774" name="真艾迪奧斯頭箍" additionalName="Robe/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_circlet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">169</stat>
+		</stats>
+		<skills>
+			<skill id="27692" level="1" /> 
+			<skill id="27697" level="1" /> 
+		</skills>
+	</item>
+	<item id="27775" name="真艾迪奧斯外衣" additionalName="Robe/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t813_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">56</stat>
+			<stat type="pDef">248</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
+		<skills>
+			<skill id="27693" level="1" /> 
+			<skill id="27698" level="1" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="27776" name="真艾迪奧斯長襪" additionalName="Robe/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t813_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">37</stat>
+			<stat type="pDef">155</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
+		<skills>
+			<skill id="27694" level="1" /> 
+			<skill id="27699" level="1" /> 
+		</skills>
+	</item>
+	<item id="27777" name="真艾迪奧斯手套" additionalName="Robe/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t813_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">113</stat>
+		</stats>
+		<skills>
+			<skill id="27695" level="1" /> 
+			<skill id="27700" level="1" /> 
+		</skills>
+	</item>
+	<item id="27778" name="真艾迪奧斯鞋" additionalName="Robe/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t813_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">113</stat>
+		</stats>
+		<skills>
+			<skill id="27696" level="1" /> 
+			<skill id="27701" level="1" /> 
+		</skills>
+	</item>
+	<item id="27779" name="真艾迪奧斯頭盔" additionalName="Attack Type/ Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">169</stat>
+		</stats>
+		<skills>
+			<skill id="27682" level="1" /> 
+			<skill id="27697" level="1" /> 
+		</skills>
+	</item>
+	<item id="27780" name="真艾迪奧斯胸甲" additionalName="Attack Type/ Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t811_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">451</stat>
+		</stats>
+		<skills>
+			<skill id="27683" level="1" /> 
+			<skill id="27698" level="1" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="27781" name="真艾迪奧斯脛甲" additionalName="Attack Type/ Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t811_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">282</stat>
+		</stats>
+		<skills>
+			<skill id="27684" level="1" /> 
+			<skill id="27699" level="1" /> 
+		</skills>
+	</item>
+	<item id="27782" name="真艾迪奧斯護手" additionalName="Attack Type/ Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t811_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">113</stat>
+		</stats>
+		<skills>
+			<skill id="27685" level="1" /> 
+			<skill id="27700" level="1" /> 
+		</skills>
+	</item>
+	<item id="27783" name="真艾迪奧斯靴" additionalName="Attack Type/ Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t811_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">113</stat>
+		</stats>
+		<skills>
+			<skill id="27686" level="1" /> 
+			<skill id="27701" level="1" /> 
+		</skills>
+	</item>
+	<item id="27784" name="真艾迪奧斯皮頭盔" additionalName="Assassin Type/ Light Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_leather_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">169</stat>
+		</stats>
+		<skills>
+			<skill id="27687" level="1" /> 
+			<skill id="27697" level="1" /> 
+		</skills>
+	</item>
+	<item id="27785" name="真艾迪奧斯皮甲" additionalName="Assassin Type/ Light Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t812_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">361</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
+		<skills>
+			<skill id="27688" level="1" /> 
+			<skill id="27698" level="1" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="27786" name="真艾迪奧斯皮脛甲" additionalName="Assassin Type/ Light Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t812_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">226</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
+		<skills>
+			<skill id="27689" level="1" /> 
+			<skill id="27699" level="1" /> 
+		</skills>
+	</item>
+	<item id="27787" name="真艾迪奧斯皮手套" additionalName="Assassin Type/ Light Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t812_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">113</stat>
+		</stats>
+		<skills>
+			<skill id="27690" level="1" /> 
+			<skill id="27700" level="1" /> 
+		</skills>
+	</item>
+	<item id="27788" name="真艾迪奧斯皮靴" additionalName="Assassin Type/ Light Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t812_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">113</stat>
+		</stats>
+		<skills>
+			<skill id="27691" level="1" /> 
+			<skill id="27701" level="1" /> 
+		</skills>
+	</item>
+	<item id="27789" name="真艾迪奧斯頭箍" additionalName="Magic Type/ Robe/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_circlet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">169</stat>
+		</stats>
+		<skills>
+			<skill id="27692" level="1" /> 
+			<skill id="27697" level="1" /> 
+		</skills>
+	</item>
+	<item id="27790" name="真艾迪奧斯外衣" additionalName="Magic Type/ Robe/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t813_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">56</stat>
+			<stat type="pDef">248</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
+		<skills>
+			<skill id="27693" level="1" /> 
+			<skill id="27698" level="1" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="27791" name="真艾迪奧斯長襪" additionalName="Magic Type/ Robe/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t813_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">37</stat>
+			<stat type="pDef">155</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
+		<skills>
+			<skill id="27694" level="1" /> 
+			<skill id="27699" level="1" /> 
+		</skills>
+	</item>
+	<item id="27792" name="真艾迪奧斯手套" additionalName="Magic Type/ Robe/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t813_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">113</stat>
+		</stats>
+		<skills>
+			<skill id="27695" level="1" /> 
+			<skill id="27700" level="1" /> 
+		</skills>
+	</item>
+	<item id="27793" name="真艾迪奧斯鞋" additionalName="Magic Type/ Robe/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t813_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">113</stat>
+		</stats>
+		<skills>
+			<skill id="27696" level="1" /> 
+			<skill id="27701" level="1" /> 
+		</skills>
+	</item>
+	<item id="27794" name="真艾迪奧斯頭盔" additionalName="Defense Type/ Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">169</stat>
+		</stats>
+		<skills>
+			<skill id="27682" level="1" /> 
+			<skill id="27697" level="1" /> 
+		</skills>
+	</item>
+	<item id="27795" name="真艾迪奧斯胸甲" additionalName="Defense Type/ Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t811_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">451</stat>
+		</stats>
+		<skills>
+			<skill id="27683" level="1" /> 
+			<skill id="27698" level="1" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="27796" name="真艾迪奧斯脛甲" additionalName="Defense Type/ Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t811_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">282</stat>
+		</stats>
+		<skills>
+			<skill id="27684" level="1" /> 
+			<skill id="27699" level="1" /> 
+		</skills>
+	</item>
+	<item id="27797" name="真艾迪奧斯護手" additionalName="Defense Type/ Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t811_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">113</stat>
+		</stats>
+		<skills>
+			<skill id="27685" level="1" /> 
+			<skill id="27700" level="1" /> 
+		</skills>
+	</item>
+	<item id="27798" name="真艾迪奧斯靴" additionalName="Defense Type/ Heavy Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t811_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">113</stat>
+		</stats>
+		<skills>
+			<skill id="27686" level="1" /> 
+			<skill id="27701" level="1" /> 
+		</skills>
+	</item>
+	<item id="27799" name="真艾迪奧斯皮頭盔" additionalName="Enchant Type/ Light Armor/ Lv. 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_leather_helmet_i01" />
+		<set name="weight" val="530" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">169</stat>
+		</stats>
+		<skills>
+			<skill id="27687" level="1" /> 
+			<skill id="27697" level="1" /> 
+		</skills>
+	</item>
+</list>

@@ -1,0 +1,1158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="48700" name="紅色天秤入場券-胚胎軍團指揮所" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_reset_ticket" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48701" name="紅色天秤入場券-席琳祭壇" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_reset_ticket" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48702" name="紅色天秤入場券-衰敗皇帝的王座" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_reset_ticket" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48703" name="紅色天秤入場券-艾帝納的末路" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_reset_ticket" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48704" name="衰敗皇帝的王座入場券" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_kalie_instantzone_re" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48705" name="艾帝納的末路入場券" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_kalie_instantzone_re" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48706" name="天秤商團特產品-活力水" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_freya_potion" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="immediate_effect" val="true" />
+		<cond>
+			<player MaximumVitalityPoints="140000" />
+		</cond>
+		<skills>
+			<skill id="29455" level="1" /> 
+		</skills>
+	</item>
+	<item id="48707" name="天秤商團特產品-釣魚經驗值增加" additionalName="1-hour" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.etc_sign_agathion_feed_blue_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="39344" level="1" /> 
+		</skills>
+	</item>
+	<item id="48708" name="歷章憑證(30日)禮盒" additionalName="Not in Use" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_lucky_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48682" min="1" max="1" chance="100" name="芙蕾雅活力古文" /> 
+		</capsuled_items>
+	</item>
+	<item id="48709" name="歷章憑證" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_scroll_of_memory_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="39345" level="1" /> 
+		</skills>
+	</item>
+	<item id="48710" name="天秤商團補給品" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_5_i00" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48711" name="天秤商團特別補給品" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_elite_marguene_collection_box_i00" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48712" name="14周年紀念禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_charge_box" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48713" name="14周年紀念強化捲軸禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_readybox_gold" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48714" name="天秤晶體階段1" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48715" name="天秤晶體階段2" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48716" name="天秤晶體階段3" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48717" name="天秤晶體階段4" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48718" name="天秤晶體階段5" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48719" name="天秤晶體階段6" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48720" name="天秤晶體階段7" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48721" name="天秤晶體階段8" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48722" name="天秤晶體階段9" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48723" name="天秤晶體階段10" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48724" name="天秤晶體階段11" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48725" name="天秤晶體階段12" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48726" name="天秤晶體階段13" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48727" name="天秤晶體階段14" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48728" name="天秤晶體階段15" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48729" name="天秤晶體階段16" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48730" name="天秤晶體階段17" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48731" name="天秤晶體階段18" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48732" name="天秤晶體階段19" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48733" name="天秤晶體階段20" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48734" name="天秤晶體階段21" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48735" name="雷德珍藏的天秤晶體階段1" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48736" name="雷德珍藏的天秤晶體階段2" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48737" name="雷德珍藏的天秤晶體階段3" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48738" name="雷德珍藏的天秤晶體階段4" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48739" name="雷德珍藏的特別天秤晶體階段5" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48740" name="雷德珍藏的天秤晶體階段6" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48741" name="雷德珍藏的天秤晶體階段7" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48742" name="雷德珍藏的天秤晶體階段8" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48743" name="雷德珍藏的天秤晶體階段9" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48744" name="雷德珍藏的特別天秤晶體階段10" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48745" name="雷德珍藏的天秤晶體階段11" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48746" name="雷德珍藏的天秤晶體階段12" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48747" name="雷德珍藏的天秤晶體階段13" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48748" name="雷德珍藏的天秤晶體階段14" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48749" name="雷德珍藏的特別天秤晶體階段15" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48750" name="雷德珍藏的天秤晶體階段16" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48751" name="雷德珍藏的天秤晶體階段17" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48752" name="雷德珍藏的天秤晶體階段18" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48753" name="雷德珍藏的天秤晶體階段19" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48754" name="雷德珍藏的特別天秤晶體階段20" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_libra_cube" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48755" name="閃耀的龍之屬性水(EXP)" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_dragon_posion_special" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="39347" level="1" /> 
+		</skills>
+	</item>
+	<item id="48756" name="+6閃亮的殷海薩襯衫" additionalName="30-day" type="Armor">
+		
+		<set name="icon" val="icon.ainhasard_shirt" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="130" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<stats>
+			<stat type="pDef">28</stat>
+		</stats>
+	</item>
+	<item id="48757" name="紅色天秤+7壺精幸運符禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48758" name="紅色天秤+6守衛壺精幸運符禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48759" name="紅色天秤等級5寶石禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48760" name="紅色天秤黑暗/血腥強化石禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48761" name="紅色天秤R99救援交換券禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48762" name="姜太公祝福-1小時" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.fishing_zone_ticket" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48763" name="決戰護身符-隱身解除(1日)" type="Armor">
+		
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="time" val="1440" />
+		<set name="weight" val="150" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="35212" level="1" /> 
+		</skills>
+	</item>
+	<item id="48764" name="決戰護身符-隱身解除(3日)" type="Armor">
+		
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="deco1" />
+		<set name="time" val="4320" />
+		<set name="weight" val="150" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="35212" level="1" /> 
+		</skills>
+	</item>
+	<item id="48765" name="貓衣裳" type="Armor">
+		<set name="icon" val="icon.sayha2017_cat" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="BRONZE" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48766" name="熊貓衣裳" type="Armor">
+		<set name="icon" val="icon.sayha2017_panda" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="BRONZE" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="maxMp">120</stat>
+		</stats>
+	</item>
+	<item id="48767" name="高級黃寶石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_absdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18814" level="7" /> 
+			<skill id="17701" level="7" /> 
+		</skills>
+	</item>
+	<item id="48768" name="高級黃寶石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_absdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18814" level="8" /> 
+			<skill id="17701" level="8" /> 
+		</skills>
+	</item>
+	<item id="48769" name="高級黃寶石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_absdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18814" level="9" /> 
+			<skill id="17701" level="9" /> 
+		</skills>
+	</item>
+	<item id="48770" name="高級黃寶石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_absdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18814" level="10" /> 
+			<skill id="17701" level="10" /> 
+		</skills>
+	</item>
+	<item id="48771" name="高級紅寶石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_ssdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18715" level="1" /> 
+			<skill id="18716" level="1" /> 
+			<skill id="18717" level="7" /> 
+		</skills>
+	</item>
+	<item id="48772" name="高級紅寶石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_ssdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18715" level="1" /> 
+			<skill id="18716" level="1" /> 
+			<skill id="18717" level="8" /> 
+		</skills>
+	</item>
+	<item id="48773" name="高級紅寶石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_ssdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18715" level="1" /> 
+			<skill id="18716" level="1" /> 
+			<skill id="18717" level="9" /> 
+		</skills>
+	</item>
+	<item id="48774" name="高級紅寶石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_ssdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18715" level="1" /> 
+			<skill id="18716" level="1" /> 
+			<skill id="18717" level="10" /> 
+		</skills>
+	</item>
+	<item id="48775" name="高級藍寶石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_spsdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18718" level="1" /> 
+			<skill id="18718" level="2" /> 
+			<skill id="18719" level="7" /> 
+		</skills>
+	</item>
+	<item id="48776" name="高級藍寶石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_spsdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18718" level="1" /> 
+			<skill id="18718" level="2" /> 
+			<skill id="18719" level="8" /> 
+		</skills>
+	</item>
+	<item id="48777" name="高級藍寶石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_spsdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18718" level="1" /> 
+			<skill id="18718" level="2" /> 
+			<skill id="18719" level="9" /> 
+		</skills>
+	</item>
+	<item id="48778" name="高級藍寶石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_spsdmg_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18718" level="1" /> 
+			<skill id="18718" level="2" /> 
+			<skill id="18719" level="10" /> 
+		</skills>
+	</item>
+	<item id="48779" name="高級黑曜石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_pvpdef_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18720" level="1" /> 
+			<skill id="17704" level="7" /> 
+		</skills>
+	</item>
+	<item id="48780" name="高級黑曜石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_pvpdef_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18720" level="1" /> 
+			<skill id="17704" level="8" /> 
+		</skills>
+	</item>
+	<item id="48781" name="高級黑曜石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_pvpdef_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="18720" level="1" /> 
+			<skill id="17704" level="9" /> 
+		</skills>
+	</item>
+	<item id="48782" name="高級黑曜石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_pvpdef_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17704" level="10" /> 
+		</skills>
+	</item>
+	<item id="48783" name="高級貓眼石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_atkeleup_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17705" level="7" /> 
+		</skills>
+	</item>
+	<item id="48784" name="高級貓眼石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_atkeleup_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17705" level="8" /> 
+		</skills>
+	</item>
+	<item id="48785" name="高級貓眼石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_atkeleup_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17705" level="9" /> 
+		</skills>
+	</item>
+	<item id="48786" name="高級貓眼石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_atkeleup_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17705" level="10" /> 
+		</skills>
+	</item>
+	<item id="48787" name="高級綠寶石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_allstat_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17825" level="7" /> 
+		</skills>
+	</item>
+	<item id="48788" name="高級綠寶石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_allstat_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17825" level="8" /> 
+		</skills>
+	</item>
+	<item id="48789" name="高級綠寶石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_allstat_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17825" level="9" /> 
+		</skills>
+	</item>
+	<item id="48790" name="高級綠寶石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_allstat_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17825" level="10" /> 
+		</skills>
+	</item>
+	<item id="48791" name="高級海藍寶石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_castmpup_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17823" level="7" /> 
+		</skills>
+	</item>
+	<item id="48792" name="高級海藍寶石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_castmpup_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17823" level="8" /> 
+		</skills>
+	</item>
+	<item id="48793" name="高級海藍寶石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_castmpup_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17823" level="9" /> 
+		</skills>
+	</item>
+	<item id="48794" name="高級海藍寶石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_castmpup_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17823" level="10" /> 
+		</skills>
+	</item>
+	<item id="48795" name="高級鑽石" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_phydef_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17708" level="7" /> 
+		</skills>
+	</item>
+	<item id="48796" name="高級鑽石" additionalName="Lv. 3" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_phydef_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17708" level="8" /> 
+		</skills>
+	</item>
+	<item id="48797" name="高級鑽石" additionalName="Lv. 4" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_phydef_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17708" level="9" /> 
+		</skills>
+	</item>
+	<item id="48798" name="高級鑽石" additionalName="Lv. 5" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_phydef_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17708" level="10" /> 
+		</skills>
+	</item>
+	<item id="48799" name="高級珍珠" additionalName="Lv. 2" type="Armor">
+		
+		<set name="icon" val="icon.bm_jewel_magdef_high_lv1_lavianrose" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="17709" level="7" /> 
+		</skills>
+	</item>
+</list>

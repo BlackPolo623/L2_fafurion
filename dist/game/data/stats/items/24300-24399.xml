@@ -1,0 +1,1734 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="24300" name="來自星星的雙魚座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_feb_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1825" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17619" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27358" level="5" /> 
+			<skill id="17631" level="1" /> 
+		</skills>
+	</item>
+	<item id="24301" name="來自星星的雙魚座壺精手鐲" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_feb_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2553" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17619" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27358" level="6" /> 
+			<skill id="17631" level="1" /> 
+		</skills>
+	</item>
+	<item id="24302" name="來自星星的雙魚座壺精手鐲" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_feb_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2974" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17619" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27358" level="7" /> 
+			<skill id="17631" level="1" /> 
+		</skills>
+	</item>
+	<item id="24303" name="來自星星的雙魚座壺精手鐲" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_feb_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="3692" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17619" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27358" level="8" /> 
+			<skill id="17631" level="1" /> 
+		</skills>
+	</item>
+	<item id="24304" name="來自星星的雙魚座壺精手鐲" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_feb_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="4598" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17619" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27358" level="9" /> 
+			<skill id="17631" level="1" /> 
+		</skills>
+	</item>
+	<item id="24305" name="來自星星的雙魚座壺精手鐲" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_feb_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="5478" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17619" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27358" level="10" /> 
+			<skill id="17631" level="1" /> 
+		</skills>
+	</item>
+	<item id="24306" name="來自星星的雙魚座壺精手鐲" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_feb_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="6432" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17619" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27358" level="11" /> 
+			<skill id="17631" level="1" /> 
+		</skills>
+	</item>
+	<item id="24307" name="來自星星的雙魚座壺精手鐲" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_feb_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="8947" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17619" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="6" /> 
+			<skill id="27358" level="12" /> 
+			<skill id="17631" level="1" /> 
+		</skills>
+	</item>
+	<item id="24308" name="來自星星的射手座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_nov_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="653" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17620" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="27359" level="1" /> 
+			<skill id="17632" level="1" /> 
+		</skills>
+	</item>
+	<item id="24309" name="來自星星的射手座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_nov_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1254" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17620" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27359" level="2" /> 
+			<skill id="17632" level="1" /> 
+		</skills>
+	</item>
+	<item id="24310" name="來自星星的射手座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_nov_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1929" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17620" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27359" level="3" /> 
+			<skill id="17632" level="1" /> 
+		</skills>
+	</item>
+	<item id="24311" name="來自星星的射手座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_nov_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2564" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17620" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27359" level="4" /> 
+			<skill id="17632" level="1" /> 
+		</skills>
+	</item>
+	<item id="24312" name="來自星星的射手座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_nov_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1825" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17620" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27359" level="5" /> 
+			<skill id="17632" level="1" /> 
+		</skills>
+	</item>
+	<item id="24313" name="來自星星的射手座壺精手鐲" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_nov_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2553" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17620" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27359" level="6" /> 
+			<skill id="17632" level="1" /> 
+		</skills>
+	</item>
+	<item id="24314" name="來自星星的射手座壺精手鐲" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_nov_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2974" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17620" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27359" level="7" /> 
+			<skill id="17632" level="1" /> 
+		</skills>
+	</item>
+	<item id="24315" name="來自星星的射手座壺精手鐲" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_nov_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="3692" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17620" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27359" level="8" /> 
+			<skill id="17632" level="1" /> 
+		</skills>
+	</item>
+	<item id="24316" name="來自星星的射手座壺精手鐲" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_nov_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="4598" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17620" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27359" level="9" /> 
+			<skill id="17632" level="1" /> 
+		</skills>
+	</item>
+	<item id="24317" name="來自星星的射手座壺精手鐲" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_nov_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="5478" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17620" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27359" level="10" /> 
+			<skill id="17632" level="1" /> 
+		</skills>
+	</item>
+	<item id="24318" name="來自星星的射手座壺精手鐲" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_nov_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="6432" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17620" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27359" level="11" /> 
+			<skill id="17632" level="1" /> 
+		</skills>
+	</item>
+	<item id="24319" name="來自星星的射手座壺精手鐲" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_nov_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="8947" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17620" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="6" /> 
+			<skill id="27359" level="12" /> 
+			<skill id="17632" level="1" /> 
+		</skills>
+	</item>
+	<item id="24320" name="來自星星的巨蟹座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_june_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="653" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17621" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="27360" level="1" /> 
+			<skill id="17633" level="1" /> 
+		</skills>
+	</item>
+	<item id="24321" name="來自星星的巨蟹座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_june_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1254" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17621" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27360" level="2" /> 
+			<skill id="17633" level="1" /> 
+		</skills>
+	</item>
+	<item id="24322" name="來自星星的巨蟹座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_june_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1929" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17621" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27360" level="3" /> 
+			<skill id="17633" level="1" /> 
+		</skills>
+	</item>
+	<item id="24323" name="來自星星的巨蟹座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_june_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2564" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17621" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27360" level="4" /> 
+			<skill id="17633" level="1" /> 
+		</skills>
+	</item>
+	<item id="24324" name="來自星星的巨蟹座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_june_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1825" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17621" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27360" level="5" /> 
+			<skill id="17633" level="1" /> 
+		</skills>
+	</item>
+	<item id="24325" name="來自星星的巨蟹座壺精手鐲" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_june_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2553" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17621" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27360" level="6" /> 
+			<skill id="17633" level="1" /> 
+		</skills>
+	</item>
+	<item id="24326" name="來自星星的巨蟹座壺精手鐲" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_june_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2974" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17621" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27360" level="7" /> 
+			<skill id="17633" level="1" /> 
+		</skills>
+	</item>
+	<item id="24327" name="來自星星的巨蟹座壺精手鐲" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_june_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="3692" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17621" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27360" level="8" /> 
+			<skill id="17633" level="1" /> 
+		</skills>
+	</item>
+	<item id="24328" name="來自星星的巨蟹座壺精手鐲" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_june_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="4598" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17621" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27360" level="9" /> 
+			<skill id="17633" level="1" /> 
+		</skills>
+	</item>
+	<item id="24329" name="來自星星的巨蟹座壺精手鐲" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_june_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="5478" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17621" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27360" level="10" /> 
+			<skill id="17633" level="1" /> 
+		</skills>
+	</item>
+	<item id="24330" name="來自星星的巨蟹座壺精手鐲" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_june_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="6432" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17621" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27360" level="11" /> 
+			<skill id="17633" level="1" /> 
+		</skills>
+	</item>
+	<item id="24331" name="來自星星的巨蟹座壺精手鐲" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_june_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="8947" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="17621" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="6" /> 
+			<skill id="27360" level="12" /> 
+			<skill id="17633" level="1" /> 
+		</skills>
+	</item>
+	<item id="24332" name="滿星之瓶" type="EtcItem">
+		
+		<set name="icon" val="BranchIcon.Icon.etc_sign_agathion_feed_yellow_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="24333" name="拉菲安洛茲的寶石盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="17824" level="1" /> 
+		</skills>
+	</item>
+	<item id="24334" name="拉菲安洛茲的寶石組合包" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38941" min="10" max="10" chance="100" name="拉菲安洛茲的寶石盒" /> 
+		</capsuled_items>
+	</item>
+	<item id="24335" name="拉菲安洛茲的高貴胸針組合包" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_box_wish_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38767" min="1" max="1" chance="100" name="拉菲安洛茲的高貴胸針" /> 
+		</capsuled_items>
+	</item>
+	<item id="24336" name="拉菲安洛茲的華麗胸針組合包" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_box_love_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="38768" min="1" max="1" chance="100" name="拉菲安洛茲的華麗胸針" /> 
+		</capsuled_items>
+	</item>
+	<item id="24337" name="滿星之瓶小袋" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="24139" min="1" max="1" chance="100" name="滿星之瓶" /> 
+		</capsuled_items>
+	</item>
+	<item id="24338" name="滿星之瓶組合包" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="24337" min="10" max="10" chance="100" name="滿星之瓶小袋" /> 
+		</capsuled_items>
+	</item>
+	<item id="24339" name="滿星之瓶小袋" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="24139" min="1" max="1" chance="100" name="滿星之瓶" /> 
+		</capsuled_items>
+	</item>
+	<item id="24340" name="滿星之瓶組合包" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="24337" min="10" max="10" chance="100" name="滿星之瓶小袋" /> 
+		</capsuled_items>
+	</item>
+	<item id="24341" name="祝福的巨人武器用強化輔助石-R級組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="PAPER" />
+		<capsuled_items>
+			<item id="23783" min="1" max="1" chance="100" name="祝福的巨人武器用強化輔助石-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="24342" name="祝福的巨人防具用強化輔助石-R級組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="PAPER" />
+		<capsuled_items>
+			<item id="23784" min="1" max="1" chance="100" name="祝福的巨人防具用強化輔助石-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="24343" name="祝福的武器用強化輔助石-R級組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="PAPER" />
+		<capsuled_items>
+			<item id="37566" min="1" max="1" chance="100" name="祝福的武器強化輔助石-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="24344" name="下巨人武器用強化輔助石-R級組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="PAPER" />
+		<capsuled_items>
+			<item id="23785" min="1" max="1" chance="100" name="下巨人武器用強化輔助石-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="24345" name="祝福的防具用強化輔助石-R級組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="PAPER" />
+		<capsuled_items>
+			<item id="37567" min="1" max="1" chance="100" name="祝福的防具強化輔助石-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="24346" name="下巨人防具用強化輔助石-R級組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="PAPER" />
+		<capsuled_items>
+			<item id="23786" min="1" max="1" chance="100" name="下巨人防具用強化輔助石-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="24347" name="武器強化捲軸-R級組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="22425" min="1" max="1" chance="100" name="武器強化捲軸-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="24348" name="防具強化捲軸-R級組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="22428" min="1" max="1" chance="100" name="防具強化捲軸-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="24349" name="經驗值古文 100%(30日)組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="PAPER" />
+		<capsuled_items>
+			<item id="23256" min="1" max="1" chance="100" name="經驗值古文 100%" /> 
+		</capsuled_items>
+	</item>
+	<item id="24350" name="梅芙上級古文 100%組" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="PAPER" />
+		<capsuled_items>
+			<item id="23809" min="1" max="1" chance="100" name="梅芙上級古文 100%" /> 
+		</capsuled_items>
+	</item>
+	<item id="24351" name="追擊者護身符" additionalName="Abundance/ 3-day" type="Armor">
+		
+		<set name="icon" val="BranchSys2.icon.g_twilight_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="4320" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="21364" level="5" /> 
+			<skill id="21365" level="1" type="ON_EQUIP" /> 
+			<skill id="21373" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="24352" name="虐殺者護身符" additionalName="Abundance/ 3-day" type="Armor">
+		
+		<set name="icon" val="BranchSys2.icon.g_twilight_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="4320" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="21364" level="6" /> 
+			<skill id="21370" level="1" type="ON_EQUIP" /> 
+			<skill id="21374" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="24353" name="征服者護身符" additionalName="Abundance/ 3-day" type="Armor">
+		
+		<set name="icon" val="BranchSys2.icon.g_twilight_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="4320" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="21364" level="7" /> 
+			<skill id="21371" level="1" type="ON_EQUIP" /> 
+			<skill id="21375" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="24354" name="無法者護身符" additionalName="Abundance/ 3-day" type="Armor">
+		
+		<set name="icon" val="BranchSys2.icon.g_twilight_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="4320" />
+		<set name="useSkillDisTime" val="1" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="21364" level="8" /> 
+			<skill id="21372" level="1" type="ON_EQUIP" /> 
+			<skill id="21376" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="24355" name="PA點數用-進階型玫瑰誘惑" type="EtcItem">
+		
+		<set name="icon" val="BranchSys2.icon.br_rosalia_rose_blue_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="reuse_delay" val="300000" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="LIQUID" />
+		<skills>
+			<skill id="17290" level="1" /> 
+		</skills>
+	</item>
+	<item id="24356" name="紅龍帽-戰士" additionalName="7-day" type="Armor">
+		
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="10080" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9515" level="1" /> 
+			<skill id="9526" level="1" /> 
+		</skills>
+	</item>
+	<item id="24357" name="紅龍帽-法師" additionalName="7-day" type="Armor">
+		
+		<set name="icon" val="icon.etc_ev_draco_hair_acc" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="10080" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9516" level="1" /> 
+			<skill id="9525" level="1" /> 
+		</skills>
+	</item>
+	<item id="24358" name="PA點數用-瞬間體力治癒藥水" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_potion_gold_i00" />
+		<set name="weight" val="20" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<skills>
+			<skill id="17910" level="1" /> 
+		</skills>
+	</item>
+	<item id="24359" name="安塔瑞斯耳環" additionalName="3-day" type="Armor">
+		
+		<set name="icon" val="icon.accessory_earring_of_antaras_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="S" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="4320" />
+		<set name="material" val="GOLD" />
+		<stats>
+			<stat type="mDef">94</stat>
+		</stats>
+	</item>
+	<item id="24360" name="巴拉卡斯項鏈" additionalName="3-day" type="Armor">
+		
+		<set name="icon" val="icon.accessory_necklace_of_valakas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="S" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="4320" />
+		<set name="material" val="GOLD" />
+		<stats>
+			<stat type="mDef">95</stat>
+		</stats>
+	</item>
+	<item id="24361" name="札肯耳環" additionalName="3-day" type="Armor">
+		
+		<set name="icon" val="icon.accessory_earring_of_zaken_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="S" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="4320" />
+		<set name="material" val="GOLD" />
+		<stats>
+			<stat type="mDef">71</stat>
+		</stats>
+	</item>
+	<item id="24362" name="巨蟻女王戒指" additionalName="3-day" type="Armor">
+		
+		<set name="icon" val="icon.accessory_ring_of_queen_ant_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="B" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="4320" />
+		<set name="material" val="GOLD" />
+		<stats>
+			<stat type="mDef">48</stat>
+		</stats>
+	</item>
+	<item id="24363" name="巴溫戒指" additionalName="3-day" type="Armor">
+		
+		<set name="icon" val="icon.accessory_ring_of_baium_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="S" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="4320" />
+		<set name="material" val="GOLD" />
+		<stats>
+			<stat type="mDef">48</stat>
+		</stats>
+	</item>
+	<item id="24364" name="黑暗刺客套裝" type="Armor">
+		
+		<set name="icon" val="icon.dark_assassin" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="is_depositable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="BRONZE" />
+		<set name="bodypart" val="alldress" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">400</stat>
+		</stats>
+	</item>
+	<item id="24365" name="黑暗刺客套裝加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="handler" val="Appearance" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="24366" name="幸運盒1" additionalName="Gemini" type="EtcItem">
+		
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="24367" name="幸運盒1" additionalName="Cancer" type="EtcItem">
+		
+		<set name="icon" val="icon.event_big_july_seven_park_i00" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="24368" name="沙哈古文-培育" additionalName="Stage 1" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26217" level="1" /> 
+		</skills>
+	</item>
+	<item id="24369" name="沙哈古文-培育" additionalName="Stage 2" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26217" level="2" /> 
+		</skills>
+	</item>
+	<item id="24370" name="沙哈古文-培育" additionalName="Stage 3" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26217" level="3" /> 
+		</skills>
+	</item>
+	<item id="24371" name="沙哈古文-培育" additionalName="Stage 4" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26217" level="4" /> 
+		</skills>
+	</item>
+	<item id="24372" name="沙哈古文-技能" additionalName="Stage 1" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26218" level="1" /> 
+		</skills>
+	</item>
+	<item id="24373" name="沙哈古文-技能" additionalName="Stage 2" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26218" level="2" /> 
+		</skills>
+	</item>
+	<item id="24374" name="沙哈古文-技能" additionalName="Stage 3" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26218" level="3" /> 
+		</skills>
+	</item>
+	<item id="24375" name="沙哈古文-技能" additionalName="Stage 4" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26218" level="4" /> 
+		</skills>
+	</item>
+	<item id="24376" name="沙哈古文-幸運" additionalName="Stage 1" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26218" level="1" /> 
+		</skills>
+	</item>
+	<item id="24377" name="沙哈古文-幸運" additionalName="Stage 2" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26218" level="2" /> 
+		</skills>
+	</item>
+	<item id="24378" name="沙哈古文-幸運" additionalName="Stage 3" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26218" level="3" /> 
+		</skills>
+	</item>
+	<item id="24379" name="沙哈古文-幸運" additionalName="Stage 4" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26218" level="4" /> 
+		</skills>
+	</item>
+	<item id="24380" name="沙哈古文" additionalName="Stage 1" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26216" level="1" /> 
+			<skill id="26217" level="1" /> 
+			<skill id="26218" level="1" /> 
+		</skills>
+	</item>
+	<item id="24381" name="沙哈古文" additionalName="Stage 2" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26216" level="2" /> 
+			<skill id="26217" level="2" /> 
+			<skill id="26218" level="2" /> 
+		</skills>
+	</item>
+	<item id="24382" name="沙哈古文" additionalName="Stage 3" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26216" level="3" /> 
+			<skill id="26217" level="3" /> 
+			<skill id="26218" level="3" /> 
+		</skills>
+	</item>
+	<item id="24383" name="沙哈古文" additionalName="Stage 4" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="time" val="10" />
+		<skills>
+			<skill id="26216" level="4" /> 
+			<skill id="26217" level="4" /> 
+			<skill id="26218" level="4" /> 
+		</skills>
+	</item>
+	<item id="24384" name="沙哈古文-培育階段1/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24368" min="1" max="1" chance="100" name="沙哈古文-培育" /> 
+		</capsuled_items>
+	</item>
+	<item id="24385" name="沙哈古文-培育階段2/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24369" min="1" max="1" chance="100" name="沙哈古文-培育" /> 
+		</capsuled_items>
+	</item>
+	<item id="24386" name="沙哈古文-培育階段3/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24370" min="1" max="1" chance="100" name="沙哈古文-培育" /> 
+		</capsuled_items>
+	</item>
+	<item id="24387" name="沙哈古文-培育階段4/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24371" min="1" max="1" chance="100" name="沙哈古文-培育" /> 
+		</capsuled_items>
+	</item>
+	<item id="24388" name="沙哈古文-技能階段1/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24372" min="1" max="1" chance="100" name="沙哈古文-技能" /> 
+		</capsuled_items>
+	</item>
+	<item id="24389" name="沙哈古文-技能階段2/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24373" min="1" max="1" chance="100" name="沙哈古文-技能" /> 
+		</capsuled_items>
+	</item>
+	<item id="24390" name="沙哈古文-技能階段3/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24374" min="1" max="1" chance="100" name="沙哈古文-技能" /> 
+		</capsuled_items>
+	</item>
+	<item id="24391" name="沙哈古文-技能階段4/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24375" min="1" max="1" chance="100" name="沙哈古文-技能" /> 
+		</capsuled_items>
+	</item>
+	<item id="24392" name="沙哈古文-幸運階段1/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24376" min="1" max="1" chance="100" name="沙哈古文-幸運" /> 
+		</capsuled_items>
+	</item>
+	<item id="24393" name="沙哈古文-幸運階段2/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24377" min="1" max="1" chance="100" name="沙哈古文-幸運" /> 
+		</capsuled_items>
+	</item>
+	<item id="24394" name="沙哈古文-幸運階段3/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24378" min="1" max="1" chance="100" name="沙哈古文-幸運" /> 
+		</capsuled_items>
+	</item>
+	<item id="24395" name="沙哈古文-幸運階段4/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24379" min="1" max="1" chance="100" name="沙哈古文-幸運" /> 
+		</capsuled_items>
+	</item>
+	<item id="24396" name="沙哈古文階段1/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24380" min="1" max="1" chance="100" name="沙哈古文" /> 
+		</capsuled_items>
+	</item>
+	<item id="24397" name="沙哈古文階段2/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24381" min="1" max="1" chance="100" name="沙哈古文" /> 
+		</capsuled_items>
+	</item>
+	<item id="24398" name="沙哈古文階段3/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24382" min="1" max="1" chance="100" name="沙哈古文" /> 
+		</capsuled_items>
+	</item>
+	<item id="24399" name="沙哈古文階段4/組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="24383" min="1" max="1" chance="100" name="沙哈古文" /> 
+		</capsuled_items>
+	</item>
+</list>

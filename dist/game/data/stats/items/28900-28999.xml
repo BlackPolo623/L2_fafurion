@@ -1,0 +1,1790 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="28900" name="射手座壺精幸運符" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_sag_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="28037" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28901" name="巨蟹座壺精幸運符" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_can_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="28038" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28902" name="巨蟹座壺精幸運符" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_can_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="28038" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28903" name="巨蟹座壺精幸運符" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_can_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="28038" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28904" name="巨蟹座壺精幸運符" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_can_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="28038" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28905" name="巨蟹座壺精幸運符" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_can_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="28038" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28906" name="巨蟹座壺精幸運符" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_can_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="28038" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28907" name="巨蟹座壺精幸運符" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_can_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="28038" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28908" name="巨蟹座壺精幸運符" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_can_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="28038" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28909" name="巨蟹座壺精幸運符" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_can_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="28038" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28910" name="巨蟹座壺精幸運符" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_can_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="28038" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28911" name="巨蟹座壺精幸運符" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_can_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="28038" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28912" name="巨蟹座壺精幸運符" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_can_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="28038" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28913" name="來自星星的處女座壺精幸運符" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_virgo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28051" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28914" name="來自星星的處女座壺精幸運符" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_virgo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28051" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28915" name="來自星星的處女座壺精幸運符" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_virgo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28051" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28916" name="來自星星的處女座壺精幸運符" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_virgo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28051" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28917" name="來自星星的處女座壺精幸運符" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_virgo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28051" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28918" name="來自星星的處女座壺精幸運符" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_virgo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28051" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28919" name="來自星星的處女座壺精幸運符" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_virgo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28051" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28920" name="來自星星的處女座壺精幸運符" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_virgo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28051" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28921" name="來自星星的處女座壺精幸運符" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_virgo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28051" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28922" name="來自星星的處女座壺精幸運符" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_virgo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28051" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28923" name="來自星星的處女座壺精幸運符" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_virgo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28051" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28924" name="來自星星的處女座壺精幸運符" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_virgo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28051" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28925" name="來自星星的魔羯座壺精幸運符" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_capr_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28052" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28926" name="來自星星的魔羯座壺精幸運符" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_capr_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28052" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28927" name="來自星星的魔羯座壺精幸運符" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_capr_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28052" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28928" name="來自星星的魔羯座壺精幸運符" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_capr_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28052" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28929" name="來自星星的魔羯座壺精幸運符" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_capr_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28052" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28930" name="來自星星的魔羯座壺精幸運符" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_capr_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28052" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28931" name="來自星星的魔羯座壺精幸運符" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_capr_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28052" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28932" name="來自星星的魔羯座壺精幸運符" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_capr_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28052" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28933" name="來自星星的魔羯座壺精幸運符" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_capr_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28052" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28934" name="來自星星的魔羯座壺精幸運符" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_capr_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28052" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28935" name="來自星星的魔羯座壺精幸運符" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_capr_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28052" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28936" name="來自星星的魔羯座壺精幸運符" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_capr_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28052" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28937" name="來自星星的天秤座壺精幸運符" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_lib_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28053" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28938" name="來自星星的天秤座壺精幸運符" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_lib_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28053" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28939" name="來自星星的天秤座壺精幸運符" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_lib_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28053" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28940" name="來自星星的天秤座壺精幸運符" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_lib_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28053" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28941" name="來自星星的天秤座壺精幸運符" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_lib_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28053" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28942" name="來自星星的天秤座壺精幸運符" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_lib_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28053" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28943" name="來自星星的天秤座壺精幸運符" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_lib_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28053" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28944" name="來自星星的天秤座壺精幸運符" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_lib_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28053" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28945" name="來自星星的天秤座壺精幸運符" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_lib_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28053" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28946" name="來自星星的天秤座壺精幸運符" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_lib_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28053" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28947" name="來自星星的天秤座壺精幸運符" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_lib_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28053" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28948" name="來自星星的天秤座壺精幸運符" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_lib_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28053" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28949" name="來自星星的牡羊座壺精幸運符" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_aries_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28054" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28950" name="來自星星的牡羊座壺精幸運符" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_aries_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28054" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28951" name="來自星星的牡羊座壺精幸運符" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_aries_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28054" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28952" name="來自星星的牡羊座壺精幸運符" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_aries_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28054" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28953" name="來自星星的牡羊座壺精幸運符" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_aries_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28054" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28954" name="來自星星的牡羊座壺精幸運符" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_aries_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28054" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28955" name="來自星星的牡羊座壺精幸運符" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_aries_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28054" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28956" name="來自星星的牡羊座壺精幸運符" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_aries_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28054" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28957" name="來自星星的牡羊座壺精幸運符" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_aries_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28054" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28958" name="來自星星的牡羊座壺精幸運符" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_aries_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28054" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28959" name="來自星星的牡羊座壺精幸運符" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_aries_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28054" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28960" name="來自星星的牡羊座壺精幸運符" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_aries_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28054" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28961" name="來自星星的金牛座壺精幸運符" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_tau_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28055" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28962" name="來自星星的金牛座壺精幸運符" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_tau_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28055" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28963" name="來自星星的金牛座壺精幸運符" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_tau_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28055" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28964" name="來自星星的金牛座壺精幸運符" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_tau_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28055" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28965" name="來自星星的金牛座壺精幸運符" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_tau_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28055" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28966" name="來自星星的金牛座壺精幸運符" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_tau_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28055" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28967" name="來自星星的金牛座壺精幸運符" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_tau_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28055" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28968" name="來自星星的金牛座壺精幸運符" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_tau_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28055" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28969" name="來自星星的金牛座壺精幸運符" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_tau_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28055" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28970" name="來自星星的金牛座壺精幸運符" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_tau_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28055" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28971" name="來自星星的金牛座壺精幸運符" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_tau_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28055" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28972" name="來自星星的金牛座壺精幸運符" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_tau_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28055" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28973" name="來自星星的獅子座壺精幸運符" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_leo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28056" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28974" name="來自星星的獅子座壺精幸運符" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_leo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28056" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28975" name="來自星星的獅子座壺精幸運符" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_leo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28056" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28976" name="來自星星的獅子座壺精幸運符" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_leo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28056" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28977" name="來自星星的獅子座壺精幸運符" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_leo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28056" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28978" name="來自星星的獅子座壺精幸運符" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_leo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28056" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28979" name="來自星星的獅子座壺精幸運符" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_leo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28056" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28980" name="來自星星的獅子座壺精幸運符" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_leo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28056" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28981" name="來自星星的獅子座壺精幸運符" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_leo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28056" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28982" name="來自星星的獅子座壺精幸運符" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_leo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28056" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28983" name="來自星星的獅子座壺精幸運符" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_leo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28056" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28984" name="來自星星的獅子座壺精幸運符" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_leo_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28056" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28985" name="來自星星的雙子座壺精幸運符" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_gem_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28057" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28986" name="來自星星的雙子座壺精幸運符" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_gem_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28057" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28987" name="來自星星的雙子座壺精幸運符" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_gem_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28057" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28988" name="來自星星的雙子座壺精幸運符" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_gem_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28057" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28989" name="來自星星的雙子座壺精幸運符" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_gem_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28057" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28990" name="來自星星的雙子座壺精幸運符" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_gem_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28057" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28991" name="來自星星的雙子座壺精幸運符" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_gem_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28057" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28992" name="來自星星的雙子座壺精幸運符" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_gem_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28057" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28993" name="來自星星的雙子座壺精幸運符" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_gem_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28057" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28994" name="來自星星的雙子座壺精幸運符" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_gem_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28057" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28995" name="來自星星的雙子座壺精幸運符" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_gem_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28057" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28996" name="來自星星的雙子座壺精幸運符" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_gem_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28057" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28997" name="來自星星的天蠍座壺精幸運符" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_sco_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28058" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28998" name="來自星星的天蠍座壺精幸運符" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_sco_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28058" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="28999" name="來自星星的天蠍座壺精幸運符" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.g_bm_sco_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_freightable" val="true" />
+		<skills>
+			<skill id="28058" level="1" type="ON_EQUIP" /> 
+			<skill id="28064" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+</list>

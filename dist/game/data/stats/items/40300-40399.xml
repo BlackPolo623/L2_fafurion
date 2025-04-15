@@ -1,0 +1,1337 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="40300" name="芙蕾雅恢復藥水" type="EtcItem">
+		
+		<set name="icon" val="icon.freya_potion" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="LIQUID" />
+		<skills>
+			<skill id="18155" level="1" /> 
+		</skills>
+	</item>
+	<item id="40301" name="Buff頭盔" additionalName="LUC" type="Armor">
+		
+		<set name="icon" val="icon.buff_helmet" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+	</item>
+	<item id="40302" name="Buff頭盔" additionalName="CHA" type="Armor">
+		
+		<set name="icon" val="icon.buff_helmet" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+	</item>
+	<item id="40303" name="斯佩席亞入場券-一般" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_kalie_instantzone_re" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_questitem" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="reuse_delay" val="86400000" />
+		<set name="is_depositable" val="false" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="40304" name="斯佩席亞入場券-極限" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_kalie_instantzone_re" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_questitem" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="reuse_delay" val="86400000" />
+		<set name="is_depositable" val="false" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="40305" name="專家古文-R99" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="time" val="43200" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="17577" level="1" /> 
+		</skills>
+	</item>
+	<item id="40306" name="專家古文(R99)禮盒" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i06" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="40305" min="1" max="1" chance="100" name="專家古文-R99" /> 
+		</capsuled_items>
+	</item>
+	<item id="40307" name="動能雙重大師禮物包裹" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="40306" min="1" max="1" chance="100" name="專家古文(R99)禮盒" /> 
+			<item id="37673" min="1" max="1" chance="100" name="神秘的好友召喚手鐲 30日/組" /> 
+		</capsuled_items>
+	</item>
+	<item id="40308" name="動能雙重騎士禮物包裹" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="40306" min="1" max="1" chance="100" name="專家古文(R99)禮盒" /> 
+			<item id="37673" min="1" max="1" chance="100" name="神秘的好友召喚手鐲 30日/組" /> 
+			<item id="40213" min="2" max="2" chance="100" name="翼人稀有飾品禮盒" /> 
+		</capsuled_items>
+	</item>
+	<item id="40309" name="矮人村莊回歸捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_scroll_of_return_i05" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<set name="handler" val="ItemSkills" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<cond addName="1" msgId="113">
+			<player flyMounted="false" />
+		</cond>
+		<skills>
+			<skill id="18167" level="1" /> 
+		</skills>
+	</item>
+	<item id="40310" name="聖誕帽加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC_FIXED" />
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="Appearance" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="40311" name="諾艾樂的禮物" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_whiteday_choco" />
+		<set name="weight" val="5" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="LIQUID" />
+		<skills>
+			<skill id="16423" level="1" /> 
+		</skills>
+	</item>
+	<item id="40312" name="聖誕斗篷" type="Armor">
+		
+		<set name="icon" val="BranchSys3.icon.g_christmas_cloak" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="220" />
+		<set name="material" val="CLOTH" />
+		<cond msgId="2453">
+			<player cloakStatus="true" />
+		</cond>
+		<cond>
+			<player level="80" />
+		</cond>
+		<stats>
+			<stat type="pDef">20</stat>
+		</stats>
+	</item>
+	<item id="40313" name="聖誕憑證" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_xmas_present_fun_i00" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="40314" name="聖誕帽" additionalName="STR" type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="10" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9554" level="1" /> 
+		</skills>
+	</item>
+	<item id="40315" name="聖誕帽" additionalName="DEX" type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9555" level="1" /> 
+		</skills>
+	</item>
+	<item id="40316" name="聖誕帽" additionalName="CON" type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9556" level="1" /> 
+		</skills>
+	</item>
+	<item id="40317" name="聖誕帽" additionalName="MEN" type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9557" level="1" /> 
+		</skills>
+	</item>
+	<item id="40318" name="聖誕帽" additionalName="INT" type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="10" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9558" level="1" /> 
+		</skills>
+	</item>
+	<item id="40319" name="聖誕帽" additionalName="WIT" type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9559" level="1" /> 
+		</skills>
+	</item>
+	<item id="40320" name="聖誕帽" additionalName="Critical Rate" type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9560" level="1" /> 
+		</skills>
+	</item>
+	<item id="40321" name="聖誕帽" additionalName="Critical Damage" type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9561" level="1" /> 
+		</skills>
+	</item>
+	<item id="40322" name="聖誕帽" additionalName="P. Def." type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9562" level="1" /> 
+		</skills>
+	</item>
+	<item id="40323" name="聖誕帽" additionalName="M. Def." type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9563" level="1" /> 
+		</skills>
+	</item>
+	<item id="40324" name="聖誕帽" additionalName="Evasion" type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9564" level="1" /> 
+		</skills>
+	</item>
+	<item id="40325" name="聖誕帽" additionalName="P. Atk." type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9565" level="1" /> 
+		</skills>
+	</item>
+	<item id="40326" name="聖誕帽" additionalName="M. Atk." type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9566" level="1" /> 
+		</skills>
+	</item>
+	<item id="40327" name="聖誕帽" additionalName="Accuracy" type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="9567" level="1" /> 
+		</skills>
+	</item>
+	<item id="40328" name="聖誕帽" additionalName="LUC" type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="10" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="18048" level="1" /> 
+		</skills>
+	</item>
+	<item id="40329" name="聖誕帽" additionalName="CHA" type="Armor">
+		
+		<set name="icon" val="icon.accessory_santas_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="10" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="HAIR_ACCESSORY" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="WOOD" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="18049" level="1" /> 
+		</skills>
+	</item>
+	<item id="40330" name="聖誕老人服裝加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="Appearance" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="40331" name="友情的魔法杖組" additionalName="90-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="129600" />
+		<set name="material" val="FISH" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="40332" min="1" max="1" chance="100" name="友情的世界樹樹枝" /> 
+			<item id="40333" min="1" max="1" chance="100" name="友情的邪靈魔杖" /> 
+			<item id="40334" min="1" max="1" chance="100" name="友情的地獄魔杖" /> 
+			<item id="40336" min="1" max="1" chance="100" name="友情的帝國權杖" /> 
+			<item id="40337" min="1" max="1" chance="100" name="友情的王朝魔杖" /> 
+		</capsuled_items>
+	</item>
+	<item id="40332" name="友情的世界樹樹枝" additionalName="90-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_worldtrees_branch_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="A" />
+		<set name="weight" val="900" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="129600" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">226</stat>
+			<stat type="mAtk">167</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40333" name="友情的邪靈魔杖" additionalName="90-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="B" />
+		<set name="weight" val="930" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="129600" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">189</stat>
+			<stat type="mAtk">145</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40334" name="友情的地獄魔杖" additionalName="90-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_inferno_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="weight" val="1000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="129600" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">135</stat>
+			<stat type="mAtk">111</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40335" name="友情的阿吐巴釘鎚" additionalName="90-day" type="Weapon">
+		<set name="icon" val="icon.weapon_atuba_mace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="D" />
+		<set name="weight" val="1010" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="129600" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">90</stat>
+			<stat type="mAtk">79</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40336" name="友情的帝國權杖" additionalName="90-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_imperial_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="S" />
+		<set name="weight" val="910" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="129600" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">274</stat>
+			<stat type="mAtk">193</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40337" name="友情的王朝魔杖" additionalName="90-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="S" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="129600" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">325</stat>
+			<stat type="mAtk">222</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40338" name="翼人戰士系列套裝" additionalName="90-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="129600" />
+		<set name="material" val="FISH" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="40340" min="1" max="1" chance="100" name="友情的格鬥兵器組" /> 
+			<item id="16979" min="1" max="1" chance="100" name="友情的黑暗水晶輕裝套裝組-A級" /> 
+			<item id="16999" min="1" max="1" chance="100" name="友情的聖威飾品組-A級" /> 
+			<item id="16980" min="1" max="1" chance="100" name="友情的末日皮甲套裝組-B級" /> 
+			<item id="17000" min="1" max="1" chance="100" name="友情的黑光飾品組-B級" /> 
+			<item id="16981" min="1" max="1" chance="100" name="友情的金屬皮套裝組-C級" /> 
+			<item id="17001" min="1" max="1" chance="100" name="友情的封印飾品組-C級" /> 
+			<item id="21786" min="1" max="1" chance="100" name="友情的紅龍皮甲套裝組-S級" /> 
+			<item id="21816" min="1" max="1" chance="100" name="友情的泰狄奧森飾品組-S級" /> 
+			<item id="21805" min="1" max="1" chance="100" name="友情的王朝皮盔甲套裝組-S級" /> 
+			<item id="21820" min="1" max="1" chance="100" name="友情的王朝飾品組-S級" /> 
+		</capsuled_items>
+	</item>
+	<item id="40339" name="翼人巫師系列套裝" additionalName="90-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="129600" />
+		<set name="material" val="FISH" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="40331" min="1" max="1" chance="100" name="友情的魔法杖組" /> 
+			<item id="16983" min="1" max="1" chance="100" name="友情的黑暗水晶長袍套裝組-A級" /> 
+			<item id="16999" min="1" max="1" chance="100" name="友情的聖威飾品組-A級" /> 
+			<item id="16984" min="1" max="1" chance="100" name="友情的阿巴敦長袍套裝組-B級" /> 
+			<item id="17000" min="1" max="1" chance="100" name="友情的黑光飾品組-B級" /> 
+			<item id="16985" min="1" max="1" chance="100" name="友情的卡勒米安套裝組-C級" /> 
+			<item id="17001" min="1" max="1" chance="100" name="友情的封印飾品組-C級" /> 
+			<item id="21792" min="1" max="1" chance="100" name="友情的大秘儀長袍套裝組-S級" /> 
+			<item id="21816" min="1" max="1" chance="100" name="友情的泰狄奧森飾品組-S級" /> 
+			<item id="21812" min="1" max="1" chance="100" name="友情的王朝外衣套裝組-S級" /> 
+			<item id="21820" min="1" max="1" chance="100" name="友情的王朝飾品組-S級" /> 
+		</capsuled_items>
+	</item>
+	<item id="40340" name="友情的格鬥兵器組" additionalName="90-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="129600" />
+		<set name="material" val="FISH" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="21839" min="1" max="1" chance="100" name="友情的王朝拳套爪" /> 
+			<item id="21827" min="1" max="1" chance="100" name="友情的惡魔獵爪" /> 
+			<item id="16944" min="1" max="1" chance="100" name="友情的索貝克颶風" /> 
+			<item id="16945" min="1" max="1" chance="100" name="友情的博利恩拳套" /> 
+			<item id="16946" min="1" max="1" chance="100" name="友情的巨型帕塔拳刃" /> 
+		</capsuled_items>
+	</item>
+	<item id="40341" name="友情的格鬥兵器組" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="FISH" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="15056" min="1" max="1" chance="100" name="友情的索貝克颶風" /> 
+			<item id="15057" min="1" max="1" chance="100" name="友情的博利恩拳套" /> 
+			<item id="15058" min="1" max="1" chance="100" name="友情的巨型帕塔拳刃" /> 
+		</capsuled_items>
+	</item>
+	<item id="40342" name="友情的魔法杖組" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="FISH" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="40343" min="1" max="1" chance="100" name="友情的世界樹樹枝" /> 
+			<item id="40344" min="1" max="1" chance="100" name="友情的邪靈魔杖" /> 
+			<item id="40345" min="1" max="1" chance="100" name="友情的地獄魔杖" /> 
+		</capsuled_items>
+	</item>
+	<item id="40343" name="友情的世界樹樹枝" additionalName="30-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_worldtrees_branch_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="A" />
+		<set name="weight" val="900" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">226</stat>
+			<stat type="mAtk">167</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40344" name="友情的邪靈魔杖" additionalName="30-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="B" />
+		<set name="weight" val="930" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">189</stat>
+			<stat type="mAtk">145</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40345" name="友情的地獄魔杖" additionalName="30-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_inferno_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="weight" val="1000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">135</stat>
+			<stat type="mAtk">111</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40346" name="友情的阿吐巴釘鎚" additionalName="30-day" type="Weapon">
+		<set name="icon" val="icon.weapon_atuba_mace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="D" />
+		<set name="weight" val="1010" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">90</stat>
+			<stat type="mAtk">79</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40347" name="友情的帝國權杖" additionalName="30-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_imperial_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="S" />
+		<set name="weight" val="910" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">274</stat>
+			<stat type="mAtk">193</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40348" name="友情的王朝魔杖" additionalName="30-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="S" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">325</stat>
+			<stat type="mAtk">222</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40349" name="翼人戰士系列套裝" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="FISH" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="40341" min="1" max="1" chance="100" name="友情的格鬥兵器組" /> 
+			<item id="15250" min="1" max="1" chance="100" name="友情的黑暗水晶輕裝套裝組" /> 
+			<item id="15274" min="1" max="1" chance="100" name="友情的聖威飾品組" /> 
+			<item id="15251" min="1" max="1" chance="100" name="友情的末日皮甲套裝組" /> 
+			<item id="15275" min="1" max="1" chance="100" name="友情的黑光飾品組" /> 
+			<item id="15252" min="1" max="1" chance="100" name="友情的金屬皮套裝組" /> 
+			<item id="15276" min="1" max="1" chance="100" name="友情的封印飾品組" /> 
+		</capsuled_items>
+	</item>
+	<item id="40350" name="翼人巫師系列套裝" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="FISH" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="40342" min="1" max="1" chance="100" name="友情的魔法杖組" /> 
+			<item id="15254" min="1" max="1" chance="100" name="友情的黑暗水晶長袍套裝組" /> 
+			<item id="15274" min="1" max="1" chance="100" name="友情的聖威飾品組" /> 
+			<item id="15255" min="1" max="1" chance="100" name="友情的阿巴敦長袍套裝組" /> 
+			<item id="15275" min="1" max="1" chance="100" name="友情的黑光飾品組" /> 
+			<item id="15256" min="1" max="1" chance="100" name="友情的卡勒米安套裝組" /> 
+			<item id="15276" min="1" max="1" chance="100" name="友情的封印飾品組" /> 
+		</capsuled_items>
+	</item>
+	<item id="40351" name="友情的格鬥兵器組" additionalName="10-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="14400" />
+		<set name="material" val="FISH" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="15170" min="1" max="1" chance="100" name="友情的索貝克颶風" /> 
+			<item id="15171" min="1" max="1" chance="100" name="友情的博利恩拳套" /> 
+			<item id="15172" min="1" max="1" chance="100" name="友情的巨型帕塔拳刃" /> 
+		</capsuled_items>
+	</item>
+	<item id="40352" name="友情的魔法杖組" additionalName="10-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="14400" />
+		<set name="material" val="FISH" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="40353" min="1" max="1" chance="100" name="友情的世界樹樹枝" /> 
+			<item id="40354" min="1" max="1" chance="100" name="友情的邪靈魔杖" /> 
+			<item id="40355" min="1" max="1" chance="100" name="友情的地獄魔杖" /> 
+		</capsuled_items>
+	</item>
+	<item id="40353" name="友情的世界樹樹枝" additionalName="10-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_worldtrees_branch_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="A" />
+		<set name="weight" val="900" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="14400" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">226</stat>
+			<stat type="mAtk">167</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40354" name="友情的邪靈魔杖" additionalName="10-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="B" />
+		<set name="weight" val="930" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="14400" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">189</stat>
+			<stat type="mAtk">145</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40355" name="友情的地獄魔杖" additionalName="10-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_inferno_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="C" />
+		<set name="weight" val="1000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="14400" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">135</stat>
+			<stat type="mAtk">111</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40356" name="友情的阿吐巴釘鎚" additionalName="10-day" type="Weapon">
+		<set name="icon" val="icon.weapon_atuba_mace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="D" />
+		<set name="weight" val="1010" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="14400" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">90</stat>
+			<stat type="mAtk">79</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40357" name="友情的帝國權杖" additionalName="10-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_imperial_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="S" />
+		<set name="weight" val="910" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="14400" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">274</stat>
+			<stat type="mAtk">193</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40358" name="友情的王朝魔杖" additionalName="10-day" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="S" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="14400" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">325</stat>
+			<stat type="mAtk">222</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="randomDamage">20</stat>
+		</stats>
+	</item>
+	<item id="40359" name="翼人戰士系列套裝" additionalName="10-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="14400" />
+		<set name="material" val="FISH" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="40351" min="1" max="1" chance="100" name="友情的格鬥兵器組" /> 
+			<item id="15226" min="1" max="1" chance="100" name="友情的黑暗水晶輕裝套裝組" /> 
+			<item id="15270" min="1" max="1" chance="100" name="友情的聖威飾品組" /> 
+			<item id="15227" min="1" max="1" chance="100" name="友情的末日皮甲套裝組" /> 
+			<item id="15271" min="1" max="1" chance="100" name="友情的黑光飾品組" /> 
+			<item id="15228" min="1" max="1" chance="100" name="友情的金屬皮套裝組" /> 
+			<item id="15272" min="1" max="1" chance="100" name="友情的封印飾品組" /> 
+		</capsuled_items>
+	</item>
+	<item id="40360" name="翼人巫師系列套裝" additionalName="10-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="14400" />
+		<set name="material" val="FISH" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="40352" min="1" max="1" chance="100" name="友情的魔法杖組" /> 
+			<item id="15230" min="1" max="1" chance="100" name="友情的黑暗水晶長袍套裝組" /> 
+			<item id="15270" min="1" max="1" chance="100" name="友情的聖威飾品組" /> 
+			<item id="15231" min="1" max="1" chance="100" name="友情的阿巴敦長袍套裝組" /> 
+			<item id="15271" min="1" max="1" chance="100" name="友情的黑光飾品組" /> 
+			<item id="15232" min="1" max="1" chance="100" name="友情的卡勒米安套裝組" /> 
+			<item id="15272" min="1" max="1" chance="100" name="友情的封印飾品組" /> 
+		</capsuled_items>
+	</item>
+	<item id="40361" name="天馬座壺精禮盒" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="icon.lucky_bag_box_i00" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="48133" min="1" max="1" chance="100" name="天馬座壺精幸運符-限時30日" /> 
+		</capsuled_items>
+	</item>
+	<item id="40362" name="天馬座壺精手鐲-限時30日" type="Armor">
+		
+		<set name="icon" val="icon.pi_high_agathion_bracelet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="bodypart" val="lbracelet" />
+	</item>
+	<item id="40363" name="紅蘿蔔" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_carrot" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="GOLD" />
+	</item>
+	<item id="40364" name="紅蘿蔔袋" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pouch_gold_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="40363" min="7" max="63" chance="100" name="紅蘿蔔" /> 
+		</capsuled_items>
+	</item>
+	<item id="40365" name="貝古夫的特別福袋" type="EtcItem">
+		
+		<set name="icon" val="icon.card_event_luck_pocket" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<set name="material" val="PAPER" />
+		<capsuled_items>
+			<item id="22887" min="1" max="1" chance="0.82" name="獨角獸騎乘手鐲" /> 
+			<item id="22265" min="1" max="1" chance="0.82" name="獨角獸角頭箍" /> 
+			<item id="39738" min="1" max="1" chance="0.82" name="古文石" /> 
+			<item id="37008" min="1" max="1" chance="11" name="草莓蛋糕(HP靈藥)" /> 
+			<item id="37009" min="1" max="1" chance="11" name="藍莓蛋糕(MP靈藥)" /> 
+			<item id="37010" min="1" max="1" chance="11" name="乳酪蛋糕(CP靈藥)" /> 
+			<item id="39381" min="1" max="1" chance="0.82" name="Lv1 風之魅力紋章染料" /> 
+			<item id="39382" min="1" max="1" chance="0.82" name="Lv2 風之魅力紋章染料" /> 
+			<item id="39383" min="1" max="1" chance="0.82" name="Lv3 風之魅力紋章染料" /> 
+			<item id="39384" min="1" max="1" chance="0.82" name="Lv4 風之魅力紋章染料" /> 
+			<item id="39385" min="1" max="1" chance="0.82" name="Lv5 風之魅力紋章染料" /> 
+			<item id="39386" min="1" max="1" chance="0.82" name="Lv1 風之幸運紋章染料" /> 
+			<item id="39387" min="1" max="1" chance="0.82" name="Lv2 風之幸運紋章染料" /> 
+			<item id="39388" min="1" max="1" chance="0.82" name="Lv3 風之幸運紋章染料" /> 
+			<item id="39389" min="1" max="1" chance="0.82" name="Lv4 風之幸運紋章染料" /> 
+			<item id="39390" min="1" max="1" chance="0.82" name="Lv5 風之幸運紋章染料" /> 
+			<item id="40063" min="1" max="1" chance="6" name="秘密古書的碎片" /> 
+			<item id="23861" min="1" max="1" chance="0.82" name="巴拉卡斯靈魂之瓶碎片" /> 
+			<item id="23862" min="1" max="1" chance="0.82" name="安塔瑞斯靈魂之瓶碎片" /> 
+			<item id="23863" min="1" max="1" chance="0.82" name="巴溫靈魂之瓶碎片" /> 
+			<item id="23864" min="1" max="1" chance="0.82" name="奧爾芬靈魂之瓶碎片" /> 
+			<item id="23865" min="1" max="1" chance="0.82" name="巨蟻女王靈魂之瓶碎片" /> 
+			<item id="23866" min="1" max="1" chance="0.82" name="芙琳泰沙靈魂之瓶碎片" /> 
+			<item id="23867" min="1" max="1" chance="0.82" name="芙蕾雅靈魂之瓶碎片" /> 
+			<item id="36513" min="1" max="1" chance="0.82" name="艾斯恩粉末" /> 
+			<item id="3936" min="1" max="1" chance="21" name="祝福的復活捲軸" /> 
+			<item id="1538" min="1" max="1" chance="21" name="祝福的返回捲軸" /> 
+			<item id="23860" min="1" max="1" chance="0.82" name="狩獵首領靈魂箱子" /> 
+			<item id="23977" min="1" max="1" chance="0.82" name="飛馬壺精組" /> 
+		</capsuled_items>
+	</item>
+	<item id="40366" name="貝古夫的禮物袋" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_lucky_bag_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="40367" name="天使貓的祝福禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="35669" min="1" max="1" chance="100" name="天使貓的祝福" /> 
+		</capsuled_items>
+	</item>
+	<item id="40368" name="BUFF促銷禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_box_love_pack" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="time" val="43200" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="40369" name="拿破侖帽" additionalName="30-day" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_napoleonic_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hair" />
+	</item>
+	<item id="40370" name="甜蜜起司帽" additionalName="30-day" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_goldrat_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+	</item>
+	<item id="40371" name="佐羅帽" additionalName="30-day" type="Armor">
+		
+		<set name="icon" val="icon.zorocap" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+	</item>
+	<item id="40372" name="Agathion - Three-headed Dragon" additionalName="30-day" type="Armor">
+		
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="10" />
+		<set name="time" val="43200" />
+	</item>
+</list>

@@ -1,0 +1,1611 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="34000" level="99" type="Folk" name="愛琵樂 德 肯恩">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="64" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="16" />
+		</collision>
+	</npc>
+	<npc id="34001" level="85" type="FriendlyNpc" name="愛琵樂 德 肯恩">
+		
+		<race>FRIEND</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4234.06312688557" hpRegen="8.5" mp="1846.8" mpRegen="3" />
+			<attack physical="1188.87259499001" magical="811.84586495282" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="361.78814" magical="264.74086" />
+			<speed>
+				<walk ground="64" />
+				<run ground="190" />
+			</speed>
+			<hitTime>600</hitTime>
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" talkable="false" undying="true" />
+		<collision>
+			<radius normal="8" />
+			<height normal="16" />
+		</collision>
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4045" level="1" /> 
+			<skill id="15207" level="1" /> 
+		</skillList>
+	</npc>
+	<npc id="34002" level="99" type="Folk" name="都爾欽" title="Maestro">
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="17" />
+		</collision>
+	</npc>
+	<npc id="34003" level="99" type="Folk" name="畢克利">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="34004" level="99" type="Folk" name="沙哈的傳令" title="Victorious">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="34005" level="99" type="Folk" name="戴亞">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="34006" level="99" type="Folk" name="">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status attackable="false" talkable="false" targetable="false" showName="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="12" />
+		</collision>
+	</npc>
+	<npc id="34008" level="99" type="Folk" name="諾艾樂" title="Event Manager">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="64" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="34009" level="99" type="Folk" name="聖誕樹" title="Holiday Spirit">
+		<race>PLANT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39" hpRegen="7.5" mp="40" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<collision>
+			<radius normal="110" />
+			<height normal="140" />
+		</collision>
+	</npc>
+	<npc id="34010" level="99" type="Folk" name="貝古夫 丹 馬力歐" title="High Horse">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="41" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="14" />
+		</collision>
+	</npc>
+	<npc id="34011" level="99" type="Folk" name="丹帝" title="Dreaming">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="20" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="34012" level="99" type="Folk" name="丹帝" title="Dreaming">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="20" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="34013" level="99" type="Folk" name="無限的箱子">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="30" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="22" />
+			<height normal="16" />
+		</collision>
+	</npc>
+	<npc id="34014" level="99" type="Folk" name="夏勒普 蘇 黑斯吐伊">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="29" />
+		</collision>
+	</npc>
+	<npc id="34015" level="99" type="Folk" name="寶拉" title="GM Helper">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="20" />
+			<height normal="45" />
+		</collision>
+	</npc>
+	<npc id="34016" level="99" type="Folk" name="金色美人魚" title="Event Manager">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="27.5" />
+		</collision>
+	</npc>
+	<npc id="34017" level="99" type="Folk" name="悠那" title="Maphr's Agent">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="18.5" />
+		</collision>
+	</npc>
+	<npc id="34018" level="99" type="Folk" name="梅勒洛">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="34019" level="99" type="Folk" name="梅勒洛" title="Dimensional Guide">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="34020" level="99" type="Folk" name="寇寧" title="Troupe Leader">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="34021" level="99" type="Folk" name="愛莉" title="Happy Bride">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="34022" level="99" type="Folk" name="泰優" title="Happy Groom">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="34023" level="99" type="Folk" name="杯 比阿司" title="Beer Artisan">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="22" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="34024" level="99" type="Folk" name="吉博思" title="Nostra">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="22" />
+			<height normal="21.5" />
+		</collision>
+	</npc>
+	<npc id="34025" level="99" type="Folk" name="卡普萊歐" title="Talkative">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="34026" level="99" type="Folk" name="特萊斯帕蒙" title="Transformation Expert">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="21.3" />
+		</collision>
+	</npc>
+	<npc id="34027" level="99" type="Folk" name="卡普萊歐">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="34028" level="99" type="Folk" name="">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39" hpRegen="7.5" mp="40" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="17" />
+		</collision>
+	</npc>
+	<npc id="34029" level="99" type="Folk" name="">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39" hpRegen="7.5" mp="40" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7.5" />
+			<height normal="26.5" />
+		</collision>
+	</npc>
+	<npc id="34030" level="99" type="Folk" name="">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39" hpRegen="7.5" mp="40" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="34" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="34031" level="99" type="Folk" name="">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39" hpRegen="7.5" mp="40" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="34" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="34032" level="99" type="Folk" name="">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39" hpRegen="7.5" mp="40" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="10" />
+		</collision>
+	</npc>
+	<npc id="34033" level="99" type="Folk" name="">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39" hpRegen="7.5" mp="40" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="30" />
+			<height normal="60" />
+		</collision>
+	</npc>
+	<npc id="34034" level="99" type="Folk" name="">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39" hpRegen="7.5" mp="40" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="34035" level="99" type="Folk" name="">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39" hpRegen="7.5" mp="40" mpRegen="2.7" />
+			<speed>
+				<walk ground="4" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="28.3" />
+		</collision>
+	</npc>
+	<npc id="34036" level="99" type="Folk" name="">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39" hpRegen="7.5" mp="40" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="45" />
+		</collision>
+	</npc>
+	<npc id="34037" level="99" type="Folk" name="">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39" hpRegen="7.5" mp="40" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="34038" level="99" type="Folk" name="">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39" hpRegen="7.5" mp="40" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="30" />
+			<height normal="26" />
+		</collision>
+	</npc>
+	<npc id="34039" level="99" type="Folk" name="">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39" hpRegen="7.5" mp="40" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="40" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="34040" level="99" type="Folk" name="菲斯諦">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="19" />
+		</collision>
+	</npc>
+	<npc id="34041" level="99" type="Folk" name="斯諦帕">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="13" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="28" />
+			<height normal="62" />
+		</collision>
+	</npc>
+	<npc id="34042" level="99" type="Folk" name="亞丁城鎮傳令">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" lhand="102" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="34043" level="99" type="Folk" name="奇岩城鎮傳令">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" lhand="102" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="34044" level="99" type="Folk" name="高達特城鎮傳令">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" lhand="102" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="34045" level="99" type="Folk" name="古魯丁城鎮傳令">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" lhand="102" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="34046" level="99" type="Folk" name="古魯丁村莊傳令">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" lhand="102" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="34047" level="99" type="Folk" name="修加特城鎮傳令">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" lhand="102" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="34048" level="99" type="Folk" name="歐瑞城鎮傳令">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" lhand="102" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="34049" level="99" type="Folk" name="卡伊納克傳令">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" lhand="102" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="34051" level="99" type="Folk" name="可伊希亞" title="Shadai's Disciple">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="19.5" />
+		</collision>
+	</npc>
+	<npc id="34052" level="99" type="Teleporter" name="移動裝置" title="Atelia Castle">
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="65" />
+			<height normal="140" />
+		</collision>
+	</npc>
+	<npc id="34053" level="99" type="Teleporter" name="移動裝置" title="Atelia Fortress">
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="34054" level="99" type="Folk" name="愛琵樂 德 肯恩">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="64" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="16" />
+		</collision>
+	</npc>
+	<npc id="34055" level="99" type="Folk" name="奇坡那" title="Master">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="17328" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="64" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="20.4" />
+		</collision>
+	</npc>
+	<npc id="34056" level="99" type="Folk" name="貝爾拉思" title="Magister">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="17300" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="64" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="21.5" />
+		</collision>
+	</npc>
+	<npc id="34057" level="99" type="Folk" name="耶里吉亞" title="Verdure Elder">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="192" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="34058" level="99" type="Folk" name="阿道夫" title="Aden Vanguard Captain">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="17383" lhand="17401" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="36" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="24.5" />
+		</collision>
+	</npc>
+	<npc id="34059" level="99" type="Folk" name="巴頓" title="Aden Vanguard">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="17393" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="14.5" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="34060" level="99" type="Folk" name="哈優克" title="Aden Vanguard">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="15302" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="30" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="34061" level="99" type="Folk" name="愛莉絲" title="Aden Vanguard">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="17392" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="34062" level="99" type="Folk" name="艾里亞" title="Aden Vanguard">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="28" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="34063" level="99" type="Folk" name="葛萊肯齊" title="Blackbird Clan Member">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="70" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="34064" level="99" type="Folk" name="修拉克" title="Blackbird Clan Member">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="34065" level="99" type="Folk" name="納匹昂" title="Blackbird Clan Member">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="21.5" />
+		</collision>
+	</npc>
+	<npc id="34066" level="99" type="Folk" name="夏利" title="Blackbird Clan Member">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="64" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="34072" level="99" type="Folk" name="秘密移動裝置" title="Atelia Castle">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="34073" level="99" type="Folk" name="阿斯塔廷控制裝置">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="42" />
+			<height normal="51" />
+		</collision>
+	</npc>
+	<npc id="34074" level="99" type="Warehouse" name="茱莉亞" title="Warehouse Keeper">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="25.5" />
+		</collision>
+	</npc>
+	<npc id="34075" level="99" type="Warehouse" name="賽羅爾" title="Warehouse Keeper">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="34076" level="99" type="Merchant" name="米恩" title="Grocer">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="18" />
+		</collision>
+	</npc>
+	<npc id="34077" level="99" type="Merchant" name="娜吉兒" title="Grocer">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="20" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="11" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="34078" level="99" type="Folk" name="隨行士兵">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="34079" level="99" type="Merchant" name="古德" title="Equipment Merchant">
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="11" />
+			<height normal="17" />
+		</collision>
+	</npc>
+	<npc id="34080" level="99" type="Merchant" name="波莉緹" title="Beauty Merchant">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="20" />
+		</collision>
+	</npc>
+	<npc id="34081" level="99" type="Merchant" name="詩普利" title="Grocer">
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="6.5" />
+			<height normal="17.7" />
+		</collision>
+	</npc>
+	<npc id="34082" level="99" type="Folk" name="堤可" title="Rewards Manager">
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="19" />
+		</collision>
+	</npc>
+	<npc id="34083" level="99" type="Folk" name="以列本" title="Event Manager">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="22.25" />
+		</collision>
+	</npc>
+	<npc id="34084" level="99" type="Folk" name="比耶">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="34085" level="99" type="Folk" name="伊萊柏霓" title="Group Reward Box">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="57803468" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="54" />
+			<height normal="52.8" />
+		</collision>
+	</npc>
+	<npc id="34086" level="99" type="Folk" name="伊萊柏霓">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="54" />
+			<height normal="110.4" />
+		</collision>
+	</npc>
+	<npc id="34087" level="99" type="Teleporter" name="藥草採集家">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="21.5" />
+		</collision>
+	</npc>
+	<npc id="34088" level="99" type="Folk" name="聖誕老人" title="Event Manager">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="25" />
+		</collision>
+	</npc>
+	<npc id="34089" level="99" type="Folk" name="帝凡安諾" title="Truth Seeker">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<speed>
+				<walk ground="32" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="21" />
+		</collision>
+	</npc>
+	<npc id="34090" level="99" type="Folk" name="阿道夫" title="Aden Vanguard">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="17383" lhand="17401" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="512263" hpRegen="7.5" mp="25074" mpRegen="2.7" />
+			<speed>
+				<walk ground="36" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="24.5" />
+		</collision>
+	</npc>
+	<npc id="34091" level="99" type="Folk" name="巴頓" title="Aden Vanguard">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="17393" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="512263" hpRegen="7.5" mp="25074" mpRegen="2.7" />
+			<speed>
+				<walk ground="40" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="14.5" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="34092" level="99" type="Folk" name="哈優克" title="Aden Vanguard">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="15302" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="512263" hpRegen="7.5" mp="25074" mpRegen="2.7" />
+			<speed>
+				<walk ground="30" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="34093" level="99" type="Folk" name="愛莉絲" title="Aden Vanguard">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="17392" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="512263" hpRegen="7.5" mp="25074" mpRegen="2.7" />
+			<speed>
+				<walk ground="36" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="34094" level="99" type="Folk" name="艾里亞" title="Aden Vanguard">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="512263" hpRegen="7.5" mp="25074" mpRegen="2.7" />
+			<speed>
+				<walk ground="28" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="23.5" />
+		</collision>
+	</npc>
+	<npc id="34095" level="99" type="Folk" name="奈提" title="Refugee">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2444" hpRegen="7.5" mp="1345" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="21.5" />
+		</collision>
+	</npc>
+	<npc id="34096" level="99" type="Folk" name="卡瑞 巴司柏 閣下">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2444" hpRegen="7.5" mp="1345" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="34097" level="99" type="Folk" name="阿多紐斯" title="Priest">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2444" hpRegen="7.5" mp="1345" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="22.2" />
+		</collision>
+	</npc>
+	<npc id="34098" level="99" type="Folk" name="克魯托" title="Blacksmith">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2444" hpRegen="7.5" mp="1345" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="16.5" />
+		</collision>
+	</npc>
+	<npc id="34099" level="99" type="Folk" name="耶尼契" title="Grand Master">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2444" hpRegen="7.5" mp="1345" mpRegen="2.7" />
+			<speed>
+				<walk ground="28" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="11" />
+			<height normal="22.25" />
+		</collision>
+	</npc>
+</list>

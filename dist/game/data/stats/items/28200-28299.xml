@@ -1,0 +1,2501 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="28200" name="超艾迪奧斯胸甲" additionalName="Defense Type/ Heavy Armor/ Lv. 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">479</stat>
+		</stats>
+		<skills>
+			<skill id="27683" level="1" /> 
+			<skill id="27698" level="4" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28201" name="超艾迪奧斯脛甲" additionalName="Defense Type/ Heavy Armor/ Lv. 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">299</stat>
+		</stats>
+		<skills>
+			<skill id="27684" level="1" /> 
+			<skill id="27699" level="4" /> 
+		</skills>
+	</item>
+	<item id="28202" name="超艾迪奧斯護手" additionalName="Defense Type/ Heavy Armor/ Lv. 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">120</stat>
+		</stats>
+		<skills>
+			<skill id="27685" level="1" /> 
+			<skill id="27700" level="4" /> 
+		</skills>
+	</item>
+	<item id="28203" name="超艾迪奧斯靴" additionalName="Defense Type/ Heavy Armor/ Lv. 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">120</stat>
+		</stats>
+		<skills>
+			<skill id="27686" level="1" /> 
+			<skill id="27701" level="4" /> 
+		</skills>
+	</item>
+	<item id="28204" name="超艾迪奧斯皮頭盔" additionalName="Enchant Type/ Light Armor/ Lv. 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_leather_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">180</stat>
+		</stats>
+		<skills>
+			<skill id="27687" level="1" /> 
+			<skill id="27697" level="4" /> 
+		</skills>
+	</item>
+	<item id="28205" name="超艾迪奧斯皮甲" additionalName="Enchant Type/ Light Armor/ Lv. 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">383</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
+		<skills>
+			<skill id="27688" level="1" /> 
+			<skill id="27698" level="4" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28206" name="超艾迪奧斯皮脛甲" additionalName="Enchant Type/ Light Armor/ Lv. 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">239</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
+		<skills>
+			<skill id="27689" level="1" /> 
+			<skill id="27699" level="4" /> 
+		</skills>
+	</item>
+	<item id="28207" name="超艾迪奧斯皮手套" additionalName="Enchant Type/ Light Armor/ Lv. 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">120</stat>
+		</stats>
+		<skills>
+			<skill id="27690" level="1" /> 
+			<skill id="27700" level="4" /> 
+		</skills>
+	</item>
+	<item id="28208" name="超艾迪奧斯皮靴" additionalName="Enchant Type/ Light Armor/ Lv. 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">120</stat>
+		</stats>
+		<skills>
+			<skill id="27691" level="1" /> 
+			<skill id="27701" level="4" /> 
+		</skills>
+	</item>
+	<item id="28209" name="超艾迪奧斯頭箍" additionalName="Recovery Type/ Robe/ Lv. 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_circlet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">180</stat>
+		</stats>
+		<skills>
+			<skill id="27692" level="1" /> 
+			<skill id="27697" level="4" /> 
+		</skills>
+	</item>
+	<item id="28210" name="超艾迪奧斯外衣" additionalName="Recovery Type/ Robe/ Lv. 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">56</stat>
+			<stat type="pDef">263</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
+		<skills>
+			<skill id="27693" level="1" /> 
+			<skill id="27698" level="4" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28211" name="超艾迪奧斯長襪" additionalName="Recovery Type/ Robe/ Lv. 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">37</stat>
+			<stat type="pDef">164</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
+		<skills>
+			<skill id="27694" level="1" /> 
+			<skill id="27699" level="4" /> 
+		</skills>
+	</item>
+	<item id="28212" name="超艾迪奧斯手套" additionalName="Recovery Type/ Robe/ Lv. 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">120</stat>
+		</stats>
+		<skills>
+			<skill id="27695" level="1" /> 
+			<skill id="27700" level="4" /> 
+		</skills>
+	</item>
+	<item id="28213" name="超艾迪奧斯鞋" additionalName="Recovery Type/ Robe/ Lv. 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">120</stat>
+		</stats>
+		<skills>
+			<skill id="27696" level="1" /> 
+			<skill id="27701" level="4" /> 
+		</skills>
+	</item>
+	<item id="28214" name="超艾迪奧斯頭盔" additionalName="Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">183</stat>
+		</stats>
+		<skills>
+			<skill id="27682" level="1" /> 
+			<skill id="27697" level="5" /> 
+		</skills>
+	</item>
+	<item id="28215" name="超艾迪奧斯胸甲" additionalName="Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">488</stat>
+		</stats>
+		<skills>
+			<skill id="27683" level="1" /> 
+			<skill id="27698" level="5" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28216" name="超艾迪奧斯脛甲" additionalName="Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">305</stat>
+		</stats>
+		<skills>
+			<skill id="27684" level="1" /> 
+			<skill id="27699" level="5" /> 
+		</skills>
+	</item>
+	<item id="28217" name="超艾迪奧斯護手" additionalName="Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27685" level="1" /> 
+			<skill id="27700" level="5" /> 
+		</skills>
+	</item>
+	<item id="28218" name="超艾迪奧斯靴" additionalName="Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27686" level="1" /> 
+			<skill id="27701" level="5" /> 
+		</skills>
+	</item>
+	<item id="28219" name="超艾迪奧斯皮頭盔" additionalName="Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_leather_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">183</stat>
+		</stats>
+		<skills>
+			<skill id="27687" level="1" /> 
+			<skill id="27697" level="5" /> 
+		</skills>
+	</item>
+	<item id="28220" name="超艾迪奧斯皮甲" additionalName="Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">390</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
+		<skills>
+			<skill id="27688" level="1" /> 
+			<skill id="27698" level="5" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28221" name="超艾迪奧斯皮脛甲" additionalName="Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">244</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
+		<skills>
+			<skill id="27689" level="1" /> 
+			<skill id="27699" level="5" /> 
+		</skills>
+	</item>
+	<item id="28222" name="超艾迪奧斯皮手套" additionalName="Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27690" level="1" /> 
+			<skill id="27700" level="5" /> 
+		</skills>
+	</item>
+	<item id="28223" name="超艾迪奧斯皮靴" additionalName="Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27691" level="1" /> 
+			<skill id="27701" level="5" /> 
+		</skills>
+	</item>
+	<item id="28224" name="超艾迪奧斯頭箍" additionalName="Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_circlet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">183</stat>
+		</stats>
+		<skills>
+			<skill id="27692" level="1" /> 
+			<skill id="27697" level="5" /> 
+		</skills>
+	</item>
+	<item id="28225" name="超艾迪奧斯外衣" additionalName="Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">56</stat>
+			<stat type="pDef">268</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
+		<skills>
+			<skill id="27693" level="1" /> 
+			<skill id="27698" level="5" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28226" name="超艾迪奧斯長襪" additionalName="Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">37</stat>
+			<stat type="pDef">168</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
+		<skills>
+			<skill id="27694" level="1" /> 
+			<skill id="27699" level="5" /> 
+		</skills>
+	</item>
+	<item id="28227" name="超艾迪奧斯手套" additionalName="Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27695" level="1" /> 
+			<skill id="27700" level="5" /> 
+		</skills>
+	</item>
+	<item id="28228" name="超艾迪奧斯鞋" additionalName="Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27696" level="1" /> 
+			<skill id="27701" level="5" /> 
+		</skills>
+	</item>
+	<item id="28229" name="超艾迪奧斯頭盔" additionalName="Attack Type/ Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">183</stat>
+		</stats>
+		<skills>
+			<skill id="27682" level="1" /> 
+			<skill id="27697" level="5" /> 
+		</skills>
+	</item>
+	<item id="28230" name="超艾迪奧斯胸甲" additionalName="Attack Type/ Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">488</stat>
+		</stats>
+		<skills>
+			<skill id="27683" level="1" /> 
+			<skill id="27698" level="5" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28231" name="超艾迪奧斯脛甲" additionalName="Attack Type/ Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">305</stat>
+		</stats>
+		<skills>
+			<skill id="27684" level="1" /> 
+			<skill id="27699" level="5" /> 
+		</skills>
+	</item>
+	<item id="28232" name="超艾迪奧斯護手" additionalName="Attack Type/ Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27685" level="1" /> 
+			<skill id="27700" level="5" /> 
+		</skills>
+	</item>
+	<item id="28233" name="超艾迪奧斯靴" additionalName="Attack Type/ Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27686" level="1" /> 
+			<skill id="27701" level="5" /> 
+		</skills>
+	</item>
+	<item id="28234" name="超艾迪奧斯皮頭盔" additionalName="Assassin Type/ Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_leather_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">183</stat>
+		</stats>
+		<skills>
+			<skill id="27687" level="1" /> 
+			<skill id="27697" level="5" /> 
+		</skills>
+	</item>
+	<item id="28235" name="超艾迪奧斯皮甲" additionalName="Assassin Type/ Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">390</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
+		<skills>
+			<skill id="27688" level="1" /> 
+			<skill id="27698" level="5" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28236" name="超艾迪奧斯皮脛甲" additionalName="Assassin Type/ Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">244</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
+		<skills>
+			<skill id="27689" level="1" /> 
+			<skill id="27699" level="5" /> 
+		</skills>
+	</item>
+	<item id="28237" name="超艾迪奧斯皮手套" additionalName="Assassin Type/ Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27690" level="1" /> 
+			<skill id="27700" level="5" /> 
+		</skills>
+	</item>
+	<item id="28238" name="超艾迪奧斯皮靴" additionalName="Assassin Type/ Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27691" level="1" /> 
+			<skill id="27701" level="5" /> 
+		</skills>
+	</item>
+	<item id="28239" name="超艾迪奧斯頭箍" additionalName="Magic Type/ Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_circlet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">183</stat>
+		</stats>
+		<skills>
+			<skill id="27692" level="1" /> 
+			<skill id="27697" level="5" /> 
+		</skills>
+	</item>
+	<item id="28240" name="超艾迪奧斯外衣" additionalName="Magic Type/ Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">56</stat>
+			<stat type="pDef">268</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
+		<skills>
+			<skill id="27693" level="1" /> 
+			<skill id="27698" level="5" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28241" name="超艾迪奧斯長襪" additionalName="Magic Type/ Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">37</stat>
+			<stat type="pDef">168</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
+		<skills>
+			<skill id="27694" level="1" /> 
+			<skill id="27699" level="5" /> 
+		</skills>
+	</item>
+	<item id="28242" name="超艾迪奧斯手套" additionalName="Magic Type/ Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27695" level="1" /> 
+			<skill id="27700" level="5" /> 
+		</skills>
+	</item>
+	<item id="28243" name="超艾迪奧斯鞋" additionalName="Magic Type/ Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27696" level="1" /> 
+			<skill id="27701" level="5" /> 
+		</skills>
+	</item>
+	<item id="28244" name="超艾迪奧斯頭盔" additionalName="Defense Type/ Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">183</stat>
+		</stats>
+		<skills>
+			<skill id="27682" level="1" /> 
+			<skill id="27697" level="5" /> 
+		</skills>
+	</item>
+	<item id="28245" name="超艾迪奧斯胸甲" additionalName="Defense Type/ Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">488</stat>
+		</stats>
+		<skills>
+			<skill id="27683" level="1" /> 
+			<skill id="27698" level="5" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28246" name="超艾迪奧斯脛甲" additionalName="Defense Type/ Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">305</stat>
+		</stats>
+		<skills>
+			<skill id="27684" level="1" /> 
+			<skill id="27699" level="5" /> 
+		</skills>
+	</item>
+	<item id="28247" name="超艾迪奧斯護手" additionalName="Defense Type/ Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27685" level="1" /> 
+			<skill id="27700" level="5" /> 
+		</skills>
+	</item>
+	<item id="28248" name="超艾迪奧斯靴" additionalName="Defense Type/ Heavy Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27686" level="1" /> 
+			<skill id="27701" level="5" /> 
+		</skills>
+	</item>
+	<item id="28249" name="超艾迪奧斯皮頭盔" additionalName="Enchant Type/ Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_leather_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">183</stat>
+		</stats>
+		<skills>
+			<skill id="27687" level="1" /> 
+			<skill id="27697" level="5" /> 
+		</skills>
+	</item>
+	<item id="28250" name="超艾迪奧斯皮甲" additionalName="Enchant Type/ Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">390</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
+		<skills>
+			<skill id="27688" level="1" /> 
+			<skill id="27698" level="5" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28251" name="超艾迪奧斯皮脛甲" additionalName="Enchant Type/ Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">244</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
+		<skills>
+			<skill id="27689" level="1" /> 
+			<skill id="27699" level="5" /> 
+		</skills>
+	</item>
+	<item id="28252" name="超艾迪奧斯皮手套" additionalName="Enchant Type/ Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27690" level="1" /> 
+			<skill id="27700" level="5" /> 
+		</skills>
+	</item>
+	<item id="28253" name="超艾迪奧斯皮靴" additionalName="Enchant Type/ Light Armor/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27691" level="1" /> 
+			<skill id="27701" level="5" /> 
+		</skills>
+	</item>
+	<item id="28254" name="超艾迪奧斯頭箍" additionalName="Recovery Type/ Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_circlet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">183</stat>
+		</stats>
+		<skills>
+			<skill id="27692" level="1" /> 
+			<skill id="27697" level="5" /> 
+		</skills>
+	</item>
+	<item id="28255" name="超艾迪奧斯外衣" additionalName="Recovery Type/ Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">56</stat>
+			<stat type="pDef">268</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
+		<skills>
+			<skill id="27693" level="1" /> 
+			<skill id="27698" level="5" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28256" name="超艾迪奧斯長襪" additionalName="Recovery Type/ Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">37</stat>
+			<stat type="pDef">168</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
+		<skills>
+			<skill id="27694" level="1" /> 
+			<skill id="27699" level="5" /> 
+		</skills>
+	</item>
+	<item id="28257" name="超艾迪奧斯手套" additionalName="Recovery Type/ Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27695" level="1" /> 
+			<skill id="27700" level="5" /> 
+		</skills>
+	</item>
+	<item id="28258" name="超艾迪奧斯鞋" additionalName="Recovery Type/ Robe/ Lv. 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">122</stat>
+		</stats>
+		<skills>
+			<skill id="27696" level="1" /> 
+			<skill id="27701" level="5" /> 
+		</skills>
+	</item>
+	<item id="28259" name="超艾迪奧斯頭盔" additionalName="Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">187</stat>
+		</stats>
+		<skills>
+			<skill id="27682" level="1" /> 
+			<skill id="27697" level="6" /> 
+		</skills>
+	</item>
+	<item id="28260" name="超艾迪奧斯胸甲" additionalName="Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">498</stat>
+		</stats>
+		<skills>
+			<skill id="27683" level="1" /> 
+			<skill id="27698" level="6" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28261" name="超艾迪奧斯脛甲" additionalName="Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">311</stat>
+		</stats>
+		<skills>
+			<skill id="27684" level="1" /> 
+			<skill id="27699" level="6" /> 
+		</skills>
+	</item>
+	<item id="28262" name="超艾迪奧斯護手" additionalName="Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27685" level="1" /> 
+			<skill id="27700" level="6" /> 
+		</skills>
+	</item>
+	<item id="28263" name="超艾迪奧斯靴" additionalName="Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27686" level="1" /> 
+			<skill id="27701" level="6" /> 
+		</skills>
+	</item>
+	<item id="28264" name="超艾迪奧斯皮頭盔" additionalName="Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_leather_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">187</stat>
+		</stats>
+		<skills>
+			<skill id="27687" level="1" /> 
+			<skill id="27697" level="6" /> 
+		</skills>
+	</item>
+	<item id="28265" name="超艾迪奧斯皮甲" additionalName="Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">398</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
+		<skills>
+			<skill id="27688" level="1" /> 
+			<skill id="27698" level="6" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28266" name="超艾迪奧斯皮脛甲" additionalName="Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">249</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
+		<skills>
+			<skill id="27689" level="1" /> 
+			<skill id="27699" level="6" /> 
+		</skills>
+	</item>
+	<item id="28267" name="超艾迪奧斯皮手套" additionalName="Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27690" level="1" /> 
+			<skill id="27700" level="6" /> 
+		</skills>
+	</item>
+	<item id="28268" name="超艾迪奧斯皮靴" additionalName="Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27691" level="1" /> 
+			<skill id="27701" level="6" /> 
+		</skills>
+	</item>
+	<item id="28269" name="超艾迪奧斯頭箍" additionalName="Robe/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_circlet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">187</stat>
+		</stats>
+		<skills>
+			<skill id="27692" level="1" /> 
+			<skill id="27697" level="6" /> 
+		</skills>
+	</item>
+	<item id="28270" name="超艾迪奧斯外衣" additionalName="Robe/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">56</stat>
+			<stat type="pDef">274</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
+		<skills>
+			<skill id="27693" level="1" /> 
+			<skill id="27698" level="6" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28271" name="超艾迪奧斯長襪" additionalName="Robe/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">37</stat>
+			<stat type="pDef">171</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
+		<skills>
+			<skill id="27694" level="1" /> 
+			<skill id="27699" level="6" /> 
+		</skills>
+	</item>
+	<item id="28272" name="超艾迪奧斯手套" additionalName="Robe/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27695" level="1" /> 
+			<skill id="27700" level="6" /> 
+		</skills>
+	</item>
+	<item id="28273" name="超艾迪奧斯鞋" additionalName="Robe/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27696" level="1" /> 
+			<skill id="27701" level="6" /> 
+		</skills>
+	</item>
+	<item id="28274" name="超艾迪奧斯頭盔" additionalName="Attack Type/ Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">187</stat>
+		</stats>
+		<skills>
+			<skill id="27682" level="1" /> 
+			<skill id="27697" level="6" /> 
+		</skills>
+	</item>
+	<item id="28275" name="超艾迪奧斯胸甲" additionalName="Attack Type/ Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">498</stat>
+		</stats>
+		<skills>
+			<skill id="27683" level="1" /> 
+			<skill id="27698" level="6" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28276" name="超艾迪奧斯脛甲" additionalName="Attack Type/ Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">311</stat>
+		</stats>
+		<skills>
+			<skill id="27684" level="1" /> 
+			<skill id="27699" level="6" /> 
+		</skills>
+	</item>
+	<item id="28277" name="超艾迪奧斯護手" additionalName="Attack Type/ Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27685" level="1" /> 
+			<skill id="27700" level="6" /> 
+		</skills>
+	</item>
+	<item id="28278" name="超艾迪奧斯靴" additionalName="Attack Type/ Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27686" level="1" /> 
+			<skill id="27701" level="6" /> 
+		</skills>
+	</item>
+	<item id="28279" name="超艾迪奧斯皮頭盔" additionalName="Assassin Type/ Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_leather_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">187</stat>
+		</stats>
+		<skills>
+			<skill id="27687" level="1" /> 
+			<skill id="27697" level="6" /> 
+		</skills>
+	</item>
+	<item id="28280" name="超艾迪奧斯皮甲" additionalName="Assassin Type/ Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">398</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
+		<skills>
+			<skill id="27688" level="1" /> 
+			<skill id="27698" level="6" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28281" name="超艾迪奧斯皮脛甲" additionalName="Assassin Type/ Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">249</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
+		<skills>
+			<skill id="27689" level="1" /> 
+			<skill id="27699" level="6" /> 
+		</skills>
+	</item>
+	<item id="28282" name="超艾迪奧斯皮手套" additionalName="Assassin Type/ Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27690" level="1" /> 
+			<skill id="27700" level="6" /> 
+		</skills>
+	</item>
+	<item id="28283" name="超艾迪奧斯皮靴" additionalName="Assassin Type/ Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27691" level="1" /> 
+			<skill id="27701" level="6" /> 
+		</skills>
+	</item>
+	<item id="28284" name="超艾迪奧斯頭箍" additionalName="Magic Type/ Robe/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_circlet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">187</stat>
+		</stats>
+		<skills>
+			<skill id="27692" level="1" /> 
+			<skill id="27697" level="6" /> 
+		</skills>
+	</item>
+	<item id="28285" name="超艾迪奧斯外衣" additionalName="Magic Type/ Robe/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">56</stat>
+			<stat type="pDef">274</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
+		<skills>
+			<skill id="27693" level="1" /> 
+			<skill id="27698" level="6" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28286" name="超艾迪奧斯長襪" additionalName="Magic Type/ Robe/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="mDef">37</stat>
+			<stat type="pDef">171</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
+		<skills>
+			<skill id="27694" level="1" /> 
+			<skill id="27699" level="6" /> 
+		</skills>
+	</item>
+	<item id="28287" name="超艾迪奧斯手套" additionalName="Magic Type/ Robe/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27695" level="1" /> 
+			<skill id="27700" level="6" /> 
+		</skills>
+	</item>
+	<item id="28288" name="超艾迪奧斯鞋" additionalName="Magic Type/ Robe/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t803_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27696" level="1" /> 
+			<skill id="27701" level="6" /> 
+		</skills>
+	</item>
+	<item id="28289" name="超艾迪奧斯頭盔" additionalName="Defense Type/ Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">187</stat>
+		</stats>
+		<skills>
+			<skill id="27682" level="1" /> 
+			<skill id="27697" level="6" /> 
+		</skills>
+	</item>
+	<item id="28290" name="超艾迪奧斯胸甲" additionalName="Defense Type/ Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">498</stat>
+		</stats>
+		<skills>
+			<skill id="27683" level="1" /> 
+			<skill id="27698" level="6" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13310" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28291" name="超艾迪奧斯脛甲" additionalName="Defense Type/ Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">311</stat>
+		</stats>
+		<skills>
+			<skill id="27684" level="1" /> 
+			<skill id="27699" level="6" /> 
+		</skills>
+	</item>
+	<item id="28292" name="超艾迪奧斯護手" additionalName="Defense Type/ Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27685" level="1" /> 
+			<skill id="27700" level="6" /> 
+		</skills>
+	</item>
+	<item id="28293" name="超艾迪奧斯靴" additionalName="Defense Type/ Heavy Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t801_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27686" level="1" /> 
+			<skill id="27701" level="6" /> 
+		</skills>
+	</item>
+	<item id="28294" name="超艾迪奧斯皮頭盔" additionalName="Enchant Type/ Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_leather_helmet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">187</stat>
+		</stats>
+		<skills>
+			<skill id="27687" level="1" /> 
+			<skill id="27697" level="6" /> 
+		</skills>
+	</item>
+	<item id="28295" name="超艾迪奧斯皮甲" additionalName="Enchant Type/ Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_u_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_TOP" />
+		<set name="crystal_count" val="9008" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">398</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
+		<skills>
+			<skill id="27688" level="1" /> 
+			<skill id="27698" level="6" /> 
+			<skill id="13063" level="1" /> 
+			<skill id="13311" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="28296" name="超艾迪奧斯皮脛甲" additionalName="Enchant Type/ Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_l_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="ARMOR_PANTS" />
+		<set name="crystal_count" val="5630" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">249</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
+		<skills>
+			<skill id="27689" level="1" /> 
+			<skill id="27699" level="6" /> 
+		</skills>
+	</item>
+	<item id="28297" name="超艾迪奧斯皮手套" additionalName="Enchant Type/ Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_g_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="GLOVES" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27690" level="1" /> 
+			<skill id="27700" level="6" /> 
+		</skills>
+	</item>
+	<item id="28298" name="超艾迪奧斯皮靴" additionalName="Enchant Type/ Light Armor/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_t802_b_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="commissionItemType" val="FEET" />
+		<set name="crystal_count" val="2252" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">125</stat>
+		</stats>
+		<skills>
+			<skill id="27691" level="1" /> 
+			<skill id="27701" level="6" /> 
+		</skills>
+	</item>
+	<item id="28299" name="超艾迪奧斯頭箍" additionalName="Recovery Type/ Robe/ Lv. 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.icon.armor_circlet_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="HELMET" />
+		<set name="crystal_count" val="3378" />
+		<set name="blessed" val="true" />
+		<stats>
+			<stat type="pDef">187</stat>
+		</stats>
+		<skills>
+			<skill id="27692" level="1" /> 
+			<skill id="27697" level="6" /> 
+		</skills>
+	</item>
+</list>

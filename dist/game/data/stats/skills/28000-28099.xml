@@ -1,0 +1,2201 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="28000" toLevel="3" name="王國傳說斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="SpModify">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">4.5</value>
+					<value level="3">5</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28001" toLevel="3" name="王國傳說斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="VampiricAttack">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">4.5</value>
+					<value level="3">5</value>
+				</amount>
+				<chance>60</chance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28002" toLevel="3" name="王國傳說斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicMpCost">
+				<amount>
+					<value level="1">-3</value>
+					<value level="2">-4</value>
+					<value level="3">-5</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28003" toLevel="3" name="王國傳說斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicMpCost">
+				<amount>
+					<value level="1">-3</value>
+					<value level="2">-4</value>
+					<value level="3">-5</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28004" toLevel="3" name="王國傳說斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DamageShield">
+				<amount>
+					<value level="1">7</value>
+					<value level="2">8</value>
+					<value level="3">10</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28005" toLevel="3" name="王國傳說斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="RealDamageResist">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">7</value>
+					<value level="3">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28006" toLevel="3" name="王國傳說斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ReflectSkill">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<type>PHYSICAL</type>
+			</effect>
+			<effect name="ReflectSkill">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<type>MAGIC</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28007" toLevel="1" name="王國傳說斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<effects>
+			<effect name="TriggerSkillByMagicType">
+				<magicTypes>0;1</magicTypes>
+				<skillId>28008</skillId> 
+				<skillLevel>1</skillLevel>
+				<chance>30</chance>
+				<targetType>ENEMY</targetType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28008" toLevel="1" name="傳說斗篷-沉默術">
+		<icon>icon.skill1064</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>SILENCE</abnormalType>
+		<abnormalVisualEffect>SILENCE</abnormalVisualEffect>
+		<activateRate>100</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1000</castRange>
+		<effectPoint>-100</effectPoint>
+		<isDebuff>true</isDebuff>
+		<isDebuff>true</isDebuff>
+		<reuseDelay>300000</reuseDelay>
+		<trait>DERANGEMENT</trait>
+		<effects>
+			<effect name="Mute" />
+			<effect name="PhysicalMute" />
+		</effects>
+	</skill>
+	<skill id="28009" toLevel="1" name="王國傳說斗篷精煉">
+		<icon>icon.skill19211</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>60</abnormalTime>
+		<abnormalType>SHILLIEN_PROTECTION</abnormalType>
+		<abnormalVisualEffect>SHILLIEN_PROTECTION</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<coolTime>300</coolTime>
+		<effectPoint>867</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>1</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>300000</reuseDelay>
+		<effects>
+			<effect name="IgnoreDeath" />
+			<effect name="TriggerSkillByDeathBlow">
+				<chance>100</chance>
+				<skillId>19221</skillId> 
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28010" toLevel="3" name="王國傳說斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="TriggerSkillByDamageReceived">
+				<chance>30</chance>
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>true</allowNormalAttack>
+				<skillId>28011</skillId> 
+				<skillLevel>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28011" toLevel="3" name="傳說斗篷-屏障">
+		<icon>icon.skill1514</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>ABSORB</abnormalType>
+		<abnormalVisualEffect>AVE_ABSORB2_SHIELD</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>500</coolTime>
+		<coolTime>500</coolTime>
+		<effectPoint>867</effectPoint>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>60000</reuseDelay>
+		<reuseDelay>60000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="AbsorbDamage">
+				<damage>
+					<value level="1">10000</value>
+					<value level="2">15000</value>
+					<value level="3">30000</value>
+				</damage>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28012" toLevel="3" name="王國傳說斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28013" toLevel="1" name="王國傳說斗篷精煉">
+		<icon>icon.skill11826</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>2</abnormalLevel>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>RESURRECTION_SPECIAL</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<castRange>600</castRange>
+		<effectPoint>867</effectPoint>
+		<hitTime>4000</hitTime>
+		<isMagic>1</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>3600000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<conditions>
+			<condition name="EquippedCloakEnchant">
+				<amount>15</amount>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="ResurrectionSpecial">
+				<power>100</power>
+				<hpPercent>100</hpPercent>
+				<mpPercent>100</mpPercent>
+				<cpPercent>100</cpPercent>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28014" toLevel="1" name="王國傳說斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="TriggerSkillByDamageReceived">
+				<chance>5</chance>
+				<minDamage>100</minDamage>
+				<skillId>28015</skillId> 
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28015" toLevel="1" name="傳說斗篷-空間分裂">
+		<icon>icon.skill30515</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime>
+		<abnormalType>NONE</abnormalType>
+		<abnormalVisualEffect>SPACEREF</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>379</effectPoint>
+		<hitTime>0</hitTime>
+		<reuseDelay>180000</reuseDelay>
+		<effects>
+			<effect name="SphericBarrier">
+				<amount>150</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28016" toLevel="1" name="王國傳說斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="TriggerSkillByHpPercent">
+				<skillId>28017</skillId> 
+				<skillLevel>1</skillLevel>
+				<percentTo>30</percentTo>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28017" toLevel="1" name="傳說斗篷-無敵">
+		<icon>icon.skill1917</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>INVINCIBILITY</abnormalType>
+		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<hitTime>200</hitTime>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>300000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<conditions>
+			<condition name="RemainHpPer">
+				<amount>30</amount>
+				<percentType>LESS</percentType>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="DebuffBlock" />
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<SLEEP>100</SLEEP>
+				<DERANGEMENT>100</DERANGEMENT>
+				<CHANGEBODY>100</CHANGEBODY>
+				<PARALYZE>100</PARALYZE>
+				<SHOCK>100</SHOCK>
+				<CHANGEBODY>100</CHANGEBODY>
+				<KNOCKBACK>100</KNOCKBACK>
+				<KNOCKDOWN>100</KNOCKDOWN>
+				<AIRBIND>100</AIRBIND>
+				<TURN_STONE>100</TURN_STONE>
+			</effect>
+			<effect name="DispelByCategory">
+				<slot>DEBUFF</slot>
+				<rate>100</rate>
+				<max>10</max>
+			</effect>
+			<effect name="ResistDispelByCategory">
+				<amount>-100</amount>
+				<slot>ALL</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28018" toLevel="1" name="王國傳說斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="TriggerSkillByDamageReceived">
+				<chance>5</chance>
+				<minDamage>100</minDamage>
+				<skillId>28019</skillId> 
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28019" toLevel="1" name="傳說斗篷-空間分裂">
+		<icon>icon.skill30515</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>NONE</abnormalType>
+		<abnormalVisualEffect>SPACEREF</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>379</effectPoint>
+		<hitTime>0</hitTime>
+		<reuseDelay>300000</reuseDelay>
+		<effects>
+			<effect name="SphericBarrier">
+				<amount>150</amount>
+			</effect>
+			<effect name="Speed">
+				<amount>100</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28020" toLevel="3" name="王國傳說斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">10</value>
+					<value level="3">20</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28021" toLevel="1" name="斗篷強化卷軸">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="28022" toLevel="1" name="斗篷強化卷軸-傳說">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="28023" toLevel="1" name="古代斗篷強化卷軸">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="28024" toLevel="1" name="靈魂之石禮盒-傳說">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>28602</itemConsumeId>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="20">
+						<item id="28597" count="1" /> 
+					</item>
+					<item chance="20">
+						<item id="28598" count="1" /> 
+					</item>
+					<item chance="20">
+						<item id="28599" count="1" /> 
+					</item>
+					<item chance="20">
+						<item id="28600" count="1" /> 
+					</item>
+					<item chance="20">
+						<item id="28601" count="1" /> 
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28025" toLevel="2" name="閃耀的龍之寶箱">
+		<icon>
+			<value level="1">icon.bm_dragon_posion</value>
+			<value level="2">icon.bm_dragon_posion_brave</value>
+		</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28026" toLevel="4" name="+10貝里歐斯斗篷-傳說禮盒">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>3000</reuseDelay>
+	</skill>
+	<skill id="28027" toLevel="1" name="召喚處女座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13410</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28028" toLevel="1" name="召喚魔羯座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13412</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28029" toLevel="1" name="召喚天秤座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13415</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28030" toLevel="1" name="召喚牡羊座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13411</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28031" toLevel="1" name="召喚金牛座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13418</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28032" toLevel="1" name="召喚獅子座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13414</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28033" toLevel="1" name="召喚雙子座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13413</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28034" toLevel="1" name="召喚天蠍座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13417</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28035" toLevel="1" name="召喚水瓶座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13408</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28036" toLevel="1" name="召喚雙魚座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13407</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28037" toLevel="1" name="召喚射手座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13416</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28038" toLevel="1" name="召喚巨蟹座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13409</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28039" toLevel="1" name="召喚處女座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13488</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28040" toLevel="1" name="召喚魔羯座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13490</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28041" toLevel="1" name="召喚天秤座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13493</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28042" toLevel="1" name="召喚牡羊座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13489</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28043" toLevel="1" name="召喚金牛座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13496</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28044" toLevel="1" name="召喚獅子座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13492</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28045" toLevel="1" name="召喚雙子座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13491</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28046" toLevel="1" name="召喚天蠍座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13495</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28047" toLevel="1" name="召喚水瓶座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13498</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28048" toLevel="1" name="召喚雙魚座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13497</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28049" toLevel="1" name="召喚射手座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13494</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28050" toLevel="1" name="召喚巨蟹座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13487</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28051" toLevel="1" name="召喚處女座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13500</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28052" toLevel="1" name="召喚魔羯座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13502</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28053" toLevel="1" name="召喚天秤座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13505</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28054" toLevel="1" name="召喚牡羊座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13501</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28055" toLevel="1" name="召喚金牛座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13508</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28056" toLevel="1" name="召喚獅子座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13504</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28057" toLevel="1" name="召喚雙子座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13503</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28058" toLevel="1" name="召喚天蠍座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13507</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28059" toLevel="1" name="召喚水瓶座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13510</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28060" toLevel="1" name="召喚雙魚座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13509</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28061" toLevel="1" name="召喚射手座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13412</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28062" toLevel="1" name="召喚巨蟹座壺精">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13499</npcId> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28063" toLevel="1" name="壺精撒嬌">
+		<icon>icon.skill_agathion_cute</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+	</skill>
+	<skill id="28064" toLevel="12" name="封印解除">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>200</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>5000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<reuseDelay>6000</reuseDelay>
+		<effects>
+			<effect name="UnsummonAgathion" />
+		</effects>
+	</skill>
+	<skill id="28065" toLevel="1" name="星座壺精成長書">
+		<icon>icon.star_scrl_of_ench_ag</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="28066" toLevel="1" name="古代星座壺精成長書">
+		<icon>icon.star_giantscrl_of_ench_ag</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="28067" toLevel="1" name="星座壺精晶體">
+		<icon>icon.star_agathion_cube</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="28068" toLevel="1" name="斗篷強化卷軸-傳說">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="28069" toLevel="1" name="古代王國斗篷強化卷軸(傳說)禮盒">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28070" toLevel="11" name="處女座壺精固有能力">
+		<icon>BranchIcon.icon.g_bm_virgo_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalAttackSpeed">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28071" toLevel="11" name="魔羯座壺精固有能力">
+		<icon>BranchIcon.icon.g_bm_capr_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28072" toLevel="11" name="天秤座壺精固有能力">
+		<icon>BranchIcon.icon.g_bm_lib_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicCriticalRate">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">10</value>
+					<value level="3">20</value>
+					<value level="4">30</value>
+					<value level="5">40</value>
+					<value level="6">50</value>
+					<value level="7">60</value>
+					<value level="8">70</value>
+					<value level="9">80</value>
+					<value level="10">90</value>
+					<value level="11">100</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28073" toLevel="11" name="牡羊座壺精固有能力">
+		<icon>BranchIcon.icon.g_bm_aries_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28074" toLevel="11" name="金牛座壺精固有能力">
+		<icon>BranchIcon.icon.g_bm_tau_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttackSpeed">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28075" toLevel="11" name="獅子座壺精固有能力">
+		<icon>BranchIcon.icon.g_bm_leo_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">10</value>
+					<value level="3">20</value>
+					<value level="4">30</value>
+					<value level="5">40</value>
+					<value level="6">50</value>
+					<value level="7">60</value>
+					<value level="8">70</value>
+					<value level="9">80</value>
+					<value level="10">90</value>
+					<value level="11">100</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28076" toLevel="11" name="雙子座壺精固有能力">
+		<icon>BranchIcon.icon.g_bm_gem_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28077" toLevel="11" name="天蠍座壺精固有能力">
+		<icon>BranchIcon.icon.g_bm_sco_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalDamage">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28078" toLevel="11" name="水瓶座壺精固有能力">
+		<icon>BranchIcon.icon.g_bm_aqu_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">5</value>
+					<value level="6">7</value>
+					<value level="7">9</value>
+					<value level="8">12</value>
+					<value level="9">14</value>
+					<value level="10">16</value>
+					<value level="11">18</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28079" toLevel="11" name="雙魚座壺精固有能力">
+		<icon>BranchIcon.icon.g_bm_pis_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28080" toLevel="11" name="射手座壺精固有能力">
+		<icon>BranchIcon.icon.g_bm_sag_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28081" toLevel="11" name="巨蟹座壺精固有能力">
+		<icon>BranchIcon.icon.g_bm_can_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28082" toLevel="12" name="治癒之光">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_april_aug_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectObject>FRIEND</affectObject>
+		<affectRange>1000</affectRange>
+		<affectScope>PARTY</affectScope>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<coolTime>200</coolTime>
+		<effectPoint>1811</effectPoint>
+		<hitTime>3000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>
+			<value level="1">2250000</value>
+			<value level="2">2100000</value>
+			<value level="3">1950000</value>
+			<value level="4">1800000</value>
+			<value level="5">1650000</value>
+			<value level="6">1500000</value>
+			<value level="7">1350000</value>
+			<value level="8">1200000</value>
+			<value level="9">1050000</value>
+			<value level="10">900000</value>
+			<value level="11">750000</value>
+			<value level="12">600000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27349</reuseDelayGroup>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="HealPercent">
+				<power>100</power>
+			</effect>
+			<effect name="CpHealPercent">
+				<power>100</power>
+			</effect>
+			<effect name="ManaHealPercent">
+				<power>100</power>
+			</effect>
+			<effect name="DispelByCategory">
+				<slot>DEBUFF</slot>
+				<rate>50</rate>
+				<max>10</max>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28083" toLevel="12" name="輕快魔羯">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_dec_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<coolTime>400</coolTime>
+		<effectPoint>2</effectPoint>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>100</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>
+			<value level="1">118000</value>
+			<value level="2">110000</value>
+			<value level="3">102000</value>
+			<value level="4">94000</value>
+			<value level="5">86000</value>
+			<value level="6">78000</value>
+			<value level="7">70000</value>
+			<value level="8">62000</value>
+			<value level="9">54000</value>
+			<value level="10">46000</value>
+			<value level="11">38000</value>
+			<value level="12">30000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27350</reuseDelayGroup>
+		<selfEffects>
+			<effect name="Blink">
+				<angle>180</angle>
+				<range>600</range>
+			</effect>
+		</selfEffects>
+	</skill>
+	<skill id="28084" toLevel="12" name="生命之秤">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_april_sep_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>4</abnormalLevel>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>LIFE_FORCE_OTHERS</abnormalType>
+		<affectObject>FRIEND</affectObject>
+		<affectRange>1000</affectRange>
+		<affectScope>PARTY</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<coolTime>500</coolTime>
+		<effectPoint>1844</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>
+			<value level="1">118000</value>
+			<value level="2">110000</value>
+			<value level="3">102000</value>
+			<value level="4">94000</value>
+			<value level="5">86000</value>
+			<value level="6">78000</value>
+			<value level="7">70000</value>
+			<value level="8">62000</value>
+			<value level="9">54000</value>
+			<value level="10">46000</value>
+			<value level="11">38000</value>
+			<value level="12">30000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27351</reuseDelayGroup>
+		<effects>
+			<effect name="RebalanceHP" />
+			<effect name="HealOverTime">
+				<power>333</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28085" toLevel="12" name="變身石">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_march_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>5</abnormalLevel>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>TURN_STONE</abnormalType>
+		<abnormalVisualEffect>CHANGEBODY</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<coolTime>500</coolTime>
+		<effectPoint>100</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>1</isMagic>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>
+			<value level="1">225000</value>
+			<value level="2">210000</value>
+			<value level="3">195000</value>
+			<value level="4">180000</value>
+			<value level="5">165000</value>
+			<value level="6">150000</value>
+			<value level="7">135000</value>
+			<value level="8">120000</value>
+			<value level="9">105000</value>
+			<value level="10">90000</value>
+			<value level="11">75000</value>
+			<value level="12">60000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27352</reuseDelayGroup>
+		<effects>
+			<effect name="DispelBySlot">
+				<dispel>CHANGEBODY,9</dispel>
+			</effect>
+			<effect name="Untargetable" />
+			<effect name="ChangeBody">
+				<templates>
+					<item templateId="505" minChance="0" maxChance="100" />
+				</templates>
+			</effect>
+			<effect name="DeleteHate" />
+			<effect name="BlockSkill">
+				<magicTypes>0;1;2;3;4;22</magicTypes>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28086" toLevel="12" name="鬥爭狂想曲">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_april_skill_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>30</abnormalTime>
+		<abnormalType>RHAPSODY</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<coolTime>500</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitTime>3000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>
+			<value level="1">2250000</value>
+			<value level="2">2100000</value>
+			<value level="3">1950000</value>
+			<value level="4">1800000</value>
+			<value level="5">1650000</value>
+			<value level="6">1500000</value>
+			<value level="7">1350000</value>
+			<value level="8">1200000</value>
+			<value level="9">1050000</value>
+			<value level="10">900000</value>
+			<value level="11">750000</value>
+			<value level="12">600000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27353</reuseDelayGroup>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28087" toLevel="12" name="尼米亞防護">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_april_july_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>INVINCIBILITY</abnormalType>
+		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<effectPoint>867</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>1</isMagic>
+		<removedOnAnyActionExceptMove>true</removedOnAnyActionExceptMove>
+		<reuseDelay>
+			<value level="1">2250000</value>
+			<value level="2">2100000</value>
+			<value level="3">1950000</value>
+			<value level="4">1800000</value>
+			<value level="5">1650000</value>
+			<value level="6">1500000</value>
+			<value level="7">1350000</value>
+			<value level="8">1200000</value>
+			<value level="9">1050000</value>
+			<value level="10">900000</value>
+			<value level="11">750000</value>
+			<value level="12">600000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27354</reuseDelayGroup>
+		<effects>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="DebuffBlock" />
+			<effect name="DispelByCategory">
+				<slot>DEBUFF</slot>
+				<rate>100</rate>
+				<max>10</max>
+			</effect>
+			<effect name="ResistDispelByCategory">
+				<amount>-100</amount>
+				<slot>ALL</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28088" toLevel="12" name="星宮返生術">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_may_skill_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>TARGET</targetType>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>RESURRECTION_SPECIAL</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<effectPoint>1</effectPoint>
+		<effectRange>1100</effectRange>
+		<isMagic>1</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>
+			<value level="1">13500000</value>
+			<value level="2">12600000</value>
+			<value level="3">11700000</value>
+			<value level="4">10800000</value>
+			<value level="5">9900000</value>
+			<value level="6">9000000</value>
+			<value level="7">8100000</value>
+			<value level="8">7200000</value>
+			<value level="9">6300000</value>
+			<value level="10">5400000</value>
+			<value level="11">4500000</value>
+			<value level="12">3600000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27355</reuseDelayGroup>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="ResurrectionSpecial">
+				<power>100</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28089" toLevel="12" name="星蠍團體放逐">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_oct_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>DEPORT</abnormalType>
+		<abnormalVisualEffect>DEPORT</abnormalVisualEffect>
+		<activateRate>80</activateRate>
+		<affectLimit>10-10</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>150</affectRange>
+		<affectScope>RANGE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-687</effectPoint>
+		<effectRange>1100</effectRange>
+		<hitCancelTime>1</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<reuseDelay>
+			<value level="1">118000</value>
+			<value level="2">110000</value>
+			<value level="3">102000</value>
+			<value level="4">94000</value>
+			<value level="5">86000</value>
+			<value level="6">78000</value>
+			<value level="7">70000</value>
+			<value level="8">62000</value>
+			<value level="9">54000</value>
+			<value level="10">46000</value>
+			<value level="11">38000</value>
+			<value level="12">30000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27356</reuseDelayGroup>
+		<trait>DEPORT</trait>
+		<trait>DEPORT</trait>
+		<effects>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+			<effect name="DamOverTime">
+				<power>282</power>
+				<ticks>1</ticks>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="BuffBlock" />
+			<effect name="DebuffBlock" />
+		</effects>
+	</skill>
+	<skill id="28090" toLevel="12" name="團體潮湧束縛">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_jan_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalResists>STUN;TURN_FLEE</abnormalResists>
+		<abnormalTime>9</abnormalTime>
+		<abnormalType>AIRBIND</abnormalType>
+		<abnormalVisualEffect>AIRBIND</abnormalVisualEffect>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>150</affectRange>
+		<affectScope>RANGE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<castRange>1100</castRange>
+		<castRange>1100</castRange>
+		<effectPoint>-707</effectPoint>
+		<effectRange>1100</effectRange>
+		<hitTime>10000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>
+			<value level="1">118000</value>
+			<value level="2">110000</value>
+			<value level="3">102000</value>
+			<value level="4">94000</value>
+			<value level="5">86000</value>
+			<value level="6">78000</value>
+			<value level="7">70000</value>
+			<value level="8">62000</value>
+			<value level="9">54000</value>
+			<value level="10">46000</value>
+			<value level="11">38000</value>
+			<value level="12">30000</value>
+		</reuseDelay>
+		<reuseDelayGroup>11052</reuseDelayGroup>
+		<reuseDelayGroup>27357</reuseDelayGroup>
+		<trait>AIRBIND</trait>
+		<conditions>
+			<condition name="OpCheckCrtEffect" />
+		</conditions>
+		<effects>
+			<effect name="AirBind" />
+			<effect name="BlockActions" />
+			<effect name="BlockControl" />
+			<effect name="DamOverTime">
+				<power>100</power>
+				<ticks>1</ticks>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<DERANGEMENT>100</DERANGEMENT>
+				<SHOCK>100</SHOCK>
+				<KNOCKBACK>100</KNOCKBACK>
+				<CHANGEBODY>100</CHANGEBODY>
+				<KNOCKDOWN>100</KNOCKDOWN>
+				<SLEEP>100</SLEEP>
+				<AIRBIND>100</AIRBIND>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28091" toLevel="12" name="靈活護鱗">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_feb_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalType>RACE_KAMAEL1</abnormalType>
+		<activateRate>0</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<effectPoint>2</effectPoint>
+		<hitTime>200</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>
+			<value level="1">2250000</value>
+			<value level="2">2100000</value>
+			<value level="3">1950000</value>
+			<value level="4">1800000</value>
+			<value level="5">1650000</value>
+			<value level="6">1500000</value>
+			<value level="7">1350000</value>
+			<value level="8">1200000</value>
+			<value level="9">1050000</value>
+			<value level="10">900000</value>
+			<value level="11">750000</value>
+			<value level="12">600000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27358</reuseDelayGroup>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="AbnormalShield">
+				<times>5</times>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28092" toLevel="12" name="弓手之喚">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_nov_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>OTHERS</targetType>
+		<affectObject>FRIEND</affectObject>
+		<affectScope>PARTY</affectScope>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<effectPoint>467</effectPoint>
+		<effectRange>-2</effectRange>
+		<hitTime>15000</hitTime>
+		<isMagic>4</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>
+			<value level="1">6750000</value>
+			<value level="2">6300000</value>
+			<value level="3">5850000</value>
+			<value level="4">5400000</value>
+			<value level="5">4950000</value>
+			<value level="6">4500000</value>
+			<value level="7">4050000</value>
+			<value level="8">3600000</value>
+			<value level="9">3150000</value>
+			<value level="10">2700000</value>
+			<value level="11">2250000</value>
+			<value level="12">1800000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27359</reuseDelayGroup>
+		<conditions>
+			<condition name="OpCallPc" />
+			<condition name="TargetMyParty">
+				<includeMe>false</includeMe>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="CallPc" />
+		</effects>
+	</skill>
+	<skill id="28093" toLevel="12" name="巨蟹護盾">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_june_skill_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>60</abnormalTime>
+		<abnormalType>DMG_SHIELD</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<effectPoint>379</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<reuseDelay>
+			<value level="1">4500000</value>
+			<value level="2">4200000</value>
+			<value level="3">3900000</value>
+			<value level="4">3600000</value>
+			<value level="5">3300000</value>
+			<value level="6">3000000</value>
+			<value level="7">2700000</value>
+			<value level="8">2400000</value>
+			<value level="9">2100000</value>
+			<value level="10">1800000</value>
+			<value level="11">1500000</value>
+			<value level="12">1200000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27360</reuseDelayGroup>
+		<specialLevel>-1</specialLevel>
+		<effects>
+			<effect name="DamageShield">
+				<amount>20</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28094" toLevel="12" name="治癒之光">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_april_aug_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectObject>FRIEND</affectObject>
+		<affectRange>1000</affectRange>
+		<affectScope>PARTY</affectScope>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<coolTime>200</coolTime>
+		<effectPoint>1811</effectPoint>
+		<hitTime>3000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>
+			<value level="1">2250000</value>
+			<value level="2">2100000</value>
+			<value level="3">1950000</value>
+			<value level="4">1800000</value>
+			<value level="5">1650000</value>
+			<value level="6">1500000</value>
+			<value level="7">1350000</value>
+			<value level="8">1200000</value>
+			<value level="9">1050000</value>
+			<value level="10">900000</value>
+			<value level="11">750000</value>
+			<value level="12">600000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27349</reuseDelayGroup>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="HealPercent">
+				<power>100</power>
+			</effect>
+			<effect name="CpHealPercent">
+				<power>100</power>
+			</effect>
+			<effect name="ManaHealPercent">
+				<power>100</power>
+			</effect>
+			<effect name="DispelByCategory">
+				<slot>DEBUFF</slot>
+				<rate>50</rate>
+				<max>10</max>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28095" toLevel="12" name="輕快魔羯">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_dec_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<coolTime>400</coolTime>
+		<effectPoint>2</effectPoint>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>100</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>
+			<value level="1">118000</value>
+			<value level="2">110000</value>
+			<value level="3">102000</value>
+			<value level="4">94000</value>
+			<value level="5">86000</value>
+			<value level="6">78000</value>
+			<value level="7">70000</value>
+			<value level="8">62000</value>
+			<value level="9">54000</value>
+			<value level="10">46000</value>
+			<value level="11">38000</value>
+			<value level="12">30000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27350</reuseDelayGroup>
+		<selfEffects>
+			<effect name="Blink">
+				<angle>180</angle>
+				<range>600</range>
+			</effect>
+		</selfEffects>
+	</skill>
+	<skill id="28096" toLevel="12" name="生命之秤">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_april_sep_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>4</abnormalLevel>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>LIFE_FORCE_OTHERS</abnormalType>
+		<affectObject>FRIEND</affectObject>
+		<affectRange>1000</affectRange>
+		<affectScope>PARTY</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<coolTime>500</coolTime>
+		<effectPoint>1844</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>
+			<value level="1">118000</value>
+			<value level="2">110000</value>
+			<value level="3">102000</value>
+			<value level="4">94000</value>
+			<value level="5">86000</value>
+			<value level="6">78000</value>
+			<value level="7">70000</value>
+			<value level="8">62000</value>
+			<value level="9">54000</value>
+			<value level="10">46000</value>
+			<value level="11">38000</value>
+			<value level="12">30000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27351</reuseDelayGroup>
+		<effects>
+			<effect name="RebalanceHP" />
+			<effect name="HealOverTime">
+				<power>333</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28097" toLevel="12" name="變身石">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_march_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>5</abnormalLevel>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>TURN_STONE</abnormalType>
+		<abnormalVisualEffect>CHANGEBODY</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<coolTime>500</coolTime>
+		<effectPoint>100</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>1</isMagic>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>
+			<value level="1">225000</value>
+			<value level="2">210000</value>
+			<value level="3">195000</value>
+			<value level="4">180000</value>
+			<value level="5">165000</value>
+			<value level="6">150000</value>
+			<value level="7">135000</value>
+			<value level="8">120000</value>
+			<value level="9">105000</value>
+			<value level="10">90000</value>
+			<value level="11">75000</value>
+			<value level="12">60000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27352</reuseDelayGroup>
+		<effects>
+			<effect name="BlockSkill">
+				<magicTypes>0;1;2;3;4;22</magicTypes>
+			</effect>
+			<effect name="DispelBySlot">
+				<dispel>CHANGEBODY,9</dispel>
+			</effect>
+			<effect name="Untargetable" />
+			<effect name="ChangeBody">
+				<templates>
+					<item templateId="505" minChance="0" maxChance="100" />
+				</templates>
+			</effect>
+			<effect name="DeleteHate" />
+			<effect name="BlockSkill">
+				<magicTypes>0;1;2;3;4;22</magicTypes>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28098" toLevel="12" name="鬥爭狂想曲">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_april_skill_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>30</abnormalTime>
+		<abnormalType>RHAPSODY</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<coolTime>500</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitTime>3000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>
+			<value level="1">2250000</value>
+			<value level="2">2100000</value>
+			<value level="3">1950000</value>
+			<value level="4">1800000</value>
+			<value level="5">1650000</value>
+			<value level="6">1500000</value>
+			<value level="7">1350000</value>
+			<value level="8">1200000</value>
+			<value level="9">1050000</value>
+			<value level="10">900000</value>
+			<value level="11">750000</value>
+			<value level="12">600000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27353</reuseDelayGroup>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28099" toLevel="12" name="尼米亞防護">
+		<icon>BranchIcon.Icon.accessary_sign_agathion_april_july_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>INVINCIBILITY</abnormalType>
+		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<blockedInOlympiad>true</blockedInOlympiad> 
+		<effectPoint>867</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>1</isMagic>
+		<removedOnAnyActionExceptMove>true</removedOnAnyActionExceptMove>
+		<reuseDelay>
+			<value level="1">2250000</value>
+			<value level="2">2100000</value>
+			<value level="3">1950000</value>
+			<value level="4">1800000</value>
+			<value level="5">1650000</value>
+			<value level="6">1500000</value>
+			<value level="7">1350000</value>
+			<value level="8">1200000</value>
+			<value level="9">1050000</value>
+			<value level="10">900000</value>
+			<value level="11">750000</value>
+			<value level="12">600000</value>
+		</reuseDelay>
+		<reuseDelayGroup>27354</reuseDelayGroup>
+		<effects>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="DebuffBlock" />
+			<effect name="DispelByCategory">
+				<slot>DEBUFF</slot>
+				<rate>100</rate>
+				<max>10</max>
+			</effect>
+			<effect name="ResistDispelByCategory">
+				<amount>-100</amount>
+				<slot>ALL</slot>
+			</effect>
+		</effects>
+	</skill>
+</list>

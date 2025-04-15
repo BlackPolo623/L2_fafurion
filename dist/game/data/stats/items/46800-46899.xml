@@ -1,0 +1,2474 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="46800" name="波莉奈齒輪弩" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1810" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="reuse_delay" val="1350" />
+		<stats>
+			<stat type="pAtk">177</stat>
+			<stat type="mAtk">60</stat>
+			<stat type="rCrit">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">400</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="1" /> 
+		</skills>
+	</item>
+	<item id="46801" name="波莉奈瑟魯基長劍" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_samurai_longsword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="1380" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">184</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46802" name="波莉奈狂戰士之刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_berserker_blade_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="1380" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">223</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46803" name="波莉奈夜叉釘鎚" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1640" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">184</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46804" name="波莉奈巨型帕塔拳刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_great_pata_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CHRYSOLITE" />
+		<set name="weight" val="1460" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">223</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46805" name="波莉奈歐西斯戰斧" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_orcish_poleaxe_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="BLOOD_STEEL" />
+		<set name="weight" val="1950" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="damage_range" val="0;0;66;120" />
+		<stats>
+			<stat type="pAtk">184</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+			<skill id="3599" level="1" /> 
+		</skills>
+	</item>
+	<item id="46806" name="波莉奈卓越弓" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_eminence_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CHRYSOLITE" />
+		<set name="weight" val="1720" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="3" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="reuse_delay" val="1500" />
+		<stats>
+			<stat type="pAtk">362</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46807" name="波莉奈水晶匕首" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_crystal_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="CRYSTAL" />
+		<set name="weight" val="1000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">161</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46808" name="波莉奈亡者魔杖" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_deadmans_staff_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">179</stat>
+			<stat type="mAtk">148</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13930" level="2" /> 
+		</skills>
+	</item>
+	<item id="46809" name="波莉奈武士刀*武士刀" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="2460" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">223</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46810" name="波莉奈劍齒虎" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_invincible_blade_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1950" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">199</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46811" name="波莉奈上將刺劍" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_blink_slasher_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1380" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">166</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="rCrit">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46812" name="波莉奈滅形弩" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_taslam_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="C" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="reuse_delay" val="1350" />
+		<stats>
+			<stat type="pAtk">326</stat>
+			<stat type="mAtk">101</stat>
+			<stat type="rCrit">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">400</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46813" name="波莉奈黑暗軍刀" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dark_legions_edge_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1320" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">271</stat>
+			<stat type="mAtk">135</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46814" name="波莉奈斬龍刀" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dragon_slayer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="1840" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">329</stat>
+			<stat type="mAtk">135</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46815" name="波莉奈樂園" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_elysian_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">271</stat>
+			<stat type="mAtk">135</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46816" name="波莉奈龍牙" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dragon_grinder_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1350" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">329</stat>
+			<stat type="mAtk">135</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46817" name="波莉奈長柄戰戟" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_halbard_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="1900" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="damage_range" val="0;0;66;120" />
+		<stats>
+			<stat type="pAtk">271</stat>
+			<stat type="mAtk">135</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+			<skill id="3599" level="1" /> 
+		</skills>
+	</item>
+	<item id="46818" name="波莉奈靈魂弓" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_soul_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="ORIHARUKON" />
+		<set name="weight" val="1660" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="reuse_delay" val="1500" />
+		<stats>
+			<stat type="pAtk">533</stat>
+			<stat type="mAtk">135</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">227</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46819" name="波莉奈血腥之蘭" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_bloody_orchid_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="BLOOD_STEEL" />
+		<set name="weight" val="960" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">237</stat>
+			<stat type="mAtk">135</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46820" name="波莉奈世界樹樹枝" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_worldtrees_branch_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="900" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">263</stat>
+			<stat type="mAtk">198</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13930" level="2" /> 
+		</skills>
+	</item>
+	<item id="46821" name="波莉奈大馬士革刀*大馬士革刀" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="2080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">329</stat>
+			<stat type="mAtk">135</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46822" name="波莉奈死神使者" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_death_bringer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1840" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">293</stat>
+			<stat type="mAtk">135</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46823" name="波莉奈貪婪刺劍" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_greed_stinger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1320" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">245</stat>
+			<stat type="mAtk">135</stat>
+			<stat type="rCrit">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46824" name="波莉奈靈魂弩" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_soul_shooter_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="A" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1660" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="reuse_delay" val="1350" />
+		<stats>
+			<stat type="pAtk">480</stat>
+			<stat type="mAtk">135</stat>
+			<stat type="rCrit">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">400</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46825" name="波莉奈王朝劍" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dynasty_blade_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">364</stat>
+			<stat type="mAtk">165</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46826" name="波莉奈王朝之刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dynasty_twohand_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">442</stat>
+			<stat type="mAtk">165</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46827" name="波莉奈王朝戰鎚" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dynasty_hammer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">364</stat>
+			<stat type="mAtk">165</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46828" name="波莉奈王朝拳套爪" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dynasty_jamadhr_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">442</stat>
+			<stat type="mAtk">165</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46829" name="波莉奈王朝長柄戰戟" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dynasty_spear_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="damage_range" val="0;0;66;120" />
+		<stats>
+			<stat type="pAtk">364</stat>
+			<stat type="mAtk">165</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">80</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+			<skill id="3599" level="1" /> 
+		</skills>
+	</item>
+	<item id="46830" name="波莉奈王朝弓" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dynasty_bow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="reuse_delay" val="1500" />
+		<stats>
+			<stat type="pAtk">716</stat>
+			<stat type="mAtk">165</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46831" name="波莉奈王朝小刀" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dynasty_dagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">318</stat>
+			<stat type="mAtk">165</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46832" name="波莉奈王朝魔杖" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">354</stat>
+			<stat type="mAtk">242</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
+		<skills>
+			<skill id="13930" level="2" /> 
+		</skills>
+	</item>
+	<item id="46833" name="波莉奈王朝雙刀" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">442</stat>
+			<stat type="mAtk">165</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46834" name="波莉奈王朝古代劍" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1800" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">394</stat>
+			<stat type="mAtk">165</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="accCombat">2</stat>
+			<stat type="pAtkSpd">350</stat>
+			<stat type="randomDamage">15</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46835" name="波莉奈王朝細劍" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dynasty_rapier_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1280" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">329</stat>
+			<stat type="mAtk">165</stat>
+			<stat type="rCrit">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkSpd">406</stat>
+			<stat type="randomDamage">40</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46836" name="波莉奈王朝十字弓" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_dynasty_crossbow_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="CROSSBOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="reuse_delay" val="1350" />
+		<stats>
+			<stat type="pAtk">645</stat>
+			<stat type="mAtk">165</stat>
+			<stat type="rCrit">10</stat>
+			<stat type="accCombat">-1.5</stat>
+			<stat type="pAtkSpd">303</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">400</stat>
+			<stat type="holyPower">150</stat>
+		</stats>
+		<skills>
+			<skill id="13929" level="2" /> 
+		</skills>
+	</item>
+	<item id="46837" name="D級波莉奈重裝禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="46927" min="1" max="1" chance="100" name="波莉奈鎖子頭盔" /> 
+			<item id="46928" min="1" max="1" chance="100" name="波莉奈鎖子甲" /> 
+			<item id="46929" min="1" max="1" chance="100" name="波莉奈鎖脛甲" /> 
+			<item id="46930" min="1" max="1" chance="100" name="波莉奈鎖子甲長手套" /> 
+			<item id="46931" min="1" max="1" chance="100" name="波莉奈鎖子長靴" /> 
+			<item id="46920" min="1" max="1" chance="100" name="波莉奈鎖子盾" /> 
+			<item id="46942" min="1" max="1" chance="100" name="波莉奈精靈項鏈" /> 
+			<item id="46943" min="2" max="2" chance="100" name="波莉奈精靈耳環" /> 
+			<item id="46944" min="2" max="2" chance="100" name="波莉奈精靈戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="46838" name="D級波莉奈輕裝禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="46932" min="1" max="1" chance="100" name="波莉奈刺尾獅皮頭盔" /> 
+			<item id="46933" min="1" max="1" chance="100" name="波莉奈刺尾獅皮襯衫" /> 
+			<item id="46934" min="1" max="1" chance="100" name="波莉奈刺尾獅皮脛甲" /> 
+			<item id="46935" min="1" max="1" chance="100" name="波莉奈刺尾獅皮手套" /> 
+			<item id="46936" min="1" max="1" chance="100" name="波莉奈刺尾獅皮靴" /> 
+			<item id="46942" min="1" max="1" chance="100" name="波莉奈精靈項鏈" /> 
+			<item id="46943" min="2" max="2" chance="100" name="波莉奈精靈耳環" /> 
+			<item id="46944" min="2" max="2" chance="100" name="波莉奈精靈戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="46839" name="D級波莉奈長袍禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="46937" min="1" max="1" chance="100" name="波莉奈米索莉頭箍" /> 
+			<item id="46938" min="1" max="1" chance="100" name="波莉奈米索莉外衣" /> 
+			<item id="46939" min="1" max="1" chance="100" name="波莉奈米索莉長襪" /> 
+			<item id="46940" min="1" max="1" chance="100" name="波莉奈精靈米索莉手套" /> 
+			<item id="46941" min="1" max="1" chance="100" name="波莉奈精靈米索莉靴" /> 
+			<item id="46942" min="1" max="1" chance="100" name="波莉奈精靈項鏈" /> 
+			<item id="46943" min="2" max="2" chance="100" name="波莉奈精靈耳環" /> 
+			<item id="46944" min="2" max="2" chance="100" name="波莉奈精靈戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="46840" name="C級波莉奈重裝禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="46945" min="1" max="1" chance="100" name="波莉奈鏈頭盔" /> 
+			<item id="46946" min="1" max="1" chance="100" name="波莉奈鏈甲衫" /> 
+			<item id="46947" min="1" max="1" chance="100" name="波莉奈鏈脛甲" /> 
+			<item id="46948" min="1" max="1" chance="100" name="波莉奈鏈手套" /> 
+			<item id="46949" min="1" max="1" chance="100" name="波莉奈鏈甲靴" /> 
+			<item id="46921" min="1" max="1" chance="100" name="波莉奈鏈盾" /> 
+			<item id="46960" min="1" max="1" chance="100" name="波莉奈守護項鏈" /> 
+			<item id="46961" min="1" max="1" chance="100" name="波莉奈守護耳環" /> 
+			<item id="46962" min="1" max="1" chance="100" name="波莉奈守護耳環" /> 
+			<item id="46963" min="1" max="1" chance="100" name="波莉奈守護戒指" /> 
+			<item id="46964" min="1" max="1" chance="100" name="波莉奈守護戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="46841" name="C級波莉奈輕裝禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="46950" min="1" max="1" chance="100" name="波莉奈覆殼皮盔" /> 
+			<item id="46951" min="1" max="1" chance="100" name="波莉奈覆殼皮甲" /> 
+			<item id="46952" min="1" max="1" chance="100" name="波莉奈覆殼皮脛甲" /> 
+			<item id="46953" min="1" max="1" chance="100" name="波莉奈覆殼皮手套" /> 
+			<item id="46954" min="1" max="1" chance="100" name="波莉奈覆殼皮靴" /> 
+			<item id="46960" min="1" max="1" chance="100" name="波莉奈守護項鏈" /> 
+			<item id="46961" min="1" max="1" chance="100" name="波莉奈守護耳環" /> 
+			<item id="46962" min="1" max="1" chance="100" name="波莉奈守護耳環" /> 
+			<item id="46963" min="1" max="1" chance="100" name="波莉奈守護戒指" /> 
+			<item id="46964" min="1" max="1" chance="100" name="波莉奈守護戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="46842" name="C級波莉奈長袍禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="46955" min="1" max="1" chance="100" name="波莉奈惡魔頭箍" /> 
+			<item id="46956" min="1" max="1" chance="100" name="波莉奈惡魔外衣" /> 
+			<item id="46957" min="1" max="1" chance="100" name="波莉奈惡魔長襪" /> 
+			<item id="46958" min="1" max="1" chance="100" name="波莉奈惡魔手套" /> 
+			<item id="46959" min="1" max="1" chance="100" name="波莉奈惡魔長靴" /> 
+			<item id="46960" min="1" max="1" chance="100" name="波莉奈守護項鏈" /> 
+			<item id="46961" min="1" max="1" chance="100" name="波莉奈守護耳環" /> 
+			<item id="46962" min="1" max="1" chance="100" name="波莉奈守護耳環" /> 
+			<item id="46963" min="1" max="1" chance="100" name="波莉奈守護戒指" /> 
+			<item id="46964" min="1" max="1" chance="100" name="波莉奈守護戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="46843" name="A級波莉奈重裝禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="46965" min="1" max="1" chance="100" name="波莉奈黑暗水晶頭盔" /> 
+			<item id="46966" min="1" max="1" chance="100" name="波莉奈黑暗水晶胸甲" /> 
+			<item id="46967" min="1" max="1" chance="100" name="波莉奈黑暗水晶脛甲" /> 
+			<item id="46968" min="1" max="1" chance="100" name="波莉奈黑暗水晶手套" /> 
+			<item id="46969" min="1" max="1" chance="100" name="波莉奈黑暗水晶靴" /> 
+			<item id="46922" min="1" max="1" chance="100" name="波莉奈黑暗水晶盾" /> 
+			<item id="46980" min="1" max="1" chance="100" name="波莉奈聖威項鏈" /> 
+			<item id="46981" min="1" max="1" chance="100" name="波莉奈聖威耳環" /> 
+			<item id="46982" min="1" max="1" chance="100" name="波莉奈聖威耳環" /> 
+			<item id="46983" min="1" max="1" chance="100" name="波莉奈聖威戒指" /> 
+			<item id="46984" min="1" max="1" chance="100" name="波莉奈聖威戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="46844" name="A級波莉奈輕裝禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="46970" min="1" max="1" chance="100" name="波莉奈黑暗水晶皮盔" /> 
+			<item id="46971" min="1" max="1" chance="100" name="波莉奈黑暗水晶皮甲" /> 
+			<item id="46972" min="1" max="1" chance="100" name="波莉奈黑暗水晶皮脛甲" /> 
+			<item id="46973" min="1" max="1" chance="100" name="波莉奈黑暗水晶手套" /> 
+			<item id="46974" min="1" max="1" chance="100" name="波莉奈黑暗水晶靴" /> 
+			<item id="46980" min="1" max="1" chance="100" name="波莉奈聖威項鏈" /> 
+			<item id="46981" min="1" max="1" chance="100" name="波莉奈聖威耳環" /> 
+			<item id="46982" min="1" max="1" chance="100" name="波莉奈聖威耳環" /> 
+			<item id="46983" min="1" max="1" chance="100" name="波莉奈聖威戒指" /> 
+			<item id="46984" min="1" max="1" chance="100" name="波莉奈聖威戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="46845" name="A級波莉奈長袍禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="46975" min="1" max="1" chance="100" name="波莉奈塔魯頭箍" /> 
+			<item id="46976" min="1" max="1" chance="100" name="波莉奈塔魯外衣" /> 
+			<item id="46977" min="1" max="1" chance="100" name="波莉奈塔魯長襪" /> 
+			<item id="46978" min="1" max="1" chance="100" name="波莉奈塔魯手套" /> 
+			<item id="46979" min="1" max="1" chance="100" name="波莉奈塔魯靴" /> 
+			<item id="46980" min="1" max="1" chance="100" name="波莉奈聖威項鏈" /> 
+			<item id="46981" min="1" max="1" chance="100" name="波莉奈聖威耳環" /> 
+			<item id="46982" min="1" max="1" chance="100" name="波莉奈聖威耳環" /> 
+			<item id="46983" min="1" max="1" chance="100" name="波莉奈聖威戒指" /> 
+			<item id="46984" min="1" max="1" chance="100" name="波莉奈聖威戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="46846" name="S級波莉奈重裝禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="46985" min="1" max="1" chance="100" name="波莉奈王朝頭盔" /> 
+			<item id="46986" min="1" max="1" chance="100" name="波莉奈王朝盔甲" /> 
+			<item id="46987" min="1" max="1" chance="100" name="波莉奈王朝脛甲" /> 
+			<item id="46988" min="1" max="1" chance="100" name="波莉奈王朝長手套" /> 
+			<item id="46989" min="1" max="1" chance="100" name="波莉奈王朝長靴" /> 
+			<item id="46923" min="1" max="1" chance="100" name="波莉奈王朝盾" /> 
+			<item id="47000" min="1" max="1" chance="100" name="波莉奈王朝項鏈" /> 
+			<item id="47001" min="1" max="1" chance="100" name="波莉奈王朝耳環" /> 
+			<item id="47002" min="1" max="1" chance="100" name="波莉奈王朝耳環" /> 
+			<item id="47003" min="1" max="1" chance="100" name="波莉奈王朝戒指" /> 
+			<item id="47004" min="1" max="1" chance="100" name="波莉奈王朝戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="46847" name="S級波莉奈輕裝禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="46990" min="1" max="1" chance="100" name="波莉奈王朝皮頭盔" /> 
+			<item id="46991" min="1" max="1" chance="100" name="波莉奈王朝皮甲" /> 
+			<item id="46992" min="1" max="1" chance="100" name="波莉奈王朝皮脛甲" /> 
+			<item id="46993" min="1" max="1" chance="100" name="波莉奈王朝皮手套" /> 
+			<item id="46994" min="1" max="1" chance="100" name="波莉奈王朝皮長靴" /> 
+			<item id="47000" min="1" max="1" chance="100" name="波莉奈王朝項鏈" /> 
+			<item id="47001" min="1" max="1" chance="100" name="波莉奈王朝耳環" /> 
+			<item id="47002" min="1" max="1" chance="100" name="波莉奈王朝耳環" /> 
+			<item id="47003" min="1" max="1" chance="100" name="波莉奈王朝戒指" /> 
+			<item id="47004" min="1" max="1" chance="100" name="波莉奈王朝戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="46848" name="S級波莉奈長袍禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="46995" min="1" max="1" chance="100" name="波莉奈王朝頭箍" /> 
+			<item id="46996" min="1" max="1" chance="100" name="波莉奈王朝外衣" /> 
+			<item id="46997" min="1" max="1" chance="100" name="波莉奈王朝長襪" /> 
+			<item id="46998" min="1" max="1" chance="100" name="波莉奈王朝手套" /> 
+			<item id="46999" min="1" max="1" chance="100" name="波莉奈王朝鞋" /> 
+			<item id="47000" min="1" max="1" chance="100" name="波莉奈王朝項鏈" /> 
+			<item id="47001" min="1" max="1" chance="100" name="波莉奈王朝耳環" /> 
+			<item id="47002" min="1" max="1" chance="100" name="波莉奈王朝耳環" /> 
+			<item id="47003" min="1" max="1" chance="100" name="波莉奈王朝戒指" /> 
+			<item id="47004" min="1" max="1" chance="100" name="波莉奈王朝戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="46849" name="D級波莉奈套裝" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="PaulinasSupportBox" />
+		<set name="material" val="PAPER" />
+		<cond msgId="1902">
+			<player levelRange="20;39" />
+		</cond>
+	</item>
+	<item id="46850" name="C級波莉奈套裝" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="PaulinasSupportBox" />
+		<set name="material" val="PAPER" />
+		<cond msgId="1902">
+			<player levelRange="40;60" />
+		</cond>
+	</item>
+	<item id="46851" name="A級波莉奈套裝" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="PaulinasSupportBox" />
+		<set name="material" val="PAPER" />
+		<cond msgId="1902">
+			<player levelRange="61;75" />
+		</cond>
+	</item>
+	<item id="46852" name="S級波莉奈套裝" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i01" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="is_stackable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="PaulinasSupportBox" />
+		<set name="material" val="PAPER" />
+		<cond msgId="1902">
+			<player levelRange="76;84" />
+		</cond>
+	</item>
+	<item id="46853" name="祝福的波莉奈幻靈雙刀" type="Weapon">
+		
+		<set name="icon" val="icon.bm_weapon_r_dualsword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pAtk">732</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13940" level="1" /> 
+		</skills>
+	</item>
+	<item id="46854" name="祝福的波莉奈幻靈切刃" type="Weapon">
+		
+		<set name="icon" val="icon.bm_weapon_ninfea_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pAtk">602</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13939" level="1" /> 
+		</skills>
+	</item>
+	<item id="46855" name="祝福的波莉奈幻靈殺刃" type="Weapon">
+		
+		<set name="icon" val="icon.bm_weapon_skia_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pAtk">732</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13940" level="1" /> 
+		</skills>
+	</item>
+	<item id="46856" name="祝福的波莉奈幻靈復讎者" type="Weapon">
+		
+		<set name="icon" val="icon.bm_weapon_ikeon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pAtk">602</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13940" level="1" /> 
+		</skills>
+	</item>
+	<item id="46857" name="祝福的波莉奈幻靈戰爪" type="Weapon">
+		
+		<set name="icon" val="icon.bm_weapon_deodos_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pAtk">732</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13940" level="1" /> 
+		</skills>
+	</item>
+	<item id="46858" name="祝福的波莉奈幻靈風暴者" type="Weapon">
+		
+		<set name="icon" val="icon.bm_weapon_transgredi_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="damage_range" val="0;0;66;120" />
+		<stats>
+			<stat type="pAtk">602</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+		<skills>
+			<skill id="13940" level="1" /> 
+			<skill id="3599" level="1" /> 
+		</skills>
+	</item>
+	<item id="46859" name="祝福的波莉奈幻靈投弓" type="Weapon">
+		
+		<set name="icon" val="icon.bm_weapon_solenas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="reuse_delay" val="1500" />
+		<stats>
+			<stat type="pAtk">1185</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
+		<skills>
+			<skill id="13943" level="1" /> 
+		</skills>
+	</item>
+	<item id="46860" name="祝福的波莉奈幻靈射靈" type="Weapon">
+		
+		<set name="icon" val="icon.bm_weapon_lapis_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="TWOHANDCROSSBOW" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="reuse_delay" val="1350" />
+		<stats>
+			<stat type="pAtk">1067</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
+		<skills>
+			<skill id="13943" level="1" /> 
+		</skills>
+	</item>
+	<item id="46861" name="祝福的波莉奈幻靈雙匕首" type="Weapon">
+		
+		<set name="icon" val="icon.bm_weapon_r_dualdagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="damage_range" val="0;0;44;120" />
+		<stats>
+			<stat type="pAtk">602</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13942" level="1" /> 
+		</skills>
+	</item>
+	<item id="46862" name="祝福的波莉奈幻靈術杖" type="Weapon">
+		
+		<set name="icon" val="icon.bm_weapon_alacer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">481</stat>
+			<stat type="mAtk">350</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13941" level="1" /> 
+		</skills>
+	</item>
+	<item id="46863" name="祝福的波莉奈幻靈報恨者" type="Weapon">
+		
+		<set name="icon" val="icon.bm_weapon_rupe_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">586</stat>
+			<stat type="mAtk">385</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13944" level="1" /> 
+		</skills>
+	</item>
+	<item id="46864" name="祝福的波莉奈卡戴拉頭盔" additionalName="Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">144</stat>
+		</stats>
+	</item>
+	<item id="46865" name="祝福的波莉奈卡戴拉胸甲" additionalName="Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_t401_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">384</stat>
+		</stats>
+	</item>
+	<item id="46866" name="祝福的波莉奈卡戴拉脛甲" additionalName="Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_t401_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">240</stat>
+		</stats>
+	</item>
+	<item id="46867" name="祝福的波莉奈卡戴拉護手" additionalName="Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_t401_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
+	</item>
+	<item id="46868" name="祝福的波莉奈卡戴拉靴" additionalName="Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_t401_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
+	</item>
+	<item id="46869" name="祝福的波莉奈卡戴拉盾" additionalName="Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.bm_beranka_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1130" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="rEvas">-8</stat>
+			<stat type="rShld">20</stat>
+			<stat type="sDef">525</stat>
+		</stats>
+	</item>
+	<item id="46870" name="祝福的波莉奈卡戴拉皮頭盔" additionalName="Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">144</stat>
+		</stats>
+	</item>
+	<item id="46871" name="祝福的波莉奈卡戴拉皮甲" additionalName="Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_t402_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">307</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
+	</item>
+	<item id="46872" name="祝福的波莉奈卡戴拉皮脛甲" additionalName="Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_t402_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">192</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
+	</item>
+	<item id="46873" name="祝福的波莉奈卡戴拉皮手套" additionalName="Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_t402_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
+	</item>
+	<item id="46874" name="祝福的波莉奈卡戴拉皮靴" additionalName="Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_t402_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
+	</item>
+	<item id="46875" name="祝福的波莉奈卡戴拉頭箍" additionalName="Robe" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">144</stat>
+		</stats>
+	</item>
+	<item id="46876" name="祝福的波莉奈卡戴拉外衣" additionalName="Robe" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_t403_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="mDef">47</stat>
+			<stat type="pDef">211</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
+	</item>
+	<item id="46877" name="祝福的波莉奈卡戴拉長襪" additionalName="Robe" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_t403_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="mDef">31</stat>
+			<stat type="pDef">132</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
+	</item>
+	<item id="46878" name="祝福的波莉奈卡戴拉手套" additionalName="Robe" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_t403_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
+	</item>
+	<item id="46879" name="祝福的波莉奈卡戴拉鞋" additionalName="Robe" type="Armor">
+		
+		<set name="icon" val="icon.bm_armor_t403_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">96</stat>
+		</stats>
+	</item>
+	<item id="46880" name="祝福的波莉奈卡戴拉符印" additionalName="Robe" type="Armor">
+		
+		<set name="icon" val="icon.bm_airtoil_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="920" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="pDef">48</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
+	</item>
+	<item id="46881" name="祝福的波莉奈卡戴拉項鏈" additionalName="Skill Cooldown" type="Armor">
+		
+		<set name="icon" val="icon.bm_r95_necklace_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="mDef">165</stat>
+			<stat type="maxMp">62</stat>
+		</stats>
+		<skills>
+			<skill id="13934" level="3" /> 
+		</skills>
+	</item>
+	<item id="46882" name="祝福的波莉奈卡戴拉耳環" additionalName="Vampiric Rage" type="Armor">
+		
+		<set name="icon" val="icon.bm_r95_earring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="mDef">124</stat>
+			<stat type="maxMp">46</stat>
+		</stats>
+		<skills>
+			<skill id="13935" level="3" /> 
+		</skills>
+	</item>
+	<item id="46883" name="祝福的波莉奈卡戴拉耳環" additionalName="MP Consumption" type="Armor">
+		
+		<set name="icon" val="icon.bm_r95_earring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="mDef">124</stat>
+			<stat type="maxMp">46</stat>
+		</stats>
+		<skills>
+			<skill id="13936" level="3" /> 
+		</skills>
+	</item>
+	<item id="46884" name="祝福的波莉奈卡戴拉戒指" additionalName="Critical Damage" type="Armor">
+		
+		<set name="icon" val="icon.bm_r95_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="mDef">82</stat>
+			<stat type="maxMp">31</stat>
+		</stats>
+		<skills>
+			<skill id="13937" level="3" /> 
+		</skills>
+	</item>
+	<item id="46885" name="祝福的波莉奈卡戴拉戒指" additionalName="Critical Rate" type="Armor">
+		
+		<set name="icon" val="icon.bm_r95_ring_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<stats>
+			<stat type="mDef">82</stat>
+			<stat type="maxMp">31</stat>
+		</stats>
+		<skills>
+			<skill id="13938" level="3" /> 
+		</skills>
+	</item>
+	<item id="46886" name="活動用-波莉奈幻靈雙刀" additionalName="4-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_r_dualsword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">732</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13940" level="1" /> 
+		</skills>
+	</item>
+	<item id="46887" name="活動用-波莉奈幻靈切刃" additionalName="4-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_ninfea_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">602</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13939" level="1" /> 
+		</skills>
+	</item>
+	<item id="46888" name="活動用-波莉奈幻靈殺刃" additionalName="4-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_skia_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">732</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13940" level="1" /> 
+		</skills>
+	</item>
+	<item id="46889" name="活動用-波莉奈幻靈復讎者" additionalName="4-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_ikeon_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">602</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13940" level="1" /> 
+		</skills>
+	</item>
+	<item id="46890" name="活動用-波莉奈幻靈戰爪" additionalName="4-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_deodos_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pAtk">732</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13940" level="1" /> 
+		</skills>
+	</item>
+	<item id="46891" name="活動用-波莉奈幻靈風暴者" additionalName="4-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_transgredi_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="damage_range" val="0;0;66;120" />
+		<stats>
+			<stat type="pAtk">602</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+		<skills>
+			<skill id="13940" level="1" /> 
+			<skill id="3599" level="1" /> 
+		</skills>
+	</item>
+	<item id="46892" name="活動用-波莉奈幻靈投弓" additionalName="4-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_solenas_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="reuse_delay" val="1500" />
+		<stats>
+			<stat type="pAtk">1185</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
+		<skills>
+			<skill id="13943" level="1" /> 
+		</skills>
+	</item>
+	<item id="46893" name="活動用-波莉奈幻靈射靈" additionalName="4-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_lapis_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="TWOHANDCROSSBOW" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="reuse_delay" val="1350" />
+		<stats>
+			<stat type="pAtk">1067</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
+		<skills>
+			<skill id="13943" level="1" /> 
+		</skills>
+	</item>
+	<item id="46894" name="活動用-波莉奈幻靈雙匕首" additionalName="4-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_r_dualdagger_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="2050" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="damage_range" val="0;0;44;120" />
+		<stats>
+			<stat type="pAtk">602</stat>
+			<stat type="mAtk">262</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13942" level="1" /> 
+		</skills>
+	</item>
+	<item id="46895" name="活動用-波莉奈幻靈術杖" additionalName="4-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_alacer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">481</stat>
+			<stat type="mAtk">350</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13941" level="1" /> 
+		</skills>
+	</item>
+	<item id="46896" name="活動用-波莉奈幻靈報恨者" additionalName="4-hour" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_rupe_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">586</stat>
+			<stat type="mAtk">385</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13944" level="1" /> 
+		</skills>
+	</item>
+	<item id="46897" name="活動用-波莉奈卡戴拉頭盔" additionalName="Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pDef">144</stat>
+		</stats>
+	</item>
+	<item id="46898" name="活動用-波莉奈卡戴拉胸甲" additionalName="Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t401_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pDef">384</stat>
+		</stats>
+	</item>
+	<item id="46899" name="活動用-波莉奈卡戴拉脛甲" additionalName="Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t401_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<stats>
+			<stat type="pDef">240</stat>
+		</stats>
+	</item>
+</list>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="build">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/GameServer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/Database_Installer_LS.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/Database_Installer_GS.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/LoginServer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/java" />
+    </SOURCES>
+  </library>
+</component>

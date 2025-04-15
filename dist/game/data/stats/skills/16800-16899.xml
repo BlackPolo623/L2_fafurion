@@ -1,0 +1,1023 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="16800" toLevel="1" name="火隕暴雨">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>800</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+	</skill>
+	<skill id="16801" toLevel="1" name="絕對緋紅">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>800</hitTime>
+	</skill>
+	<skill id="16802" toLevel="1" name="胚胎引導">
+		<icon>icon.skill1160</icon>
+		<operateType>A1</operateType>
+		<castRange>200</castRange>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16803" toLevel="1" name="黑暗火焰">
+		<icon>icon.skill11780</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-867</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="16804" toLevel="1" name="黑暗破壞">
+		<icon>icon.skill10262</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-700</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16805" toLevel="1" name="混亂破壞">
+		<icon>icon.skill10262</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-700</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16806" toLevel="1" name="混亂火焰">
+		<icon>icon.skill11780</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-867</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="16807" toLevel="1" name="黑暗之刃">
+		<icon>icon.skill11780</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-867</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="16808" toLevel="1" name="湧流掠奪">
+		<icon>icon.skill11780</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-867</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<reuseDelay>20000</reuseDelay>
+	</skill>
+	<skill id="16809" toLevel="1" name="野性連擊">
+		<icon>icon.skill11780</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>167</coolTime>
+		<effectPoint>-354</effectPoint>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<reuseDelay>20000</reuseDelay>
+	</skill>
+	<skill id="16810" toLevel="1" name="投擲盾">
+		<icon>icon.skill0092</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>300</coolTime>
+		<effectPoint>-377</effectPoint>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<reuseDelay>20000</reuseDelay>
+	</skill>
+	<skill id="16811" toLevel="1" name="深淵烈火">
+		<icon>icon.skill11780</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-867</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="16812" toLevel="1" name="靈魂奪取">
+		<icon>icon.skill10509</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-687</effectPoint>
+		<hitTime>3000</hitTime>
+		<reuseDelay>20000</reuseDelay>
+	</skill>
+	<skill id="16813" toLevel="1" name="閃耀痛擊">
+		<icon>icon.skill0096</icon>
+		<operateType>A1</operateType>
+		<castRange>100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="16814" toLevel="1" name="魔力疾襲">
+		<icon>icon.skill0230</icon>
+		<operateType>A1</operateType>
+		<castRange>500</castRange>
+		<effectPoint>-1</effectPoint>
+		<hitTime>400</hitTime>
+		<isDebuff>true</isDebuff>
+		<reuseDelay>30000</reuseDelay>
+	</skill>
+	<skill id="16815" toLevel="1" name="深淵裂破">
+		<icon>icon.skill11780</icon>
+		<operateType>A1</operateType>
+		<castRange>1500</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-867</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="16816" toLevel="1" name="天運負重">
+		<icon>icon.skill0092</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>300</coolTime>
+		<effectPoint>-377</effectPoint>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<reuseDelay>20000</reuseDelay>
+	</skill>
+	<skill id="16817" toLevel="1" name="阿斯塔廷加農砲">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="16818" toLevel="1" name="裂超">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-709</effectPoint>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<reuseDelay>20000</reuseDelay>
+	</skill>
+	<skill id="16819" toLevel="1" name="髒汙戰鬥">
+		<icon>icon.skill0006</icon>
+		<operateType>A1</operateType>
+		<castRange>150</castRange>
+		<effectPoint>-96</effectPoint>
+		<hitTime>1500</hitTime>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="16820" toLevel="1" name="牢固射擊">
+		<icon>icon.skill1275</icon>
+		<operateType>A1</operateType>
+		<castRange>400</castRange>
+		<effectPoint>-96</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic> 
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="16821" toLevel="1" name="黑色粉塵">
+		<icon>icon.skill0006</icon>
+		<operateType>A1</operateType>
+		<castRange>400</castRange>
+		<effectPoint>-96</effectPoint>
+		<hitTime>1500</hitTime>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="16822" toLevel="1" name="緩速炸彈">
+		<icon>icon.skill1275</icon>
+		<operateType>A1</operateType>
+		<castRange>400</castRange>
+		<effectPoint>-96</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>1</isMagic> 
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="16823" toLevel="1" name="審視襲擊">
+		<icon>icon.skill0484</icon>
+		<operateType>A1</operateType>
+		<castRange>350</castRange>
+		<effectPoint>-104</effectPoint>
+		<hitTime>400</hitTime>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="16824" toLevel="1" name="黑色粉塵噴發">
+		<icon>icon.skill1181</icon>
+		<operateType>A1</operateType>
+		<castRange>300</castRange>
+		<effectPoint>-104</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>1</isMagic> 
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="16825" toLevel="1" name="血影刺擊">
+		<icon>icon.skill10508</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<coolTime>700</coolTime>
+		<effectPoint>-687</effectPoint>
+		<hitTime>830</hitTime>
+		<isDebuff>true</isDebuff>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="16826" toLevel="1" name="十字反擊">
+		<icon>icon.skill10524</icon>
+		<operateType>A1</operateType>
+		<coolTime>100</coolTime>
+		<effectPoint>707</effectPoint>
+		<hitTime>200</hitTime>
+		<reuseDelay>150000</reuseDelay>
+	</skill>
+	<skill id="16827" toLevel="1" name="幽暗能量旋風">
+		<icon>icon.skill11780</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-867</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<reuseDelay>30000</reuseDelay>
+	</skill>
+	<skill id="16828" toLevel="1" name="絕望爆裂">
+		<icon>icon.skill0092</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>300</coolTime>
+		<effectPoint>-377</effectPoint>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<reuseDelay>3000</reuseDelay>
+	</skill>
+	<skill id="16829" toLevel="1" name="倖存意志">
+		<icon>icon.kelbim_reflection_armor</icon>
+		<operateType>A1</operateType>
+		<effectPoint>2</effectPoint>
+		<hitTime>2000</hitTime>
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="16830" toLevel="1" name="守護之光">
+		<icon>icon.skill11757</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>1734</effectPoint>
+		<hitTime>3000</hitTime>
+		<isMagic>1</isMagic> 
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="16831" toLevel="1" name="戰場的吶喊">
+		<icon>icon.skill10277</icon>
+		<operateType>A1</operateType>
+		<coolTime>300</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitTime>3000</hitTime>
+		<reuseDelay>180000</reuseDelay>
+	</skill>
+	<skill id="16832" toLevel="1" name="巨人屏障">
+		<icon>icon.skill10279</icon>
+		<operateType>A1</operateType>
+		<effectPoint>707</effectPoint>
+		<hitTime>200</hitTime>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="16833" toLevel="1" name="雷鳴之矛">
+		<icon>icon.skll10321</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<effectPoint>-507</effectPoint>
+		<hitTime>2500</hitTime>
+		<isDebuff>true</isDebuff>
+		<reuseDelay>30000</reuseDelay>
+	</skill>
+	<skill id="16834" toLevel="1" name="迅翼之矛">
+		<icon>icon.skill10333</icon>
+		<operateType>A1</operateType>
+		<coolTime>200</coolTime>
+		<effectPoint>673</effectPoint>
+		<hitTime>2000</hitTime>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="16835" toLevel="1" name="元素裂刺">
+		<icon>icon.skill11011</icon>
+		<operateType>A1</operateType>
+		<castRange>1100</castRange>
+		<coolTime>300</coolTime>
+		<effectPoint>-687</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="16836" toLevel="1" name="詛咒之徑">
+		<icon>icon.skill11048</icon>
+		<operateType>A1</operateType>
+		<castRange>1100</castRange>
+		<coolTime>580</coolTime>
+		<effectPoint>-687</effectPoint>
+		<hitTime>3500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<reuseDelay>30000</reuseDelay>
+	</skill>
+	<skill id="16837" toLevel="1" name="廣域死之恐懼">
+		<icon>icon.skill11056</icon>
+		<operateType>A1</operateType>
+		<castRange>1100</castRange>
+		<coolTime>300</coolTime>
+		<effectPoint>-700</effectPoint>
+		<hitTime>1200</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<reuseDelay>120000</reuseDelay>
+	</skill>
+	<skill id="16838" toLevel="1" name="元素終極風暴">
+		<icon>icon.skill11040</icon>
+		<operateType>A1</operateType>
+		<castRange>1100</castRange>
+		<coolTime>300</coolTime>
+		<effectPoint>-687</effectPoint>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<reuseDelay>6700</reuseDelay>
+	</skill>
+	<skill id="16839" toLevel="1" name="極致挑撥靈氣">
+		<icon>icon.skill10027</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>-10330</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="16840" toLevel="1" name="盾牌震波">
+		<icon>icon.skill10012</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<coolTime>470</coolTime>
+		<effectPoint>-1378</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<reuseDelay>60000</reuseDelay>
+	</skill>
+	<skill id="16841" toLevel="1" name="最終極限防禦">
+		<icon>icon.skill10017</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>689</effectPoint>
+		<hitTime>1000</hitTime>
+		<reuseDelay>900000</reuseDelay>
+	</skill>
+	<skill id="16842" toLevel="1" name="重力休克">
+		<icon>icon.skill30505</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>1</abnormalTime>
+		<activateRate>80</activateRate> 
+		<affectLimit>10-10</affectLimit>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>400</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>500</coolTime>
+		<effectPoint>-687</effectPoint>
+		<effectRange>400</effectRange>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>107</magicLevel>
+		<mpConsume>165</mpConsume>
+		<reuseDelay>30000</reuseDelay>
+		<trait>PULL</trait>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>DUALFIST</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>45015</power>
+				<overHit>true</overHit>
+				<chance>90</chance>
+			</effect>
+			<effect name="PullBack">
+				<speed>600</speed>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16843" toLevel="1" name="空間分裂">
+		<icon>icon.skill30515</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">30</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1010">{base + subIndex}</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1011" toSubLevel="1020">{base + 10 + 0.5 * subIndex}</value>
+		</abnormalTime>
+		<abnormalType>NONE</abnormalType>
+		<abnormalVisualEffect>SPACEREF</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>379</effectPoint>
+		<hitTime>1500</hitTime>
+		<mpConsume>31</mpConsume>
+		<reuseDelay>300000</reuseDelay>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>DUALFIST</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="SphericBarrier">
+				<amount>150</amount>
+			</effect>
+			<effect name="DebuffBlock" /> 
+			<effect name="PhysicalDefence">
+				<amount>50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed" fromLevel="1" toLevel="1" fromSubLevel="2001" toSubLevel="2020">
+				<amount>
+					<value fromLevel="1" toLevel="1" fromSubLevel="2001" toSubLevel="2020">{2 * subIndex}</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16844" toLevel="1" name="鋼鐵精神">
+		<icon>icon.skill30520</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>100</effectPoint>
+		<hitTime>1500</hitTime>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="16845" toLevel="1" name="強力炸彈">
+		<icon>icon.skill10262</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-700</effectPoint>
+		<hitTime>1690</hitTime>
+		<isDebuff>true</isDebuff>
+		<reuseDelay>15000</reuseDelay>
+	</skill>
+	<skill id="16846" toLevel="1" name="無限連擊">
+		<icon>icon.skill10275</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-709</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<reuseDelay>600000</reuseDelay>
+	</skill>
+	<skill id="16847" toLevel="1" name="狂暴化">
+		<icon>icon.skill10274</icon>
+		<operateType>A1</operateType>
+		<coolTime>300</coolTime>
+		<effectPoint>707</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="16848" toLevel="1" name="狂亂箭雨">
+		<icon>icon.skill10772</icon>
+		<operateType>A1</operateType>
+		<castRange>1100</castRange>
+		<coolTime>350</coolTime>
+		<effectPoint>-689</effectPoint>
+		<hitTime>2900</hitTime>
+		<reuseDelay>15000</reuseDelay>
+	</skill>
+	<skill id="16849" toLevel="1" name="龍捲射擊">
+		<icon>icon.skill10760</icon>
+		<operateType>A1</operateType>
+		<castRange>1100</castRange>
+		<coolTime>350</coolTime>
+		<effectPoint>-689</effectPoint>
+		<hitTime>2200</hitTime>
+		<reuseDelay>7000</reuseDelay>
+	</skill>
+	<skill id="16850" toLevel="1" name="狩獵直覺">
+		<icon>icon.skill10953</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>2</effectPoint>
+		<hitTime>3000</hitTime>
+		<reuseDelay>600000</reuseDelay>
+	</skill>
+	<skill id="16851" toLevel="1" name="連鎖燃燒">
+		<icon>icon.skill11153</icon>
+		<operateType>A1</operateType>
+		<castRange>1100</castRange>
+		<coolTime>300</coolTime>
+		<effectPoint>-712</effectPoint>
+		<hitTime>4780</hitTime>
+		<isMagic>1</isMagic> 
+		<reuseDelay>6700</reuseDelay>
+	</skill>
+	<skill id="16852" toLevel="1" name="死亡之扉">
+		<icon>icon.skill11067</icon>
+		<operateType>A1</operateType>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-709</effectPoint>
+		<hitTime>10000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<reuseDelay>30000</reuseDelay>
+	</skill>
+	<skill id="16853" toLevel="1" name="治癒光輝">
+		<icon>icon.skill11757</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>1734</effectPoint>
+		<hitTime>2500</hitTime>
+		<isMagic>1</isMagic> 
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="16854" toLevel="1" name="廣域致命沉睡">
+		<icon>icon.skill11778</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-867</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="16855" toLevel="1" name="光影之盾">
+		<icon>icon.skill11759</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1760</effectPoint>
+		<hitTime>3000</hitTime>
+		<isMagic>1</isMagic> 
+		<reuseDelay>120000</reuseDelay>
+	</skill>
+	<skill id="16856" toLevel="1" name="過激錘鍊箭">
+		<icon>icon.skill16856</icon>
+		<operateType>A1</operateType>
+		<castRange>400</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-183</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16857" toLevel="1" name="擊鐵飛濺">
+		<icon>icon.skill10012</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>-1378</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16858" toLevel="1" name="強力挑撥">
+		<icon>icon.skill10027</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>-10330</effectPoint>
+		<hitTime>500</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16859" toLevel="1" name="錘鍊烈震閃">
+		<icon>icon.skill10281</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>-700</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16860" toLevel="1" name="慫恿">
+		<icon>icon.skill11544</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="16861" toLevel="1" name="強力斬">
+		<icon>icon.skill0006</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-96</effectPoint>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="16862" toLevel="1" name="猛擊盾">
+		<icon>icon.skill10011</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-1378</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16863" toLevel="1" name="憎之力吼">
+		<icon>icon.skill10027</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>-10330</effectPoint>
+		<hitTime>500</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16864" toLevel="1" name="神聖落火">
+		<icon>icon.skill0096</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-712</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>6</isMagic>
+	</skill>
+	<skill id="16865" toLevel="1" name="罪之宣判">
+		<icon>icon.skill0122</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>-190</effectPoint>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="16866" toLevel="1" name="死亡宣判">
+		<icon>icon.skill10300</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-700</effectPoint>
+		<hitTime>3000</hitTime>
+	</skill>
+	<skill id="16867" toLevel="1" name="競技撲刺">
+		<icon>icon.skill0003</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SQUARE</affectScope>
+		<castRange>100</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>400</effectRange>
+		<fanRange>0;0;300;100</fanRange>
+		<hitTime>1500</hitTime>
+		<magicLevel>104</magicLevel>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>100000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16868" toLevel="1" name="水平重擊">
+		<icon>icon.skill10340</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>BLEEDING</abnormalType>
+		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
+		<activateRate>120</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SQUARE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<castRange>100</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-125</effectPoint>
+		<effectRange>400</effectRange>
+		<fanRange>0;0;300;100</fanRange>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicLevel>104</magicLevel>
+		<trait>BLEED</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>100000</power>
+			</effect>
+			<effect name="DamOverTime">
+				<power>3700</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16869" toLevel="1" name="單擊陷阱">
+		<icon>icon.skill16869</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>1</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<activateRate>120</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>150</affectRange>
+		<affectScope>FAN</affectScope>
+		<castRange>100</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>400</effectRange>
+		<fanRange>0;0;200;180</fanRange>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<lvlBonusRate>1</lvlBonusRate>
+		<magicLevel>104</magicLevel>
+		<trait>KNOCKDOWN</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>100000</power>
+			</effect>
+			<effect name="KnockBack">
+				<speed>700</speed>
+				<distance>50</distance>
+				<knockDown>true</knockDown>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16870" toLevel="1" name="後擊踢">
+		<icon>icon.skill16870</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalResists>TURN_FLEE;KNOCKDOWN;DEPORT;SILENCE;PARALYZE;ABSORB;DISARM;SILENCE_PHYSICAL;SILENCE_ALL;CHANGEBODY;TURN_STONE;DERANGEMENT;AIRBIND;SLEEP;OBLIVION;MIRAGE;MIRAGE_TRAP;ROOT_MAGICALLY;ROOT_PHYSICALLY;STUN;PUBLIC_SLOT</abnormalResists>
+		<abnormalTime>3</abnormalTime>
+		<abnormalType>FLY_AWAY</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>1500</affectRange>
+		<affectScope>SQUARE_PB</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<castRange>300</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>700</effectRange>
+		<fanRange>0;180;1500;400</fanRange>
+		<hitCancelTime>1.5</hitCancelTime>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<magicLevel>104</magicLevel>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>100000</power>
+			</effect>
+			<effect name="FlyAway">
+				<radius>600</radius>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16871" toLevel="1" name="艾帝納的呼喚">
+		<icon>icon.skill16871</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>2</effectPoint>
+		<hitTime>10000</hitTime>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="16872" toLevel="15" name="艾帝納加護">
+		<icon>icon.m_class_light</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>650</effectPoint>
+		<hitTime>10000</hitTime>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="16873" toLevel="1" name="艾帝納審判">
+		<icon>icon.skill16873</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>10000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="16874" toLevel="2" name="艾帝納末日-光暈">
+		<icon>
+			<value level="1">icon.skill0000</value>
+			<value level="2">icon.skill11023</value>
+		</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>10000</hitTime>
+		<isDebuff>true</isDebuff>
+		<mpConsume>
+			<value level="1">0</value>
+			<value level="2">1</value>
+		</mpConsume>
+	</skill>
+	<skill id="16875" toLevel="1" name="強力攻擊">
+		<icon>icon.skill0003</icon>
+		<operateType>A1</operateType>
+		<castRange>60</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16876" toLevel="1" name="強力挑撥">
+		<icon>icon.skill10271</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>-709</effectPoint>
+		<hitTime>500</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16877" toLevel="1" name="血腥疾擊">
+		<icon>icon.skill0793</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-669</effectPoint>
+		<hitTime>400</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16878" toLevel="1" name="處刑">
+		<icon>icon.skill10300</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-700</effectPoint>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="16879" toLevel="1" name="血擊">
+		<icon>icon.skill0223</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-111</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16880" toLevel="1" name="斬首">
+		<icon>icon.skill0223</icon>
+		<operateType>A1</operateType>
+		<castRange>100</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-111</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16881" toLevel="1" name="強力攻擊">
+		<icon>icon.skill10330</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-183</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16882" toLevel="1" name="龜型巨盾">
+		<icon>icon.skill11621</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="16883" toLevel="1" name="神聖爆破">
+		<icon>icon.skill1275</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-96</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="16884" toLevel="1" name="血之飛掠">
+		<icon>icon.skill11030</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-696</effectPoint>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="16885" toLevel="1" name="連擊幻箭">
+		<icon>icon.skill11011</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-687</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="16886" toLevel="1" name="連爆">
+		<icon>icon.skill1275</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<coolTime>400</coolTime>
+		<effectPoint>-96</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="16887" toLevel="1" name="血債血償">
+		<icon>icon.skill11546</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>711</effectPoint>
+		<hitTime>3000</hitTime>
+	</skill>
+	<skill id="16888" toLevel="1" name="念之翼">
+		<icon>icon.skill16888</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitTime>3000</hitTime>
+	</skill>
+	<skill id="16889" toLevel="1" name="胚胎狂戰">
+		<icon>icon.skill1388</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitTime>3000</hitTime>
+	</skill>
+	<skill id="16890" toLevel="1" name="胚胎守護">
+		<icon>icon.skill1389</icon>
+		<operateType>A1</operateType>
+		<coolTime>400</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitTime>3000</hitTime>
+	</skill>
+	<skill id="16891" toLevel="1" name="艾帝納祝福">
+		<icon>icon.skill1388</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<isMagic>4</isMagic>
+		<reuseDelay>60000</reuseDelay>
+	</skill>
+	<skill id="16892" toLevel="1" name="艾帝納詛咒">
+		<icon>icon.skill1389</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<effectPoint>-347</effectPoint>
+		<isDebuff>true</isDebuff>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="16893" toLevel="31" name="梅沙亞城堡外城精銳怪物">
+		<icon>icon.skillraid</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="16894" toLevel="1" name="防禦加農砲">
+		<icon>icon.skill0096</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-96</effectPoint>
+	</skill>
+	<skill id="16895" toLevel="1" name="壓制防禦加農砲">
+		<icon>icon.skill30003</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-700</effectPoint>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="16896" toLevel="1" name="防禦加農砲">
+		<icon>icon.skill0096</icon>
+		<operateType>A1</operateType>
+		<hitTime>5000</hitTime>
+	</skill>
+	<skill id="16897" toLevel="1" name="壓制防禦加農砲">
+		<icon>icon.skill0096</icon>
+		<operateType>A1</operateType>
+		<hitTime>5000</hitTime>
+	</skill>
+	<skill id="16898" toLevel="1" name="背叛的卡因">
+		<icon>icon.skill1389</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> 
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="16899" toLevel="2" name="卡米優">
+		<icon>icon.skillraid</icon>
+		<operateType>P</operateType>
+	</skill>
+</list>

@@ -1,0 +1,1591 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="48500" name="龍之遺物箱" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_dragon_present_3" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="2" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48502" min="5" max="5" chance="100" name="神秘的武器強化捲軸" /> 
+			<item id="29379" min="1" max="1" chance="3.03" name="皮弗斯紫色藥水" /> 
+			<item id="29677" min="1" max="1" chance="3.03" /> 
+			<item id="29916" min="1" max="1" chance="3.03" /> 
+			<item id="36414" min="1" max="1" chance="3.03" name="龍爪" /> 
+			<item id="36515" min="6" max="6" chance="3.03" name="艾斯恩" /> 
+			<item id="37560" min="5" max="5" chance="3.03" name="國王的活力水" /> 
+			<item id="39738" min="10" max="10" chance="3.03" name="古文石" /> 
+			<item id="47494" min="5" max="5" chance="3.03" name="賽諾奈特" /> 
+			<item id="48831" min="1" max="1" chance="3.03" name="寶石氣息" /> 
+			<item id="48840" min="1" max="1" chance="3.03" name="終極等級1高級寶石盒" /> 
+			<item id="48876" min="1" max="1" chance="3.03" name="遺忘的魔法書1章" /> 
+			<item id="48912" min="1" max="1" chance="3.03" name="格蘭肯的武器強化捲軸-R級" /> 
+			<item id="80000" min="1" max="1" chance="3.03" name="聖紋石碎片" /> 
+			<item id="80449" min="1" max="1" chance="3.03" name="皇家黑色救援交換券" /> 
+			<item id="80501" min="1" max="1" chance="3.03" name="皇家金色救援交換券" /> 
+			<item id="80502" min="1" max="1" chance="3.03" /> 
+			<item id="80636" min="1" max="1" chance="3.03" /> 
+			<item id="80817" min="2" max="2" chance="3.03" /> 
+			<item id="80932" min="1" max="1" chance="3.03" /> 
+			<item id="80958" min="1" max="1" chance="3.03" /> 
+			<item id="80964" min="1" max="1" chance="3.03" /> 
+			<item id="81059" min="1" max="1" chance="3.03" /> 
+			<item id="81069" min="1" max="1" chance="3.03" /> 
+			<item id="81079" min="1" max="1" chance="3.03" /> 
+			<item id="81099" min="1" max="1" chance="3.03" /> 
+			<item id="81109" min="1" max="1" chance="3.03" /> 
+			<item id="81119" min="1" max="1" chance="3.03" /> 
+			<item id="81134" min="2" max="2" chance="3.03" /> 
+			<item id="81453" min="1" max="1" chance="3.03" /> 
+			<item id="81706" min="1" max="1" chance="3.03" /> 
+			<item id="81729" min="1" max="1" chance="3.03" /> 
+			<item id="81747" min="2" max="2" chance="3.03" /> 
+			<item id="81759" min="2" max="2" chance="3.03" /> 
+		</capsuled_items>
+	</item>
+	<item id="48501" name="閃耀的龍之遺物箱" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_dragon_present_4" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48502" name="神秘的武器強化捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.yogi_scroll_of_enchant_weapon_grade_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="immediate_effect" val="true" />
+		<skills>
+			<skill id="39204" level="1" /> 
+		</skills>
+	</item>
+	<item id="48503" name="神秘且特別的武器強化捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.yogi_scroll_of_enchant_weapon_grade_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_WP" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="immediate_effect" val="true" />
+		<skills>
+			<skill id="39204" level="2" /> 
+		</skills>
+	</item>
+	<item id="48504" name="+10血腥防具套裝禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i03" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="48505" min="1" max="1" chance="30.33" name="+10血腥防具重裝膠囊" /> 
+			<item id="48506" min="1" max="1" chance="30.33" name="+10血腥防具輕裝膠囊" /> 
+			<item id="48507" min="1" max="1" chance="30.33" name="+10血腥防具長袍膠囊" /> 
+		</capsuled_items>
+	</item>
+	<item id="48505" name="+10血腥防具重裝膠囊" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="6" />
+		<set name="extractableCountMax" val="6" />
+		<capsuled_items>
+			<item id="17435" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="艾迪奧斯盾" /> 
+			<item id="35079" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯頭盔" /> 
+			<item id="35080" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯胸甲" /> 
+			<item id="35081" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯脛甲" /> 
+			<item id="35082" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯護手" /> 
+			<item id="35083" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯靴" /> 
+		</capsuled_items>
+	</item>
+	<item id="48506" name="+10血腥防具輕裝膠囊" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="5" />
+		<set name="extractableCountMax" val="5" />
+		<capsuled_items>
+			<item id="35085" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯皮頭盔" /> 
+			<item id="35086" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯皮甲" /> 
+			<item id="35087" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯皮脛甲" /> 
+			<item id="35088" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯皮手套" /> 
+			<item id="35089" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯皮靴" /> 
+		</capsuled_items>
+	</item>
+	<item id="48507" name="+10血腥防具長袍膠囊" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="6" />
+		<set name="extractableCountMax" val="6" />
+		<capsuled_items>
+			<item id="35090" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯頭箍" /> 
+			<item id="35091" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯外衣" /> 
+			<item id="35092" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯長襪" /> 
+			<item id="35093" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯手套" /> 
+			<item id="35094" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="血腥艾迪奧斯鞋" /> 
+			<item id="17446" min="1" max="1" minEnchant="10" maxEnchant="10" chance="100" name="艾迪奧斯符印" /> 
+		</capsuled_items>
+	</item>
+	<item id="48508" name="+5星座壺精禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.star_agathion_cube" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="35147" level="2" /> 
+		</skills>
+	</item>
+	<item id="48509" name="+6星座壺精禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.star_agathion_cube" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="35147" level="3" /> 
+		</skills>
+	</item>
+	<item id="48510" name="+7星座壺精禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.star_agathion_cube" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<skills>
+			<skill id="35147" level="4" /> 
+		</skills>
+	</item>
+	<item id="48511" name="特級紅色救援交換券禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48512" name="NPC專用_利歐納爾 杭特" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_mon_gracia_soldier_sword_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1500" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="rhand" />
+		<stats>
+			<stat type="pAtk">24</stat>
+			<stat type="mAtk">17</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+	</item>
+	<item id="48513" name="艾爾席恩恢復藥水" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_potion_gold_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="LIQUID" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48514" name="紅色天秤委託書-世界樹的樹蔭" type="EtcItem">
+		
+		<set name="icon" val="icon.red_comminssion_paper" />
+		<set name="default_action" val="START_QUEST" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48515" name="紅色天秤委託書-世界樹的樹蔭" type="EtcItem">
+		
+		<set name="icon" val="icon.red_comminssion_paper" />
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48516" name="名譽勳章" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_badge_black_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48517" name="名譽大勳章" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_badge_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48518" name="冒險家公會的晶體" type="EtcItem">
+		
+		<set name="icon" val="icon.special_cube_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48519" name="冒險家公會補給品箱子" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_ensoulbox_soul_of_undead" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="45819" min="1" max="1" chance="100" name="活動點數禮券(720點)" /> 
+			<item id="36094" min="2" max="2" chance="100" name="活力充能星星糖" /> 
+			<item id="38096" min="1" max="1" chance="100" name="國王古文" /> 
+		</capsuled_items>
+	</item>
+	<item id="48520" name="紅色天秤幸運捲軸" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_charm_of_luck_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+	</item>
+	<item id="48521" name="紅色天秤金幣禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48522" name="紅色天秤祝福的捲軸禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48523" name="紅色天秤稀有耳環禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48524" name="紅色天秤稀有戒指禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48525" name="紅色天秤稀有項鏈禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48526" name="紅色天秤護身符禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48527" name="紅色天秤套裝加工石禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48528" name="紅色天秤衣裳加工石禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48529" name="紅色天秤搜魂石禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48530" name="紅色天秤靈魂之石禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48531" name="紅色天秤Lv5傳說染料禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48532" name="紅色天秤種子手鐲禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48533" name="惡靈的痕迹" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="48534" name="消失的惡魔粉末" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_powder_black_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="48535" name="寂靜之谷傳送捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_scroll_of_return_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48536" name="靈魂結晶" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_shinecryst_red_i00" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48537" name="魚餌" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_normal_lure" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="LURE" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="price" val="4000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48538" name="魚餌" additionalName="R102" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_huge_lure" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="LURE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="bodypart" val="lhand" />
+		<set name="price" val="25000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48539" name="魚餌" additionalName="R105" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_huge_lure" />
+		<set name="default_action" val="EQUIP" />
+		<set name="etcitem_type" val="LURE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="bodypart" val="lhand" />
+		<set name="price" val="30000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48540" name="炸魚" additionalName="P. Atk." type="EtcItem">
+		
+		<set name="icon" val="icon.fishing_buff_p_dmg" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="39209" level="1" /> 
+		</skills>
+	</item>
+	<item id="48541" name="蒸魚" additionalName="M. Atk." type="EtcItem">
+		
+		<set name="icon" val="icon.fishing_buff_m_dmg" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="39210" level="1" /> 
+		</skills>
+	</item>
+	<item id="48542" name="烤魚" additionalName="Combat Speed" type="EtcItem">
+		
+		<set name="icon" val="icon.fishing_buff_pm_speed" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="39211" level="1" /> 
+		</skills>
+	</item>
+	<item id="48543" name="燉魚" additionalName="Max HP/ MP" type="EtcItem">
+		
+		<set name="icon" val="icon.fishing_buff_hp_mp" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="39212" level="1" /> 
+		</skills>
+	</item>
+	<item id="48544" name="皇家鮮魚濃湯" additionalName="Combat Prowess" type="EtcItem">
+		
+		<set name="icon" val="icon.fish_stew_residence_luc" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48545" name="黎歐納 布拉克巴德的留言" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_blackbire_message_01" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48546" name="耶提斯標章" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_etina_sign_01" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48547" name="萃取中的阿斯塔廷" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_astatine_extraction_01" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48548" name="巨人的根源" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_giant_source_01" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48549" name="凝縮的能量的碎片" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_condensed_energy_01" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="48550" name="凝縮的能量的結晶" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_condensed_energy_02" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48551" name="奧林匹亞職業1位古文" type="EtcItem">
+		
+		<set name="icon" val="icon.rune_olympiad_legend_server" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="39219" level="1" /> 
+		</skills>
+	</item>
+	<item id="48552" name="奧林匹亞職業2位古文" type="EtcItem">
+		
+		<set name="icon" val="icon.rune_olympiad_legend_server" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48553" name="傳說誕生祝賀古文" additionalName="2-hour" type="EtcItem">
+		
+		<set name="icon" val="icon.rune_olympiad_legend_server" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="48554" name="傳奇無限刨刀" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_the_dagger_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="soulshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="weight" val="1300" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<stats>
+			<stat type="pAtk">1877</stat>
+			<stat type="mAtk">935</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">450</stat>
+		</stats>
+		<skills>
+			<skill id="35191" level="1" /> 
+		</skills>
+	</item>
+	<item id="48555" name="傳奇無限切刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_the_sword_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="soulshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<stats>
+			<stat type="pAtk">2146</stat>
+			<stat type="mAtk">935</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">450</stat>
+		</stats>
+		<skills>
+			<skill id="35192" level="1" /> 
+		</skills>
+	</item>
+	<item id="48556" name="傳奇無限殺刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="soulshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<stats>
+			<stat type="pAtk">2611</stat>
+			<stat type="mAtk">935</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">450</stat>
+		</stats>
+		<skills>
+			<skill id="35193" level="1" /> 
+		</skills>
+	</item>
+	<item id="48557" name="傳奇無限復讎者" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_the_axe_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="soulshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<stats>
+			<stat type="pAtk">2146</stat>
+			<stat type="mAtk">935</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">450</stat>
+		</stats>
+		<skills>
+			<skill id="35194" level="1" /> 
+		</skills>
+	</item>
+	<item id="48558" name="傳奇無限戰爪" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_the_fist_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="soulshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="damage_range" val="0;0;32;120" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<stats>
+			<stat type="pAtk">2611</stat>
+			<stat type="mAtk">935</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">450</stat>
+		</stats>
+		<skills>
+			<skill id="35195" level="1" /> 
+		</skills>
+	</item>
+	<item id="48559" name="傳奇無限風暴者" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_the_pole_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="POLE" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="soulshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="damage_range" val="0;0;66;120" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<stats>
+			<stat type="pAtk">2146</stat>
+			<stat type="mAtk">935</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+		<skills>
+			<skill id="35196" level="1" /> 
+			<skill id="3599" level="1" /> 
+		</skills>
+	</item>
+	<item id="48560" name="傳奇無限投弓" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_the_bow_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BOW" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="soulshots" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="damage_range" val="0;0;10;0" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<stats>
+			<stat type="pAtk">4225</stat>
+			<stat type="mAtk">935</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="holyPower">450</stat>
+		</stats>
+		<skills>
+			<skill id="35197" level="1" /> 
+		</skills>
+	</item>
+	<item id="48561" name="傳奇無限射靈" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_infinity_shooter_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="TWOHANDCROSSBOW" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="1350" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<stats>
+			<stat type="pAtk">3804</stat>
+			<stat type="mAtk">1247</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">500</stat>
+			<stat type="holyPower">450</stat>
+		</stats>
+		<skills>
+			<skill id="35198" level="1" /> 
+		</skills>
+	</item>
+	<item id="48562" name="傳奇無限爆刃" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_infinity_sword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="soulshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<stats>
+			<stat type="pAtk">1716</stat>
+			<stat type="mAtk">1247</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">450</stat>
+		</stats>
+		<skills>
+			<skill id="35199" level="1" /> 
+		</skills>
+	</item>
+	<item id="48563" name="傳奇無限術杖" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_the_mace_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="soulshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<stats>
+			<stat type="pAtk">1716</stat>
+			<stat type="mAtk">1371</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">450</stat>
+		</stats>
+		<skills>
+			<skill id="35200" level="1" /> 
+		</skills>
+	</item>
+	<item id="48564" name="傳奇無限報恨者" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_the_staff_of_hero_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="soulshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<stats>
+			<stat type="pAtk">2090</stat>
+			<stat type="mAtk">935</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="accMagic">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">450</stat>
+		</stats>
+		<skills>
+			<skill id="35201" level="1" /> 
+		</skills>
+	</item>
+	<item id="48565" name="傳奇無限雙刀" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_r_dualsword_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="soulshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<stats>
+			<stat type="pAtk">2611</stat>
+			<stat type="mAtk">935</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">450</stat>
+		</stats>
+		<skills>
+			<skill id="35202" level="1" /> 
+		</skills>
+	</item>
+	<item id="48566" name="傳奇無限雙匕首" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_r_dualdagger_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALDAGGER" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="damage_range" val="0;0;44;120" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<stats>
+			<stat type="pAtk">1877</stat>
+			<stat type="mAtk">935</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">450</stat>
+		</stats>
+		<skills>
+			<skill id="35203" level="1" /> 
+		</skills>
+	</item>
+	<item id="48567" name="傳奇無限雙鈍器" type="Weapon">
+		
+		<set name="icon" val="icon.weapon_r_dualblunt_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1300" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<stats>
+			<stat type="pAtk">2611</stat>
+			<stat type="mAtk">935</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="holyPower">450</stat>
+		</stats>
+		<skills>
+			<skill id="35204" level="1" /> 
+		</skills>
+	</item>
+	<item id="48568" name="守衛壺精碎片" type="EtcItem">
+		
+		<set name="icon" val="icon.guard_ag_piece_1" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48569" name="天使氣息" type="EtcItem">
+		
+		<set name="icon" val="icon.star_pomander" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LEATHER" />
+		<set name="price" val="4500000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48570" name="守衛壺精成長書" type="EtcItem">
+		
+		<set name="icon" val="icon.guard_scrl_of_ench_ag" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="weight" val="120" />
+		<skills>
+			<skill id="39234" level="1" /> 
+		</skills>
+	</item>
+	<item id="48571" name="古代守衛壺精成長書" type="EtcItem">
+		
+		<set name="icon" val="icon.guard_giantscrl_of_ench_ag" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="GIANT_ENCHT_AM" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="weight" val="120" />
+		<skills>
+			<skill id="39235" level="1" /> 
+		</skills>
+	</item>
+	<item id="48572" name="瑪斯亞守衛壺精幸運符" type="Armor">
+		
+		<set name="icon" val="icon.agathion_masia_guard_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="39222" level="1" type="ON_EQUIP" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="48573" name="波莉奈守衛壺精幸運符" type="Armor">
+		
+		<set name="icon" val="icon.agathion_pollyne_guard_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="39226" level="1" type="ON_EQUIP" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="48574" name="泰爾錫守衛壺精幸運符" type="Armor">
+		
+		<set name="icon" val="icon.agathion_tersi_guard_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="39330" level="1" type="ON_EQUIP" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="48575" name="最高級種子手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="icon.lbracelet_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="35071" level="2" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="17547" level="1" /> 
+			<skill id="17548" level="1" /> 
+			<skill id="17549" level="1" /> 
+			<skill id="17550" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="48576" name="最高級種子手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="icon.lbracelet_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="35071" level="3" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="17547" level="1" /> 
+			<skill id="17548" level="1" /> 
+			<skill id="17549" level="1" /> 
+			<skill id="17550" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="48577" name="最高級種子手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="icon.lbracelet_agathion_charm" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="150" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="35071" level="4" /> 
+			<skill id="17551" level="1" /> 
+			<skill id="17547" level="1" /> 
+			<skill id="17548" level="1" /> 
+			<skill id="17549" level="1" /> 
+			<skill id="17550" level="1" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="48578" name="擊倒惡魔的證據" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_broken_crystal_white_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="48579" name="布拉克巴德血盟基本箱" additionalName="Atelia Refinery" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_readybox_bronze" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="39237" level="1" /> 
+		</skills>
+	</item>
+	<item id="48580" name="布拉克巴德血盟中級箱" additionalName="Atelia Refinery" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_readybox_silver" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="39237" level="2" /> 
+		</skills>
+	</item>
+	<item id="48581" name="布拉克巴德血盟高級箱" additionalName="Atelia Refinery" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_readybox_gold" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="39237" level="3" /> 
+		</skills>
+	</item>
+	<item id="48582" name="救贖者強化捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.episode_scrl_of_ench_hair" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="ENCHT_AM" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
+		<skills>
+			<skill id="9945" level="1" /> 
+		</skills>
+	</item>
+	<item id="48583" name="特別的救贖者強化捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.episode_scrl_of_ench_hair" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="GIANT_ENCHT_AM" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
+		<skills>
+			<skill id="9945" level="1" /> 
+		</skills>
+	</item>
+	<item id="48584" name="救贖者面具" type="Armor">
+		
+		<set name="icon" val="icon.episode_mask_01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="35205" level="1" /> 
+			<skill id="35207" level="1" type="ON_ENCHANT" type_value="7" /> 
+			<skill id="35207" level="2" type="ON_ENCHANT" type_value="8" /> 
+			<skill id="35207" level="3" type="ON_ENCHANT" type_value="9" /> 
+			<skill id="35207" level="4" type="ON_ENCHANT" type_value="10" /> 
+			<skill id="35208" level="1" type="ON_ENCHANT" type_value="7" /> 
+			<skill id="35208" level="2" type="ON_ENCHANT" type_value="8" /> 
+			<skill id="35208" level="3" type="ON_ENCHANT" type_value="9" /> 
+			<skill id="35208" level="4" type="ON_ENCHANT" type_value="10" /> 
+			<skill id="35209" level="1" type="ON_ENCHANT" type_value="7" /> 
+			<skill id="35209" level="2" type="ON_ENCHANT" type_value="8" /> 
+			<skill id="35209" level="3" type="ON_ENCHANT" type_value="9" /> 
+			<skill id="35209" level="4" type="ON_ENCHANT" type_value="10" /> 
+		</skills>
+	</item>
+	<item id="48585" name="救贖者願望" type="EtcItem">
+		
+		<set name="icon" val="icon.episode_token" />
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48586" name="救贖者強化捲軸碎片" type="EtcItem">
+		
+		<set name="icon" val="icon.episode_scroll_token" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48587" name="妖怪藥酒" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_goblin_buff_herong" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48588" name="妖怪棒槌" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_goblin_weapon" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48589" name="黃寶石氣息" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewel_topaz_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48590" name="紅寶石氣息" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewel_ruby_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48591" name="黑曜石氣息" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewel_obsidian_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48592" name="貓眼石氣息" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewel_opal_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48593" name="綠寶石氣息" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewel_emerald_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48594" name="海藍寶石氣息" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewel_aquamarine_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48595" name="鑽石氣息" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewel_diamond_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48596" name="珍珠氣息" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewel_pearl_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48597" name="藍寶石氣息" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewel_sapphire_i00" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48598" name="活力石氣息" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewel_vital" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="48599" name="深紅寶石氣息" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_bm_jewel_garnet" />
+		<set name="material" val="LIQUID" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

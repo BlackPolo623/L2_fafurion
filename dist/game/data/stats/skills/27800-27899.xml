@@ -1,0 +1,2694 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="27800" toLevel="1" name="芙蕾雅的禮物袋">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27801" toLevel="1" name="芙蕾雅的交換禮物">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27802" toLevel="1" name="希露的交換禮物">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27803" toLevel="1" name="雪人的交換禮物">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27804" toLevel="3" name="黃寶石精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>17701</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27805" toLevel="3" name="紅寶石精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>18717</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27806" toLevel="3" name="藍寶石精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>18719</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27807" toLevel="3" name="黑曜石精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>17704</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-2</value>
+					<value level="3">-5</value>
+				</amount>
+				<type>PK</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27808" toLevel="3" name="貓眼石精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>17705</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">50</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27809" toLevel="3" name="綠寶石精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>17825</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">1</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27810" toLevel="3" name="海藍寶石精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>17823</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27811" toLevel="3" name="鑽石精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>17708</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">283</value>
+					<value level="2">567</value>
+					<value level="3">945</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27812" toLevel="3" name="珍珠精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>17709</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">283</value>
+					<value level="2">328</value>
+					<value level="3">548</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27813" toLevel="3" name="丹泉寶石精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>18565</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-2</value>
+					<value level="3">-3</value>
+				</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-2</value>
+					<value level="3">-3</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27814" toLevel="3" name="深紅寶石精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>18566</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">5</value>
+					<value level="3">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27815" toLevel="3" name="活力石精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>18568</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27816" toLevel="3" name="緋金綠寶石精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>18713</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27817" toLevel="3" name="靛金綠寶石精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>18714</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27818" toLevel="3" name="黃寶石精煉">
+		<icon>icon.etc_bm_jewel_topaz_i00</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>17701</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27819" toLevel="3" name="紅寶石精煉">
+		<icon>icon.etc_bm_jewel_ruby_i00</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>18717</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27820" toLevel="3" name="藍寶石精煉">
+		<icon>icon.etc_bm_jewel_sapphire_i00</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>18719</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27821" toLevel="3" name="黑曜石精煉">
+		<icon>icon.etc_bm_jewel_obsidian_i00</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>17704</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27822" toLevel="3" name="貓眼石精煉">
+		<icon>icon.etc_bm_jewel_opal_i00</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>17705</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27823" toLevel="3" name="綠寶石精煉">
+		<icon>icon.etc_bm_jewel_emerald_i00</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>17825</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">1</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27824" toLevel="3" name="海藍寶石精煉">
+		<icon>icon.etc_bm_jewel_aquamarine_i00</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>17823</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27825" toLevel="3" name="鑽石精煉">
+		<icon>icon.etc_bm_jewel_diamond_i00</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>17708</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">283</value>
+					<value level="2">567</value>
+					<value level="3">945</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27826" toLevel="3" name="珍珠精煉">
+		<icon>icon.etc_bm_jewel_pearl_i00</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>17709</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">283</value>
+					<value level="2">328</value>
+					<value level="3">548</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27827" toLevel="3" name="丹泉寶石精煉">
+		<icon>icon.etc_bm_jewel_tanzanite</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>18565</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-2</value>
+					<value level="3">-3</value>
+				</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-2</value>
+					<value level="3">-3</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27828" toLevel="3" name="深紅寶石精煉">
+		<icon>icon.etc_bm_jewel_garnet</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>18566</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">5</value>
+					<value level="3">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27829" toLevel="3" name="活力石精煉">
+		<icon>icon.etc_bm_jewel_vital</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>18568</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27830" toLevel="3" name="緋金綠寶石精煉">
+		<icon>icon.bm_jewel_red_catseye</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>18713</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27831" toLevel="3" name="靛金綠寶石精煉">
+		<icon>Icon.bm_jewel_blue_catseye</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckSkillList">
+				<skillIds>
+					<item>18714</item> 
+				</skillIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27832" toLevel="3" name="拉菲安洛茲的燦爛胸針-稀有型">
+		<icon>
+			<value level="1">icon.etc_bm_brooch_lavianrose_i04</value>
+			<value level="2">icon.etc_bm_brooch_lavianrose_i05</value>
+			<value level="3">icon.etc_bm_brooch_lavianrose_i06</value>
+		</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="JewelSlot">
+				<amount>
+					<value level="1">6</value>
+					<value level="2">6</value>
+					<value level="3">6</value>
+				</amount>
+			</effect>
+			<effect name="EnlargeSlot">
+				<amount>
+					<value level="1">12</value>
+					<value level="2">12</value>
+					<value level="3">12</value>
+				</amount>
+				<type>INVENTORY_NORMAL</type>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+			<effect name="StatUp" fromLevel="3" toLevel="3">
+				<amount>2</amount>
+				<stat>STR</stat>
+			</effect>
+			<effect name="StatUp" fromLevel="3" toLevel="3">
+				<amount>2</amount>
+				<stat>DEX</stat>
+			</effect>
+			<effect name="StatUp" fromLevel="3" toLevel="3">
+				<amount>2</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp" fromLevel="3" toLevel="3">
+				<amount>2</amount>
+				<stat>INT</stat>
+			</effect>
+			<effect name="StatUp" fromLevel="3" toLevel="3">
+				<amount>2</amount>
+				<stat>WIT</stat>
+			</effect>
+			<effect name="StatUp" fromLevel="3" toLevel="3">
+				<amount>2</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp" fromLevel="3" toLevel="3">
+				<amount>2</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="MaxCp" fromLevel="3" toLevel="3">
+				<amount>12</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27833" toLevel="1" name="芙蕾雅的禮物袋">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27834" toLevel="1" name="芙蕾雅的交換禮物">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27835" toLevel="1" name="希露的交換禮物">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27836" toLevel="1" name="雪人的交換禮物">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27837" toLevel="1" name="風之武器強化輔助石-R級">
+		<icon>icon.giant_ench_wp_stone_r_i02</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27838" toLevel="1" name="特級紅色救援交換券(R99)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27839" toLevel="3" name="紫水晶精煉">
+		<icon>BranchIcon.Icon.etc_bm_jewel_amethyst_i00</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27840" toLevel="3" name="金綠寶石精煉">
+		<icon>BranchIcon.Icon.etc_bm_jewel_catseye_i00</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DamageShieldResist">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27841" toLevel="3" name="紫水晶精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27842" toLevel="3" name="金綠寶石精煉">
+		<icon>icon.etc_bm_brooch_lavianrose_i05</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DamageShieldResist">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27843" toLevel="1" name="裝有神之靈魂的寶箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27844" toLevel="1" name="高貴之淚">
+		<icon>BranchSys2.icon.g_illumination_skyblue</icon>
+		<operateType>A1</operateType>
+		<effectPoint>100</effectPoint>
+		<hitTime>100</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>2000</reuseDelay>
+	</skill>
+	<skill id="27845" toLevel="1" name="芙琳泰沙的魔法">
+		<icon>BranchSys.Icon.br_spirit_skill_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>100</effectPoint>
+		<hitTime>100</hitTime>
+		<reuseDelay>2000</reuseDelay>
+	</skill>
+	<skill id="27846" toLevel="1" name="憐憫">
+		<icon>icon.etc_whiteday_choco</icon>
+		<operateType>A1</operateType>
+		<hitTime>700</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="27847" toLevel="1" name="奉獻">
+		<icon>icon.etc_whiteday_candy</icon>
+		<operateType>A1</operateType>
+		<hitTime>700</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="27848" toLevel="1" name="渴望">
+		<icon>icon.etc_whiteday_cookie</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>7200</abnormalTime>
+		<affectObject>FRIEND</affectObject>
+		<affectScope>PARTY</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>700</hitTime>
+		<irreplacableBuff>true</irreplacableBuff>
+		<isMagic>4</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10000</reuseDelay>
+		<specialLevel>-1</specialLevel>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="ExpModify">
+				<amount>10</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>10</amount>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>INT</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>STR</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>MEN</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27849" toLevel="1" name="變身技能">
+		<icon>icon.skill11540</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>1</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>1</isMagic> 
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="27850" toLevel="1" name="召喚好友">
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1000</effectPoint>
+		<hitTime>5000</hitTime>
+		<reuseDelay>1800000</reuseDelay>
+	</skill>
+	<skill id="27851" toLevel="1" name="高貴巧克力">
+		<icon>icon.etc_whiteday_choco_long</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="27852" toLevel="1" name="高貴糖果">
+		<icon>icon.etc_whiteday_candy_long</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="27853" toLevel="1" name="高貴餅乾">
+		<icon>icon.etc_whiteday_cookie_long</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="27854" toLevel="1" name="紅色貴族外型加工石">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27855" toLevel="1" name="校服Type1加工石">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27856" toLevel="1" name="校服Type2加工石">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27857" toLevel="1" name="熱血寶箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27858" toLevel="1" name="梅沙亞城堡遺失的寶箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27859" toLevel="1" name="上級班卓斯騎士團之一員">
+		<icon>icon.ev_balthus_token</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>60000</reuseDelay>
+	</skill>
+	<skill id="27860" toLevel="1" name="皇家白色救援交換券(R99)-防具用">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="27861" toLevel="1" name="閃耀的魔法禮盒">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27862" toLevel="1" name="閃耀的魔法禮盒">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27863" toLevel="1" name="貝古夫的特別禮物">
+		<icon>icon.card_event_luck_pocket</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27864" toLevel="1" name="13週年祝福效果">
+		<icon>icon.ev_L2_soul_ore</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="27865" toLevel="24" name="13週年祝福-階段24">
+		<icon>icon.ev_L2_soul_ore</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="27866" toLevel="1" name="半獸人老舊箱子">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="27867" toLevel="1" name="半獸人老舊箱子效果">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27868" toLevel="6" name="幸運的深紅寶石盒子">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27869" toLevel="1" name="閃耀的魔法禮盒">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27870" toLevel="1" name="閃耀的魔法禮盒">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="27871" toLevel="1" name="艾爾摩亞丁斗篷基本效果">
+		<icon>BranchIcon.icon.g_bm_elmoreden_cloak_normal</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="27872" toLevel="20" name="艾爾摩亞丁斗篷強化效果">
+		<icon>BranchIcon.icon.g_bm_elmoreden_cloak_normal</icon>
+		<operateType>P</operateType>
+		<effects> 
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">11</value>
+					<value level="12">12</value>
+					<value level="13">13</value>
+					<value level="14">14</value>
+					<value level="15">15</value>
+					<value level="16">16</value>
+					<value level="17">17</value>
+					<value level="18">18</value>
+					<value level="19">19</value>
+					<value level="20">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">11</value>
+					<value level="12">12</value>
+					<value level="13">13</value>
+					<value level="14">14</value>
+					<value level="15">15</value>
+					<value level="16">16</value>
+					<value level="17">17</value>
+					<value level="18">18</value>
+					<value level="19">19</value>
+					<value level="20">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">11</value>
+					<value level="12">12</value>
+					<value level="13">13</value>
+					<value level="14">14</value>
+					<value level="15">15</value>
+					<value level="16">16</value>
+					<value level="17">17</value>
+					<value level="18">18</value>
+					<value level="19">19</value>
+					<value level="20">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">0</value>
+					<value level="5">0</value>
+					<value level="6">0</value>
+					<value level="7">0</value>
+					<value level="8">0</value>
+					<value level="9">0</value>
+					<value level="10">0</value>
+					<value level="11">0</value>
+					<value level="12">0</value>
+					<value level="13">0</value>
+					<value level="14">0</value>
+					<value level="15">0</value>
+					<value level="16">0</value>
+					<value level="17">0</value>
+					<value level="18">30</value>
+					<value level="19">40</value>
+					<value level="20">50</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">0</value>
+					<value level="5">0</value>
+					<value level="6">0</value>
+					<value level="7">0</value>
+					<value level="8">0</value>
+					<value level="9">0</value>
+					<value level="10">0</value>
+					<value level="11">0</value>
+					<value level="12">0</value>
+					<value level="13">0</value>
+					<value level="14">0</value>
+					<value level="15">0</value>
+					<value level="16">0</value>
+					<value level="17">0</value>
+					<value level="18">30</value>
+					<value level="19">40</value>
+					<value level="20">50</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">0</value>
+					<value level="5">0</value>
+					<value level="6">0</value>
+					<value level="7">0</value>
+					<value level="8">0</value>
+					<value level="9">0</value>
+					<value level="10">0</value>
+					<value level="11">0</value>
+					<value level="12">0</value>
+					<value level="13">0</value>
+					<value level="14">0</value>
+					<value level="15">0</value>
+					<value level="16">0</value>
+					<value level="17">0</value>
+					<value level="18">30</value>
+					<value level="19">40</value>
+					<value level="20">50</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence" fromLevel="5" toLevel="20">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxCp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">0</value>
+					<value level="5">0</value>
+					<value level="6">0</value>
+					<value level="7">0</value>
+					<value level="8">0</value>
+					<value level="9">2800</value>
+					<value level="10">3080</value>
+					<value level="11">3388</value>
+					<value level="12">3727</value>
+					<value level="13">4099</value>
+					<value level="14">4509</value>
+					<value level="15">4960</value>
+					<value level="16">5456</value>
+					<value level="17">6002</value>
+					<value level="18">6602</value>
+					<value level="19">7262</value>
+					<value level="20">7989</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="TriggerSkillByDamageDealt" fromLevel="7" toLevel="10">
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>50</chance>
+				<targetType>ENEMY</targetType>
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>false</allowNormalAttack>
+				<isCritical>false</isCritical>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>27886</skillId> 
+				<skillLevel>1</skillLevel>
+			</effect>
+			<effect name="TriggerSkillByDamageDealt" fromLevel="11" toLevel="14">
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>40</chance>
+				<targetType>ENEMY</targetType>
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>false</allowNormalAttack>
+				<isCritical>false</isCritical>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>27886</skillId> 
+				<skillLevel>2</skillLevel>
+			</effect>
+			<effect name="TriggerSkillByDamageDealt" fromLevel="15" toLevel="18">
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>30</chance>
+				<targetType>ENEMY</targetType>
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>false</allowNormalAttack>
+				<isCritical>false</isCritical>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>27886</skillId> 
+				<skillLevel>3</skillLevel>
+			</effect>
+			<effect name="TriggerSkillByDamageDealt" fromLevel="19" toLevel="20">
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>30</chance>
+				<targetType>ENEMY</targetType>
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>false</allowNormalAttack>
+				<isCritical>false</isCritical>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>27886</skillId> 
+				<skillLevel>4</skillLevel>
+			</effect>
+			<effect name="TriggerSkillByDamageDealt">
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>30</chance>
+				<targetType>ENEMY</targetType>
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>false</allowNormalAttack>
+				<isCritical>false</isCritical>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>27887</skillId> 
+				<skillLevel>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">0</value>
+					<value level="5">0</value>
+					<value level="6">0</value>
+					<value level="7">0</value>
+					<value level="8">0</value>
+					<value level="9">0</value>
+					<value level="10">0</value>
+					<value level="11">1</value>
+					<value level="12">2</value>
+					<value level="13">3</value>
+					<value level="14">4</value>
+					<value level="15">5</value>
+					<value level="16">6</value>
+					<value level="17">7</value>
+					<value level="18">8</value>
+					<value level="19">9</value>
+					<value level="20">10</value>
+				</skillLevel>
+			</effect>
+			<effect name="TriggerSkillByDamageDealt">
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>100</chance>
+				<targetType>ENEMY</targetType>
+				<allowSkillAttack>false</allowSkillAttack>
+				<allowNormalAttack>true</allowNormalAttack>
+				<isCritical>false</isCritical>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>27894</skillId> 
+				<skillLevel>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">0</value>
+					<value level="5">0</value>
+					<value level="6">0</value>
+					<value level="7">0</value>
+					<value level="8">0</value>
+					<value level="9">0</value>
+					<value level="10">0</value>
+					<value level="11">0</value>
+					<value level="12">0</value>
+					<value level="13">1</value>
+					<value level="14">2</value>
+					<value level="15">3</value>
+					<value level="16">4</value>
+					<value level="17">5</value>
+					<value level="18">6</value>
+					<value level="19">7</value>
+					<value level="20">8</value>
+				</skillLevel>
+			</effect>
+			<effect name="TriggerSkillByDamageDealt" fromLevel="20" toLevel="20">
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>100</chance>
+				<targetType>ENEMY</targetType>
+				<allowSkillAttack>false</allowSkillAttack>
+				<allowNormalAttack>true</allowNormalAttack>
+				<isCritical>false</isCritical>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>27888</skillId> 
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27873" toLevel="1" name="亞丁斗篷基本效果">
+		<icon>BranchIcon.icon.g_bm_aden_cloak_normal</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="27874" toLevel="20" name="亞丁斗篷強化效果">
+		<icon>BranchIcon.icon.g_bm_aden_cloak_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">11</value>
+					<value level="12">12</value>
+					<value level="13">13</value>
+					<value level="14">14</value>
+					<value level="15">15</value>
+					<value level="16">16</value>
+					<value level="17">17</value>
+					<value level="18">18</value>
+					<value level="19">19</value>
+					<value level="20">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack" fromLevel="5" toLevel="20">
+				<amount>7</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>
+					<value fromLevel="1" toLevel="8">0</value>
+					<value level="9">7</value>
+					<value level="10">8</value>
+					<value level="11">9</value>
+					<value level="12">10</value>
+					<value level="13">11</value>
+					<value level="14">12</value>
+					<value level="15">13</value>
+					<value level="16">14</value>
+					<value level="17">15</value>
+					<value level="18">16</value>
+					<value level="19">17</value>
+					<value level="20">20</value>
+				</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>
+					<value fromLevel="1" toLevel="8">0</value>
+					<value level="9">7</value>
+					<value level="10">8</value>
+					<value level="11">9</value>
+					<value level="12">10</value>
+					<value level="13">11</value>
+					<value level="14">12</value>
+					<value level="15">13</value>
+					<value level="16">14</value>
+					<value level="17">15</value>
+					<value level="18">16</value>
+					<value level="19">17</value>
+					<value level="20">20</value>
+				</amount>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="10">0</value>
+					<value level="11">3</value>
+					<value level="12">4</value>
+					<value level="13">5</value>
+					<value level="14">6</value>
+					<value level="15">7</value>
+					<value level="16">8</value>
+					<value level="17">9</value>
+					<value level="18">10</value>
+					<value level="19">11</value>
+					<value level="20">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="TriggerSkillByDamageDealt">
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>30</chance>
+				<targetType>SELF</targetType>
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>false</allowNormalAttack>
+				<isCritical>false</isCritical>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>27889</skillId> 
+				<skillLevel>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">0</value>
+					<value level="5">0</value>
+					<value level="6">0</value>
+					<value level="7">1</value>
+					<value level="8">2</value>
+					<value level="9">3</value>
+					<value level="10">4</value>
+					<value level="11">5</value>
+					<value level="12">6</value>
+					<value level="13">7</value>
+					<value level="14">8</value>
+					<value level="15">9</value>
+					<value level="16">10</value>
+					<value level="17">11</value>
+					<value level="18">12</value>
+					<value level="19">13</value>
+					<value level="20">14</value>
+				</skillLevel>
+			</effect>
+			<effect name="TriggerSkillByDamageDealt"> 
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>30</chance> 
+				<targetType>SELF</targetType>
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>false</allowNormalAttack>
+				<isCritical>false</isCritical>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>27883</skillId> 
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27875" toLevel="1" name="艾爾摩斗篷基本效果">
+		<icon>BranchIcon.icon.g_bm_elmore_cloak_normal</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="27876" toLevel="20" name="艾爾摩斗篷強化效果">
+		<icon>BranchIcon.icon.g_bm_elmore_cloak_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">11</value>
+					<value level="12">12</value>
+					<value level="13">13</value>
+					<value level="14">14</value>
+					<value level="15">15</value>
+					<value level="16">16</value>
+					<value level="17">17</value>
+					<value level="18">18</value>
+					<value level="19">19</value>
+					<value level="20">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">11</value>
+					<value level="12">12</value>
+					<value level="13">13</value>
+					<value level="14">14</value>
+					<value level="15">15</value>
+					<value level="16">16</value>
+					<value level="17">17</value>
+					<value level="18">18</value>
+					<value level="19">19</value>
+					<value level="20">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack" fromLevel="5" toLevel="20">
+				<amount>7</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>
+					<value fromLevel="1" toLevel="8">0</value>
+					<value level="9">7</value>
+					<value level="10">8</value>
+					<value level="11">9</value>
+					<value level="12">10</value>
+					<value level="13">11</value>
+					<value level="14">12</value>
+					<value level="15">13</value>
+					<value level="16">14</value>
+					<value level="17">15</value>
+					<value level="18">16</value>
+					<value level="19">17</value>
+					<value level="20">20</value>
+				</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>
+					<value fromLevel="1" toLevel="8">0</value>
+					<value level="9">7</value>
+					<value level="10">8</value>
+					<value level="11">9</value>
+					<value level="12">10</value>
+					<value level="13">11</value>
+					<value level="14">12</value>
+					<value level="15">13</value>
+					<value level="16">14</value>
+					<value level="17">15</value>
+					<value level="18">16</value>
+					<value level="19">17</value>
+					<value level="20">20</value>
+				</amount>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="10">0</value>
+					<value level="11">3</value>
+					<value level="12">4</value>
+					<value level="13">5</value>
+					<value level="14">6</value>
+					<value level="15">7</value>
+					<value level="16">8</value>
+					<value level="17">9</value>
+					<value level="18">10</value>
+					<value level="19">11</value>
+					<value level="20">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="TriggerSkillByDamageDealt">
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>30</chance>
+				<targetType>SELF</targetType>
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>false</allowNormalAttack>
+				<isCritical>false</isCritical>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>27890</skillId> 
+				<skillLevel>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">0</value>
+					<value level="5">0</value>
+					<value level="6">0</value>
+					<value level="7">1</value>
+					<value level="8">2</value>
+					<value level="9">3</value>
+					<value level="10">4</value>
+					<value level="11">5</value>
+					<value level="12">6</value>
+					<value level="13">7</value>
+					<value level="14">8</value>
+					<value level="15">9</value>
+					<value level="16">10</value>
+					<value level="17">11</value>
+					<value level="18">12</value>
+					<value level="19">13</value>
+					<value level="20">14</value>
+				</skillLevel>
+			</effect>
+			<effect name="TriggerSkillByDamageDealt"> 
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>30</chance> 
+				<targetType>SELF</targetType>
+				<allowSkillAttack>false</allowSkillAttack>
+				<allowNormalAttack>true</allowNormalAttack>
+				<isCritical>false</isCritical>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>27884</skillId> 
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27877" toLevel="1" name="貝里歐斯斗篷基本效果">
+		<icon>BranchIcon.icon.g_bm_perios_cloak_normal</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="27878" toLevel="20" name="貝里歐斯斗篷強化效果">
+		<icon>BranchIcon.icon.g_bm_perios_cloak_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">12</value>
+					<value level="3">14</value>
+					<value level="4">16</value>
+					<value level="5">18</value>
+					<value level="6">20</value>
+					<value level="7">22</value>
+					<value level="8">24</value>
+					<value level="9">26</value>
+					<value level="10">28</value>
+					<value level="11">30</value>
+					<value level="12">32</value>
+					<value level="13">34</value>
+					<value level="14">36</value>
+					<value level="15">38</value>
+					<value level="16">40</value>
+					<value level="17">42</value>
+					<value level="18">44</value>
+					<value level="19">46</value>
+					<value level="20">50</value>
+				</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">12</value>
+					<value level="3">14</value>
+					<value level="4">16</value>
+					<value level="5">18</value>
+					<value level="6">20</value>
+					<value level="7">22</value>
+					<value level="8">24</value>
+					<value level="9">26</value>
+					<value level="10">28</value>
+					<value level="11">30</value>
+					<value level="12">32</value>
+					<value level="13">34</value>
+					<value level="14">36</value>
+					<value level="15">38</value>
+					<value level="16">40</value>
+					<value level="17">42</value>
+					<value level="18">44</value>
+					<value level="19">46</value>
+					<value level="20">50</value>
+				</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">12</value>
+					<value level="3">14</value>
+					<value level="4">16</value>
+					<value level="5">18</value>
+					<value level="6">20</value>
+					<value level="7">22</value>
+					<value level="8">24</value>
+					<value level="9">26</value>
+					<value level="10">28</value>
+					<value level="11">30</value>
+					<value level="12">32</value>
+					<value level="13">34</value>
+					<value level="14">36</value>
+					<value level="15">38</value>
+					<value level="16">40</value>
+					<value level="17">42</value>
+					<value level="18">44</value>
+					<value level="19">46</value>
+					<value level="20">50</value>
+				</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">12</value>
+					<value level="3">14</value>
+					<value level="4">16</value>
+					<value level="5">18</value>
+					<value level="6">20</value>
+					<value level="7">22</value>
+					<value level="8">24</value>
+					<value level="9">26</value>
+					<value level="10">28</value>
+					<value level="11">30</value>
+					<value level="12">32</value>
+					<value level="13">34</value>
+					<value level="14">36</value>
+					<value level="15">38</value>
+					<value level="16">40</value>
+					<value level="17">42</value>
+					<value level="18">44</value>
+					<value level="19">46</value>
+					<value level="20">50</value>
+				</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">12</value>
+					<value level="3">14</value>
+					<value level="4">16</value>
+					<value level="5">18</value>
+					<value level="6">20</value>
+					<value level="7">22</value>
+					<value level="8">24</value>
+					<value level="9">26</value>
+					<value level="10">28</value>
+					<value level="11">30</value>
+					<value level="12">32</value>
+					<value level="13">34</value>
+					<value level="14">36</value>
+					<value level="15">38</value>
+					<value level="16">40</value>
+					<value level="17">42</value>
+					<value level="18">44</value>
+					<value level="19">46</value>
+					<value level="20">50</value>
+				</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">12</value>
+					<value level="3">14</value>
+					<value level="4">16</value>
+					<value level="5">18</value>
+					<value level="6">20</value>
+					<value level="7">22</value>
+					<value level="8">24</value>
+					<value level="9">26</value>
+					<value level="10">28</value>
+					<value level="11">30</value>
+					<value level="12">32</value>
+					<value level="13">34</value>
+					<value level="14">36</value>
+					<value level="15">38</value>
+					<value level="16">40</value>
+					<value level="17">42</value>
+					<value level="18">44</value>
+					<value level="19">46</value>
+					<value level="20">50</value>
+				</amount>
+				<attribute>DARK</attribute>
+			</effect>
+			<effect name="PhysicalDefence" fromLevel="5" toLevel="20">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxHp">
+				<amount>
+					<value fromLevel="1" toLevel="8">0</value>
+					<value level="9">2800</value>
+					<value level="10">3080</value>
+					<value level="11">3388</value>
+					<value level="12">3727</value>
+					<value level="13">4099</value>
+					<value level="14">4509</value>
+					<value level="15">4960</value>
+					<value level="16">5456</value>
+					<value level="17">6002</value>
+					<value level="18">6602</value>
+					<value level="19">7262</value>
+					<value level="20">7989</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="TriggerSkillByDamageReceived">
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>30</chance>
+				<targetType>SELF</targetType>
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>true</allowNormalAttack>
+				<isCritical>false</isCritical>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>27891</skillId> 
+				<skillLevel>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">0</value>
+					<value level="5">0</value>
+					<value level="6">0</value>
+					<value level="7">1</value>
+					<value level="8">2</value>
+					<value level="9">3</value>
+					<value level="10">4</value>
+					<value level="11">5</value>
+					<value level="12">6</value>
+					<value level="13">7</value>
+					<value level="14">8</value>
+					<value level="15">9</value>
+					<value level="16">10</value>
+					<value level="17">11</value>
+					<value level="18">12</value>
+					<value level="19">13</value>
+					<value level="20">14</value>
+				</skillLevel>
+			</effect>
+			<effect name="TriggerSkillByDamageReceived">
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>30</chance>
+				<targetType>SELF</targetType>
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>true</allowNormalAttack>
+				<isCritical>false</isCritical>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>27892</skillId> 
+				<skillLevel>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">0</value>
+					<value level="5">0</value>
+					<value level="6">0</value>
+					<value level="7">0</value>
+					<value level="8">0</value>
+					<value level="9">0</value>
+					<value level="10">0</value>
+					<value level="11">0</value>
+					<value level="12">0</value>
+					<value level="13">1</value>
+					<value level="14">1</value>
+					<value level="15">2</value>
+					<value level="16">2</value>
+					<value level="17">2</value>
+					<value level="18">3</value>
+					<value level="19">3</value>
+					<value level="20">3</value>
+				</skillLevel>
+			</effect>
+			<effect name="TriggerSkillByDamageDealt">
+				<attackerType>Creature</attackerType>
+				<minDamage>1</minDamage>
+				<chance>30</chance>
+				<targetType>SELF</targetType>
+				<allowSkillAttack>false</allowSkillAttack>
+				<allowNormalAttack>true</allowNormalAttack>
+				<isCritical>false</isCritical>
+				<allowWeapons>ALL</allowWeapons>
+				<skillId>27893</skillId> 
+				<skillLevel>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">0</value>
+					<value level="5">0</value>
+					<value level="6">0</value>
+					<value level="7">0</value>
+					<value level="8">0</value>
+					<value level="9">0</value>
+					<value level="10">0</value>
+					<value level="11">0</value>
+					<value level="12">0</value>
+					<value level="13">0</value>
+					<value level="14">0</value>
+					<value level="15">0</value>
+					<value level="16">0</value>
+					<value level="17">0</value>
+					<value level="18">1</value>
+					<value level="19">2</value>
+					<value level="20">3</value>
+				</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27879" toLevel="1" name="無視傷害">
+		<icon>BranchIcon.icon.g_bm_elmoreden_cloak_normal</icon>
+		<operateType>A1</operateType>
+		<effectPoint>867</effectPoint>
+		<hitTime>500</hitTime>
+		<reuseDelay>600000</reuseDelay>
+	</skill>
+	<skill id="27880" toLevel="1" name="艾爾摩亞丁的祝福">
+		<icon>BranchIcon.icon.g_bm_elmoreden_cloak_normal</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>INVINCIBILITY</abnormalType>
+		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<effectPoint>867</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic>
+		<isSharedWithSummon>true</isSharedWithSummon>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="DebuffBlock" />
+			<effect name="ResistDispelByCategory">
+				<amount>-100</amount>
+				<slot>ALL</slot>
+			</effect>
+			<effect name="ResistAbnormalByCategory">
+				<amount>-100</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+			<effect name="Speed">
+				<amount>100</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27881" toLevel="1" name="亞丁的祝福">
+		<icon>BranchIcon.icon.g_bm_aden_cloak_normal</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>200</coolTime>
+		<effectPoint>1811</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>1200000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="Hp">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Mp">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27882" toLevel="1" name="艾爾摩的祝福">
+		<icon>BranchIcon.icon.g_bm_elmore_cloak_normal</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>200</coolTime>
+		<effectPoint>1811</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>1200000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="Hp">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Mp">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27883" toLevel="1" name="亞丁精神">
+		<icon>BranchIcon.icon.g_bm_aden_cloak_normal</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>300</abnormalTime> 
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<effectPoint>867</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>1200000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<pveEffects>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+		</pveEffects>
+	</skill>
+	<skill id="27884" toLevel="1" name="艾爾摩精神">
+		<icon>BranchIcon.icon.g_bm_elmore_cloak_normal</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>300</abnormalTime> 
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<effectPoint>867</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>1200000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<pveEffects>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+		</pveEffects>
+	</skill>
+	<skill id="27885" toLevel="1" name="貝里歐斯的祝福">
+		<icon>BranchIcon.icon.g_bm_perios_cloak_normal</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>20</abnormalTime>
+		<abnormalType>INVINCIBILITY</abnormalType>
+		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<effectPoint>867</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic>
+		<isSharedWithSummon>true</isSharedWithSummon>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="DebuffBlock" />
+			<effect name="ResistDispelByCategory">
+				<amount>-100</amount>
+				<slot>ALL</slot>
+			</effect>
+			<effect name="ResistAbnormalByCategory">
+				<amount>-100</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27886" toLevel="4" name="艾爾摩亞丁魂靈箭">
+		<icon>icon.skill0049</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+		</abnormalLevel>
+		<affectScope>SINGLE</affectScope>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic>
+		<magicLevel>1</magicLevel>
+		<reuseDelay>180000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<pvpEffects>
+			<effect name="RealDamage">
+				<power>
+					<value level="1">6500</value>
+					<value level="2">9000</value>
+					<value level="3">11000</value>
+					<value level="4">15000</value>
+				</power>
+			</effect>
+		</pvpEffects>
+	</skill>
+	<skill id="27887" toLevel="10" name="艾爾摩亞丁之怒">
+		<icon>icon.skill0049</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<affectScope>SINGLE</affectScope>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic>
+		<magicLevel>1</magicLevel>
+		<reuseDelay>60000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<pvpEffects>
+			<effect name="Cp">
+				<amount>
+					<value level="1">-50</value>
+					<value level="2">-53</value>
+					<value level="3">-56</value>
+					<value level="4">-58</value>
+					<value level="5">-60</value>
+					<value level="6">-62</value>
+					<value level="7">-64</value>
+					<value level="8">-66</value>
+					<value level="9">-68</value>
+					<value level="10">-70</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</pvpEffects>
+	</skill>
+	<skill id="27888" toLevel="1" name="艾爾摩亞丁之強力炸彈">
+		<icon>BranchIcon.icon.g_bm_elmoreden_cloak_normal</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>3</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<activateRate>200</activateRate>
+		<affectLimit>20-25</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-709</effectPoint>
+		<hitTime>500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>2</isMagic> 
+		<mpConsume>1</mpConsume>
+		<reuseDelay>120000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<trait>KNOCKDOWN</trait>
+		<effects>
+			<effect name="KnockBack">
+				<speed>600</speed>
+				<distance>200</distance>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27889" toLevel="14" name="亞丁之怒">
+		<icon>BranchIcon.icon.g_bm_aden_cloak_normal</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>120</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<effectPoint>867</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>4</isMagic>
+		<isSharedWithSummon>true</isSharedWithSummon>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">55</value>
+					<value level="3">61</value>
+					<value level="4">67</value>
+					<value level="5">73</value>
+					<value level="6">81</value>
+					<value level="7">89</value>
+					<value level="8">97</value>
+					<value level="9">107</value>
+					<value level="10">118</value>
+					<value level="11">130</value>
+					<value level="12">200</value>
+					<value level="13">200</value>
+					<value level="14">200</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27890" toLevel="14" name="艾爾摩之怒">
+		<icon>icon.skill0917</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>120</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<effectPoint>867</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>4</isMagic>
+		<isSharedWithSummon>true</isSharedWithSummon>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">55</value>
+					<value level="3">61</value>
+					<value level="4">67</value>
+					<value level="5">73</value>
+					<value level="6">81</value>
+					<value level="7">89</value>
+					<value level="8">97</value>
+					<value level="9">107</value>
+					<value level="10">118</value>
+					<value level="11">130</value>
+					<value level="12">200</value>
+					<value level="13">200</value>
+					<value level="14">200</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">55</value>
+					<value level="3">61</value>
+					<value level="4">67</value>
+					<value level="5">73</value>
+					<value level="6">81</value>
+					<value level="7">89</value>
+					<value level="8">97</value>
+					<value level="9">107</value>
+					<value level="10">118</value>
+					<value level="11">130</value>
+					<value level="12">200</value>
+					<value level="13">200</value>
+					<value level="14">200</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27891" toLevel="14" name="貝里歐斯屏障">
+		<icon>BranchIcon.icon.g_bm_perios_cloak_normal</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>7</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>500</coolTime>
+		<effectPoint>867</effectPoint>
+		<hitTime>300</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>120000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="AbsorbDamage">
+				<amount>
+					<value level="1">30000</value>
+					<value level="2">31500</value>
+					<value level="3">33075</value>
+					<value level="4">34729</value>
+					<value level="5">36465</value>
+					<value level="6">38288</value>
+					<value level="7">40203</value>
+					<value level="8">42213</value>
+					<value level="9">44324</value>
+					<value level="10">46540</value>
+					<value level="11">48867</value>
+					<value level="12">51310</value>
+					<value level="13">53876</value>
+					<value level="14">56569</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27892" toLevel="3" name="貝里歐斯防禦">
+		<icon>BranchIcon.icon.g_bm_perios_cloak_normal</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>20</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>500</coolTime>
+		<effectPoint>689</effectPoint>
+		<hitTime>300</hitTime>
+		<isMagic>4</isMagic>
+		<isSharedWithSummon>true</isSharedWithSummon>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">16000</value>
+					<value level="2">17000</value>
+					<value level="3">18000</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">16000</value>
+					<value level="2">17000</value>
+					<value level="3">18000</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27893" toLevel="3" name="貝里歐斯精神">
+		<icon>BranchIcon.icon.g_bm_perios_cloak_normal</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>180</abnormalTime>
+		<affectObject>FRIEND</affectObject>
+		<affectRange>1000</affectRange>
+		<affectScope>PARTY</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitTime>300</hitTime>
+		<isMagic>4</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>1200000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">55</value>
+					<value level="3">60</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">55</value>
+					<value level="3">60</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27894" toLevel="8" name="艾爾摩亞丁恢復術">
+		<icon>icon.skill0049</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>689</effectPoint>
+		<hitTime>300</hitTime>
+		<magicLevel>1</magicLevel>
+		<reuseDelay>120000</reuseDelay>
+		<effects>
+			<effect name="Cp">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">53</value>
+					<value level="3">55</value>
+					<value level="4">58</value>
+					<value level="5">61</value>
+					<value level="6">64</value>
+					<value level="7">67</value>
+					<value level="8">70</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27895" toLevel="10" name="王國斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">68</value>
+					<value level="2">82</value>
+					<value level="3">107</value>
+					<value level="4">132</value>
+					<value level="5">157</value>
+					<value level="6">188</value>
+					<value level="7">220</value>
+					<value level="8">251</value>
+					<value level="9">314</value>
+					<value level="10">628</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27896" toLevel="10" name="王國斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">74</value>
+					<value level="2">87</value>
+					<value level="3">114</value>
+					<value level="4">141</value>
+					<value level="5">168</value>
+					<value level="6">201</value>
+					<value level="7">235</value>
+					<value level="8">269</value>
+					<value level="9">336</value>
+					<value level="10">672</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27897" toLevel="10" name="王國斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttackSpeed">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">12</value>
+					<value level="3">15</value>
+					<value level="4">19</value>
+					<value level="5">23</value>
+					<value level="6">27</value>
+					<value level="7">32</value>
+					<value level="8">36</value>
+					<value level="9">45</value>
+					<value level="10">90</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27898" toLevel="10" name="王國斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalAttackSpeed">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">12</value>
+					<value level="3">15</value>
+					<value level="4">19</value>
+					<value level="5">23</value>
+					<value level="6">27</value>
+					<value level="7">32</value>
+					<value level="8">36</value>
+					<value level="9">45</value>
+					<value level="10">90</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="27899" toLevel="5" name="王國斗篷精煉">
+		<icon>BranchIcon.icon.g_bm_cloak_mineral_normal</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Accuracy">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+</list>

@@ -1,0 +1,1600 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="22800" name="芙蕾雅魔杖-聰明" additionalName="Magic Hold" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_glacierin_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="S80" />
+		<set name="crystal_count" val="9872" />
+		<set name="weight" val="1080" />
+		<set name="price" val="205668000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="ensoulNormalSlots" val="1" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">426</stat>
+			<stat type="mAtk">281</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3577" level="2" type_chance="20" type="ON_MAGIC_SKILL" /> 
+			<skill id="3893" level="1" /> 
+			<skill id="21280" level="1" /> 
+			<skill id="3552" level="1" /> 
+		</skills>
+	</item>
+	<item id="22801" name="芙蕾雅魔杖-聰明" additionalName="Empower" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_glacierin_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="S80" />
+		<set name="crystal_count" val="9872" />
+		<set name="weight" val="1080" />
+		<set name="price" val="205668000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="ensoulNormalSlots" val="1" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">426</stat>
+			<stat type="mAtk">281</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3893" level="1" /> 
+			<skill id="21280" level="1" /> 
+			<skill id="3575" level="4" /> 
+		</skills>
+	</item>
+	<item id="22802" name="芙蕾雅魔杖-聰明" additionalName="MP Regeneration" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_glacierin_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="S80" />
+		<set name="crystal_count" val="9872" />
+		<set name="weight" val="1080" />
+		<set name="price" val="205668000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="TWO_HAND_MAGIC_BLUNT_WEAPON" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="ensoulNormalSlots" val="1" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">426</stat>
+			<stat type="mAtk">281</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3893" level="1" /> 
+			<skill id="21280" level="1" /> 
+			<skill id="3576" level="4" /> 
+		</skills>
+	</item>
+	<item id="22803" name="芙蕾雅魔杖-聰明 {對戰用}" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_glacierin_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="S80" />
+		<set name="crystal_count" val="9872" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">426</stat>
+			<stat type="mAtk">281</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3655" level="1" /> 
+			<skill id="3893" level="1" /> 
+			<skill id="21280" level="1" /> 
+			<skill id="3552" level="3" /> 
+		</skills>
+	</item>
+	<item id="22804" name="芙蕾雅魔杖-聰明 {對戰用}-魔法束縛" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_glacierin_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="S80" />
+		<set name="crystal_count" val="9872" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">426</stat>
+			<stat type="mAtk">281</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3552" level="3" /> 
+			<skill id="3654" level="1" /> 
+			<skill id="3893" level="1" /> 
+			<skill id="21280" level="1" /> 
+			<skill id="3577" level="2" type_chance="20" type="ON_MAGIC_SKILL" /> 
+		</skills>
+	</item>
+	<item id="22805" name="芙蕾雅魔杖-聰明 {對戰用}-魔力催化" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_glacierin_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="S80" />
+		<set name="crystal_count" val="9872" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">426</stat>
+			<stat type="mAtk">281</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3654" level="1" /> 
+			<skill id="3575" level="4" /> 
+			<skill id="3893" level="1" /> 
+			<skill id="21280" level="1" /> 
+			<skill id="3552" level="1" /> 
+		</skills>
+	</item>
+	<item id="22806" name="芙蕾雅魔杖-聰明 {對戰用}-魔力再生" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_glacierin_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="crystal_type" val="S80" />
+		<set name="crystal_count" val="9872" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="enchant_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">426</stat>
+			<stat type="mAtk">281</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3654" level="1" /> 
+			<skill id="3576" level="4" /> 
+			<skill id="3893" level="1" /> 
+			<skill id="21280" level="1" /> 
+			<skill id="3552" level="1" /> 
+		</skills>
+	</item>
+	<item id="22807" name="斯佩席亞戰爪" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_spacia_claw_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1451" />
+		<set name="weight" val="1550" />
+		<set name="price" val="136041000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="FIST_WEAPON" />
+		<set name="material" val="STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="21281" level="1" /> 
+			<skill id="13265" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22808" name="斯佩席亞戰爪" additionalName="Focus" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_spacia_claw_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1451" />
+		<set name="weight" val="1550" />
+		<set name="price" val="136041000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="FIST_WEAPON" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3565" level="7" /> 
+			<skill id="21281" level="1" /> 
+			<skill id="13265" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22809" name="斯佩席亞戰爪" additionalName="Damage Up" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_spacia_claw_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1451" />
+		<set name="weight" val="1550" />
+		<set name="price" val="136041000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="FIST_WEAPON" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13062" level="2" /> 
+			<skill id="21281" level="1" /> 
+			<skill id="13265" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22810" name="斯佩席亞戰爪" additionalName="Haste" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_spacia_claw_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1451" />
+		<set name="weight" val="1550" />
+		<set name="price" val="136041000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="FIST_WEAPON" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3564" level="8" /> 
+			<skill id="21281" level="1" /> 
+			<skill id="13265" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22811" name="斯佩席亞戰爪" additionalName="Focus +Damage" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_spacia_claw_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1451" />
+		<set name="weight" val="1550" />
+		<set name="price" val="136041000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="FIST_WEAPON" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3565" level="7" /> 
+			<skill id="13062" level="2" /> 
+			<skill id="21281" level="1" /> 
+			<skill id="13265" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22812" name="斯佩席亞戰爪" additionalName="Damage Up +Haste" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_spacia_claw_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1451" />
+		<set name="weight" val="1550" />
+		<set name="price" val="136041000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="FIST_WEAPON" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13062" level="2" /> 
+			<skill id="3564" level="8" /> 
+			<skill id="21281" level="1" /> 
+			<skill id="13265" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22813" name="斯佩席亞戰爪" additionalName="Haste +Focus" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_spacia_claw_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALFIST" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1451" />
+		<set name="weight" val="1550" />
+		<set name="price" val="136041000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="FIST_WEAPON" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">595</stat>
+			<stat type="mAtk">226</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3564" level="8" /> 
+			<skill id="3565" level="7" /> 
+			<skill id="21281" level="1" /> 
+			<skill id="13265" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22814" name="梅莉莎風暴者" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_melisa_stormer_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="POLE" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="3130" />
+		<set name="weight" val="2010" />
+		<set name="price" val="293442000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="SPEAR" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="BRONZE" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">567</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+		<skills>
+			<skill id="3599" level="1" /> 
+			<skill id="21282" level="1" /> 
+			<skill id="13263" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22815" name="梅莉莎風暴者" additionalName="HP Drain" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_melisa_stormer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="POLE" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="3130" />
+		<set name="weight" val="2010" />
+		<set name="price" val="293442000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="SPEAR" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="BRONZE" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">567</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+		<skills>
+			<skill id="13111" level="1" /> 
+			<skill id="21282" level="1" /> 
+			<skill id="13263" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22816" name="梅莉莎風暴者" additionalName="Guidance" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_melisa_stormer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="POLE" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="3130" />
+		<set name="weight" val="2010" />
+		<set name="price" val="293442000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="SPEAR" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="BRONZE" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">567</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+		<skills>
+			<skill id="13110" level="1" /> 
+			<skill id="21282" level="1" /> 
+			<skill id="13263" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22817" name="梅莉莎風暴者" additionalName="Damage Up" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_melisa_stormer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="POLE" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="3130" />
+		<set name="weight" val="2010" />
+		<set name="price" val="293442000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="SPEAR" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="BRONZE" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">567</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+		<skills>
+			<skill id="13109" level="1" /> 
+			<skill id="21282" level="1" /> 
+			<skill id="13263" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22818" name="梅莉莎風暴者" additionalName="HP Drain +Guidance" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_melisa_stormer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="POLE" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="3130" />
+		<set name="weight" val="2010" />
+		<set name="price" val="293442000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="SPEAR" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="BRONZE" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">567</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+		<skills>
+			<skill id="13115" level="1" /> 
+			<skill id="3568" level="2" /> 
+			<skill id="3573" level="4" /> 
+			<skill id="21282" level="1" /> 
+			<skill id="13263" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22819" name="梅莉莎風暴者" additionalName="Guidance +Damage Up" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_melisa_stormer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="POLE" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="3130" />
+		<set name="weight" val="2010" />
+		<set name="price" val="293442000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="SPEAR" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="BRONZE" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">567</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+		<skills>
+			<skill id="13115" level="1" /> 
+			<skill id="3573" level="4" /> 
+			<skill id="13062" level="1" /> 
+			<skill id="21282" level="1" /> 
+			<skill id="13263" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22820" name="梅莉莎風暴者" additionalName="Damage Up +HP Drain" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_melisa_stormer_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="POLE" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="3130" />
+		<set name="weight" val="2010" />
+		<set name="price" val="293442000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="SPEAR" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="BRONZE" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">567</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="randomDamage">10</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+		<skills>
+			<skill id="13115" level="1" /> 
+			<skill id="13062" level="1" /> 
+			<skill id="3568" level="2" /> 
+			<skill id="21282" level="1" /> 
+			<skill id="13263" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22821" name="斯泰里格斯匕首" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_dainsleif_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="1451" />
+		<set name="weight" val="1520" />
+		<set name="price" val="136041000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="DAGGER" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">496</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="21283" level="1" /> 
+			<skill id="13281" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22822" name="斯泰里格斯匕首" additionalName="Guidance" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_dainsleif_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="1451" />
+		<set name="weight" val="1520" />
+		<set name="price" val="136041000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="DAGGER" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">496</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3573" level="5" /> 
+			<skill id="21283" level="1" /> 
+			<skill id="13281" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22823" name="斯泰里格斯匕首" additionalName="Haste" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_dainsleif_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="1451" />
+		<set name="weight" val="1520" />
+		<set name="price" val="136041000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="DAGGER" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">496</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3564" level="8" /> 
+			<skill id="21283" level="1" /> 
+			<skill id="13281" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22824" name="斯泰里格斯匕首" additionalName="Focus" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_dainsleif_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="1451" />
+		<set name="weight" val="1520" />
+		<set name="price" val="136041000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="DAGGER" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">496</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3567" level="7" /> 
+			<skill id="21283" level="1" /> 
+			<skill id="13281" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22825" name="斯泰里格斯匕首" additionalName="Guidance +Haste" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_dainsleif_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="1451" />
+		<set name="weight" val="1520" />
+		<set name="price" val="136041000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="DAGGER" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">496</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3573" level="5" /> 
+			<skill id="3564" level="8" /> 
+			<skill id="21283" level="1" /> 
+			<skill id="13281" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22826" name="斯泰里格斯匕首" additionalName="Haste +Focus" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_dainsleif_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="1451" />
+		<set name="weight" val="1520" />
+		<set name="price" val="136041000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="DAGGER" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">496</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3564" level="8" /> 
+			<skill id="3567" level="7" /> 
+			<skill id="21283" level="1" /> 
+			<skill id="13281" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22827" name="斯泰里格斯匕首" additionalName="Focus +Guidance" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_dainsleif_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rhand" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="1451" />
+		<set name="weight" val="1520" />
+		<set name="price" val="136041000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="DAGGER" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">496</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">433</stat>
+			<stat type="rCrit">12</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3567" level="7" /> 
+			<skill id="3573" level="5" /> 
+			<skill id="21283" level="1" /> 
+			<skill id="13281" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22828" name="普倫雙鈍器" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_urukmash_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="3756" />
+		<set name="weight" val="1740" />
+		<set name="price" val="352130400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">690</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">4</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="21284" level="1" /> 
+			<skill id="13271" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22829" name="普倫雙鈍器" additionalName="Focus" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_urukmash_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="3756" />
+		<set name="weight" val="1740" />
+		<set name="price" val="352130400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">690</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">4</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3566" level="8" /> 
+			<skill id="21284" level="1" /> 
+			<skill id="13271" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22830" name="普倫雙鈍器" additionalName="Guidance" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_urukmash_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="3756" />
+		<set name="weight" val="1740" />
+		<set name="price" val="352130400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">690</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">4</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3573" level="6" /> 
+			<skill id="21284" level="1" /> 
+			<skill id="13271" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22831" name="普倫雙鈍器" additionalName="Damage Up" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_urukmash_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="3756" />
+		<set name="weight" val="1740" />
+		<set name="price" val="352130400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">690</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">4</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13062" level="3" /> 
+			<skill id="21284" level="1" /> 
+			<skill id="13271" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22832" name="普倫雙鈍器" additionalName="Focus +Guidance" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_urukmash_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="3756" />
+		<set name="weight" val="1740" />
+		<set name="price" val="352130400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">690</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">4</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3566" level="8" /> 
+			<skill id="3573" level="6" /> 
+			<skill id="21284" level="1" /> 
+			<skill id="13271" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22833" name="普倫雙鈍器" additionalName="Guidance +Damage Up" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_urukmash_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="3756" />
+		<set name="weight" val="1740" />
+		<set name="price" val="352130400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">690</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">4</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="3573" level="6" /> 
+			<skill id="13062" level="3" /> 
+			<skill id="21284" level="1" /> 
+			<skill id="13271" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22834" name="普倫雙鈍器" additionalName="Damage Up +Focus" type="Weapon">
+		
+		<set name="icon" val="BranchSys3.Icon.g_urukmash_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lrhand" />
+		<set name="weapon_type" val="DUALBLUNT" />
+		<set name="crystal_type" val="R95" />
+		<set name="crystal_count" val="3756" />
+		<set name="weight" val="1740" />
+		<set name="price" val="352130400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="true" />
+		<set name="element_enabled" val="true" />
+		<set name="commissionItemType" val="DUAL_BLUNT_WEAPON" />
+		<set name="isAppearanceable" val="true" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="ensoulNormalSlots" val="2" />
+		<set name="ensoulSpecialSlots" val="1" />
+		<stats>
+			<stat type="pAtk">690</stat>
+			<stat type="mAtk">275</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">4</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="13062" level="3" /> 
+			<skill id="3566" level="8" /> 
+			<skill id="21284" level="1" /> 
+			<skill id="13271" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="22882" name="頭飾外型復原石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_r" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="RESTORE_SHAPE_SHIFTING_HAIRACC" />
+		<set name="handler" val="Appearance" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="22624" level="1" /> 
+		</skills>
+	</item>
+	<item id="22883" name="活力充能捲軸" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.lcon.g_scrl_vitality_point_up" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="PAPER" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="immediate_effect" val="true" />
+		<cond>
+			<player MaximumVitalityPoints="140000" />
+		</cond>
+		<skills>
+			<skill id="22597" level="1" /> 
+		</skills>
+	</item>
+	<item id="22884" name="高級活力充能捲軸" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.lcon.g_scrl_vitality_point_up_2" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="PAPER" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="immediate_effect" val="true" />
+		<cond>
+			<player MaximumVitalityPoints="140000" />
+		</cond>
+		<skills>
+			<skill id="22597" level="2" /> 
+		</skills>
+	</item>
+	<item id="22885" name="特級活力充能捲軸" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.lcon.g_scrl_vitality_point_up_3" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="PAPER" />
+		<set name="reuse_delay" val="3600000" />
+		<set name="immediate_effect" val="true" />
+		<cond>
+			<player MaximumVitalityPoints="140000" />
+		</cond>
+		<skills>
+			<skill id="22597" level="3" /> 
+		</skills>
+	</item>
+	<item id="22886" name="海賊王 烏山卡戒指" type="Armor">
+		
+		<set name="icon" val="BranchSys3.lcon.g_ring_of_uthanka" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="commissionItemType" val="RING" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="BRONZE" />
+		<skills>
+			<skill id="21294" level="1" type="ON_EQUIP" /> 
+			<skill id="21295" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="22887" name="獨角獸騎乘手鐲" type="Armor">
+		
+		<set name="icon" val="BranchSys3.lcon.g_pi_transformation_unicorn" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="30" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="839" level="1" type="ON_UNEQUIP" /> 
+			<skill id="21286" level="1" /> 
+		</skills>
+	</item>
+	<item id="22888" name="神秘的靈魂彈-R級" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_soulshot_purple" />
+		<set name="default_action" val="SOULSHOT" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="SoulShots" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="crystal_type" val="R" />
+		<set name="commissionItemType" val="SOULSHOT" />
+		<set name="etcitem_type" val="SOULSHOT" />
+		<skills>
+			<skill id="9299" level="1" /> 
+		</skills>
+	</item>
+	<item id="22889" name="神秘的祝福的魔靈彈-R級" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_spell_shot_purple" />
+		<set name="default_action" val="SPIRITSHOT" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="BlessedSpiritShot" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="crystal_type" val="R" />
+		<set name="commissionItemType" val="SPIRITSHOT" />
+		<set name="etcitem_type" val="SOULSHOT" />
+		<skills>
+			<skill id="9306" level="1" /> 
+		</skills>
+	</item>
+	<item id="22890" name="神秘的祝福的靈魂彈-R級組合包 (10000)" type="EtcItem">
+		
+		<set name="icon" val="icon.br_cash_pack_of_soulshot_r_i00" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="STEEL" />
+		<capsuled_items>
+			<item id="22888" min="10000" max="10000" chance="100" name="神秘的靈魂彈-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="22891" name="神秘的祝福的靈魂彈-R級組合包 (5000)" type="EtcItem">
+		
+		<set name="icon" val="icon.br_cash_pack_of_soulshot_r_i00" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="STEEL" />
+		<capsuled_items>
+			<item id="22888" min="5000" max="5000" chance="100" name="神秘的靈魂彈-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="22892" name="神秘的祝福的魔靈彈-R級組合包 (10000)" type="EtcItem">
+		
+		<set name="icon" val="icon.br_cash_pack_of_spiritshot_r_i00" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="STEEL" />
+		<capsuled_items>
+			<item id="22889" min="10000" max="10000" chance="100" name="神秘的祝福的魔靈彈-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="22893" name="神秘的祝福的魔靈彈-R級組合包 (5000)" type="EtcItem">
+		
+		<set name="icon" val="icon.br_cash_pack_of_spiritshot_r_i00" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="STEEL" />
+		<capsuled_items>
+			<item id="22889" min="5000" max="5000" chance="100" name="神秘的祝福的魔靈彈-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="22894" name="L2Day-文字W" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_alphabet_w_i00" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="22895" name="遠古卡爾提亞迷宮的記錄" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.lcon.g_record_of_cartia" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="default_action" val="SHOW_HTML" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="22896" name="遠古卡爾提亞迷宮的根源" additionalName="Stage 1" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.lcon.g_scroll_of_cartia_85" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="LIQUID" />
+		<set name="reuse_delay" val="172800000" />
+		<skills>
+			<skill id="22599" level="1" /> 
+		</skills>
+	</item>
+	<item id="22897" name="遠古卡爾提亞迷宮的根源" additionalName="Stage 2" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.lcon.g_scroll_of_cartia_90" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="LIQUID" />
+		<set name="reuse_delay" val="172800000" />
+		<skills>
+			<skill id="22600" level="1" /> 
+		</skills>
+	</item>
+	<item id="22898" name="遠古卡爾提亞迷宮的根源" additionalName="Stage 3" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.lcon.g_scroll_of_cartia_95" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="LIQUID" />
+		<set name="reuse_delay" val="172800000" />
+		<skills>
+			<skill id="22601" level="1" /> 
+		</skills>
+	</item>
+	<item id="22899" name="活力降低捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_penalty_recovery_i02" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="SCROLL_OTHER" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="PAPER" />
+		<set name="reuse_delay" val="604800000" />
+		<skills>
+			<skill id="22602" level="1" /> 
+		</skills>
+	</item>
+</list>

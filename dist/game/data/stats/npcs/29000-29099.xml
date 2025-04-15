@@ -1,0 +1,5078 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="29001" level="40" type="GrandBoss" name="巨蟻女王">
+		<parameters>
+			<minions name="Privates">
+				<npc id="29003" count="6" respawnTime="10" weightPoint="1" />
+				<npc id="29005" count="8" respawnTime="360" weightPoint="1" />
+			</minions>
+		</parameters>
+		<race>BUG</race>
+		<sex>FEMALE</sex>
+		<acquire exp="2179535" sp="523" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="40218408.2318354" hpRegen="208" mp="300.1998001998" mpRegen="2.1" />
+			<attack physical="144.910919595141" magical="6.32761293934815" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1252.71317829457" magical="229.22813620488" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="230" />
+			</speed>
+			<hitTime>370</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4017" level="1" /> 
+			<skill id="4019" level="1" /> 
+			<skill id="4021" level="1" /> 
+			<skill id="4045" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="12" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<corpseTime>300</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="2000" aggroRange="2000">
+			<clanList>
+				<clan>QUEEN_ANT</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="396" min="1" max="2" chance="43.495" /> 
+				<item id="438" min="1" max="2" chance="42.115" /> 
+				<item id="380" min="1" max="2" chance="37.45" /> 
+				<item id="353" min="1" max="2" chance="36.92" /> 
+				<item id="882" min="1" max="2" chance="35.87" /> 
+				<item id="851" min="1" max="2" chance="33.56" /> 
+				<item id="6660" min="1" max="1" chance="31.46" /> 
+				<item id="914" min="1" max="2" chance="31.4" /> 
+				<item id="607" min="1" max="3" chance="20.98" /> 
+				<item id="2412" min="1" max="3" chance="20.44" /> 
+				<item id="1125" min="1" max="3" chance="20.08" /> 
+				<item id="630" min="1" max="3" chance="19.82" /> 
+				<item id="70" min="1" max="1" chance="6.026" /> 
+				<item id="2499" min="1" max="1" chance="5.945" /> 
+				<item id="225" min="1" max="1" chance="5.568" /> 
+				<item id="189" min="1" max="1" chance="5.566" /> 
+				<item id="280" min="1" max="1" chance="5.551" /> 
+				<item id="188" min="1" max="1" chance="5.485" /> 
+				<item id="159" min="1" max="1" chance="5.464" /> 
+				<item id="297" min="1" max="1" chance="5.459" /> 
+				<item id="262" min="1" max="1" chance="4.948" /> 
+				<item id="57" min="140000" max="1170000" chance="100" /> 
+				<item id="36514" min="1" max="2" chance="100" /> 
+				<item id="36252" min="1" max="1" chance="69.17" /> 
+				<item id="955" min="1" max="3" chance="19.29" /> 
+				<item id="46474" min="1" max="1" chance="9.537" /> 
+				<item id="46504" min="1" max="1" chance="9.509" /> 
+				<item id="46489" min="1" max="1" chance="9.495" /> 
+				<item id="46459" min="1" max="1" chance="6.431" /> 
+				<item id="46444" min="1" max="1" chance="6.382" /> 
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<lucky>
+				<item id="39629" min="1" max="1" chance="59.02" /> 
+			</lucky>
+		</dropLists>
+		<collision>
+			<radius normal="45" />
+			<height normal="53" />
+		</collision>
+	</npc>
+	<npc id="29002" level="38" type="Monster" name="巨蟻女王的幼蟲">
+		
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="591" hpRegen="3.5" mp="315" mpRegen="1.5" />
+			<attack physical="89.21" magical="59.01" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="118.72" magical="84.16" />
+			<speed>
+				<walk ground="40" />
+				<run ground="60" />
+			</speed>
+			<hitTime>350</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="12" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="4500" aggroRange="450">
+			<clanList>
+				<clan>QUEEN_ANT</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="8" />
+		</collision>
+	</npc>
+	<npc id="29003" level="35" type="Monster" name="護衛螞蟻">
+		
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4000" hpRegen="108" mp="402" mpRegen="1.8" />
+			<attack physical="637" magical="395" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="547" magical="200" />
+			<speed>
+				<walk ground="40" />
+				<run ground="130" />
+			</speed>
+			<hitTime>260</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="12" /> 
+			<skill id="4020" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="700" aggroRange="450">
+			<clanList>
+				<clan>QUEEN_ANT</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="26" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="29004" level="37" type="Monster" name="螞蟻警衛">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="120" />
+			<param name="MoveAroundSocial1" value="120" />
+			<param name="MoveAroundSocial2" value="120" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4343" hpRegen="115" mp="432" mpRegen="1.8" />
+			<attack physical="178" magical="27" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578" magical="211" />
+			<speed>
+				<walk ground="40" />
+				<run ground="230" />
+			</speed>
+			<hitTime>260</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="12" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="700" isAggressive="true">
+			<clanList>
+				<clan>QUEEN_ANT</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="26" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="29005" level="39" type="Monster" name="螞蟻侍衛">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="120" />
+			<param name="MoveAroundSocial1" value="120" />
+			<param name="MoveAroundSocial2" value="120" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="7051" hpRegen="122" mp="463" mpRegen="1.8" />
+			<attack physical="1190" magical="1074" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="610" magical="223" />
+			<speed>
+				<walk ground="40" />
+				<run ground="230" />
+			</speed>
+			<hitTime>260</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="12" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="700" aggroRange="450">
+			<clanList>
+				<clan>QUEEN_ANT</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="26" />
+			<height normal="15" />
+		</collision>
+	</npc>
+	<npc id="29006" level="50" type="GrandBoss" name="核心">
+		<parameters>
+			<minions name="Privates">
+				<npc id="29008" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="29011" count="4" respawnTime="360" weightPoint="1" />
+				<npc id="29007" count="10" respawnTime="360" weightPoint="1" />
+			</minions>
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="2041407" sp="489" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="261551.02897942" hpRegen="441.65" mp="1708.29170829171" mpRegen="20" />
+			<attack physical="996.967421953973" magical="1087.97365382536" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1602.15827338129" magical="293.231947908207" evasion="-18" />
+			<speed>
+				<walk ground="50" />
+				<run ground="110" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<corpseTime>10</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="4500" aggroRange="2000">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="6662" min="1" max="1" chance="29.29" /> 
+				<item id="517" min="1" max="1" chance="14.65" /> 
+				<item id="2459" min="1" max="1" chance="13.66" /> 
+				<item id="107" min="1" max="1" chance="13.36" /> 
+				<item id="2435" min="1" max="1" chance="13.33" /> 
+				<item id="472" min="1" max="1" chance="12.46" /> 
+				<item id="441" min="1" max="1" chance="12.37" /> 
+				<item id="60" min="1" max="1" chance="12.25" /> 
+				<item id="400" min="1" max="1" chance="11.75" /> 
+				<item id="420" min="1" max="1" chance="11.53" /> 
+				<item id="162" min="1" max="1" chance="4.856" /> 
+				<item id="233" min="1" max="1" chance="4.854" /> 
+				<item id="301" min="1" max="1" chance="4.797" /> 
+				<item id="75" min="1" max="1" chance="4.779" /> 
+				<item id="283" min="1" max="1" chance="4.762" /> 
+				<item id="265" min="1" max="1" chance="4.044" /> 
+				<item id="174" min="1" max="1" chance="4.037" /> 
+				<item id="200" min="1" max="1" chance="3.953" /> 
+				<item id="84" min="1" max="1" chance="3.945" /> 
+				<item id="57" min="100000" max="750000" chance="100" /> 
+				<item id="45929" min="2" max="12" chance="44.13" /> 
+				<item id="951" min="1" max="1" chance="13.63" /> 
+				<item id="46489" min="1" max="1" chance="4.763" /> 
+				<item id="46474" min="1" max="1" chance="4.717" /> 
+				<item id="46504" min="1" max="1" chance="4.712" /> 
+				<item id="46459" min="1" max="1" chance="3.248" /> 
+				<item id="46444" min="1" max="1" chance="3.185" /> 
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<lucky>
+				<item id="39629" min="1" max="1" chance="70.32" /> 
+			</lucky>
+		</dropLists>
+		<collision>
+			<radius normal="140" />
+			<height normal="75" />
+		</collision>
+	</npc>
+	<npc id="29007" level="50" type="Monster" name="死亡騎士">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="74" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="74" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="75" /> 
+		<acquire sp="1" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="13817" hpRegen="166" mp="747" mpRegen="2.1" />
+			<attack physical="410" magical="69" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="801" magical="293" />
+			<speed>
+				<walk ground="27" />
+				<run ground="110" />
+			</speed>
+			<hitTime>710</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="2300" isAggressive="true">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" grown="14.5" />
+			<height normal="31" grown="36" />
+		</collision>
+	</npc>
+	<npc id="29008" level="55" type="Monster" name="死亡之刃">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<skill name="DDMagic" id="4001" level="5" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="1472" /> 
+		<acquire sp="1" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="16012" hpRegen="185" mp="889" mpRegen="2.4" />
+			<attack physical="470" magical="715" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="895" magical="327" />
+			<speed>
+				<walk ground="100" />
+				<run ground="230" />
+			</speed>
+			<hitTime>450</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4001" level="5" /> 
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="700" isAggressive="true">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" grown="25" />
+			<height normal="45" grown="52" />
+		</collision>
+	</npc>
+	<npc id="29009" level="47" type="Monster" name="迪克爾">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<skill name="DeBuff" id="4035" level="4" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>FEMALE</sex>
+		<acquire sp="1" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="12544" hpRegen="154" mp="665" mpRegen="2.1" />
+			<attack physical="354" magical="60" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="747" magical="273" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>130</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4035" level="4" /> 
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="800" isAggressive="true">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="25.5" />
+		</collision>
+	</npc>
+	<npc id="29010" level="46" type="Monster" name="瓦里達斯">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="12130" hpRegen="150" mp="637" mpRegen="2.1" />
+			<attack physical="337" magical="58" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="729" magical="267" />
+			<speed>
+				<walk ground="70" />
+				<run ground="110" />
+			</speed>
+			<hitTime>300</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="3" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="1200" isAggressive="true">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="29" />
+		</collision>
+	</npc>
+	<npc id="29011" level="49" type="Monster" name="基座">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<skill name="DDMagic" id="4001" level="4" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="13389" hpRegen="162" mp="720" mpRegen="2.1" />
+			<attack physical="391" magical="66" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="783" magical="286" />
+			<speed>
+				<walk ground="27" />
+				<run ground="150" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4001" level="4" /> 
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="1500" isAggressive="true">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" grown="25" />
+			<height normal="35" grown="41.5" />
+		</collision>
+	</npc>
+	<npc id="29012" level="48" type="Monster" name="匹黎姆">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<skill name="DDMagic" id="4001" level="4" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="12964" hpRegen="158" mp="692" mpRegen="2.1" />
+			<attack physical="372" magical="63" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="765" magical="280" />
+			<speed>
+				<walk ground="20" />
+				<run ground="20" />
+			</speed>
+			<hitTime>410</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4001" level="4" /> 
+			<skill id="4045" level="1" /> 
+			<skill id="4273" level="3" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4444" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="800" isAggressive="true">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="18" />
+			<height normal="34" />
+		</collision>
+	</npc>
+	<npc id="29013" level="45" type="Monster" name="普勒摩">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="135" />
+			<param name="MoveAroundSocial1" value="135" />
+			<param name="MoveAroundSocial2" value="135" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire sp="1" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="11721" hpRegen="146" mp="610" mpRegen="2.1" />
+			<attack physical="320" magical="55" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="711" magical="260" />
+			<speed>
+				<walk ground="55" />
+				<run ground="110" />
+			</speed>
+			<hitTime>610</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="11" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="1200" aggroRange="450">
+			<clanList>
+				<clan>CURMA_CORE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="21" grown="25" />
+			<height normal="35" grown="43" />
+		</collision>
+	</npc>
+	<npc id="29019" level="79" type="GrandBoss" name="安塔瑞斯">
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<acquire exp="262720917" sp="63053" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="7500000" hpRegen="1100" mp="18000" mpRegen="99" />
+			<attack physical="6762.0906209649" magical="1907.09825932188" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3840.47619047619" magical="825.067789353504" evasion="-18" />
+			<speed>
+				<walk ground="50" />
+				<run ground="186" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4071" level="2" /> 
+			<skill id="4106" level="1" /> 
+			<skill id="4107" level="1" /> 
+			<skill id="4108" level="1" /> 
+			<skill id="4109" level="1" /> 
+			<skill id="4110" level="2" /> 
+			<skill id="4111" level="1" /> 
+			<skill id="4112" level="1" /> 
+			<skill id="4113" level="1" /> 
+			<skill id="4122" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5092" level="1" /> 
+			<skill id="5093" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<corpseTime>14</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="4096" clanHelpRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="300" />
+			<height normal="300" />
+		</collision>
+		<dropLists>
+			<drop>
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29020" level="78" type="GrandBoss" name="巴溫">
+		<parameters>
+			<minions name="Privates">
+				<npc id="29021" count="5" respawnTime="360" weightPoint="1" />
+			</minions>
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="11090077" sp="2661" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="53342293.1541369" hpRegen="319.2293199" mp="18000" mpRegen="3" />
+			<attack physical="9130.62945596072" magical="19365.6590684098" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3241.31736526946" magical="2395.80778502934" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4127" level="1" /> 
+			<skill id="4256" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<corpseTime>13</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="true">
+			<skill primaryId="4127" />
+		</ai>
+		<collision>
+			<radius normal="65" />
+			<height normal="174" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="6658" min="1" max="1" chance="70.51" /> 
+				<item id="212" min="1" max="1" chance="6.056" /> 
+				<item id="150" min="1" max="1" chance="6.015" /> 
+				<item id="288" min="1" max="1" chance="6.01" /> 
+				<item id="98" min="1" max="1" chance="5.994" /> 
+				<item id="269" min="1" max="1" chance="5.993" /> 
+				<item id="2504" min="1" max="1" chance="5.976" /> 
+				<item id="80" min="1" max="1" chance="5.973" /> 
+				<item id="235" min="1" max="1" chance="5.97" /> 
+				<item id="6372" min="1" max="1" chance="1.267" /> 
+				<item id="6364" min="1" max="1" chance="1.261" /> 
+				<item id="6579" min="1" max="1" chance="1.219" /> 
+				<item id="6371" min="1" max="1" chance="1.197" /> 
+				<item id="7575" min="1" max="1" chance="1.189" /> 
+				<item id="6366" min="1" max="1" chance="1.179" /> 
+				<item id="6365" min="1" max="1" chance="1.144" /> 
+				<item id="6370" min="1" max="1" chance="0.75" /> 
+				<item id="6369" min="1" max="1" chance="0.75" /> 
+				<item id="6367" min="1" max="1" chance="0.75" /> 
+				<item id="6580" min="1" max="1" chance="0.75" /> 
+				<item id="36514" min="1" max="2" chance="100" /> 
+				<item id="45929" min="1" max="6" chance="44.92" /> 
+				<item id="37520" min="1" max="1" chance="28.81" /> 
+				<item id="46489" min="1" max="1" chance="20.8" /> 
+				<item id="46474" min="1" max="1" chance="20.39" /> 
+				<item id="46504" min="1" max="1" chance="19.79" /> 
+				<item id="46475" min="1" max="1" chance="17.62" /> 
+				<item id="46505" min="1" max="1" chance="17.61" /> 
+				<item id="46490" min="1" max="1" chance="16.51" /> 
+				<item id="46476" min="1" max="1" chance="14.79" /> 
+				<item id="46491" min="1" max="1" chance="14.33" /> 
+				<item id="46459" min="1" max="1" chance="13.86" /> 
+				<item id="46444" min="1" max="1" chance="13.77" /> 
+				<item id="46506" min="1" max="1" chance="13.67" /> 
+				<item id="46445" min="1" max="1" chance="11.76" /> 
+				<item id="46460" min="1" max="1" chance="11.43" /> 
+				<item id="46461" min="1" max="1" chance="9.667" /> 
+				<item id="46446" min="1" max="1" chance="9.56" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29021" level="74" type="Monster" name="大天使">
+		
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="93" /> 
+		<acquire exp="9855" sp="2" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="186915" hpRegen="158" mp="1475" mpRegen="3" />
+			<attack physical="1395" magical="371" random="10" critical="4" accuracy="0" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="5108" magical="1686" evasion="-18" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hitTime>760</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4132" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4133" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>ARCHANGEL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="80" />
+		</collision>
+	</npc>
+	<npc id="29022" level="60" type="GrandBoss" name="札肯">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="4879745" sp="1171" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="360722.385552289" hpRegen="101.2977436" mp="180000" mpRegen="2.4" />
+			<attack physical="4990.26652622523" magical="1165.42225157846" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1981.20805369128" magical="966.483181248282" evasion="-18" />
+			<speed>
+				<walk ground="42" />
+				<run ground="190" />
+			</speed>
+			<hitTime>590</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4218" level="1" /> 
+			<skill id="4219" level="1" /> 
+			<skill id="4220" level="1" /> 
+			<skill id="4221" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<corpseTime>300</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="16" />
+			<height normal="32" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="6659" min="1" max="1" chance="42.645" /> 
+				<item id="2390" min="1" max="1" chance="9.994" /> 
+				<item id="2406" min="1" max="1" chance="9.937" /> 
+				<item id="383" min="1" max="1" chance="5.061" /> 
+				<item id="2376" min="1" max="1" chance="5.053" /> 
+				<item id="357" min="1" max="1" chance="5.018" /> 
+				<item id="2397" min="1" max="1" chance="5.014" /> 
+				<item id="2384" min="1" max="1" chance="5.005" /> 
+				<item id="2402" min="1" max="1" chance="5.001" /> 
+				<item id="2379" min="1" max="1" chance="4.951" /> 
+				<item id="2388" min="1" max="1" chance="4.947" /> 
+				<item id="228" min="1" max="1" chance="4.8" /> 
+				<item id="135" min="1" max="1" chance="4.792" /> 
+				<item id="286" min="1" max="1" chance="3.847" /> 
+				<item id="2503" min="1" max="1" chance="3.659" /> 
+				<item id="266" min="1" max="1" chance="3.043" /> 
+				<item id="5286" min="1" max="1" chance="3.031" /> 
+				<item id="673" min="1" max="1" chance="3.017" /> 
+				<item id="600" min="1" max="1" chance="3.004" /> 
+				<item id="612" min="1" max="1" chance="2.992" /> 
+				<item id="633" min="1" max="1" chance="2.978" /> 
+				<item id="2415" min="1" max="1" chance="2.973" /> 
+				<item id="554" min="1" max="1" chance="2.965" /> 
+				<item id="503" min="1" max="1" chance="2.95" /> 
+				<item id="299" min="1" max="1" chance="2.947" /> 
+				<item id="2464" min="1" max="1" chance="2.939" /> 
+				<item id="206" min="1" max="1" chance="1.552" /> 
+				<item id="92" min="1" max="1" chance="1.315" /> 
+				<item id="91" min="1" max="1" chance="1.261" /> 
+				<item id="284" min="1" max="1" chance="1.268" /> 
+				<item id="205" min="1" max="1" chance="1.17" /> 
+				<item id="204" min="1" max="1" chance="1.157" /> 
+				<item id="78" min="1" max="1" chance="0.75" /> 
+				<item id="300" min="1" max="1" chance="0.75" /> 
+				<item id="267" min="1" max="1" chance="0.75" /> 
+				<item id="243" min="1" max="1" chance="0.75" /> 
+				<item id="229" min="1" max="1" chance="0.75" /> 
+				<item id="148" min="1" max="1" chance="0.75" /> 
+				<item id="142" min="1" max="1" chance="0.75" /> 
+				<item id="8922" min="1" max="1" chance="0.75" /> 
+				<item id="57" min="1260000" max="1540000" chance="100" /> 
+				<item id="45929" min="2" max="4" chance="100" /> 
+				<item id="947" min="1" max="1" chance="6.02" /> 
+				<item id="10295" min="1" max="1" chance="0.75" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29023" level="58" type="Monster" name="人偶刀手">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="50" />
+			<param name="MoveAroundSocial1" value="50" />
+			<param name="MoveAroundSocial2" value="50" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="5129" /> 
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1828" hpRegen="6.5" mp="832" mpRegen="2.4" />
+			<attack physical="442" magical="302" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="DUAL" range="40" distance="80" width="120" />
+			<defence physical="261" magical="191" />
+			<speed>
+				<walk ground="22" />
+				<run ground="150" />
+			</speed>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4071" level="5" /> 
+			<skill id="4085" level="1" /> 
+			<skill id="4086" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="19" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="6" />
+			<height normal="12" />
+		</collision>
+	</npc>
+	<npc id="29024" level="59" type="Monster" name="貝里大師">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="114" />
+			<param name="MoveAroundSocial1" value="114" />
+			<param name="MoveAroundSocial2" value="114" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1880" hpRegen="6.5" mp="861" mpRegen="2.4" />
+			<attack physical="461" magical="315" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="267" magical="195" />
+			<speed>
+				<walk ground="70" />
+				<run ground="155" />
+			</speed>
+			<hitTime>740</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4071" level="5" /> 
+			<skill id="4085" level="1" /> 
+			<skill id="4086" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="12" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="29025" level="78" type="Folk" name="巴溫">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="1709400" hpRegen="718" mp="18000" mpRegen="99" />
+			<attack physical="1874.18" magical="1596.95" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3300" magical="2200" evasion="-18" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" aggroRange="4296" />
+		<collision>
+			<radius normal="65" />
+			<height normal="82" />
+		</collision>
+	</npc>
+	<npc id="29026" level="60" type="Monster" name="海賊殭屍船長">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="70" />
+			<param name="MoveAroundSocial1" value="70" />
+			<param name="MoveAroundSocial2" value="70" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="232" /> 
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1933" hpRegen="6.5" mp="804" mpRegen="2.4" />
+			<attack physical="420" magical="328" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="272" magical="199" />
+			<speed>
+				<walk ground="14" />
+				<run ground="140" />
+			</speed>
+			<hitTime>760</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="17" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="29027" level="57" type="Monster" name="海賊殭屍">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="225" /> 
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1776" hpRegen="6.5" mp="584" mpRegen="2.1" />
+			<attack physical="371" magical="289" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="256" magical="187" />
+			<speed>
+				<walk ground="11" />
+				<run ground="140" />
+			</speed>
+			<hitTime>740</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc>
+	<npc id="29028" level="118" type="GrandBoss" name="巴拉卡斯" title="Fire Dragon">
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<acquire exp="108452897573760" sp="97607602024" raidPoints="1000" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="782297162.90828" hpRegen="561.9508371" mp="2298436.06393606" mpRegen="3.6" />
+			<attack physical="3456050.41243471" magical="1004237.52442584" random="30" critical="1" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="150263.053009167" magical="75131.643963848" />
+			<attribute>
+				<attack type="FIRE" value="450" />
+				<defence fire="450" water="400" wind="450" earth="450" holy="450" dark="450" />
+			</attribute>
+			<speed>
+				<walk ground="120" />
+				<run ground="300" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" noSleepMode="true" isDeathPenalty="true" />
+		<collision>
+			<radius normal="190" />
+			<height normal="335" />
+		</collision>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4071" level="2" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="4679" level="1" /> 
+			<skill id="4680" level="1" /> 
+			<skill id="5462" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="32675" level="1" /> 
+		</skillList>
+		<corpseTime>21</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="4096" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>VALAKAS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="80334" min="1" max="2" chance="100" /> 
+				<item id="80333" min="1" max="1" chance="34.17" /> 
+				<item id="80335" min="1" max="1" chance="33.88" /> 
+				<item id="80111" min="1" max="3" chance="20.3" /> 
+				<item id="80113" min="1" max="3" chance="19.73" /> 
+				<item id="80112" min="1" max="3" chance="19.71" /> 
+				<item id="80114" min="1" max="3" chance="19.64" /> 
+				<item id="80110" min="1" max="3" chance="19.35" /> 
+				<item id="80108" min="1" max="3" chance="17.11" /> 
+				<item id="80115" min="1" max="3" chance="17.07" /> 
+				<item id="80104" min="1" max="3" chance="17.01" /> 
+				<item id="80117" min="1" max="3" chance="16.83" /> 
+				<item id="80107" min="1" max="3" chance="16.79" /> 
+				<item id="80109" min="1" max="3" chance="16.57" /> 
+				<item id="80116" min="1" max="3" chance="16.23" /> 
+				<item id="80106" min="1" max="3" chance="16.19" /> 
+				<item id="80105" min="1" max="3" chance="16.14" /> 
+				<item id="80118" min="1" max="3" chance="16.09" /> 
+				<item id="80120" min="1" max="3" chance="15.995" /> 
+				<item id="80119" min="1" max="3" chance="15.89" /> 
+				<item id="80095" min="1" max="3" chance="9.159" /> 
+				<item id="80097" min="1" max="3" chance="9.146" /> 
+				<item id="80099" min="1" max="3" chance="9.141" /> 
+				<item id="80091" min="1" max="3" chance="9.137" /> 
+				<item id="80093" min="1" max="3" chance="9.078" /> 
+				<item id="80100" min="1" max="3" chance="9.077" /> 
+				<item id="80096" min="1" max="3" chance="9.068" /> 
+				<item id="80092" min="1" max="3" chance="9.06" /> 
+				<item id="80098" min="1" max="3" chance="9.044" /> 
+				<item id="80090" min="1" max="3" chance="9.032" /> 
+				<item id="80094" min="1" max="3" chance="9.02" /> 
+				<item id="36432" min="1" max="1" chance="0.075" /> 
+				<item id="36431" min="1" max="1" chance="0.075" /> 
+				<item id="36430" min="1" max="1" chance="0.075" /> 
+				<item id="36433" min="1" max="1" chance="0.075" /> 
+				<item id="36429" min="1" max="1" chance="0.075" /> 
+				<item id="36428" min="1" max="1" chance="0.075" /> 
+				<item id="36427" min="1" max="1" chance="0.075" /> 
+				<item id="36414" min="1" max="1" chance="100" /> 
+				<item id="37772" min="1" max="1" chance="49.62" /> 
+				<item id="35568" min="1" max="1" chance="49.45" /> 
+				<item id="37781" min="1" max="1" chance="49.37" /> 
+				<item id="19448" min="10" max="10" chance="30.21" /> 
+				<item id="36389" min="10" max="10" chance="28.58" /> 
+				<item id="46492" min="1" max="2" chance="23.85" /> 
+				<item id="46478" min="1" max="1" chance="23.53" /> 
+				<item id="46477" min="1" max="2" chance="23.43" /> 
+				<item id="46507" min="1" max="2" chance="22.94" /> 
+				<item id="46493" min="1" max="1" chance="22.91" /> 
+				<item id="46508" min="1" max="1" chance="22.81" /> 
+				<item id="36386" min="10" max="10" chance="20.61" /> 
+				<item id="19447" min="10" max="10" chance="20.14" /> 
+				<item id="36162" min="1" max="1" chance="19.68" /> 
+				<item id="46479" min="1" max="1" chance="19.57" /> 
+				<item id="46509" min="1" max="1" chance="19.4" /> 
+				<item id="46494" min="1" max="1" chance="18.84" /> 
+				<item id="17700" min="1" max="1" chance="17.43" /> 
+				<item id="17712" min="1" max="1" chance="17.41" /> 
+				<item id="39483" min="1" max="1" chance="17.4" /> 
+				<item id="17710" min="1" max="1" chance="17.35" /> 
+				<item id="17704" min="1" max="1" chance="17.27" /> 
+				<item id="17703" min="1" max="1" chance="17.14" /> 
+				<item id="17707" min="1" max="1" chance="17.13" /> 
+				<item id="17701" min="1" max="1" chance="17.02" /> 
+				<item id="17697" min="1" max="1" chance="16.92" /> 
+				<item id="17698" min="1" max="1" chance="16.81" /> 
+				<item id="17708" min="1" max="1" chance="16.75" /> 
+				<item id="39484" min="1" max="1" chance="16.68" /> 
+				<item id="17714" min="1" max="1" chance="16.66" /> 
+				<item id="17709" min="1" max="1" chance="16.57" /> 
+				<item id="17702" min="1" max="1" chance="16.55" /> 
+				<item id="17713" min="1" max="1" chance="16.46" /> 
+				<item id="17699" min="1" max="1" chance="16.29" /> 
+				<item id="46447" min="1" max="2" chance="16.1" /> 
+				<item id="17705" min="1" max="1" chance="16.17" /> 
+				<item id="17711" min="1" max="1" chance="16.09" /> 
+				<item id="39485" min="1" max="1" chance="16.02" /> 
+				<item id="17706" min="1" max="1" chance="15.9" /> 
+				<item id="46448" min="1" max="1" chance="15.68" /> 
+				<item id="46463" min="1" max="1" chance="15.43" /> 
+				<item id="46462" min="1" max="2" chance="14.93" /> 
+				<item id="46464" min="1" max="1" chance="12.74" /> 
+				<item id="46449" min="1" max="1" chance="12.28" /> 
+				<item id="46480" min="1" max="1" chance="11.52" /> 
+				<item id="46495" min="1" max="1" chance="11.39" /> 
+				<item id="46510" min="1" max="1" chance="10.96" /> 
+				<item id="46450" min="1" max="1" chance="7.687" /> 
+				<item id="46481" min="1" max="1" chance="7.673" /> 
+				<item id="46465" min="1" max="1" chance="7.68" /> 
+				<item id="46496" min="1" max="1" chance="7.638" /> 
+				<item id="46511" min="1" max="1" chance="7.61" /> 
+				<item id="46466" min="1" max="1" chance="5.149" /> 
+				<item id="46451" min="1" max="1" chance="5.113" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29029" level="118" type="Monster" name="熔岩撒魯斯初生體">
+		
+		<parameters>
+			<param name="SkillRange" value="500" />
+			<skill name="DDMagic" id="6656" level="1" />
+			<skill name="DDMagic2" id="6675" level="1" />
+			<skill name="Skill_Heal" id="6657" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="31884714.13107" hpRegen="9.5" mp="38264.602" mpRegen="3.3" />
+			<attack physical="2670.3603804899" magical="812.454942994962" random="5" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="388.150473598966" magical="284.031666989471" evasion="-1" />
+			<attribute>
+				<attack type="FIRE" value="450" />
+				<defence fire="450" water="400" wind="450" earth="450" holy="450" dark="450" default="220" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status targetable="false" noSleepMode="true" undying="false" />
+		<skillList>
+			<skill id="6656" level="1" /> 
+			<skill id="6657" level="1" /> 
+			<skill id="6675" level="1" /> 
+			<skill id="4607" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="5462" level="1" /> 
+			<skill id="32675" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>VALAKAS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc>
+	<npc id="29030" level="84" type="RaidBoss" name="魔狼 凱利尼" title="Family of Valakas">
+		<parameters>
+			<minions name="Privates">
+				<npc id="29031" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="29032" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<skill name="RangeDDMagic_a" id="4178" level="9" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="2407886" sp="577" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="104586.308273835" hpRegen="170.72" mp="1657.34265734266" mpRegen="9.7" />
+			<attack physical="1820.53424962015" magical="436.331600594146" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2682.08092485549" magical="490.838641127659" evasion="-21" />
+			<speed>
+				<walk ground="30" />
+				<run ground="200" />
+			</speed>
+			<hitTime>490</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4178" level="9" /> 
+			<skill id="4415" level="4" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4978" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="21" />
+			<height normal="30" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="6652" min="2" max="6" chance="17.79" /> 
+				<item id="6654" min="18" max="54" chance="6.437" /> 
+				<item id="6655" min="14" max="42" chance="4.148" /> 
+			</drop>
+			<lucky>
+				<item id="39629" min="1" max="1" chance="90.245" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="29031" level="84" type="Monster" name="凱利尼的伊佛利特">
+		
+		<parameters>
+			<skill name="HealMagic_a" id="4209" level="9" />
+			<skill name="SelfRangeBuff_a" id="4213" level="9" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="20648" hpRegen="33.792" mp="1607" mpRegen="3.84" />
+			<attack physical="4864.32" magical="3386.88" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1310.88" magical="479.616" evasion="-4" />
+			<speed>
+				<walk ground="38" />
+				<run ground="170" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4209" level="9" /> 
+			<skill id="4213" level="9" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="42" />
+		</collision>
+	</npc>
+	<npc id="29032" level="84" type="Monster" name="凱利尼的高崙">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2854" hpRegen="48" mp="1607" mpRegen="3.84" />
+			<attack physical="4864.32" magical="3386.88" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1310.88" magical="479.616" evasion="-4" />
+			<speed>
+				<walk ground="13" />
+				<run ground="60" />
+			</speed>
+			<hitTime>470</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="38" />
+			<height normal="45" />
+		</collision>
+	</npc>
+	<npc id="29033" level="84" type="RaidBoss" name="魔狼 芙雷奇" title="Family of Valakas">
+		<parameters>
+			<minions name="Privates">
+				<npc id="29034" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="29035" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<skill name="RangeHold_a" id="4197" level="9" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="2434088" sp="584" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="105872.322553549" hpRegen="171.99" mp="1708.29170829171" mpRegen="9.8" />
+			<attack physical="1879.56092961067" magical="454.285712175014" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2742.77456647399" magical="501.810328399924" evasion="-20" />
+			<speed>
+				<walk ground="30" />
+				<run ground="200" />
+			</speed>
+			<hitTime>490</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4197" level="9" /> 
+			<skill id="4415" level="4" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4979" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="21" />
+			<height normal="30" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="6652" min="2" max="6" chance="19.8" /> 
+				<item id="6654" min="18" max="54" chance="6.514" /> 
+				<item id="6655" min="14" max="42" chance="4.242" /> 
+			</drop>
+			<lucky>
+				<item id="39629" min="1" max="1" chance="89.01" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="29034" level="84" type="Monster" name="芙雷奇的伊佛利特">
+		
+		<parameters>
+			<skill name="DDMagic_a" id="4193" level="9" />
+			<skill name="Debuff_a" id="4203" level="9" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="20917" hpRegen="34.92" mp="1657" mpRegen="3.88" />
+			<attack physical="6682.718" magical="6293.5257924" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1340.9765" magical="490.626" evasion="-3" />
+			<speed>
+				<walk ground="38" />
+				<run ground="170" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4193" level="9" /> 
+			<skill id="4203" level="9" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="42" />
+		</collision>
+	</npc>
+	<npc id="29035" level="84" type="Monster" name="芙雷奇的高崙">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="20917" hpRegen="34.92" mp="1657" mpRegen="3.88" />
+			<attack physical="5024.6" magical="3539.6658" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1340.9765" magical="490.626" evasion="-3" />
+			<speed>
+				<walk ground="13" />
+				<run ground="60" />
+			</speed>
+			<hitTime>470</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="38" />
+			<height normal="45" />
+		</collision>
+	</npc>
+	<npc id="29036" level="84" type="RaidBoss" name="魔狼 烏路斯" title="Family of Valakas">
+		<parameters>
+			<skill name="SelfRangeCancel_a" id="4177" level="9" />
+			<skill name="SelfBuff_a" id="4175" level="9" />
+			<skill name="PhysicalSpecial_a" id="4170" level="9" />
+			<skill name="SelfRangePhysicalSpecial_a" id="4172" level="9" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="2466262" sp="591" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="214199.07601848" hpRegen="8.5" mp="1759.24075924076" mpRegen="3" />
+			<attack physical="3878.37984532463" magical="472.409602588798" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2802.8901734104" magical="512.782015672189" evasion="-19" />
+			<speed>
+				<walk ground="30" />
+				<run ground="200" />
+			</speed>
+			<hitTime>490</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4170" level="9" /> 
+			<skill id="4172" level="9" /> 
+			<skill id="4175" level="9" /> 
+			<skill id="4177" level="9" /> 
+			<skill id="4415" level="4" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4980" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="21" />
+			<height normal="30" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="6652" min="2" max="6" chance="18.41" /> 
+				<item id="6654" min="18" max="54" chance="6.635" /> 
+				<item id="6655" min="14" max="42" chance="4.356" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29037" level="84" type="RaidBoss" name="魔狼 奇那斯" title="Family of Valakas">
+		<parameters>
+			<minions name="Privates">
+				<npc id="29038" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="29039" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<skill name="DDMagic_a" id="4195" level="9" />
+			<skill name="SelfRangeDebuff_a" id="4184" level="9" />
+			<skill name="SelfRangeDebuffAnother_a" id="4188" level="9" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="2504880" sp="601" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="108266.274674507" hpRegen="174" mp="1812.18781218781" mpRegen="10" />
+			<attack physical="1999.67936294414" magical="490.660827127269" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2863.00578034682" magical="523.753702944454" evasion="-18" />
+			<speed>
+				<walk ground="30" />
+				<run ground="200" />
+			</speed>
+			<hitTime>490</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4184" level="9" /> 
+			<skill id="4188" level="9" /> 
+			<skill id="4195" level="9" /> 
+			<skill id="4415" level="4" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4981" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="21" />
+			<height normal="30" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="6652" min="2" max="6" chance="19.31" /> 
+				<item id="6654" min="18" max="54" chance="6.713" /> 
+				<item id="6655" min="14" max="42" chance="4.422" /> 
+			</drop>
+			<lucky>
+				<item id="39629" min="1" max="1" chance="90.795" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="29038" level="84" type="Monster" name="奇那斯的伊佛利特">
+		
+		<parameters>
+			<skill name="DDMagic_a" id="4191" level="9" />
+			<skill name="Debuff_a" id="4201" level="9" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="20917" hpRegen="34.92" mp="1657" mpRegen="3.88" />
+			<attack physical="6682.718" magical="6293.5257924" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1340.9765" magical="490.626" evasion="-3" />
+			<speed>
+				<walk ground="38" />
+				<run ground="170" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4191" level="9" /> 
+			<skill id="4201" level="9" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="42" />
+		</collision>
+	</npc>
+	<npc id="29039" level="84" type="Monster" name="奇那斯的伊佛利特">
+		
+		<parameters>
+			<skill name="HealMagic_a" id="4210" level="9" />
+			<skill name="SelfRangeBuff_a" id="4212" level="9" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="20917" hpRegen="34.92" mp="1657" mpRegen="3.88" />
+			<attack physical="5024.6" magical="3539.6658" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1340.9765" magical="490.626" evasion="-3" />
+			<speed>
+				<walk ground="38" />
+				<run ground="170" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4210" level="9" /> 
+			<skill id="4212" level="9" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="42" />
+		</collision>
+	</npc>
+	<npc id="29040" level="84" type="RaidBoss" name="火炎之翼 伊克希恩" title="Gatekeeper of Valakas">
+		<parameters>
+			<minions name="Privates">
+				<npc id="29041" count="1" respawnTime="30" weightPoint="1" />
+				<npc id="29042" count="1" respawnTime="30" weightPoint="1" />
+				<npc id="29043" count="1" respawnTime="30" weightPoint="1" />
+				<npc id="29044" count="1" respawnTime="30" weightPoint="1" />
+			</minions>
+			<param name="MaxPrivateNumber" value="32" />
+			<skill name="SelfRangeCancel_a" id="4177" level="10" />
+			<skill name="SelfBuff_a" id="4175" level="10" />
+			<skill name="PhysicalSpecial_a" id="4168" level="10" />
+			<skill name="SelfRangePhysicalSpecial_a" id="4172" level="10" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<acquire exp="2535974" sp="608" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="218741.285174297" hpRegen="349.46" mp="1865.13486513487" mpRegen="10.1" />
+			<attack physical="7850.01496145644" magical="509.039385790428" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2923.69942196532" magical="535.014118829148" evasion="-17" />
+			<speed>
+				<walk ground="57" />
+				<run ground="200" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4168" level="10" /> 
+			<skill id="4172" level="10" /> 
+			<skill id="4175" level="10" /> 
+			<skill id="4177" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4982" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="6652" min="2" max="6" chance="18.97" /> 
+				<item id="6654" min="18" max="54" chance="6.863" /> 
+				<item id="6655" min="14" max="42" chance="4.376" /> 
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<lucky>
+				<item id="39629" min="1" max="1" chance="88.28" /> 
+			</lucky>
+		</dropLists>
+		<collision>
+			<radius normal="29" />
+			<height normal="42" />
+		</collision>
+	</npc>
+	<npc id="29041" level="84" type="Monster" name="煉獄高崙">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4179" level="9" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="20917" hpRegen="34.92" mp="1657" mpRegen="3.88" />
+			<attack physical="10049.2" magical="14158.6632" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1340.9765" magical="490.626" evasion="-3" />
+			<speed>
+				<walk ground="13" />
+				<run ground="60" />
+			</speed>
+			<hitTime>470</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4179" level="9" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="38" />
+			<height normal="45" />
+		</collision>
+	</npc>
+	<npc id="29042" level="84" type="Monster" name="煉獄高崙">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="20917" hpRegen="34.92" mp="1657" mpRegen="3.88" />
+			<attack physical="5024.6" magical="3539.6658" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1340.9765" magical="490.626" evasion="-3" />
+			<speed>
+				<walk ground="13" />
+				<run ground="60" />
+			</speed>
+			<hitTime>470</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="38" />
+			<height normal="45" />
+		</collision>
+	</npc>
+	<npc id="29043" level="84" type="Monster" name="怒吼的伊佛利特">
+		
+		<parameters>
+			<skill name="HealMagic_a" id="4209" level="9" />
+			<skill name="SelfRangeBuff_a" id="4211" level="9" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="20917" hpRegen="34.92" mp="1657" mpRegen="3.88" />
+			<attack physical="5024.6" magical="3539.6658" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1340.9765" magical="490.626" evasion="-3" />
+			<speed>
+				<walk ground="38" />
+				<run ground="170" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4209" level="9" /> 
+			<skill id="4211" level="9" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="42" />
+		</collision>
+	</npc>
+	<npc id="29044" level="84" type="Monster" name="怒吼的伊佛利特">
+		
+		<parameters>
+			<skill name="DDMagic_a" id="4191" level="9" />
+			<skill name="Debuff_a" id="4199" level="9" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="20917" hpRegen="34.92" mp="1657" mpRegen="3.88" />
+			<attack physical="6682.718" magical="6293.5257924" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1340.9765" magical="490.626" evasion="-3" />
+			<speed>
+				<walk ground="38" />
+				<run ground="170" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4191" level="9" /> 
+			<skill id="4199" level="9" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>FIRE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="42" />
+		</collision>
+	</npc>
+	<npc id="29045" level="85" type="GrandBoss" name="芙琳泰沙">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="428076.01847963" hpRegen="319.2293199" mp="23423.0769230769" mpRegen="3" />
+			<attack physical="3645.67100180395" magical="721.57472749003" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="4218.96551724138" magical="3093.74533512465" />
+			<attribute>
+				<attack type="WIND" value="350" />
+				<defence fire="300" water="300" wind="370" earth="250" holy="300" dark="300" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="31" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="5464" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<corpseTime>15</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED">
+			<clanList>
+				<clan>FRINTESSA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="45" />
+			<height normal="42.7" />
+		</collision>
+		<dropLists>
+			<drop>
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29046" level="85" type="GrandBoss" name="思卡雷特 潘 哈里夏">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="8204" /> 
+		<acquire exp="130849003" sp="31403" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="19146585.048299" hpRegen="248.43" mp="17588.4115884116" mpRegen="109" />
+			<attack physical="4327.58148452479" magical="1071.00497942474" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1343.10344827586" magical="2089.2900203245" />
+			<attribute>
+				<attack type="DARK" value="280" />
+				<defence fire="200" water="200" wind="200" earth="200" holy="150" dark="200" />
+			</attribute>
+			<speed>
+				<walk ground="240" />
+				<run ground="111" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4071" level="4" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="5017" level="1" /> 
+			<skill id="5078" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="14768" level="1" /> 
+		</skillList>
+		<corpseTime>18</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="3000" clanHelpRange="2000" isAggressive="true">
+			<skill primaryId="5014" />
+			<clanList>
+				<clan>FRINTESSA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="45" grown="54" />
+			<height normal="90.7" grown="109.4" />
+		</collision>
+		<dropLists>
+			<drop>
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29047" level="85" type="GrandBoss" name="思卡雷特 潘 哈里夏">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="8222" /> 
+		<acquire exp="130849003" sp="31403" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="32632013.0197396" hpRegen="319.2293199" mp="36936.0639360639" mpRegen="3" />
+			<attack physical="12268.7218428584" magical="6674.00046910034" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1567.24137931034" magical="2193.78322826599" />
+			<attribute>
+				<attack type="DARK" value="280" />
+				<defence fire="200" water="200" wind="200" earth="200" holy="150" dark="200" />
+			</attribute>
+			<speed>
+				<walk ground="250" />
+				<run ground="155" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4071" level="4" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="5014" level="1" /> 
+			<skill id="5078" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="14768" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="3000" clanHelpRange="2000" isAggressive="true">
+			<skill primaryId="5014" shortRangeId="5019" shortRangeChance="10" />
+			<clanList>
+				<clan>FRINTESSA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="92" />
+			<height normal="112.8" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="15596" min="1" max="1" chance="4.2325" /> 
+				<item id="15594" min="1" max="1" chance="4.1925" /> 
+				<item id="15597" min="1" max="1" chance="4.1905" /> 
+				<item id="15592" min="1" max="1" chance="4.186" /> 
+				<item id="15595" min="1" max="1" chance="4.1215" /> 
+				<item id="15593" min="1" max="1" chance="4.0975" /> 
+				<item id="8191" min="1" max="1" chance="3.973" /> 
+				<item id="15605" min="1" max="1" chance="3.248" /> 
+				<item id="15602" min="1" max="1" chance="3.243" /> 
+				<item id="15604" min="1" max="1" chance="3.219" /> 
+				<item id="15590" min="1" max="1" chance="3.217" /> 
+				<item id="15603" min="1" max="1" chance="3.208" /> 
+				<item id="15589" min="1" max="1" chance="3.198" /> 
+				<item id="15601" min="1" max="1" chance="3.197" /> 
+				<item id="15599" min="1" max="1" chance="3.187" /> 
+				<item id="15591" min="1" max="1" chance="3.177" /> 
+				<item id="15600" min="1" max="1" chance="3.139" /> 
+				<item id="15598" min="1" max="1" chance="3.136" /> 
+				<item id="15568" min="1" max="1" chance="1.249" /> 
+				<item id="15562" min="1" max="1" chance="1.241" /> 
+				<item id="15565" min="1" max="1" chance="1.224" /> 
+				<item id="15558" min="1" max="1" chance="1.202" /> 
+				<item id="15564" min="1" max="1" chance="1.179" /> 
+				<item id="15560" min="1" max="1" chance="1.156" /> 
+				<item id="15563" min="1" max="1" chance="1.143" /> 
+				<item id="15559" min="1" max="1" chance="1.133" /> 
+				<item id="15567" min="1" max="1" chance="1.125" /> 
+				<item id="15566" min="1" max="1" chance="1.12" /> 
+				<item id="15561" min="1" max="1" chance="1.116" /> 
+				<item id="15582" min="1" max="1" chance="1.069" /> 
+				<item id="15579" min="1" max="1" chance="1.067" /> 
+				<item id="15586" min="1" max="1" chance="1.056" /> 
+				<item id="15572" min="1" max="1" chance="1.048" /> 
+				<item id="15574" min="1" max="1" chance="0.985" /> 
+				<item id="15573" min="1" max="1" chance="0.984" /> 
+				<item id="15585" min="1" max="1" chance="0.962" /> 
+				<item id="15581" min="1" max="1" chance="0.955" /> 
+				<item id="15583" min="1" max="1" chance="0.944" /> 
+				<item id="15584" min="1" max="1" chance="0.934" /> 
+				<item id="15578" min="1" max="1" chance="0.75" /> 
+				<item id="15580" min="1" max="1" chance="0.75" /> 
+				<item id="15576" min="1" max="1" chance="0.75" /> 
+				<item id="15575" min="1" max="1" chance="0.75" /> 
+				<item id="15577" min="1" max="1" chance="0.75" /> 
+				<item id="15545" min="1" max="1" chance="0.3" /> 
+				<item id="15546" min="1" max="1" chance="0.3" /> 
+				<item id="15547" min="1" max="1" chance="0.3" /> 
+				<item id="15548" min="1" max="1" chance="0.3" /> 
+				<item id="15550" min="1" max="1" chance="0.3" /> 
+				<item id="15551" min="1" max="1" chance="0.3" /> 
+				<item id="15552" min="1" max="1" chance="0.3" /> 
+				<item id="15553" min="1" max="1" chance="0.3" /> 
+				<item id="15554" min="1" max="1" chance="0.3" /> 
+				<item id="15549" min="1" max="1" chance="0.3" /> 
+				<item id="15544" min="1" max="1" chance="0.3" /> 
+				<item id="45929" min="1" max="2" chance="100" /> 
+				<item id="3936" min="1" max="10" chance="31.2" /> 
+				<item id="1538" min="1" max="30" chance="28.6" /> 
+				<item id="21715" min="1" max="1" chance="4.988" /> 
+				<item id="37519" min="1" max="1" chance="0.75" /> 
+				<item id="46476" min="1" max="1" chance="0.3" /> 
+				<item id="46489" min="1" max="1" chance="0.3" /> 
+				<item id="46490" min="1" max="1" chance="0.3" /> 
+				<item id="46491" min="1" max="1" chance="0.3" /> 
+				<item id="46504" min="1" max="1" chance="0.3" /> 
+				<item id="46505" min="1" max="1" chance="0.3" /> 
+				<item id="46475" min="1" max="1" chance="0.3" /> 
+				<item id="46474" min="1" max="1" chance="0.3" /> 
+				<item id="46461" min="1" max="1" chance="0.3" /> 
+				<item id="46460" min="1" max="1" chance="0.3" /> 
+				<item id="46459" min="1" max="1" chance="0.3" /> 
+				<item id="46446" min="1" max="1" chance="0.3" /> 
+				<item id="46445" min="1" max="1" chance="0.3" /> 
+				<item id="46444" min="1" max="1" chance="0.3" /> 
+				<item id="46506" min="1" max="1" chance="0.3" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29048" level="85" type="Monster" name="遺照">
+		
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="82844" hpRegen="1.03" mp="2177" mpRegen="1.03" />
+			<attack physical="1637.21079615435" magical="1151.5428303933" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1637.38608949103" magical="1091.59072648368" evasion="3" />
+			<attribute>
+				<attack type="WIND" value="280" />
+				<defence fire="200" water="200" wind="200" earth="150" holy="200" dark="200" default="220" />
+			</attribute>
+			<speed>
+				<walk ground="10" />
+				<run ground="1" />
+			</speed>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="5464" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" clanHelpRange="1000" isAggressive="true" aggroRange="6000">
+			<clanList>
+				<clan>FRINTESSA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="40" />
+			<height normal="100" />
+		</collision>
+	</npc>
+	<npc id="29049" level="85" type="Monster" name="遺照">
+		
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="82844" hpRegen="1.03" mp="2177" mpRegen="1.03" />
+			<attack physical="1637.21079615435" magical="1151.5428303933" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1637.38608949103" magical="1091.59072648368" evasion="3" />
+			<attribute>
+				<attack type="WIND" value="280" />
+				<defence fire="200" water="200" wind="200" earth="150" holy="200" dark="200" default="220" />
+			</attribute>
+			<speed>
+				<walk ground="10" />
+				<run ground="1" />
+			</speed>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="5464" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="CORPSE" clanHelpRange="1000" isAggressive="true" aggroRange="6000">
+			<clanList>
+				<clan>FRINTESSA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="40" />
+			<height normal="100" />
+		</collision>
+	</npc>
+	<npc id="29050" level="85" type="Monster" name="哈里夏的氣息">
+		
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="12996" hpRegen="1.01" mp="20560" mpRegen="3.03" />
+			<attack physical="1556.78628597682" magical="1073.71405840992" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="642.236873936287" magical="428.157916018841" evasion="1" />
+			<attribute>
+				<attack type="DARK" value="280" />
+				<defence fire="200" water="200" wind="200" earth="200" holy="150" dark="200" default="220" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="200" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="5009" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="2000" isAggressive="true">
+			<clanList>
+				<clan>FRINTESSA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="23" grown="32" />
+			<height normal="40" grown="50" />
+		</collision>
+	</npc>
+	<npc id="29051" level="85" type="Monster" name="哈里夏的氣息">
+		
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="12996" hpRegen="1.01" mp="20560" mpRegen="3.03" />
+			<attack physical="1556.78628597682" magical="1073.71405840992" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="642.236873936287" magical="428.157916018841" evasion="1" />
+			<attribute>
+				<attack type="DARK" value="280" />
+				<defence fire="200" water="200" wind="200" earth="200" holy="150" dark="200" default="220" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="200" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="5010" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="2000" isAggressive="true">
+			<clanList>
+				<clan>FRINTESSA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="23" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="29052" level="85" type="Folk" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3960" hpRegen="8.585" mp="2056" mpRegen="3.03" />
+			<attack physical="1216.23928591939" magical="838.839108132747" random="5" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="3864.96881246637" magical="2826.6352584085" evasion="1" />
+			<speed>
+				<walk ground="10" />
+				<run ground="1" />
+			</speed>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED">
+			<clanList>
+				<clan>FRINTESSA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="1" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	<npc id="29053" level="84" type="Folk" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="5448" hpRegen="8.5" mp="2036" mpRegen="3" />
+			<attack physical="1456.32495032888" magical="994.481156766258" random="10" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="383.421920892449" magical="280.571522036227" />
+			<speed>
+				<walk ground="10" />
+				<run ground="1" />
+			</speed>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="5004" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED">
+			<clanList>
+				<clan>FRINTESSA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="1" />
+			<height normal="58" />
+		</collision>
+	</npc>
+	<npc id="29054" level="99" type="RaidBoss" name="貝諾姆" title="Triol's Leader">
+		<parameters>
+			<skill name="PhysicalSpecial" id="4993" level="1" />
+			<skill name="DDMagic" id="4994" level="1" />
+			<skill name="SelfRangeCancel_a1" id="4995" level="1" />
+			<skill name="SelfRangeCancel_a2" id="4996" level="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="8203" lhand="8203" /> 
+		<acquire exp="4355914" sp="6969" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="568382.192356153" hpRegen="395.225454" mp="4071.42857142857" mpRegen="3" />
+			<attack physical="329727.362909045" magical="30339.557093046" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="DUAL" range="40" distance="80" width="120" />
+			<defence physical="2628.72340425532" magical="1524.00790698663" evasion="-18" />
+			<speed>
+				<walk ground="79" />
+				<run ground="220" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4415" level="19" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4993" level="1" /> 
+			<skill id="4994" level="1" /> 
+			<skill id="4995" level="1" /> 
+			<skill id="4996" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="14770" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="1000" />
+		<collision>
+			<radius normal="20" />
+			<height normal="56" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="6675" min="1" max="1" chance="2.842" /> 
+				<item id="6674" min="1" max="1" chance="1.732" /> 
+				<item id="6364" min="1" max="1" chance="0.75" /> 
+				<item id="6372" min="1" max="1" chance="0.75" /> 
+				<item id="6701" min="8" max="22" chance="44.48" /> 
+				<item id="6688" min="8" max="22" chance="26.52" /> 
+				<item id="6702" min="24" max="72" chance="17.72" /> 
+				<item id="6696" min="24" max="72" chance="8.715" /> 
+				<item id="10297" min="1" max="1" chance="0.75" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29055" level="70" type="Monster" name="傳送晶體">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="Pos_x1" value="11913" />
+			<param name="Pos_y1" value="-48851" />
+			<param name="Pos_z1" value="-1088" />
+			<param name="Pos_x2" value="11918" />
+			<param name="Pos_y2" value="-49447" />
+			<param name="Pos_z2" value="-1088" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2444" hpRegen="7.5" mp="1345" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="19" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" isAggressive="true" aggroRange="6000" />
+		<collision>
+			<radius normal="40" />
+			<height normal="80" />
+		</collision>
+	</npc>
+	<npc id="29056" level="60" type="RaidBoss" name="冰雪妖精 希露" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="29058" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="29057" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="RangeDDMagic_a" id="4478" level="1" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire exp="1610847" sp="386" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="79149.0970180596" hpRegen="147.5576413" mp="1036.46353646354" mpRegen="2.4" />
+			<attack physical="1763.6061830996" magical="333.213856910517" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1981.20805369128" magical="362.724523798349" evasion="-18" />
+			<speed>
+				<walk ground="30" />
+				<run ground="190" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="7" /> 
+			<skill id="4430" level="5" /> 
+			<skill id="4478" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="5036" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>ICE</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="8180" min="1" max="1" chance="19.78" /> 
+				<item id="110" min="1" max="1" chance="3.631" /> 
+				<item id="2417" min="1" max="1" chance="2.549" /> 
+				<item id="2416" min="1" max="1" chance="2.443" /> 
+				<item id="171" min="1" max="1" chance="0.3" /> 
+				<item id="175" min="1" max="1" chance="0.3" /> 
+				<item id="210" min="1" max="1" chance="0.3" /> 
+				<item id="7893" min="1" max="1" chance="0.3" /> 
+				<item id="7901" min="1" max="1" chance="0.3" /> 
+				<item id="1343" min="100" max="200" chance="36.17" /> 
+				<item id="4088" min="9" max="27" chance="32" /> 
+				<item id="4089" min="14" max="42" chance="19.7" /> 
+				<item id="8348" min="8" max="22" chance="19.42" /> 
+				<item id="4116" min="3" max="9" chance="9.979" /> 
+				<item id="4117" min="4" max="10" chance="8.508" /> 
+				<item id="4077" min="40" max="120" chance="8.48" /> 
+				<item id="4118" min="4" max="12" chance="7.107" /> 
+				<item id="8340" min="36" max="108" chance="3.955" /> 
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<lucky>
+				<item id="39629" min="1" max="1" chance="78.97" /> 
+			</lucky>
+		</dropLists>
+		<collision>
+			<radius normal="16" />
+			<height normal="35.6" />
+		</collision>
+	</npc>
+	<npc id="29057" level="59" type="Monster" name="冰雪妖精的侍從" title="Raid Fighter">
+		
+		<parameters>
+			<skill name="HealMagic_a" id="4780" level="5" />
+			<skill name="SelfRangeBuff_a" id="4213" level="5" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="7721" hpRegen="57.96894" mp="1007" mpRegen="2.4" />
+			<attack physical="1181.243" magical="386.9314" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="971.28" magical="355.36" />
+			<speed>
+				<walk ground="60" />
+				<run ground="190" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4213" level="5" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="7" /> 
+			<skill id="4010" level="5" /> 
+			<skill id="4780" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300">
+			<clanList>
+				<clan>ICE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="39.7" />
+		</collision>
+	</npc>
+	<npc id="29058" level="59" type="Monster" name="冰雪妖精的凝視者" title="Raid Fighter">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3860" hpRegen="57.96894" mp="1007" mpRegen="2.4" />
+			<attack physical="1181.241" magical="386.9314" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="971.28" magical="355.36" />
+			<speed>
+				<walk ground="70" />
+				<run ground="190" />
+			</speed>
+			<hitTime>410</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4010" level="5" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4481" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300">
+			<clanList>
+				<clan>ICE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="18" />
+			<height normal="36" />
+		</collision>
+	</npc>
+	<npc id="29059" level="80" type="Monster" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3199" hpRegen="8.925" mp="1939" mpRegen="3.15" />
+			<attack physical="1032.200295" magical="740.1019437" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="379.877547" magical="277.977903" evasion="5" />
+			<speed>
+				<walk ground="1" />
+				<run ground="160" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status targetable="false" showName="false" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29060" level="59" type="RaidBoss" name="冰雪女王親衛隊長" title="Raid Boss">
+		<parameters>
+			<skill name="SelfRangeCancel_a" id="4177" level="5" />
+			<skill name="SelfBuff_a" id="4173" level="5" />
+			<skill name="PhysicalSpecial_a" id="4727" level="5" />
+			<skill name="SelfRangePhysicalSpecial_a" id="4737" level="5" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="1749006" sp="419" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="66183.1163376733" hpRegen="178.4276342" mp="1007.49250749251" mpRegen="2.4" />
+			<attack physical="1468.22048013502" magical="240.983487792962" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1942.56756756757" magical="355.387855387855" evasion="-18" />
+			<speed>
+				<walk ground="140" />
+				<run ground="190" />
+			</speed>
+			<hitTime>370</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4173" level="5" /> 
+			<skill id="4177" level="5" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4727" level="5" /> 
+			<skill id="4737" level="5" /> 
+			<skill id="5030" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" aggroRange="300">
+			<clanList>
+				<clan>ICE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="19" />
+			<height normal="61" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="2391" min="1" max="1" chance="1.377" /> 
+				<item id="2392" min="1" max="1" chance="1.373" /> 
+				<item id="287" min="1" max="1" chance="1.109" /> 
+				<item id="4121" min="3" max="9" chance="53.59" /> 
+				<item id="4618" min="1" max="1" chance="44.24" /> 
+				<item id="4082" min="4" max="12" chance="33.68" /> 
+				<item id="4616" min="1" max="3" chance="22.09" /> 
+				<item id="4083" min="8" max="22" chance="18.95" /> 
+				<item id="4617" min="2" max="4" chance="14.04" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29061" level="70" type="Teleporter" name="傳送晶體">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2444" hpRegen="7.5" mp="1345" mpRegen="2.7" />
+			<attack physical="688.86373" magical="470.40463" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295.91597" magical="216.53847" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="19" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" isAggressive="true" aggroRange="500" />
+		<collision>
+			<radius normal="40" />
+			<height normal="80" />
+		</collision>
+	</npc>
+	<npc id="29062" level="99" type="RaidBoss" name="安蒂莉雅絲 班 胡爾特" title="Seer of Pagan">
+		<parameters>
+			<minions name="Privates">
+				<npc id="29063" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="29064" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<param name="doSummonNPC" value="1" />
+			<skill name="SelfRangeDebuff_a" id="4188" level="12" />
+			<skill name="SelfRangeDebuffAnother_a" id="4183" level="12" />
+			<skill name="DDMagic_a" id="4192" level="12" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="8208" /> 
+		<acquire exp="6751585467" sp="10802536" raidPoints="30" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="15462710.2057959" hpRegen="364.87" mp="47100.3996003996" mpRegen="3.21" />
+			<attack physical="65163.7266385776" magical="6067.98913996845" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3680.31914893617" magical="2133.23910132421" evasion="-11" />
+			<attribute>
+				<attack type="DARK" value="430" />
+				<defence fire="350" water="350" wind="350" earth="350" holy="300" dark="350" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="210" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4183" level="10" /> 
+			<skill id="4188" level="10" /> 
+			<skill id="4192" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="5033" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="15455" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="300" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>ANDREAS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="36279" min="1" max="1" chance="1.687" /> 
+				<item id="36281" min="1" max="1" chance="1.632" /> 
+				<item id="36280" min="1" max="1" chance="1.606" /> 
+				<item id="36389" min="1" max="1" chance="79.51" /> 
+				<item id="36386" min="1" max="1" chance="20.04" /> 
+				<item id="17692" min="1" max="1" chance="17.36" /> 
+				<item id="17691" min="1" max="1" chance="17.32" /> 
+				<item id="17694" min="1" max="1" chance="16.85" /> 
+				<item id="17693" min="1" max="1" chance="16.83" /> 
+				<item id="17695" min="1" max="1" chance="16.34" /> 
+				<item id="17696" min="1" max="1" chance="16.25" /> 
+				<item id="46478" min="1" max="1" chance="0.3" /> 
+				<item id="46477" min="1" max="1" chance="0.3" /> 
+				<item id="46476" min="1" max="1" chance="0.3" /> 
+				<item id="46475" min="1" max="1" chance="0.3" /> 
+				<item id="46462" min="1" max="1" chance="0.3" /> 
+				<item id="46461" min="1" max="1" chance="0.3" /> 
+				<item id="46490" min="1" max="1" chance="0.3" /> 
+				<item id="46491" min="1" max="1" chance="0.3" /> 
+				<item id="46492" min="1" max="1" chance="0.3" /> 
+				<item id="46493" min="1" max="1" chance="0.3" /> 
+				<item id="46505" min="1" max="1" chance="0.3" /> 
+				<item id="46506" min="1" max="1" chance="0.3" /> 
+				<item id="46507" min="1" max="1" chance="0.3" /> 
+				<item id="46508" min="1" max="1" chance="0.3" /> 
+				<item id="46460" min="1" max="1" chance="0.3" /> 
+				<item id="46445" min="1" max="1" chance="0.3" /> 
+				<item id="46448" min="1" max="1" chance="0.3" /> 
+				<item id="46447" min="1" max="1" chance="0.3" /> 
+				<item id="46446" min="1" max="1" chance="0.3" /> 
+				<item id="46463" min="1" max="1" chance="0.3" /> 
+				<item id="38047" min="1" max="1" chance="0.075" /> 
+				<item id="46494" min="1" max="1" chance="0.075" /> 
+				<item id="38046" min="1" max="1" chance="0.075" /> 
+				<item id="38045" min="1" max="1" chance="0.075" /> 
+				<item id="46509" min="1" max="1" chance="0.075" /> 
+				<item id="38044" min="1" max="1" chance="0.075" /> 
+				<item id="38043" min="1" max="1" chance="0.075" /> 
+				<item id="38048" min="1" max="1" chance="0.075" /> 
+				<item id="38049" min="1" max="1" chance="0.075" /> 
+				<item id="38050" min="1" max="1" chance="0.075" /> 
+				<item id="46479" min="1" max="1" chance="0.075" /> 
+				<item id="38051" min="1" max="1" chance="0.075" /> 
+				<item id="38053" min="1" max="1" chance="0.075" /> 
+				<item id="38052" min="1" max="1" chance="0.075" /> 
+				<item id="46464" min="1" max="1" chance="0.03" /> 
+				<item id="46449" min="1" max="1" chance="0.03" /> 
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<lucky>
+				<item id="39629" min="3" max="3" chance="100" /> 
+			</lucky>
+		</dropLists>
+		<collision>
+			<radius normal="9" />
+			<height normal="21.3" />
+		</collision>
+	</npc>
+	<npc id="29063" level="99" type="Monster" name="安蒂莉雅絲的服事" title="Raid Fighter">
+		
+		<parameters>
+			<skill name="DDMagic_a" id="4193" level="10" />
+			<skill name="Debuff_a" id="4206" level="10" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="8205" /> 
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="204929.393895" hpRegen="8.5" mp="28293.357" mpRegen="3" />
+			<attack physical="64405" magical="11368.0387932822" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1768" magical="1011" evasion="6" />
+			<attribute>
+				<defence fire="350" water="350" wind="350" earth="350" holy="300" dark="350" />
+				<attack type="DARK" value="430" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4193" level="10" /> 
+			<skill id="4206" level="10" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="4414" level="3" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" isAggressive="true" aggroRange="500">
+			<clanList>
+				<clan>ANDREAS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="29064" level="99" type="Monster" name="安蒂莉雅絲的服事" title="Raid Fighter">
+		
+		<parameters>
+			<skill name="HealMagic_a" id="4210" level="10" />
+			<skill name="SelfRangeBuff_a" id="4214" level="10" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="8207" lhand="8207" /> 
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="187753" hpRegen="8.5" mp="22800" mpRegen="30" />
+			<attack physical="64405" magical="11368.0387932822" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1768" magical="1011" evasion="5" />
+			<attribute>
+				<defence fire="350" water="350" wind="350" earth="350" holy="300" dark="350" />
+				<attack type="DARK" value="430" />
+			</attribute>
+			<speed>
+				<walk ground="58" />
+				<run ground="200" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4210" level="10" /> 
+			<skill id="4214" level="10" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="15455" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" isAggressive="true" aggroRange="500">
+			<clanList>
+				<clan>ANDREAS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7.7" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="29065" level="80" type="RaidBoss" name="賽爾蘭" title="Sealed Evil Power">
+		<parameters>
+			<param name="RootingManage" value="0" />
+			<skill name="SelfRangeCancel_a" id="5118" level="1" />
+			<skill name="SelfBuff_a" id="5122" level="1" />
+			<skill name="PhysicalSpecial_a" id="5143" level="1" />
+			<skill name="SelfRangePhysicalSpecial_a" id="5117" level="1" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="4569144" sp="1096" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="689061.318773625" hpRegen="319.2293199" mp="2051.44855144855" mpRegen="3" />
+			<attack physical="4631.34734966805" magical="1065.67920200019" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1185.79881656805" magical="578.415667173064" />
+			<speed>
+				<walk ground="41" />
+				<run ground="185" />
+			</speed>
+			<hitTime>660</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4415" level="15" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="5117" level="1" /> 
+			<skill id="5118" level="1" /> 
+			<skill id="5122" level="1" /> 
+			<skill id="5143" level="1" /> 
+			<skill id="5180" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" aggroRange="1000" />
+		<collision>
+			<radius normal="100" />
+			<height normal="82.1" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="6680" min="1" max="1" chance="0.75" /> 
+				<item id="6367" min="1" max="1" chance="0.3" /> 
+				<item id="6707" min="3" max="9" chance="52.27" /> 
+				<item id="6691" min="3" max="9" chance="41.03" /> 
+				<item id="960" min="1" max="1" chance="18.62" /> 
+				<item id="959" min="1" max="1" chance="1.762" /> 
+				<item id="46476" min="1" max="1" chance="0.3" /> 
+				<item id="46489" min="1" max="1" chance="0.3" /> 
+				<item id="46490" min="1" max="1" chance="0.3" /> 
+				<item id="46491" min="1" max="1" chance="0.3" /> 
+				<item id="46504" min="1" max="1" chance="0.3" /> 
+				<item id="46505" min="1" max="1" chance="0.3" /> 
+				<item id="46475" min="1" max="1" chance="0.3" /> 
+				<item id="46474" min="1" max="1" chance="0.3" /> 
+				<item id="46461" min="1" max="1" chance="0.3" /> 
+				<item id="46460" min="1" max="1" chance="0.3" /> 
+				<item id="46459" min="1" max="1" chance="0.3" /> 
+				<item id="46446" min="1" max="1" chance="0.3" /> 
+				<item id="46445" min="1" max="1" chance="0.3" /> 
+				<item id="46444" min="1" max="1" chance="0.3" /> 
+				<item id="6577" min="1" max="1" chance="0.3" /> 
+				<item id="46506" min="1" max="1" chance="0.3" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29066" level="79" type="GrandBoss" name="安塔瑞斯">
+		<parameters>
+			<param name="ultra_respawn_time" value="8" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<acquire exp="262720917" sp="63053" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="6100000" hpRegen="1100" mp="1800000" mpRegen="1000" />
+			<attack physical="6762.0906209649" magical="1907.09825932188" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3456.54761904762" magical="862.530326816041" />
+			<speed>
+				<walk ground="50" />
+				<run ground="186" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4071" level="2" /> 
+			<skill id="4122" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5093" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<corpseTime>14</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="4096" clanHelpRange="300" isAggressive="true">
+			<skill maxChance="25" />
+		</ai>
+		<collision>
+			<radius normal="300" />
+			<height normal="300" />
+		</collision>
+		<dropLists>
+			<drop>
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29067" level="79" type="GrandBoss" name="安塔瑞斯">
+		<parameters>
+			<param name="ultra_respawn_time" value="5" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<acquire exp="354676030" sp="85122" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="6800000" hpRegen="1100" mp="1800000" mpRegen="1000" />
+			<attack physical="6762.0906209649" magical="1907.09825932188" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3456.54761904762" magical="862.530326816041" />
+			<speed>
+				<walk ground="50" />
+				<run ground="186" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4071" level="2" /> 
+			<skill id="4122" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5093" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<corpseTime>14</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="4096" clanHelpRange="300" isAggressive="true">
+			<skill maxChance="25" />
+		</ai>
+		<collision>
+			<radius normal="300" />
+			<height normal="300" />
+		</collision>
+		<dropLists>
+			<drop>
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29068" level="118" type="GrandBoss" name="安塔瑞斯" title="Land Dragon">
+		<parameters>
+			<param name="ultra_respawn_time" value="3" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<acquire exp="108452897573760" sp="97607602024" raidPoints="1000" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="782297162.90828" hpRegen="561.9508371" mp="2298436.06393606" mpRegen="3.6" />
+			<attack physical="3456050.41243471" magical="1004237.52442584" random="30" critical="4" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="150263.053009167" magical="75131.643963848" />
+			<attribute>
+				<attack type="EARTH" value="450" />
+				<defence fire="450" water="450" wind="400" earth="450" holy="450" dark="450" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="279" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" noSleepMode="true" isDeathPenalty="true" />
+		<collision>
+			<radius normal="300" />
+			<height normal="300" />
+		</collision>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4071" level="2" /> 
+			<skill id="4122" level="1" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5093" level="1" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="32675" level="1" /> 
+		</skillList>
+		<corpseTime>14</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="4096" clanHelpRange="300" isAggressive="true">
+			<skill maxChance="25" primaryId="4112" />
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="80333" min="1" max="2" chance="100" /> 
+				<item id="80334" min="1" max="1" chance="34.38" /> 
+				<item id="80335" min="1" max="1" chance="32.42" /> 
+				<item id="80110" min="1" max="3" chance="20.46" /> 
+				<item id="80114" min="1" max="3" chance="20.17" /> 
+				<item id="80111" min="1" max="3" chance="20.12" /> 
+				<item id="80112" min="1" max="3" chance="20.06" /> 
+				<item id="80113" min="1" max="3" chance="19.57" /> 
+				<item id="80115" min="1" max="3" chance="17.2" /> 
+				<item id="80116" min="1" max="3" chance="16.92" /> 
+				<item id="80105" min="1" max="3" chance="16.87" /> 
+				<item id="80118" min="1" max="3" chance="16.86" /> 
+				<item id="80108" min="1" max="3" chance="16.78" /> 
+				<item id="80106" min="1" max="3" chance="16.71" /> 
+				<item id="80120" min="1" max="3" chance="16.64" /> 
+				<item id="80119" min="1" max="3" chance="16.64" /> 
+				<item id="80109" min="1" max="3" chance="16.57" /> 
+				<item id="80107" min="1" max="3" chance="16.38" /> 
+				<item id="80104" min="1" max="3" chance="16.3" /> 
+				<item id="80117" min="1" max="3" chance="15.96" /> 
+				<item id="80100" min="1" max="3" chance="9.122" /> 
+				<item id="80098" min="1" max="3" chance="9.108" /> 
+				<item id="80091" min="1" max="3" chance="9.104" /> 
+				<item id="80099" min="1" max="3" chance="9.103" /> 
+				<item id="80097" min="1" max="3" chance="9.088" /> 
+				<item id="80096" min="1" max="3" chance="9.084" /> 
+				<item id="80092" min="1" max="3" chance="9.074" /> 
+				<item id="80094" min="1" max="3" chance="9.054" /> 
+				<item id="80095" min="1" max="3" chance="9.034" /> 
+				<item id="80093" min="1" max="3" chance="9.025" /> 
+				<item id="80090" min="1" max="3" chance="9.02" /> 
+				<item id="36417" min="1" max="1" chance="0.03" /> 
+				<item id="36418" min="1" max="1" chance="0.03" /> 
+				<item id="36419" min="1" max="1" chance="0.03" /> 
+				<item id="36420" min="1" max="1" chance="0.03" /> 
+				<item id="36421" min="1" max="1" chance="0.03" /> 
+				<item id="36422" min="1" max="1" chance="0.03" /> 
+				<item id="36423" min="1" max="1" chance="0.03" /> 
+				<item id="36424" min="1" max="1" chance="0.03" /> 
+				<item id="36425" min="1" max="1" chance="0.03" /> 
+				<item id="36426" min="1" max="1" chance="0.03" /> 
+				<item id="36414" min="1" max="1" chance="100" /> 
+				<item id="37772" min="1" max="1" chance="50.66" /> 
+				<item id="35568" min="1" max="1" chance="50.04" /> 
+				<item id="37781" min="1" max="1" chance="49.28" /> 
+				<item id="36389" min="10" max="10" chance="29.24" /> 
+				<item id="19448" min="10" max="10" chance="28.59" /> 
+				<item id="46507" min="1" max="2" chance="24.02" /> 
+				<item id="46493" min="1" max="1" chance="23.98" /> 
+				<item id="46492" min="1" max="2" chance="23.39" /> 
+				<item id="46478" min="1" max="1" chance="23.26" /> 
+				<item id="46508" min="1" max="1" chance="22.61" /> 
+				<item id="46477" min="1" max="2" chance="21.89" /> 
+				<item id="19447" min="10" max="10" chance="21" /> 
+				<item id="36162" min="1" max="1" chance="20.86" /> 
+				<item id="36386" min="10" max="10" chance="19.93" /> 
+				<item id="46494" min="1" max="1" chance="19.74" /> 
+				<item id="46479" min="1" max="1" chance="18.74" /> 
+				<item id="46509" min="1" max="1" chance="18.37" /> 
+				<item id="17697" min="1" max="1" chance="17.41" /> 
+				<item id="17702" min="1" max="1" chance="17.32" /> 
+				<item id="17713" min="1" max="1" chance="17.3" /> 
+				<item id="17704" min="1" max="1" chance="17.29" /> 
+				<item id="39484" min="1" max="1" chance="17.27" /> 
+				<item id="17710" min="1" max="1" chance="16.95" /> 
+				<item id="17707" min="1" max="1" chance="16.92" /> 
+				<item id="17711" min="1" max="1" chance="16.89" /> 
+				<item id="17712" min="1" max="1" chance="16.77" /> 
+				<item id="17700" min="1" max="1" chance="16.72" /> 
+				<item id="17701" min="1" max="1" chance="16.64" /> 
+				<item id="17714" min="1" max="1" chance="16.58" /> 
+				<item id="17703" min="1" max="1" chance="16.58" /> 
+				<item id="17705" min="1" max="1" chance="16.54" /> 
+				<item id="17708" min="1" max="1" chance="16.49" /> 
+				<item id="17698" min="1" max="1" chance="16.48" /> 
+				<item id="17699" min="1" max="1" chance="16.47" /> 
+				<item id="17709" min="1" max="1" chance="16.35" /> 
+				<item id="17706" min="1" max="1" chance="16.33" /> 
+				<item id="46462" min="1" max="2" chance="16.08" /> 
+				<item id="46463" min="1" max="1" chance="16.02" /> 
+				<item id="39485" min="1" max="1" chance="15.97" /> 
+				<item id="39483" min="1" max="1" chance="15.97" /> 
+				<item id="46448" min="1" max="1" chance="15.36" /> 
+				<item id="46447" min="1" max="2" chance="14.84" /> 
+				<item id="46464" min="1" max="1" chance="12.89" /> 
+				<item id="46449" min="1" max="1" chance="12.44" /> 
+				<item id="46480" min="1" max="1" chance="12.07" /> 
+				<item id="46510" min="1" max="1" chance="11.98" /> 
+				<item id="46495" min="1" max="1" chance="11" /> 
+				<item id="46465" min="1" max="1" chance="7.802" /> 
+				<item id="46450" min="1" max="1" chance="7.708" /> 
+				<item id="46481" min="1" max="1" chance="7.686" /> 
+				<item id="46511" min="1" max="1" chance="7.681" /> 
+				<item id="46496" min="1" max="1" chance="7.608" /> 
+				<item id="46451" min="1" max="1" chance="5.179" /> 
+				<item id="46466" min="1" max="1" chance="5.098" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29069" level="118" type="Monster" name="貝希莫斯巨龍">
+		<parameters>
+			<param name="RootingManage" value="0" />
+			<skill name="PhysicalSpecial" id="5095" level="1" />
+			<skill name="LongRangePhysicalSpecial" id="5096" level="1" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="55365782.418015" hpRegen="9.5" mp="38264.602" mpRegen="3.3" />
+			<attack physical="14312" magical="3509" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3537" magical="2031" evasion="-18" />
+			<attribute>
+				<attack type="EARTH" value="450" />
+				<defence fire="450" water="450" wind="400" earth="450" holy="450" dark="450" default="220" />
+			</attribute>
+			<speed>
+				<walk ground="180" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="5095" level="1" /> 
+			<skill id="5096" level="1" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="32675" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<skill maxChance="25" />
+		</ai>
+		<collision>
+			<radius normal="63" />
+			<height normal="54" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29070" level="118" type="Monster" name="巨龍炸彈">
+		<parameters>
+			<skill name="SelfRangeDDMagic" id="5094" level="1" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18455260.5957" hpRegen="9.5" mp="38264.602" mpRegen="3.3" />
+			<attack physical="1094.11758465172" magical="4902.24" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.098247547707" magical="261.308998696584" />
+			<attribute>
+				<attack type="EARTH" value="450" />
+				<defence fire="450" water="450" wind="400" earth="450" holy="450" dark="450" default="220" />
+			</attribute>
+			<speed>
+				<walk ground="200" />
+				<run ground="250" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="5094" level="1" /> 
+			<skill id="5097" level="1" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="32675" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="100" clanHelpRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="37" />
+			<height normal="28" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29071" level="78" type="Monster" name="巨龍炸彈">
+		
+		<parameters>
+			<skill name="SelfRangeDDMagic" id="5094" level="1" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="48" wit="71" con="111" men="149">
+			<vitals hp="1000" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="200" />
+				<run ground="245" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5094" level="1" /> 
+			<skill id="5097" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="100" clanHelpRange="300" isAggressive="true" />
+		<dropLists>
+			<drop>
+				<item id="8952" min="1" max="3" chance="100" /> 
+				<item id="8953" min="1" max="3" chance="100" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="37" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="29072" level="78" type="Monster" name="巨龍炸彈">
+		
+		<parameters>
+			<skill name="SelfRangeDDMagic" id="5094" level="1" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="48" wit="71" con="111" men="149">
+			<vitals hp="1000" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="200" />
+				<run ground="255" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5094" level="1" /> 
+			<skill id="5097" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="100" clanHelpRange="300" isAggressive="true" />
+		<dropLists>
+			<drop>
+				<item id="8952" min="1" max="3" chance="100" /> 
+				<item id="8953" min="1" max="3" chance="100" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="37" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="29073" level="78" type="Monster" name="巨龍炸彈">
+		
+		<parameters>
+			<skill name="SelfRangeDDMagic" id="5094" level="1" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="48" wit="71" con="111" men="149">
+			<vitals hp="1000" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="200" />
+				<run ground="247" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5094" level="1" /> 
+			<skill id="5097" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="100" clanHelpRange="300" isAggressive="true" />
+		<dropLists>
+			<drop>
+				<item id="8952" min="1" max="3" chance="100" /> 
+				<item id="8953" min="1" max="3" chance="100" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="37" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="29074" level="78" type="Monster" name="巨龍炸彈">
+		
+		<parameters>
+			<skill name="SelfRangeDDMagic" id="5094" level="1" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="48" wit="71" con="111" men="149">
+			<vitals hp="1000" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="200" />
+				<run ground="252" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5094" level="1" /> 
+			<skill id="5097" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="100" clanHelpRange="300" isAggressive="true" />
+		<dropLists>
+			<drop>
+				<item id="8952" min="1" max="3" chance="100" /> 
+				<item id="8953" min="1" max="3" chance="100" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="37" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="29075" level="78" type="Monster" name="巨龍炸彈">
+		
+		<parameters>
+			<skill name="SelfRangeDDMagic" id="5094" level="1" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="48" wit="71" con="111" men="149">
+			<vitals hp="1000" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="200" />
+				<run ground="243" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5094" level="1" /> 
+			<skill id="5097" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="100" clanHelpRange="300" isAggressive="true" />
+		<dropLists>
+			<drop>
+				<item id="8952" min="1" max="3" chance="100" /> 
+				<item id="8953" min="1" max="3" chance="100" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="37" />
+			<height normal="28" />
+		</collision>
+	</npc>
+	<npc id="29076" level="118" type="Monster" name="大型巨龍炸彈">
+		
+		<parameters>
+			<skill name="SelfRangeDDMagic" id="5094" level="1" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18455260.5957" hpRegen="9.5" mp="38264.602" mpRegen="3.3" />
+			<attack physical="1094.11758465172" magical="4902.24" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="357.098247547707" magical="261.308998696584" />
+			<attribute>
+				<attack type="EARTH" value="450" />
+				<defence fire="450" water="450" wind="400" earth="450" holy="450" dark="450" default="220" />
+			</attribute>
+			<speed>
+				<walk ground="200" />
+				<run ground="250" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="5094" level="1" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="32675" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="200" clanHelpRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="42" />
+			<height normal="34.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29077" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="177456" />
+			<param name="suicide2_x" value="177120" />
+			<param name="suicide3_x" value="176832" />
+			<param name="suicide4_x" value="176512" />
+			<param name="suicide5_x" value="176208" />
+			<param name="suicide6_x" value="175952" />
+			<param name="suicide1_y" value="111504" />
+			<param name="suicide2_y" value="111440" />
+			<param name="suicide3_y" value="111440" />
+			<param name="suicide4_y" value="111408" />
+			<param name="suicide5_y" value="111376" />
+			<param name="suicide6_y" value="111424" />
+			<param name="zerging_spawn_x" value="177229" />
+			<param name="zerging_spawn_y" value="113298" />
+			<param name="dice" value="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29078" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="175952" />
+			<param name="suicide2_x" value="175712" />
+			<param name="suicide3_x" value="175520" />
+			<param name="suicide4_x" value="175344" />
+			<param name="suicide5_x" value="175216" />
+			<param name="suicide6_x" value="175120" />
+			<param name="suicide1_y" value="111424" />
+			<param name="suicide2_y" value="111472" />
+			<param name="suicide3_y" value="111664" />
+			<param name="suicide4_y" value="111888" />
+			<param name="suicide5_y" value="112064" />
+			<param name="suicide6_y" value="112240" />
+			<param name="zerging_spawn_x" value="176707" />
+			<param name="zerging_spawn_y" value="113585" />
+			<param name="dice" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29079" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="175120" />
+			<param name="suicide2_x" value="175024" />
+			<param name="suicide3_x" value="174960" />
+			<param name="suicide4_x" value="174864" />
+			<param name="suicide5_x" value="174736" />
+			<param name="suicide6_x" value="174640" />
+			<param name="suicide1_y" value="112240" />
+			<param name="suicide2_y" value="112416" />
+			<param name="suicide3_y" value="112624" />
+			<param name="suicide4_y" value="112896" />
+			<param name="suicide5_y" value="113056" />
+			<param name="suicide6_y" value="113232" />
+			<param name="zerging_spawn_x" value="176385" />
+			<param name="zerging_spawn_y" value="113889" />
+			<param name="dice" value="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29080" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="174640" />
+			<param name="suicide2_x" value="174576" />
+			<param name="suicide3_x" value="174544" />
+			<param name="suicide4_x" value="174352" />
+			<param name="suicide5_x" value="174160" />
+			<param name="suicide6_x" value="173968" />
+			<param name="suicide1_y" value="113232" />
+			<param name="suicide2_y" value="113392" />
+			<param name="suicide3_y" value="113552" />
+			<param name="suicide4_y" value="113792" />
+			<param name="suicide5_y" value="113936" />
+			<param name="suicide6_y" value="114096" />
+			<param name="zerging_spawn_x" value="176082" />
+			<param name="zerging_spawn_y" value="114241" />
+			<param name="dice" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29081" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="173968" />
+			<param name="suicide2_x" value="173856" />
+			<param name="suicide3_x" value="173808" />
+			<param name="suicide4_x" value="173792" />
+			<param name="suicide5_x" value="173824" />
+			<param name="suicide6_x" value="173920" />
+			<param name="suicide1_y" value="114096" />
+			<param name="suicide2_y" value="114320" />
+			<param name="suicide3_y" value="114592" />
+			<param name="suicide4_y" value="114912" />
+			<param name="suicide5_y" value="115152" />
+			<param name="suicide6_y" value="115408" />
+			<param name="zerging_spawn_x" value="176066" />
+			<param name="zerging_spawn_y" value="114802" />
+			<param name="dice" value="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29082" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="173920" />
+			<param name="suicide2_x" value="174064" />
+			<param name="suicide3_x" value="174272" />
+			<param name="suicide4_x" value="174480" />
+			<param name="suicide5_x" value="174592" />
+			<param name="suicide6_x" value="174704" />
+			<param name="suicide1_y" value="115408" />
+			<param name="suicide2_y" value="115568" />
+			<param name="suicide3_y" value="115664" />
+			<param name="suicide4_y" value="115920" />
+			<param name="suicide5_y" value="116176" />
+			<param name="suicide6_y" value="116448" />
+			<param name="zerging_spawn_x" value="176095" />
+			<param name="zerging_spawn_y" value="115313" />
+			<param name="dice" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29083" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="174704" />
+			<param name="suicide2_x" value="174800" />
+			<param name="suicide3_x" value="174960" />
+			<param name="suicide4_x" value="175136" />
+			<param name="suicide5_x" value="175248" />
+			<param name="suicide6_x" value="175424" />
+			<param name="suicide1_y" value="116448" />
+			<param name="suicide2_y" value="116672" />
+			<param name="suicide3_y" value="116864" />
+			<param name="suicide4_y" value="117184" />
+			<param name="suicide5_y" value="117504" />
+			<param name="suicide6_y" value="117792" />
+			<param name="zerging_spawn_x" value="176425" />
+			<param name="zerging_spawn_y" value="115829" />
+			<param name="dice" value="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29084" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="175424" />
+			<param name="suicide2_x" value="175632" />
+			<param name="suicide3_x" value="175856" />
+			<param name="suicide4_x" value="176256" />
+			<param name="suicide5_x" value="176544" />
+			<param name="suicide6_x" value="176880" />
+			<param name="suicide1_y" value="117792" />
+			<param name="suicide2_y" value="118016" />
+			<param name="suicide3_y" value="118176" />
+			<param name="suicide4_y" value="118256" />
+			<param name="suicide5_y" value="118240" />
+			<param name="suicide6_y" value="118192" />
+			<param name="zerging_spawn_x" value="176949" />
+			<param name="zerging_spawn_y" value="116378" />
+			<param name="dice" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29085" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="176880" />
+			<param name="suicide2_x" value="177200" />
+			<param name="suicide3_x" value="177488" />
+			<param name="suicide4_x" value="177824" />
+			<param name="suicide5_x" value="178048" />
+			<param name="suicide6_x" value="178368" />
+			<param name="suicide1_y" value="118192" />
+			<param name="suicide2_y" value="118128" />
+			<param name="suicide3_y" value="118096" />
+			<param name="suicide4_y" value="118080" />
+			<param name="suicide5_y" value="118096" />
+			<param name="suicide6_y" value="118128" />
+			<param name="zerging_spawn_x" value="177655" />
+			<param name="zerging_spawn_y" value="116402" />
+			<param name="dice" value="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29086" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="178368" />
+			<param name="suicide2_x" value="178592" />
+			<param name="suicide3_x" value="178848" />
+			<param name="suicide4_x" value="179200" />
+			<param name="suicide5_x" value="179472" />
+			<param name="suicide6_x" value="179696" />
+			<param name="suicide1_y" value="118128" />
+			<param name="suicide2_y" value="118192" />
+			<param name="suicide3_y" value="118240" />
+			<param name="suicide4_y" value="118272" />
+			<param name="suicide5_y" value="118272" />
+			<param name="suicide6_y" value="118192" />
+			<param name="zerging_spawn_x" value="178248" />
+			<param name="zerging_spawn_y" value="116395" />
+			<param name="dice" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29087" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="179696" />
+			<param name="suicide2_x" value="179920" />
+			<param name="suicide3_x" value="180096" />
+			<param name="suicide4_x" value="180272" />
+			<param name="suicide5_x" value="180544" />
+			<param name="suicide6_x" value="180592" />
+			<param name="suicide1_y" value="118192" />
+			<param name="suicide2_y" value="118016" />
+			<param name="suicide3_y" value="117824" />
+			<param name="suicide4_y" value="117520" />
+			<param name="suicide5_y" value="117264" />
+			<param name="suicide6_y" value="116928" />
+			<param name="zerging_spawn_x" value="178706" />
+			<param name="zerging_spawn_y" value="115998" />
+			<param name="dice" value="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29088" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="180592" />
+			<param name="suicide2_x" value="180752" />
+			<param name="suicide3_x" value="181104" />
+			<param name="suicide4_x" value="181184" />
+			<param name="suicide5_x" value="180992" />
+			<param name="suicide6_x" value="180896" />
+			<param name="suicide1_y" value="116928" />
+			<param name="suicide2_y" value="116576" />
+			<param name="suicide3_y" value="116544" />
+			<param name="suicide4_y" value="116240" />
+			<param name="suicide5_y" value="116064" />
+			<param name="suicide6_y" value="115888" />
+			<param name="zerging_spawn_x" value="179208" />
+			<param name="zerging_spawn_y" value="115452" />
+			<param name="dice" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29089" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="180896" />
+			<param name="suicide2_x" value="180784" />
+			<param name="suicide3_x" value="180656" />
+			<param name="suicide4_x" value="180528" />
+			<param name="suicide5_x" value="180496" />
+			<param name="suicide6_x" value="180496" />
+			<param name="suicide1_y" value="115888" />
+			<param name="suicide2_y" value="115712" />
+			<param name="suicide3_y" value="115504" />
+			<param name="suicide4_y" value="115232" />
+			<param name="suicide5_y" value="115008" />
+			<param name="suicide6_y" value="114816" />
+			<param name="zerging_spawn_x" value="179191" />
+			<param name="zerging_spawn_y" value="115079" />
+			<param name="dice" value="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29090" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="180496" />
+			<param name="suicide2_x" value="180512" />
+			<param name="suicide3_x" value="180544" />
+			<param name="suicide4_x" value="180688" />
+			<param name="suicide5_x" value="180804" />
+			<param name="suicide6_x" value="180896" />
+			<param name="suicide1_y" value="114816" />
+			<param name="suicide2_y" value="114624" />
+			<param name="suicide3_y" value="114400" />
+			<param name="suicide4_y" value="114112" />
+			<param name="suicide5_y" value="113920" />
+			<param name="suicide6_y" value="113776" />
+			<param name="zerging_spawn_x" value="179221" />
+			<param name="zerging_spawn_y" value="114546" />
+			<param name="dice" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29091" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="180896" />
+			<param name="suicide2_x" value="181040" />
+			<param name="suicide3_x" value="181184" />
+			<param name="suicide4_x" value="181120" />
+			<param name="suicide5_x" value="180880" />
+			<param name="suicide6_x" value="180720" />
+			<param name="suicide1_y" value="113776" />
+			<param name="suicide2_y" value="113632" />
+			<param name="suicide3_y" value="113472" />
+			<param name="suicide4_y" value="113168" />
+			<param name="suicide5_y" value="113072" />
+			<param name="suicide6_y" value="112896" />
+			<param name="zerging_spawn_x" value="178916" />
+			<param name="zerging_spawn_y" value="113925" />
+			<param name="dice" value="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29092" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="180720" />
+			<param name="suicide2_x" value="180640" />
+			<param name="suicide3_x" value="180576" />
+			<param name="suicide4_x" value="180368" />
+			<param name="suicide5_x" value="180192" />
+			<param name="suicide6_x" value="180048" />
+			<param name="suicide1_y" value="112896" />
+			<param name="suicide2_y" value="112672" />
+			<param name="suicide3_y" value="112432" />
+			<param name="suicide4_y" value="112128" />
+			<param name="suicide5_y" value="111968" />
+			<param name="suicide6_y" value="111760" />
+			<param name="zerging_spawn_x" value="178782" />
+			<param name="zerging_spawn_y" value="113814" />
+			<param name="dice" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29093" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="180048" />
+			<param name="suicide2_x" value="179920" />
+			<param name="suicide3_x" value="179728" />
+			<param name="suicide4_x" value="179376" />
+			<param name="suicide5_x" value="179136" />
+			<param name="suicide6_x" value="178848" />
+			<param name="suicide1_y" value="111760" />
+			<param name="suicide2_y" value="111584" />
+			<param name="suicide3_y" value="111472" />
+			<param name="suicide4_y" value="111392" />
+			<param name="suicide5_y" value="111376" />
+			<param name="suicide6_y" value="111424" />
+			<param name="zerging_spawn_x" value="178419" />
+			<param name="zerging_spawn_y" value="113417" />
+			<param name="dice" value="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29094" level="78" type="Monster" name="">
+		
+		<parameters>
+			<param name="suicide1_x" value="178848" />
+			<param name="suicide2_x" value="178560" />
+			<param name="suicide3_x" value="178320" />
+			<param name="suicide4_x" value="178000" />
+			<param name="suicide5_x" value="177728" />
+			<param name="suicide6_x" value="177456" />
+			<param name="suicide1_y" value="111424" />
+			<param name="suicide2_y" value="111456" />
+			<param name="suicide3_y" value="111488" />
+			<param name="suicide4_y" value="111536" />
+			<param name="suicide5_y" value="111536" />
+			<param name="suicide6_y" value="111504" />
+			<param name="zerging_spawn_x" value="177855" />
+			<param name="zerging_spawn_y" value="113282" />
+			<param name="dice" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2802" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="243.45587" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc>
+	<npc id="29095" level="80" type="RaidBoss" name="高登" title="Knight of Destruction">
+		<parameters>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="SelfRangeCancel_a" id="4177" level="10" />
+			<skill name="SelfBuff_a" id="4174" level="10" />
+			<skill name="PhysicalSpecial_a" id="4726" level="10" />
+			<skill name="SelfRangePhysicalSpecial_a" id="5119" level="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="5885016" sp="1412" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="961780.344393112" hpRegen="319.2293199" mp="2051.44855144855" mpRegen="3" />
+			<attack physical="8458.81569287169" magical="3651.39487690871" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1185.79881656805" magical="578.415667173064" evasion="-11" />
+			<speed>
+				<walk ground="60" />
+				<run ground="190" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4174" level="10" /> 
+			<skill id="4177" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4726" level="10" /> 
+			<skill id="5119" level="1" /> 
+			<skill id="5181" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" isAggressive="true" aggroRange="1000" />
+		<collision>
+			<radius normal="43" />
+			<height normal="46.6" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="6684" min="1" max="1" chance="1.258" /> 
+				<item id="6371" min="1" max="1" chance="0.75" /> 
+				<item id="6695" min="3" max="9" chance="70.19" /> 
+				<item id="960" min="1" max="1" chance="33.39" /> 
+				<item id="6711" min="12" max="36" chance="23.93" /> 
+				<item id="959" min="1" max="1" chance="3.306" /> 
+				<item id="6577" min="1" max="1" chance="0.75" /> 
+				<item id="10298" min="1" max="1" chance="0.75" /> 
+				<item id="46476" min="1" max="1" chance="0.3" /> 
+				<item id="46489" min="1" max="1" chance="0.3" /> 
+				<item id="46490" min="1" max="1" chance="0.3" /> 
+				<item id="46491" min="1" max="1" chance="0.3" /> 
+				<item id="46504" min="1" max="1" chance="0.3" /> 
+				<item id="46505" min="1" max="1" chance="0.3" /> 
+				<item id="46475" min="1" max="1" chance="0.3" /> 
+				<item id="46474" min="1" max="1" chance="0.3" /> 
+				<item id="46461" min="1" max="1" chance="0.3" /> 
+				<item id="46460" min="1" max="1" chance="0.3" /> 
+				<item id="46459" min="1" max="1" chance="0.3" /> 
+				<item id="46446" min="1" max="1" chance="0.3" /> 
+				<item id="46445" min="1" max="1" chance="0.3" /> 
+				<item id="46444" min="1" max="1" chance="0.3" /> 
+				<item id="46506" min="1" max="1" chance="0.3" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29096" level="84" type="RaidBoss" name="亞奈斯" title="Lord of Splendor">
+		<parameters>
+			<minions name="Privates">
+				<npc id="29098" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="29097" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<param name="doSummonNPC" value="1" />
+			<skill name="PhysicalSpecial_b" id="4180" level="10" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="8214" /> 
+		<acquire exp="6653170" sp="1596" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="504934.901301974" hpRegen="147.845481058836" mp="2154.02097902098" mpRegen="3.21" />
+			<attack physical="8881.75647751528" magical="1916.98231037707" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1867.63313609467" magical="911.159846071089" evasion="-11" />
+			<speed>
+				<walk ground="60" />
+				<run ground="160" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4180" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4423" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="5032" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="300" clanHelpRange="1000" isAggressive="true">
+			<clanList>
+				<clan>SOLINA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="16" />
+			<height normal="41.8" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="15484" min="1" max="1" chance="4.549" /> 
+				<item id="14114" min="1" max="1" chance="1.187" /> 
+				<item id="14111" min="1" max="1" chance="1.163" /> 
+				<item id="14116" min="1" max="1" chance="1.166" /> 
+				<item id="14117" min="1" max="1" chance="1.163" /> 
+				<item id="13887" min="1" max="1" chance="1.123" /> 
+				<item id="14109" min="1" max="1" chance="1.121" /> 
+				<item id="14113" min="1" max="1" chance="1.118" /> 
+				<item id="14110" min="1" max="1" chance="1.11" /> 
+				<item id="13145" min="1" max="1" chance="0.75" /> 
+				<item id="13144" min="1" max="1" chance="0.75" /> 
+				<item id="13143" min="1" max="1" chance="0.75" /> 
+				<item id="960" min="1" max="1" chance="15.37" /> 
+				<item id="959" min="1" max="1" chance="1.479" /> 
+				<item id="46505" min="1" max="1" chance="0.3" /> 
+				<item id="46504" min="1" max="1" chance="0.3" /> 
+				<item id="46491" min="1" max="1" chance="0.3" /> 
+				<item id="46490" min="1" max="1" chance="0.3" /> 
+				<item id="46489" min="1" max="1" chance="0.3" /> 
+				<item id="46476" min="1" max="1" chance="0.3" /> 
+				<item id="46475" min="1" max="1" chance="0.3" /> 
+				<item id="46474" min="1" max="1" chance="0.3" /> 
+				<item id="46461" min="1" max="1" chance="0.3" /> 
+				<item id="46460" min="1" max="1" chance="0.3" /> 
+				<item id="46459" min="1" max="1" chance="0.3" /> 
+				<item id="46446" min="1" max="1" chance="0.3" /> 
+				<item id="46445" min="1" max="1" chance="0.3" /> 
+				<item id="46444" min="1" max="1" chance="0.3" /> 
+				<item id="6577" min="1" max="1" chance="0.3" /> 
+				<item id="46506" min="1" max="1" chance="0.3" /> 
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<lucky>
+				<item id="39629" min="1" max="1" chance="89.05" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="29097" level="80" type="Monster" name="輝煌的使徒" title="Raid Fighter">
+		
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="8221" /> 
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="37734" hpRegen="145.013611476234" mp="1994" mpRegen="3.18" />
+			<attack physical="6012.14777485147" magical="4732.4064449491" random="10" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="581.336118" magical="567.1848" evasion="-12" />
+			<speed>
+				<walk ground="30" />
+				<run ground="190" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4423" level="1" /> 
+			<skill id="4416" level="8" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300">
+			<clanList>
+				<clan>SOLINA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" />
+			<height normal="47" />
+		</collision>
+	</npc>
+	<npc id="29098" level="80" type="Monster" name="輝煌的崇拜者" title="Raid Fighter">
+		
+		<parameters>
+			<skill name="LongRangePhysicalSpecial_a" id="4208" level="10" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="50564" hpRegen="145.013611476234" mp="1994" mpRegen="3.18" />
+			<attack physical="6012.14777485147" magical="4732.4064449491" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="581.336118" magical="567.1848" evasion="-12" />
+			<speed>
+				<walk ground="30" />
+				<run ground="190" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4208" level="10" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4423" level="1" /> 
+			<skill id="4416" level="8" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300">
+			<clanList>
+				<clan>SOLINA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" />
+			<height normal="47" />
+		</collision>
+	</npc>
+	<npc id="29099" level="83" type="GrandBoss" name="巴爾勒" title="Warden">
+		<parameters>
+			<skill name="selfbuff1" id="5221" level="1" />
+			<skill name="selfbuff2" id="5222" level="1" />
+			<skill name="selfbuff3" id="5223" level="1" />
+			<skill name="selfbuff4" id="5224" level="1" />
+			<skill name="selfbuff5" id="5225" level="1" />
+			<skill name="PhysicalSpecial1" id="5227" level="1" />
+			<skill name="PhysicalSpecial2" id="5228" level="1" />
+			<skill name="PhysicalSpecial3" id="5229" level="1" />
+			<skill name="PhysicalSpecial4" id="5226" level="1" />
+			<skill name="d_skill1" id="5402" level="1" />
+			<skill name="d_skill2" id="5403" level="1" />
+			<skill name="d_skill3" id="5404" level="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="3190203" sp="765" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="1078413.27173457" hpRegen="100.862738374864" mp="100000" mpRegen="1000" />
+			<attack physical="2895.98899313982" magical="1066.52803663789" random="5" critical="4" accuracy="4.75" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="1415.6976744186" magical="1035.88272192923" evasion="-18" />
+			<attribute>
+				<attack type="DARK" value="200" />
+				<defence fire="200" water="200" wind="200" earth="200" holy="150" dark="200" />
+			</attribute>
+			<speed>
+				<walk ground="34" />
+				<run ground="180" />
+			</speed>
+			<hitTime>470</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5221" level="1" /> 
+			<skill id="5222" level="1" /> 
+			<skill id="5223" level="1" /> 
+			<skill id="5224" level="1" /> 
+			<skill id="5227" level="1" /> 
+			<skill id="5228" level="1" /> 
+			<skill id="5229" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="5478" level="1" /> 
+			<skill id="5479" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="54" />
+			<height normal="77.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+</list>

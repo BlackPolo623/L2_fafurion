@@ -1,0 +1,1252 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="36900" name="製作捲軸(最高級皮帶-組合)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4106" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36901" name="製作捲軸(鐵絲-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4107" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36902" name="製作捲軸(鐵絲-組合)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4108" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36903" name="製作捲軸(銀絲-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4109" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36904" name="製作捲軸(銀線-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4110" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36905" name="製作捲軸(銀絲-組合)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4111" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36906" name="製作捲軸(金剛石絲-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4112" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36907" name="製作捲軸(金剛石絲-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4113" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36908" name="製作捲軸(金剛石絲-組合)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4114" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36909" name="製作捲軸(奧里哈魯根合金絲-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4115" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36910" name="製作捲軸(奧里哈魯根合金絲-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4116" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36911" name="製作捲軸(奧里哈魯根合金絲-組合)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4117" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36912" name="製作捲軸(都蘭達絲-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4118" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36913" name="製作捲軸(都蘭達絲-組合)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4119" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36914" name="製作捲軸(下級武器碎片-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4120" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36915" name="製作捲軸(武器碎片-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4121" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36916" name="製作捲軸(武器碎片-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="commissionItemType" val="RECIPE" />
+		<set name="recipe_id" val="4122" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36917" name="製作捲軸(中級武器碎片-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4123" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36918" name="製作捲軸(中級武器碎片-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4124" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36919" name="製作捲軸(上級武器碎片-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4125" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36920" name="製作捲軸(上級武器碎片-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4126" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36921" name="製作捲軸(特級武器碎片-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4127" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36922" name="製作捲軸(下級防具碎片-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4128" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36923" name="製作捲軸(防具碎片-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4129" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36924" name="製作捲軸(防具碎片-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4130" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36925" name="製作捲軸(中級防具碎片-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4131" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36926" name="製作捲軸(中級防具碎片-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="commissionItemType" val="RECIPE" />
+		<set name="recipe_id" val="4132" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36927" name="製作捲軸(上級防具碎片-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4133" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36928" name="製作捲軸(上級防具碎片-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4134" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36929" name="製作捲軸(特級防具碎片-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4135" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36930" name="製作捲軸(下級飾品寶石-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4136" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36931" name="製作捲軸(飾品寶石-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4137" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36932" name="製作捲軸(飾品寶石-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4138" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36933" name="製作捲軸(中級飾品寶石-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4139" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36934" name="製作捲軸(中級飾品寶石-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="commissionItemType" val="RECIPE" />
+		<set name="recipe_id" val="4140" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36935" name="製作捲軸(上級飾品寶石-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4141" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36936" name="製作捲軸(上級飾品寶石-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="commissionItemType" val="RECIPE" />
+		<set name="recipe_id" val="4142" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36937" name="製作捲軸(特級飾品寶石-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4143" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36938" name="製作捲軸(炭焦-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4144" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36939" name="製作捲軸(高級炭焦-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4145" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36940" name="製作捲軸(高級炭焦-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4146" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36941" name="製作捲軸(合成的炭焦-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4147" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36942" name="製作捲軸(合成的炭焦-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="commissionItemType" val="RECIPE" />
+		<set name="recipe_id" val="4148" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36943" name="製作捲軸(高級合成炭焦-降級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4149" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36944" name="製作捲軸(高級合成炭焦-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4150" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36945" name="製作捲軸(最高級合成炭焦-升級)" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="weight" val="30" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="is_stackable" val="true" />
+		<set name="recipe_id" val="4151" /> 
+		<set name="handler" val="Recipes" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36946" name="林德拜爾耳環" type="Armor">
+		
+		<set name="icon" val="icon.accessory_earring_of_lind_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="4109" />
+		<set name="weight" val="150" />
+		<set name="price" val="192622000" />
+		<set name="immediate_effect" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="material" val="GOLD" />
+		<stats>
+			<stat type="mDef">170</stat>
+		</stats>
+		<skills>
+			<skill id="13524" level="1" /> 
+			<skill id="13542" level="1" /> 
+		</skills>
+	</item>
+	<item id="36947" name="裝有林德拜爾之魂的瓶子" type="EtcItem">
+		
+		<set name="icon" val="icon.bottle_of_lind_soul_i00" />
+		<set name="weight" val="60" />
+		<set name="etcitem_type" val="MATERIAL" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="36948" name="祝福的林德拜爾耳環" type="Armor">
+		
+		<set name="icon" val="icon.accessory_earring_of_lind_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="4109" />
+		<set name="weight" val="150" />
+		<set name="material" val="GOLD" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="mDef">170</stat>
+		</stats>
+		<skills>
+			<skill id="13525" level="1" /> 
+			<skill id="13526" level="1" /> 
+		</skills>
+	</item>
+	<item id="36949" name="渾沌的精髓" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_water_of_silen_i00" />
+		<set name="is_depositable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="36950" name="Welcome" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_letter_in_bottle_white_i00" />
+		<set name="handler" val="Book" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="36951" name="自由冒險紀念樂器" type="Weapon">
+		
+		<set name="icon" val="icon.ev_9th_celebration_bonus_gift" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="bodypart" val="lrhand" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="STEEL" />
+		<stats>
+			<stat type="pAtk">1</stat>
+			<stat type="mAtk">1</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="accCombat">8</stat>
+			<stat type="rCrit">6</stat>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+	</item>
+	<item id="36952" name="米德埃維寇" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="20" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="LEATHER" />
+		<set name="handler" val="ItemSkills" />
+		<skills>
+			<skill id="7116" level="1" /> 
+		</skills>
+	</item>
+	<item id="36953" name="支援禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_elite_marguene_collection_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_destroyable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="3947" min="5000" max="5000" chance="100" name="祝福的魔靈彈-普通" /> 
+			<item id="1835" min="5000" max="5000" chance="100" name="靈魂彈-普通" /> 
+			<item id="20326" min="1" max="1" chance="100" name="野獸靈魂彈組" /> 
+			<item id="20328" min="1" max="1" chance="100" name="祝福的野獸魔靈彈組" /> 
+			<item id="34602" min="10" max="10" chance="100" name="活動用-瞬間體力治癒藥水" /> 
+		</capsuled_items>
+	</item>
+	<item id="36954" name="普通" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="36955" min="1" max="1" chance="100" name="D級" /> 
+		</capsuled_items>
+	</item>
+	<item id="36955" name="D級" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="36956" min="1" max="1" chance="100" name="C級" /> 
+		</capsuled_items>
+	</item>
+	<item id="36956" name="C級" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="36957" min="1" max="1" chance="100" name="B級" /> 
+		</capsuled_items>
+	</item>
+	<item id="36957" name="B級" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_3_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="36958" min="1" max="1" chance="100" name="A級" /> 
+		</capsuled_items>
+	</item>
+	<item id="36958" name="A級" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_4_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="36959" min="1" max="1" chance="100" name="S級" /> 
+		</capsuled_items>
+	</item>
+	<item id="36959" name="S級" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_box_of_adventure_5_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="36960" name="火之原石-Super 60" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_fire_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12875" level="3" /> 
+		</skills>
+	</item>
+	<item id="36961" name="水之原石-Super 60" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_water_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12876" level="3" /> 
+		</skills>
+	</item>
+	<item id="36962" name="地之原石-Super 60" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_earth_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12878" level="3" /> 
+		</skills>
+	</item>
+	<item id="36963" name="風之原石-Super 60" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_wind_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12877" level="3" /> 
+		</skills>
+	</item>
+	<item id="36964" name="暗之原石-Super 60" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_unholy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12880" level="3" /> 
+		</skills>
+	</item>
+	<item id="36965" name="聖之原石-Super 60" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_holy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12879" level="3" /> 
+		</skills>
+	</item>
+	<item id="36966" name="火之原石-Super 150" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_fire_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12875" level="1" /> 
+		</skills>
+	</item>
+	<item id="36967" name="水之原石-Super 150" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_water_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12876" level="1" /> 
+		</skills>
+	</item>
+	<item id="36968" name="地之原石-Super 150" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_earth_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12878" level="1" /> 
+		</skills>
+	</item>
+	<item id="36969" name="風之原石-Super 150" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_wind_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12877" level="1" /> 
+		</skills>
+	</item>
+	<item id="36970" name="暗之原石-Super 150" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_unholy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12880" level="1" /> 
+		</skills>
+	</item>
+	<item id="36971" name="聖之原石-Super 150" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_holy_stone_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12879" level="1" /> 
+		</skills>
+	</item>
+	<item id="36972" name="火之水晶-Super" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_fire_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12875" level="2" /> 
+		</skills>
+	</item>
+	<item id="36973" name="水之水晶-Super" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_water_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12876" level="2" /> 
+		</skills>
+	</item>
+	<item id="36974" name="地之水晶-Super" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_earth_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12878" level="2" /> 
+		</skills>
+	</item>
+	<item id="36975" name="風之水晶-Super" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_wind_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12877" level="2" /> 
+		</skills>
+	</item>
+	<item id="36976" name="暗之水晶-Super" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_unholy_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12880" level="2" /> 
+		</skills>
+	</item>
+	<item id="36977" name="聖之水晶-Super" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_holy_crystal_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="commissionItemType" val="ATTRIBUTE_STONE" />
+		<skills>
+			<skill id="12879" level="2" /> 
+		</skills>
+	</item>
+	<item id="36978" name="頭飾強化捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i05" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_AM" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="9234" level="1" /> 
+		</skills>
+	</item>
+	<item id="36979" name="頭飾用生命石" type="EtcItem">
+		
+		<set name="icon" val="icon.life_dust_hairacc_general" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="LIFE_STONE" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="36980" name="9周年紀念火箭炮帽-連發煙火" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+		</skills>
+	</item>
+	<item id="36981" name="9周年紀念火箭炮帽-連發煙火(力量)" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+			<skill id="9554" level="1" /> 
+		</skills>
+	</item>
+	<item id="36982" name="9周年紀念火箭炮帽-連發煙火(敏捷)" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+			<skill id="9555" level="1" /> 
+		</skills>
+	</item>
+	<item id="36983" name="9周年紀念火箭炮帽-連發煙火(體質)" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+			<skill id="9556" level="1" /> 
+		</skills>
+	</item>
+	<item id="36984" name="9周年紀念火箭炮帽-連發煙火(精神)" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+			<skill id="9557" level="1" /> 
+		</skills>
+	</item>
+	<item id="36985" name="9周年紀念火箭炮帽-連發煙火(智力)" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+			<skill id="9558" level="1" /> 
+		</skills>
+	</item>
+	<item id="36986" name="9周年紀念火箭炮帽-連發煙火(智慧)" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+			<skill id="9559" level="1" /> 
+		</skills>
+	</item>
+	<item id="36987" name="9周年紀念火箭炮帽-連發煙火(致命攻擊機率)" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+			<skill id="9560" level="1" /> 
+		</skills>
+	</item>
+	<item id="36988" name="9周年紀念火箭炮帽-連發煙火(致命攻擊傷害)" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+			<skill id="9561" level="1" /> 
+		</skills>
+	</item>
+	<item id="36989" name="9周年紀念火箭炮帽-連發煙火(物理防禦力)" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+			<skill id="9562" level="1" /> 
+		</skills>
+	</item>
+	<item id="36990" name="9周年紀念火箭炮帽-連發煙火(魔法防禦力)" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+			<skill id="9563" level="1" /> 
+		</skills>
+	</item>
+	<item id="36991" name="9周年紀念火箭炮帽-連發煙火(迴避)" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+			<skill id="9564" level="1" /> 
+		</skills>
+	</item>
+	<item id="36992" name="9周年紀念火箭炮帽-連發煙火(物理攻擊力)" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+			<skill id="9565" level="1" /> 
+		</skills>
+	</item>
+	<item id="36993" name="9周年紀念火箭炮帽-連發煙火(魔法攻擊力)" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+			<skill id="9566" level="1" /> 
+		</skills>
+	</item>
+	<item id="36994" name="9周年紀念火箭炮帽-連發煙火(命中)" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="10" />
+		<set name="material" val="WOOD" />
+		<set name="bodypart" val="hairall" />
+		<set name="enchant_enabled" val="true" />
+		<skills>
+			<skill id="13493" level="1" /> 
+			<skill id="9567" level="1" /> 
+		</skills>
+	</item>
+	<item id="36995" name="9周年紀念禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="time" val="43200" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="36980" min="1" max="1" chance="100" name="9周年紀念火箭炮帽-連發煙火" /> 
+			<item id="36999" min="1" max="1" chance="100" name="9周年紀念晶體-活動用(限時30日)" /> 
+		</capsuled_items>
+	</item>
+	<item id="36996" name="9周年紀念禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="time" val="28800" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="36980" min="1" max="1" chance="100" name="9周年紀念火箭炮帽-連發煙火" /> 
+			<item id="37000" min="1" max="1" chance="100" name="9周年紀念晶體-活動用(限時20日)" /> 
+		</capsuled_items>
+	</item>
+	<item id="36997" name="9周年紀念禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="time" val="14400" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="36980" min="1" max="1" chance="100" name="9周年紀念火箭炮帽-連發煙火" /> 
+			<item id="37001" min="1" max="1" chance="100" name="9周年紀念晶體-活動用(限時10日)" /> 
+		</capsuled_items>
+	</item>
+	<item id="36998" name="9周年紀念禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="time" val="7200" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="36980" min="1" max="1" chance="100" name="9周年紀念火箭炮帽-連發煙火" /> 
+			<item id="37002" min="1" max="1" chance="100" name="9周年紀念晶體-活動用(限時5日)" /> 
+		</capsuled_items>
+	</item>
+	<item id="36999" name="9周年紀念晶體-活動用(限時30日)" type="EtcItem">
+		
+		<set name="icon" val="icon.special_cube_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="ELIXIR" />
+		<set name="time" val="43200" />
+		<set name="material" val="PAPER" />
+	</item>
+</list>

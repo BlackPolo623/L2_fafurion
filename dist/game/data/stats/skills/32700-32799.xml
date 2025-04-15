@@ -1,0 +1,1206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="32700" toLevel="1" name="水之牢籠">
+		<icon>icon.skill32644</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalResists>STUN;TURN_FLEE</abnormalResists>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>AIRBIND</abnormalType>
+		<abnormalVisualEffect>AIRBIND</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<effectRange>400</effectRange>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<magicCriticalRate>-5</magicCriticalRate>
+		<magicLevel>87</magicLevel>
+		<reuseDelay>10000</reuseDelay>
+		<reuseDelayGroup>11050</reuseDelayGroup>
+		<effects>
+			<effect name="AirBind" />
+			<effect name="DamOverTime">
+				<canKill>true</canKill>
+				<power>500</power>
+				<ticks>5</ticks>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="32701" toLevel="1" name="水之陷落">
+		<icon>icon.skill1071</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<abnormalLevel>4</abnormalLevel>
+		<abnormalTime>30</abnormalTime>
+		<abnormalType>ARMOR_WATER</abnormalType>
+		<activateRate>80</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType>
+		<attributeValue>20</attributeValue>
+		<basicProperty>MAGIC</basicProperty>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<effectRange>1400</effectRange>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<lvlBonusRate>30</lvlBonusRate>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>100</magicLevel>
+		<mpConsume>80</mpConsume>
+		<mpInitialConsume>80</mpInitialConsume>
+		<reuseDelay>30000</reuseDelay>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>10</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>-150</amount>
+				<attribute>WATER</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32702" toLevel="1" name="水之陷落結界">
+		<icon>icon.skill1071</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<abnormalLevel>4</abnormalLevel>
+		<abnormalTime>30</abnormalTime>
+		<abnormalType>ARMOR_WATER</abnormalType>
+		<activateRate>40</activateRate>
+		<affectLimit>10-10</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<attributeType>WATER</attributeType>
+		<attributeValue>20</attributeValue>
+		<basicProperty>MAGIC</basicProperty>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<effectRange>1400</effectRange>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<lvlBonusRate>20</lvlBonusRate>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>100</magicLevel>
+		<mpConsume>80</mpConsume>
+		<reuseDelay>30000</reuseDelay>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>150</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>-150</amount>
+				<attribute>WATER</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32703" toLevel="1" name="水之治癒">
+		<icon>icon.skill1015</icon>
+		<operateType>A1</operateType>
+		<targetType>TARGET</targetType>
+		<affectScope>PARTY_PLEDGE</affectScope>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<effectRange>1100</effectRange>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>100</magicLevel>
+		<mpConsume>48</mpConsume>
+		<mpInitialConsume>12</mpInitialConsume>
+		<reuseDelay>10000</reuseDelay>
+		<effects>
+			<effect name="Heal">
+				<power>100000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32704" toLevel="1" name="撕咬攻擊">
+		<icon>icon.skill0325</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>PHYSICAL</basicProperty>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<effectRange>400</effectRange>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<reuseDelay>10000</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power> 
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32705" toLevel="1" name="法利昂攻擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>50-50</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>RANGE</affectScope>
+		<attributeType>WATER</attributeType>
+		<attributeValue>850</attributeValue>
+		<castRange>250</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>300</effectRange>
+		<hitTime>1000</hitTime>
+		<magicLevel>-1</magicLevel>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32706" toLevel="1" name="法利昂撕咬">
+		<icon>icon.skill32706</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>9</abnormalLevel>
+		<abnormalTime>20</abnormalTime>
+		<abnormalType>BLEEDING</abnormalType>
+		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
+		<activateRate>50</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>PHYSICAL</basicProperty>
+		<castRange>300</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>400</effectRange>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<lvlBonusRate>20</lvlBonusRate>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>100</magicLevel>
+		<mpConsume>80</mpConsume>
+		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
+		<trait>BLEED</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>500000</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="DamOverTime">
+				<power>50000</power>
+				<ticks>5</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32707" toLevel="1" name="法利昂水流爆裂">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="32708" toLevel="2" name="法利昂水流爆裂">
+		<icon>icon.skill32708</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<activateRate>500</activateRate>
+		<affectLimit>40-40</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>
+			<value level="1">500</value>
+			<value level="2">0</value>
+		</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<lvlBonusRate>30</lvlBonusRate>
+		<trait>KNOCKDOWN</trait>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>25000</power>
+			</effect>
+			<effect name="KnockBack">
+				<speed>400</speed>
+				<distance>50</distance>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<KNOCKDOWN>100</KNOCKDOWN>
+				<SHOCK>100</SHOCK>
+				<AIRBIND>100</AIRBIND>
+				<SLEEP>100</SLEEP>
+				<KNOCKBACK>100</KNOCKBACK>
+				<CHANGEBODY>100</CHANGEBODY>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="32709" toLevel="1" name="法利昂水螺旋">
+		<icon>icon.skill32709</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="32710" toLevel="1" name="法利昂水之爆裂">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="32711" toLevel="2" name="法利昂水之爆裂">
+		<icon>
+			<value level="1">icon.skill0000</value>
+			<value level="2">icon.skill32708</value>
+		</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<activateRate>500</activateRate>
+		<affectLimit>40-40</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>
+			<value level="1">500</value>
+			<value level="2">0</value>
+		</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<lvlBonusRate>30</lvlBonusRate>
+		<trait>KNOCKDOWN</trait>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>25000</power>
+			</effect>
+			<effect name="KnockBack">
+				<speed>400</speed>
+				<distance>50</distance>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<KNOCKDOWN>100</KNOCKDOWN>
+				<SHOCK>100</SHOCK>
+				<AIRBIND>100</AIRBIND>
+				<SLEEP>100</SLEEP>
+				<KNOCKBACK>100</KNOCKBACK>
+				<CHANGEBODY>100</CHANGEBODY>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="32712" toLevel="1" name="法利昂水旋">
+		<icon>icon.skill32709</icon>
+		<operateType>CA1</operateType>
+		<targetType>GROUND</targetType>
+		<affectLimit>15-25</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>1500</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<attributeType>WIND</attributeType>
+		<attributeValue>20</attributeValue>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<channelingStart>1</channelingStart>
+		<channelingTickInterval>2</channelingTickInterval>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>1500</effectRange>
+		<hitCancelTime>4</hitCancelTime>
+		<hitTime>500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>80</magicLevel>
+		<mpConsume>36</mpConsume>
+		<mpInitialConsume>36</mpInitialConsume>
+		<mpPerChanneling>80</mpPerChanneling>
+		<reuseDelay>20000</reuseDelay>
+		<channelingEffects>
+			<effect name="MagicalDamage">
+				<power>25000</power>
+			</effect>
+		</channelingEffects>
+	</skill>
+	<skill id="32713" toLevel="1" name="法利昂爪擊">
+		<icon>icon.skill32713</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SQUARE</affectScope>
+		<attributeType>WATER</attributeType>
+		<attributeValue>850</attributeValue>
+		<coolTime>1500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<fanRange>0;180;1500;600</fanRange>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicLevel>-1</magicLevel>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>500000</power>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="32714" toLevel="1" name="法利昂爪擊">
+		<icon>icon.skill32713</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SQUARE</affectScope>
+		<attributeType>WATER</attributeType>
+		<attributeValue>850</attributeValue>
+		<coolTime>1500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<fanRange>0;180;1500;600</fanRange>
+		<hitTime>500</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicLevel>-1</magicLevel>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>500000</power>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="32715" toLevel="1" name="法利昂水震波">
+		<icon>icon.skill32715</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<activateRate>100</activateRate>
+		<affectLimit>40-40</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>1500</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<castRange>800</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<lvlBonusRate>30</lvlBonusRate>
+		<reuseDelay>30000</reuseDelay>
+		<trait>KNOCKDOWN</trait>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>25000</power>
+			</effect>
+			<effect name="KnockBack">
+				<speed>600</speed>
+				<distance>100</distance>
+				<knockDown>false</knockDown>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<KNOCKDOWN>100</KNOCKDOWN>
+				<SHOCK>100</SHOCK>
+				<AIRBIND>100</AIRBIND>
+				<SLEEP>100</SLEEP>
+				<KNOCKBACK>100</KNOCKBACK>
+				<CHANGEBODY>100</CHANGEBODY>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="32716" toLevel="3" name="法利昂氣息">
+		<icon>icon.skill32716</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime>
+		<affectLimit>50-50</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange>
+		<affectScope>FAN</affectScope>
+		<attributeType>WATER</attributeType>
+		<attributeValue>850</attributeValue>
+		<castRange>600</castRange>
+		<coolTime>1500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>900</effectRange>
+		<fanRange>0;0;2500;900</fanRange>
+		<hitTime>
+			<value level="1">3000</value>
+			<value level="2">5000</value>
+			<value level="3">0</value>
+		</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicLevel>-1</magicLevel>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>500000</power>
+			</effect>
+			<effect name="DamOverTime">
+				<power>5120</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32717" toLevel="2" name="法利昂恐懼">
+		<icon>icon.skill32717</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>4</abnormalTime>
+		<abnormalType>TURN_FLEE</abnormalType>
+		<abnormalVisualEffect>TURN_FLEE</abnormalVisualEffect>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>600</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>
+			<value level="1">3000</value>
+			<value level="2">0</value>
+		</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<magicLevel>-1</magicLevel>
+		<trait>DERANGEMENT</trait>
+		<effects>
+			<effect name="BlockControl" />
+			<effect name="Fear" />
+			<effect name="MagicalDefence">
+				<amount>-30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamOverTime">
+				<power>512</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32718" toLevel="1" name="法利昂能量戳記">
+		<icon>icon.skill32718</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SQUARE</affectScope>
+		<attributeType>WATER</attributeType>
+		<attributeValue>450</attributeValue>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<fanRange>0;180;1500;600</fanRange>
+		<hitTime>5000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicLevel>110</magicLevel>
+		<reuseDelay>60000</reuseDelay>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>500000</power>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="32719" toLevel="1" name="法利昂召喚水球">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>5000</hitTime>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="32720" toLevel="1" name="法利昂水炸彈">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="32721" toLevel="1" name="法利昂翼擊">
+		<icon>icon.skill32721</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SQUARE</affectScope>
+		<attributeType>WATER</attributeType>
+		<attributeValue>450</attributeValue>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<fanRange>0;180;1500;600</fanRange>
+		<hitTime>5000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicLevel>110</magicLevel>
+		<reuseDelay>60000</reuseDelay>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>500000</power>
+			</effect>
+			<effect name="KnockBack">
+				<speed>600</speed>
+				<distance>100</distance>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="32722" toLevel="1" name="法利昂潮汐波濤">
+		<icon>icon.skill32722</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>7000</hitTime>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="32723" toLevel="2" name="法利昂潮汐波濤">
+		<icon>icon.skill32722</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<activateRate>500</activateRate>
+		<affectLimit>40-40</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<lvlBonusRate>30</lvlBonusRate>
+		<trait>KNOCKDOWN</trait>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>25000</power>
+			</effect>
+			<effect name="KnockBack">
+				<speed>400</speed>
+				<distance>50</distance>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<KNOCKDOWN>100</KNOCKDOWN>
+				<SHOCK>100</SHOCK>
+				<AIRBIND>100</AIRBIND>
+				<SLEEP>100</SLEEP>
+				<KNOCKBACK>100</KNOCKBACK>
+				<CHANGEBODY>100</CHANGEBODY>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="32724" toLevel="1" name="法利昂狂暴">
+		<icon>icon.skill32724</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="32725" toLevel="1" name="法利昂狂暴憤怒">
+		<icon>icon.skill32724</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+	</skill>
+	<skill id="32726" toLevel="1" name="法利昂">
+		<icon>icon.skillboss</icon>
+		<operateType>P</operateType>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="DebuffBlock" />
+		</effects>
+	</skill>
+	<skill id="32727" toLevel="3" name="法利昂傲慢-階段3">
+		<icon>icon.skillboss</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="32728" toLevel="3" name="法利昂憤怒-階段3">
+		<icon>icon.skillboss</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="32729" toLevel="1" name="巫女的祈禱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>15000</hitTime>
+		<isMagic>1</isMagic> 
+		<reuseDelay>60000</reuseDelay>
+	</skill>
+	<skill id="32730" toLevel="1" name="氣息">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SQUARE</affectScope>
+		<castRange>500</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<fanRange>0;0;2500;900</fanRange>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<magicLevel>-1</magicLevel>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>500000</power>
+			</effect>
+			<effect name="DamOverTime">
+				<power>5120</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32731" toLevel="1" name="水震波">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectLimit>6-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-1</magicLevel>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>25000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32732" toLevel="1" name="爪擊">
+		<icon>icon.skill32713</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SQUARE</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<fanRange>0;180;1500;600</fanRange>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicLevel>-1</magicLevel>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>500000</power>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="32733" toLevel="1" name="脊柱攻擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>400</effectRange>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicLevel>-1</magicLevel>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>500000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32734" toLevel="2" name="螺旋射擊">
+		<icon>
+			<value level="1">icon.skill0000</value>
+			<value level="2">icon.skill1511</value>
+		</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectLimit>150-200</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>650</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<attributeType>WATER</attributeType>
+		<attributeValue>250</attributeValue>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>
+			<value level="1">2000</value>
+			<value level="2">0</value>
+		</hitTime>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>500000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32735" toLevel="2" name="烈震閃劍">
+		<icon>
+			<value level="1">icon.skill0000</value>
+			<value level="2">icon.skill0003</value>
+		</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>9</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<affectLimit>12-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>RANGE</affectScope>
+		<basicProperty>PHYSICAL</basicProperty>
+		<castRange>100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>400</effectRange>
+		<hitTime>
+			<value level="1">1500</value>
+			<value level="2">0</value>
+		</hitTime>
+		<isDebuff>true</isDebuff>
+		<lvlBonusRate>30</lvlBonusRate>
+		<magicLevel>-1</magicLevel>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>
+					<value level="1">500000</value>
+					<value level="2">600000</value>
+				</power>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="32736" toLevel="2" name="重擊盾">
+		<icon>
+			<value level="1">icon.skill0000</value>
+			<value level="2">icon.skill0352</value>
+		</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>3</abnormalTime>
+		<affectLimit>150-200</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>FAN</affectScope>
+		<attributeType>WATER</attributeType>
+		<attributeValue>250</attributeValue>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<fanRange>0;0;200;90</fanRange>
+		<hitTime>
+			<value level="1">1500</value>
+			<value level="2">0</value>
+		</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<trait>KNOCKDOWN</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>
+					<value level="1">150000</value>
+					<value level="2">300000</value>
+				</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+			<effect name="KnockBack">
+				<speed>600</speed>
+				<distance>100</distance>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="32737" toLevel="2" name="衝刺盾">
+		<icon>
+			<value level="1">icon.skill0000</value>
+			<value level="2">icon.skill10008</value>
+		</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+		</abnormalLevel>
+		<abnormalTime>3</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>80</activateRate>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>400</affectRange>
+		<affectScope>FAN</affectScope>
+		<basicProperty>PHYSICAL</basicProperty>
+		<castRange>400</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>800</effectRange>
+		<fanRange>0;0;600;60</fanRange>
+		<hitTime>
+			<value level="1">500</value>
+			<value level="2">0</value>
+		</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicLevel>-1</magicLevel>
+		<nextAction>ATTACK</nextAction>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>
+					<value level="1">150000</value>
+					<value level="2">300000</value>
+				</power>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32738" toLevel="1" name="水盾">
+		<icon>icon.skill1238</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>60</abnormalTime>
+		<abnormalVisualEffect>BLESS_AVE</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>100</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic> 
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32739" toLevel="2" name="海龍捲">
+		<icon>
+			<value level="1">icon.skill0000</value>
+			<value level="2">icon.skill32709</value>
+		</icon>
+		<operateType>A3</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<activateRate>100</activateRate>
+		<affectHeight>-100;200</affectHeight>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>450</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<attributeType>WATER</attributeType>
+		<attributeValue>250</attributeValue>
+		<basicProperty>PHYSICAL</basicProperty>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>
+			<value level="1">2000</value>
+			<value level="2">0</value>
+		</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<trait>PULL</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>
+					<value level="1">150000</value>
+					<value level="2">300000</value>
+				</power>
+			</effect>
+			<effect name="PullBack">
+				<speed>600</speed>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32740" toLevel="1" name="水箭">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType>
+		<attributeValue>250</attributeValue>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic> 
+		<mpConsume>1</mpConsume>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>585</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32741" toLevel="1" name="湧流之箭">
+		<icon>icon.skill11025</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>3</abnormalTime>
+		<affectLimit>150-200</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>600</affectRange>
+		<affectScope>RANGE</affectScope>
+		<attributeType>WATER</attributeType>
+		<attributeValue>250</attributeValue>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>900</effectRange>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<mpConsume>1</mpConsume>
+		<trait>KNOCKDOWN</trait>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>25000</power>
+			</effect>
+			<effect name="KnockBack">
+				<speed>600</speed>
+				<distance>100</distance>
+				<knockDown>true</knockDown>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32742" toLevel="1" name="水之波濤">
+		<icon>icon.oasis_feel</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime>
+		<affectLimit>12-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<basicProperty>MAGIC</basicProperty>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<lvlBonusRate>20</lvlBonusRate>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-1</magicLevel>
+		<reuseDelay>30000</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>25000</power>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32743" toLevel="1" name="波濤洶湧">
+		<icon>icon.skill5016</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>DEPORT</abnormalType>
+		<abnormalVisualEffect>DEPORT</abnormalVisualEffect>
+		<affectLimit>12-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>RANGE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>1400</effectRange>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<magicLevel>-1</magicLevel>
+		<reuseDelay>30000</reuseDelay>
+		<trait>DEPORT</trait>
+		<effects>
+			<effect name="BlockActions" />
+			<effect name="ManaDamOverTime">
+				<power>500</power>
+				<ticks>1</ticks>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="BuffBlock" />
+			<effect name="DebuffBlock" />
+		</effects>
+	</skill>
+	<skill id="32744" toLevel="1" name="法利昂祝福">
+		<icon>icon.skill4280</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>300</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>100</effectPoint>
+		<hitTime>2500</hitTime>
+		<isMagic>1</isMagic> 
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>100</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="32746" toLevel="1" name="自爆巨彈">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="32747" toLevel="1" name="薩拉克斯">
+		<icon>icon.skillraid</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="32748" toLevel="1" name="劍之旋律1">
+		<icon>icon.skill_sing</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="32749" toLevel="1" name="劍之旋律2">
+		<icon>icon.skill_sing</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="32750" toLevel="1" name="劍之旋律3">
+		<icon>icon.skill_sing</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="32751" toLevel="1" name="極限屏障">
+		<icon>icon.skill11621</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>INVINCIBILITY</abnormalType>
+		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>0</effectPoint>
+		<hitTime>500</hitTime>
+		<effects>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="DebuffBlock" />
+			<effect name="DispelByCategory">
+				<slot>DEBUFF</slot>
+				<rate>100</rate>
+				<max>10</max>
+			</effect>
+			<effect name="ResistDispelByCategory">
+				<amount>-100</amount>
+				<slot>ALL</slot>
+			</effect>
+		</effects>
+	</skill>
+</list>

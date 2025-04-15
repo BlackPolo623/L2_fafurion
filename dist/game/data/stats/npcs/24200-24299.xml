@@ -1,0 +1,2734 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="24200" level="97" type="Monster" name="沉默武者">
+		<parameters>
+			<skill name="Skill01_ID" id="32381" level="1" />
+			<skill name="Skill02_ID" id="32383" level="1" />
+			<param name="Skill01_Probablity" value="2000" />
+			<param name="Skill02_Probablity" value="2000" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="25595490" sp="22957" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="68479.5141" hpRegen="8.5" mp="2829.579" mpRegen="3" />
+			<attack physical="6133.849316" magical="1082.670361" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="505.286762" magical="290.0837799" />
+			<speed>
+				<walk ground="50" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="21" />
+			<height normal="40" />
+		</collision>
+		<skillList>
+			<skill id="32381" level="1" /> 
+			<skill id="32383" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4225" level="3" /> 
+			<skill id="16547" level="5" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="689" max="1609" chance="70" /> 
+				<item id="36522" min="1" max="1" chance="3.67" /> 
+				<item id="36523" min="1" max="1" chance="0.75" /> 
+				<item id="35327" min="1" max="1" chance="0.03" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="24201" level="97" type="Monster" name="沉默奴隸">
+		<parameters>
+			<skill name="Demonic_Strike" id="32381" level="1" />
+			<skill name="Skill01_ID" id="32391" level="1" />
+			<param name="Skill01_Probablity" value="2000" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="25595490" sp="22957" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="68479.5141" hpRegen="8.5" mp="2829.579" mpRegen="3" />
+			<attack physical="6133.849316" magical="1082.670361" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="505.286762" magical="290.0837799" />
+			<speed>
+				<walk ground="37" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="19" />
+			<height normal="32" />
+		</collision>
+		<skillList>
+			<skill id="32381" level="1" /> 
+			<skill id="32391" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4225" level="3" /> 
+			<skill id="16547" level="5" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="689" max="1609" chance="70" /> 
+				<item id="36542" min="1" max="1" chance="1.65" /> 
+				<item id="36543" min="1" max="1" chance="0.3" /> 
+				<item id="35328" min="1" max="1" chance="0.03" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="24202" level="97" type="Monster" name="沉默克爾洛">
+		<parameters>
+			<skill name="Skill01_ID" id="32383" level="1" />
+			<skill name="Demonic_Buster" id="32385" level="1" />
+			<skill name="Skill03_ID" id="32387" level="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="25595490" sp="22957" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="68479.5141" hpRegen="8.5" mp="2829.579" mpRegen="3" />
+			<attack physical="6133.849316" magical="1082.670361" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="505.286762" magical="290.0837799" />
+			<speed>
+				<walk ground="80" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="20" />
+			<height normal="39.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="4225" level="3" /> 
+			<skill id="16547" level="5" /> 
+			<skill id="32383" level="1" /> 
+			<skill id="32385" level="1" /> 
+			<skill id="32387" level="1" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="689" max="1609" chance="70" /> 
+				<item id="36522" min="1" max="1" chance="3.638" /> 
+				<item id="36523" min="1" max="1" chance="0.75" /> 
+				<item id="35330" min="1" max="1" chance="0.03" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+		<ai type="MAGE" />
+	</npc>
+	<npc id="24203" level="97" type="Monster" name="沉默魔女">
+		<parameters>
+			<skill name="Skill01_ID" id="32383" level="1" />
+			<skill name="Skill02_ID" id="32389" level="1" />
+			<param name="Skill01_Probablity" value="1000" />
+			<param name="Skill02_Probablity" value="1000" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="25595490" sp="22957" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="68479.5141" hpRegen="8.5" mp="2829.579" mpRegen="3" />
+			<attack physical="6133.849316" magical="1082.670361" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="505.286762" magical="290.0837799" />
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="20" />
+			<height normal="49" />
+		</collision>
+		<skillList>
+			<skill id="32383" level="1" /> 
+			<skill id="32389" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="4225" level="3" /> 
+			<skill id="16547" level="5" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="689" max="1609" chance="70" /> 
+				<item id="36548" min="1" max="1" chance="0.3" /> 
+				<item id="35327" min="1" max="1" chance="0.03" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="24204" level="97" type="Monster" name="沉默漢尼拔" title="Watcher">
+		<parameters>
+			<skill name="Skill01_ID" id="32381" level="1" />
+			<param name="Skill01_Probablity" value="2000" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="26905600" sp="24181" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="68479.5141" hpRegen="8.5" mp="2829.579" mpRegen="3" />
+			<attack physical="6133.849316" magical="1082.670361" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="505.286762" magical="290.0837799" />
+			<speed>
+				<walk ground="38" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="23" />
+			<height normal="44" />
+		</collision>
+		<skillList>
+			<skill id="32381" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="17" /> 
+			<skill id="4225" level="5" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="861" max="2011" chance="70" /> 
+				<item id="36522" min="1" max="1" chance="4.515" /> 
+				<item id="36523" min="1" max="1" chance="0.75" /> 
+				<item id="35327" min="1" max="1" chance="0.03" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="24205" level="97" type="Monster" name="沉默普立格" title="Watcher">
+		<parameters>
+			<skill name="Skill01_ID" id="32382" level="1" />
+			<skill name="Skill02_ID" id="32386" level="1" />
+			<param name="Skill01_Probablity" value="2000" />
+			<param name="Skill02_Probablity" value="2000" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="17330" />
+		<acquire exp="26905600" sp="24181" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="68479.5141" hpRegen="8.5" mp="2829.579" mpRegen="3" />
+			<attack physical="6133.849316" magical="1082.670361" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" reuseDelay="1500" type="BOW" range="600" distance="80" width="120" />
+			<defence physical="505.286762" magical="290.0837799" />
+			<speed>
+				<walk ground="43" />
+				<run ground="150" />
+			</speed>
+			<hitTime>800</hitTime>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="18.4" />
+			<height normal="47.4" />
+		</collision>
+		<skillList>
+			<skill id="32382" level="1" />
+			<skill id="32386" level="1" />
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="4225" level="3" /> 
+			<skill id="16547" level="5" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="861" max="2011" chance="70" /> 
+				<item id="36542" min="1" max="1" chance="2.149" /> 
+				<item id="36543" min="1" max="1" chance="0.3" /> 
+				<item id="35328" min="1" max="1" chance="0.03" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="24206" level="97" type="Monster" name="沉默幻影" title="Watcher">
+		<parameters>
+			<skill name="Skill01_ID" id="32384" level="1" />
+			<param name="Skill01_Probablity" value="2000" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="26905600" sp="24181" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="68479.5141" hpRegen="8.5" mp="2829.579" mpRegen="3" />
+			<attack physical="6133.849316" magical="1082.670361" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="505.286762" magical="290.0837799" />
+			<speed>
+				<walk ground="30" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="23" />
+			<height normal="52" />
+		</collision>
+		<skillList>
+			<skill id="32384" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4225" level="3" /> 
+			<skill id="16547" level="5" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="861" max="2011" chance="70" /> 
+				<item id="36542" min="1" max="1" chance="2.149" /> 
+				<item id="36543" min="1" max="1" chance="0.3" /> 
+				<item id="35330" min="1" max="1" chance="0.03" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="24207" level="85" type="Folk" name="殿堂戒護隊長">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="18" />
+			<height normal="34.5" />
+		</collision>
+	</npc>
+	<npc id="24208" level="85" type="Folk" name="殿堂戒護衛兵">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="18" />
+			<height normal="35" />
+		</collision>
+	</npc>
+	<npc id="24209" level="85" type="Folk" name="殿堂戒護弓箭手">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15302" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="14" />
+			<height normal="26.5" />
+		</collision>
+	</npc>
+	<npc id="24210" level="85" type="Folk" name="殿堂戒護法師">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="24211" level="85" type="Folk" name="黑之聖歌團團長">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="14" />
+			<height normal="26.5" />
+		</collision>
+	</npc>
+	<npc id="24212" level="85" type="Folk" name="黑之聖歌團副團長">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="14" />
+			<height normal="26.5" />
+		</collision>
+	</npc>
+	<npc id="24213" level="85" type="Folk" name="哈里夏護衛隊長">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="44" />
+		</collision>
+	</npc>
+	<npc id="24214" level="85" type="Folk" name="哈里夏守護士兵">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="17" />
+			<height normal="44" />
+		</collision>
+	</npc>
+	<npc id="24215" level="85" type="Folk" name="哈里夏守護弓箭手">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="48232" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="17" />
+			<height normal="44" />
+		</collision>
+	</npc>
+	<npc id="24216" level="85" type="Folk" name="哈里夏守護法師">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="14" />
+			<height normal="38" />
+		</collision>
+	</npc>
+	<npc id="24217" level="85" type="Folk" name="拉格頓" title="Halisha's Minion">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="20" />
+			<height normal="40" />
+		</collision>
+	</npc>
+	<npc id="24218" level="104" type="Monster" name="巴浪卡獸人偵查者">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="38445" />
+		<acquire exp="35790144" sp="32123" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="605532.658635" hpRegen="9.5" mp="31594.938" mpRegen="3.3" />
+			<attack physical="52427" magical="42381" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="4845" magical="2813" />
+			<speed>
+				<walk ground="38" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="15" />
+			<height normal="29" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="5465" level="1" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="10414" max="24300" chance="70" /> 
+				<item id="36547" min="1" max="1" chance="35.91" /> 
+				<item id="36548" min="1" max="1" chance="7.03" /> 
+			</drop>
+			<spoil>
+				<item id="36547" min="1" max="1" chance="29.02" /> 
+				<item id="36548" min="1" max="1" chance="5.527" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="9.918" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24219" level="104" type="Monster" name="巴浪卡獸人鬥士">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="38425" />
+		<acquire exp="35790144" sp="32123" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="605532.658635" hpRegen="9.5" mp="31594.938" mpRegen="3.3" />
+			<attack physical="52427" magical="42381" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="4845" magical="2813" />
+			<speed>
+				<walk ground="48" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="15" />
+			<height normal="33" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="5465" level="1" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="10414" max="24300" chance="70" /> 
+				<item id="36552" min="1" max="1" chance="30.76" /> 
+				<item id="36553" min="1" max="1" chance="6.226" /> 
+			</drop>
+			<spoil>
+				<item id="36552" min="1" max="1" chance="25.17" /> 
+				<item id="36553" min="1" max="1" chance="4.802" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="9.894" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24220" level="104" type="Monster" name="巴浪卡獸人虐殺者">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="35790144" sp="32123" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="605532.658635" hpRegen="9.5" mp="31594.938" mpRegen="3.3" />
+			<attack physical="52427" magical="42381" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="4845" magical="2813" />
+			<speed>
+				<walk ground="42" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="15" />
+			<height normal="36.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="5465" level="1" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="10414" max="24300" chance="70" /> 
+				<item id="36558" min="1" max="1" chance="21.69" /> 
+				<item id="36559" min="1" max="1" chance="1.908" /> 
+			</drop>
+			<spoil>
+				<item id="36558" min="1" max="1" chance="10.78" /> 
+				<item id="36559" min="1" max="1" chance="0.961" /> 
+				<item id="36560" min="1" max="1" chance="0.075" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="9.928" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24221" level="104" type="Monster" name="巴浪卡獸人巫師">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="35790144" sp="32123" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="605532.658635" hpRegen="9.5" mp="31594.938" mpRegen="3.3" />
+			<attack physical="52427" magical="42381" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="4845" magical="2813" />
+			<speed>
+				<walk ground="43" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="15" />
+			<height normal="28.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="5465" level="1" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="10414" max="24300" chance="70" /> 
+				<item id="36543" min="1" max="1" chance="24.34" /> 
+				<item id="36544" min="1" max="1" chance="2.232" /> 
+			</drop>
+			<spoil>
+				<item id="36543" min="1" max="1" chance="12.31" /> 
+				<item id="36544" min="1" max="1" chance="1.118" /> 
+				<item id="36560" min="1" max="1" chance="0.075" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="9.954" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24222" level="85" type="Folk" name="芙琳泰沙護衛隊長">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="44" />
+		</collision>
+	</npc>
+	<npc id="24223" level="85" type="Folk" name="芙琳泰沙守護士兵">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="17" />
+			<height normal="44" />
+		</collision>
+	</npc>
+	<npc id="24224" level="85" type="Folk" name="芙琳泰沙守護弓箭手">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="48232" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="17" />
+			<height normal="44" />
+		</collision>
+	</npc>
+	<npc id="24225" level="85" type="Folk" name="芙琳泰沙守護法師">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="14" />
+			<height normal="38" />
+		</collision>
+	</npc>
+	<npc id="24226" level="107" type="Monster" name="阿拉雷亞" title="Energy of the Sea of Spores Tracker">
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<parameters>
+			<skill name="Skill01_ID" id="32478" level="1" />
+			<skill name="Skill02_ID" id="32479" level="1" />
+			<skill name="Skill03_ID" id="32480" level="1" />
+		</parameters>
+		<acquire exp="330532630" sp="286225" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="209844.221745" hpRegen="9.5" mp="32075.861" mpRegen="3.3" />
+			<attack physical="62498" magical="53196" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5913" magical="3434" />
+			<attribute>
+				<defence fire="550" water="550" wind="450" earth="550" holy="550" dark="550" default="550" />
+				<attack type="EARTH" value="550" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<ai type="FIGHTER" clanHelpRange="450" aggroRange="450" isAggressive="true">
+			<clanList>
+				<clan>SOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="22.5" />
+		</collision>
+		<skillList>
+			<skill id="32478" level="1" /> 
+			<skill id="32479" level="1" /> 
+			<skill id="32480" level="1" /> 
+			<skill id="4416" level="12" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14817" level="1" /> 
+			<skill id="16547" level="4" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="17433" min="1" max="1" chance="0.03" /> 
+				<item id="57" min="9474" max="22114" chance="70" /> 
+				<item id="36539" min="1" max="1" chance="0.3" /> 
+				<item id="36549" min="1" max="1" chance="0.075" /> 
+				<item id="36540" min="1" max="1" chance="0.03" /> 
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.3" /> 
+				<item id="45932" min="1" max="1" chance="0.3" /> 
+				<item id="36565" min="1" max="1" chance="0.03" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="48.18" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24227" level="106" type="Monster" name="凱羅斯">
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<parameters>
+			<skill name="Skill01_ID" id="32469" level="1" />
+			<skill name="Skill02_ID" id="32471" level="1" />
+			<skill name="Skill03_ID" id="32472" level="1" />
+			<skill name="Skill04_ID" id="32475" level="1" />
+			<param name="Skill04_Probablity" value="500" />
+		</parameters>
+		<acquire exp="1338151420" sp="1202252" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1442740.459845" hpRegen="9.5" mp="32547.863" mpRegen="3.3" />
+			<attack physical="59141" magical="49591" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5557" magical="3227" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attribute>
+				<defence fire="550" water="550" wind="450" earth="550" holy="550" dark="550" default="550" />
+				<attack type="EARTH" value="550" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<ai type="FIGHTER" clanHelpRange="450" aggroRange="450" isAggressive="true">
+			<clanList>
+				<clan>SOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="38" />
+			<height normal="32" />
+		</collision>
+		<skillList>
+			<skill id="32475" level="1" /> 
+			<skill id="32469" level="1" /> 
+			<skill id="32471" level="1" /> 
+			<skill id="32472" level="1" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="4435" level="5" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="33467" max="78176" chance="70" /> 
+				<item id="35342" min="1" max="1" chance="2.645" /> 
+				<item id="36539" min="1" max="1" chance="1.309" /> 
+				<item id="36540" min="1" max="1" chance="0.075" /> 
+				<item id="35466" min="1" max="1" chance="0.03" /> 
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="1.217" /> 
+				<item id="36565" min="1" max="1" chance="0.075" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="47.65" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24228" level="106" type="Monster" name="帕爾雷納">
+		<parameters>
+			<skill name="Skill01_ID" id="32469" level="1" />
+			<skill name="Skill02_ID" id="32473" level="1" />
+			<skill name="Skill03_ID" id="32474" level="1" />
+			<param name="Skill01_Probablity" value="2000" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="1338151420" sp="1202252" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1442740.459845" hpRegen="9.5" mp="32547.863" mpRegen="3.3" />
+			<attack physical="59141" magical="49591" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5557" magical="3227" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attribute>
+				<defence fire="550" water="550" wind="450" earth="550" holy="550" dark="550" default="550" />
+				<attack type="WIND" value="550" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<ai type="FIGHTER" clanHelpRange="450" aggroRange="450" isAggressive="true">
+			<clanList>
+				<clan>SOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="45" />
+			<height normal="35" />
+		</collision>
+		<skillList>
+			<skill id="32469" level="1" /> 
+			<skill id="32473" level="1" /> 
+			<skill id="32474" level="1" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="5464" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="14620" level="4" /> 
+			<skill id="16417" level="10" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="33467" max="78176" chance="70" /> 
+				<item id="35342" min="1" max="1" chance="2.657" /> 
+				<item id="36539" min="1" max="1" chance="1.336" /> 
+				<item id="36540" min="1" max="1" chance="0.075" /> 
+				<item id="35466" min="1" max="1" chance="0.03" /> 
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="1.196" /> 
+				<item id="36565" min="1" max="1" chance="0.075" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="47.93" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24229" level="107" type="Monster" name="阿特洛帕">
+		<parameters>
+			<skill name="Skill01_ID" id="32505" level="1" />
+			<skill name="Skill02_ID" id="32529" level="1" />
+			<param name="Skill01_Probablity" value="2000" />
+			<param name="Skill02_Probablity" value="2000" />
+			<skill name="Skill03_ID" id="32471" level="2" />
+			<skill name="Skill04_ID" id="32474" level="1" />
+			<skill name="Skill05_ID" id="32477" level="1" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="1541367421" sp="1385329" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1573898.855535" hpRegen="9.5" mp="32547.863" mpRegen="3.3" />
+			<attack physical="62498" magical="53196" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5913" magical="3434" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attribute>
+				<defence fire="550" water="550" wind="450" earth="550" holy="550" dark="550" default="550" />
+				<attack type="EARTH" value="550" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<ai type="FIGHTER" clanHelpRange="450" aggroRange="450" isAggressive="true">
+			<clanList>
+				<clan>SOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="80" />
+			<height normal="41.8" />
+		</collision>
+		<skillList>
+			<skill id="32505" level="1" /> 
+			<skill id="32529" level="1" /> 
+			<skill id="32471" level="2" /> 
+			<skill id="32474" level="1" /> 
+			<skill id="32477" level="1" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="4435" level="5" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="34154" max="79721" chance="70" /> 
+				<item id="35341" min="1" max="1" chance="2.714" /> 
+				<item id="36539" min="1" max="1" chance="1.358" /> 
+				<item id="36540" min="1" max="1" chance="0.075" /> 
+				<item id="35465" min="1" max="1" chance="0.03" /> 
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="1.256" /> 
+				<item id="36565" min="1" max="1" chance="0.075" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="47.04" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24230" level="107" type="Monster" name="努巴">
+		<parameters>
+			<skill name="Skill01_ID" id="32469" level="1" />
+			<skill name="Skill02_ID" id="32471" level="1" />
+			<skill name="Skill03_ID" id="32477" level="1" />
+			<param name="Skill01_Probablity" value="2000" />
+			<param name="Skill02_Probablity" value="2000" />
+			<param name="Skill03_Probablity" value="2000" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="1541367421" sp="1385329" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1573898.855535" hpRegen="9.5" mp="32547.863" mpRegen="3.3" />
+			<attack physical="62498" magical="53196" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5913" magical="3434" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attribute>
+				<defence fire="550" water="550" wind="550" earth="450" holy="550" dark="550" default="550" />
+				<attack type="WIND" value="550" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<ai type="MAGE" clanHelpRange="450" aggroRange="450" isAggressive="true">
+			<clanList>
+				<clan>SOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="27" />
+			<height normal="57" />
+		</collision>
+		<skillList>
+			<skill id="32469" level="1" /> 
+			<skill id="32471" level="1" /> 
+			<skill id="32477" level="1" /> 
+			<skill id="32470" level="1" /> 
+			<skill id="32475" level="1" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="5464" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="14620" level="4" /> 
+			<skill id="16417" level="10" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="34154" max="79721" chance="70" /> 
+				<item id="36519" min="1" max="1" chance="5.623" /> 
+				<item id="35339" min="1" max="1" chance="0.75" /> 
+				<item id="36520" min="1" max="1" chance="0.3" /> 
+				<item id="35463" min="1" max="1" chance="0.0075" /> 
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="1.277" /> 
+				<item id="36565" min="1" max="1" chance="0.075" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="46.61" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24231" level="107" type="Monster" name="托勒培度">
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<parameters>
+			<skill name="Skill01_ID" id="32501" level="1" />
+		</parameters>
+		<acquire exp="1541367421" sp="1385329" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="1573898.855535" hpRegen="9.5" mp="32547.863" mpRegen="3.3" />
+			<attack physical="62498" magical="53196" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5913" magical="3434" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attribute>
+				<defence fire="550" water="550" wind="550" earth="450" holy="550" dark="550" default="550" />
+				<attack type="WIND" value="550" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<ai type="MAGE" clanHelpRange="450" aggroRange="450" isAggressive="true">
+			<clanList>
+				<clan>SOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" />
+			<height normal="38.5" />
+		</collision>
+		<skillList>
+			<skill id="32501" level="1" /> 
+			<skill id="32470" level="1" /> 
+			<skill id="32476" level="1" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="5464" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="4438" level="5" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="34154" max="79721" chance="70" /> 
+				<item id="36519" min="1" max="2" chance="5.529" /> 
+				<item id="35333" min="1" max="1" chance="1.106" /> 
+				<item id="35457" min="1" max="1" chance="0.0075" /> 
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="1.211" /> 
+				<item id="36565" min="1" max="1" chance="0.075" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="46.43" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24232" level="108" type="Monster" name="亞利曼" title="Orfen's Handmaiden">
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<parameters>
+			<skill name="Skill01_ID" id="32478" level="1" />
+			<skill name="Skill02_ID" id="32479" level="1" />
+			<skill name="Skill03_ID" id="32480" level="1" />
+		</parameters>
+		<acquire exp="5254515360" sp="4723920" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="6820229.635815" hpRegen="9.5" mp="32547.863" mpRegen="3.3" />
+			<attack physical="65855" magical="56801" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="6269" magical="3641" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attribute>
+				<defence fire="550" water="550" wind="450" earth="550" holy="550" dark="550" default="550" />
+				<attack type="EARTH" value="550" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="true" />
+		<ai type="FIGHTER" clanHelpRange="450" aggroRange="450" isAggressive="true">
+			<clanList>
+				<clan>SOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="22.5" />
+		</collision>
+		<skillList>
+			<skill id="32478" level="1" /> 
+			<skill id="32479" level="1" /> 
+			<skill id="4416" level="12" /> 
+			<skill id="5464" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="17431" min="1" max="1" chance="0.075" /> 
+				<item id="17422" min="1" max="1" chance="0.03" /> 
+				<item id="57" min="174202" max="406329" chance="70" /> 
+				<item id="36549" min="1" max="1" chance="4.305" /> 
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="4.198" /> 
+				<item id="45932" min="1" max="1" chance="3.943" /> 
+				<item id="36565" min="1" max="1" chance="0.3" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="47.16" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24233" level="107" type="Monster" name="哈納芮" title="Energy of the Sea of Spores Devourer">
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire exp="3236872729" sp="2908046" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3147797.71107" hpRegen="9.5" mp="32547.863" mpRegen="3.3" />
+			<attack physical="62498" magical="53196" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5913" magical="3434" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<ai type="FIGHTER" clanHelpRange="450" aggroRange="450" isAggressive="true">
+			<clanList>
+				<clan>SOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="22.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="12" /> 
+			<skill id="32478" level="1" /> 
+			<skill id="32479" level="1" /> 
+			<skill id="32480" level="1" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="14620" level="4" /> 
+			<skill id="16417" level="10" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="17434" min="1" max="1" chance="0.3" /> 
+				<item id="57" min="85385" max="199303" chance="70" /> 
+				<item id="36519" min="1" max="1" chance="13.96" /> 
+				<item id="36520" min="1" max="1" chance="0.75" /> 
+				<item id="36549" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="2" /> 
+				<item id="45932" min="1" max="1" chance="1.976" /> 
+				<item id="36565" min="1" max="1" chance="0.3" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="46.67" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24234" level="106" type="Monster" name="芮沙塔納斯">
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<parameters>
+			<skill name="Skill01_ID" id="32469" level="1" />
+		</parameters>
+		<acquire exp="191304136" sp="168540" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="192357.781605" hpRegen="9.5" mp="32075.861" mpRegen="3.3" />
+			<attack physical="59141" magical="49591" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5557" magical="3227" />
+			<attribute>
+				<defence fire="550" water="550" wind="450" earth="550" holy="550" dark="550" default="550" />
+				<attack type="EARTH" value="550" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="20" />
+			<height normal="32" />
+		</collision>
+		<skillList>
+			<skill id="32469" level="1" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14817" level="1" /> 
+			<skill id="16547" level="4" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="6189" max="14457" chance="70" /> 
+				<item id="36519" min="1" max="1" chance="1.05" /> 
+				<item id="35343" min="1" max="1" chance="0.3" /> 
+				<item id="36520" min="1" max="1" chance="0.075" /> 
+				<item id="35467" min="1" max="1" chance="0.003" /> 
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.3" /> 
+				<item id="36565" min="1" max="1" chance="0.03" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="47.39" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24235" level="107" type="Monster" name="阿勒保勒">
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<parameters>
+			<skill name="Skill01_ID" id="32471" level="2" />
+		</parameters>
+		<acquire exp="220358903" sp="194633" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="209844.221745" hpRegen="9.5" mp="32075.861" mpRegen="3.3" />
+			<attack physical="62498" magical="53196" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5913" magical="3434" />
+			<attribute>
+				<defence fire="550" water="550" wind="450" earth="550" holy="550" dark="550" default="550" />
+				<attack type="EARTH" value="550" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="35.2" />
+			<height normal="49" />
+		</collision>
+		<skillList>
+			<skill id="32471" level="2" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14817" level="1" /> 
+			<skill id="16547" level="4" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="6316" max="14743" chance="70" /> 
+				<item id="36519" min="1" max="1" chance="1.049" /> 
+				<item id="35338" min="1" max="1" chance="0.3" /> 
+				<item id="36520" min="1" max="1" chance="0.075" /> 
+				<item id="35462" min="1" max="1" chance="0.003" /> 
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.3" /> 
+				<item id="36565" min="1" max="1" chance="0.03" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="46.69" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24236" level="106" type="Monster" name="泰勒古斯">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<parameters>
+			<skill name="Skill01_ID" id="32469" level="1" />
+			<skill name="Skill02_ID" id="32474" level="1" />
+		</parameters>
+		<acquire exp="191304136" sp="168540" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="192357.781605" hpRegen="9.5" mp="32075.861" mpRegen="3.3" />
+			<attack physical="59141" magical="49591" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5557" magical="3227" />
+			<attribute>
+				<defence fire="550" water="550" wind="550" earth="450" holy="550" dark="550" default="550" />
+				<attack type="WIND" value="550" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="18" />
+			<height normal="35" />
+		</collision>
+		<skillList>
+			<skill id="32469" level="1" /> 
+			<skill id="32474" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="5464" level="1" /> 
+			<skill id="14817" level="1" /> 
+			<skill id="16547" level="4" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="6189" max="14457" chance="70" /> 
+				<item id="36519" min="1" max="1" chance="1.07" /> 
+				<item id="35340" min="1" max="1" chance="0.3" /> 
+				<item id="36520" min="1" max="1" chance="0.075" /> 
+				<item id="35464" min="1" max="1" chance="0.003" /> 
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.3" /> 
+				<item id="36565" min="1" max="1" chance="0.03" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="46.81" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24237" level="107" type="Monster" name="史克勒杜斯">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<parameters>
+			<skill name="Skill01_ID" id="32471" level="2" />
+		</parameters>
+		<acquire exp="220358903" sp="194633" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="209844.221745" hpRegen="9.5" mp="32075.861" mpRegen="3.3" />
+			<attack physical="62498" magical="53196" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5913" magical="3434" />
+			<attribute>
+				<defence fire="550" water="550" wind="550" earth="450" holy="550" dark="550" default="550" />
+				<attack type="WIND" value="550" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="18" />
+			<height normal="35" />
+		</collision>
+		<skillList>
+			<skill id="32471" level="2" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="5464" level="1" /> 
+			<skill id="14817" level="1" /> 
+			<skill id="16547" level="4" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="6316" max="14743" chance="70" /> 
+				<item id="35330" min="1" max="1" chance="0.3" /> 
+				<item id="36524" min="1" max="1" chance="0.3" /> 
+				<item id="36525" min="1" max="1" chance="0.03" /> 
+				<item id="35454" min="1" max="1" chance="0.003" /> 
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.3" /> 
+				<item id="36565" min="1" max="1" chance="0.03" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="46.29" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24238" level="107" type="Monster" name="雅特羅比內">
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<parameters>
+			<skill name="Skill01_ID" id="32469" level="1" />
+			<skill name="Skill02_ID" id="32477" level="1" />
+		</parameters>
+		<acquire exp="220358903" sp="194633" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="209844.221745" hpRegen="9.5" mp="32075.861" mpRegen="3.3" />
+			<attack physical="62498" magical="53196" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5913" magical="3434" />
+			<attribute>
+				<defence fire="550" water="550" wind="450" earth="550" holy="550" dark="550" default="550" />
+				<attack type="EARTH" value="550" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="50" />
+			<height normal="25" />
+		</collision>
+		<skillList>
+			<skill id="32469" level="1" /> 
+			<skill id="32477" level="1" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14817" level="1" /> 
+			<skill id="16547" level="4" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="6316" max="14743" chance="70" /> 
+				<item id="35330" min="1" max="1" chance="0.3" /> 
+				<item id="36524" min="1" max="1" chance="0.3" /> 
+				<item id="36525" min="1" max="1" chance="0.03" /> 
+				<item id="35454" min="1" max="1" chance="0.003" /> 
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.3" /> 
+				<item id="36565" min="1" max="1" chance="0.03" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="46.41" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24239" level="108" type="Monster" name="阿麗姆斯" title="Orfen's Handmaiden">
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<parameters>
+			<skill name="Skill01_ID" id="32478" level="1" />
+			<skill name="Skill02_ID" id="32479" level="1" />
+			<skill name="Skill03_ID" id="32480" level="1" />
+		</parameters>
+		<acquire exp="525848112" sp="466560" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="454663.84743" hpRegen="9.5" mp="32075.861" mpRegen="3.3" />
+			<attack physical="65855" magical="56801" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="6269" magical="3641" />
+			<attribute>
+				<defence fire="550" water="550" wind="550" earth="450" holy="550" dark="550" default="550" />
+				<attack type="WIND" value="550" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="90" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="30" />
+			<height normal="101" />
+		</collision>
+		<skillList>
+			<skill id="32478" level="1" /> 
+			<skill id="32479" level="1" /> 
+			<skill id="32480" level="1" /> 
+			<skill id="4416" level="12" /> 
+			<skill id="5464" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="17435" min="1" max="1" chance="0.03" /> 
+				<item id="17430" min="1" max="1" chance="0.0075" /> 
+				<item id="17432" min="1" max="1" chance="0.003" /> 
+				<item id="17419" min="1" max="1" chance="0.0009" /> 
+				<item id="57" min="19329" max="45085" chance="70" /> 
+				<item id="36554" min="1" max="1" chance="0.3" /> 
+			</drop>
+			<spoil>
+				<item id="36564" min="1" max="1" chance="0.3" /> 
+				<item id="45932" min="1" max="1" chance="0.3" /> 
+				<item id="36565" min="1" max="1" chance="0.03" /> 
+			</spoil>
+			<lucky>
+				<item id="48979" min="1" max="3" chance="47.02" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="24240" level="85" type="Folk" name="末日士兵">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9.75" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="24241" level="85" type="Folk" name="末日士兵">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9.75" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="24242" level="85" type="Folk" name="末日士兵">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9.75" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="24243" level="85" type="Folk" name="末日士兵">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9.75" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="24244" level="85" type="Folk" name="末日傭人">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9.75" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="24245" level="85" type="Folk" name="末日傭人">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9.75" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="24246" level="85" type="Folk" name="末日傭人">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9.75" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="24247" level="85" type="Folk" name="末日傭人">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9.75" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="24248" level="85" type="Folk" name="末日弓手">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15302" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9.75" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="24249" level="85" type="Folk" name="末日弓手">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15302" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9.75" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="24250" level="85" type="Folk" name="末日弓手">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15302" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9.75" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="24251" level="85" type="Folk" name="末日弓手">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15302" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9.75" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="24252" level="85" type="Folk" name="末日狂戰士">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="40" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="24.75" />
+			<height normal="37.5" />
+		</collision>
+	</npc>
+	<npc id="24253" level="85" type="Folk" name="末日狂戰士">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="40" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="24.75" />
+			<height normal="37.5" />
+		</collision>
+	</npc>
+	<npc id="24254" level="85" type="Folk" name="末日狂戰士">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="40" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="24.75" />
+			<height normal="37.5" />
+		</collision>
+	</npc>
+	<npc id="24255" level="85" type="Folk" name="末日狂戰士">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="40" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="24.75" />
+			<height normal="37.5" />
+		</collision>
+	</npc>
+	<npc id="24256" level="85" type="Folk" name="末日預知者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="16.5" />
+			<height normal="37.5" />
+		</collision>
+	</npc>
+	<npc id="24257" level="85" type="Folk" name="末日預知者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="16.5" />
+			<height normal="37.5" />
+		</collision>
+	</npc>
+	<npc id="24258" level="85" type="Folk" name="末日預知者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="16.5" />
+			<height normal="37.5" />
+		</collision>
+	</npc>
+	<npc id="24259" level="85" type="Folk" name="末日預知者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="16.5" />
+			<height normal="37.5" />
+		</collision>
+	</npc>
+	<npc id="24260" level="85" type="Folk" name="末日競賽">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="21" />
+			<height normal="36.75" />
+		</collision>
+	</npc>
+	<npc id="24261" level="85" type="Folk" name="末日競賽">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="21" />
+			<height normal="36.75" />
+		</collision>
+	</npc>
+	<npc id="24262" level="85" type="Folk" name="末日競賽">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="21" />
+			<height normal="36.75" />
+		</collision>
+	</npc>
+	<npc id="24263" level="85" type="Folk" name="末日競賽">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="21" />
+			<height normal="36.75" />
+		</collision>
+	</npc>
+	<npc id="24264" level="85" type="Folk" name="布丹">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="100" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="21" />
+			<height normal="45" />
+		</collision>
+	</npc>
+	<npc id="24265" level="85" type="Folk" name="布丹" title="Death Knight">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="100" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="21" />
+			<height normal="45" />
+		</collision>
+	</npc>
+	<npc id="24266" level="85" type="Folk" name="布丹" title="Berserk Death Knight">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="100" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="21" />
+			<height normal="45" />
+		</collision>
+	</npc>
+	<npc id="24267" level="85" type="Folk" name="梅勒奇歐斯">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="22.5" />
+			<height normal="71.25" />
+		</collision>
+	</npc>
+	<npc id="24268" level="85" type="Folk" name="梅勒奇歐斯" title="Grand Wizard">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="22.5" />
+			<height normal="71.25" />
+		</collision>
+	</npc>
+	<npc id="24269" level="85" type="Folk" name="梅勒奇歐斯" title="Berserk Grand Wizard">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="22.5" />
+			<height normal="71.25" />
+		</collision>
+	</npc>
+	<npc id="24270" level="85" type="Folk" name="工匠">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="13.2" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="24271" level="85" type="Folk" name="工匠">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="13.2" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="24272" level="85" type="Folk" name="工匠">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="13.2" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="24273" level="85" type="Folk" name="工匠">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="13.2" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="24274" level="85" type="Folk" name="收集者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="13.2" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="24275" level="85" type="Folk" name="收集者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="13.2" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="24276" level="85" type="Folk" name="收集者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="13.2" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="24277" level="85" type="Folk" name="收集者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="13.2" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="24278" level="85" type="Folk" name="矮人守護者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="35" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="14.4" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="24279" level="85" type="Folk" name="矮人守護者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="35" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="14.4" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="24280" level="85" type="Folk" name="矮人守護者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="35" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="14.4" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="24281" level="85" type="Folk" name="矮人守護者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="35" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="14.4" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="24282" level="85" type="Folk" name="矮人獵者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15304" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10.8" />
+			<height normal="24.6" />
+		</collision>
+	</npc>
+	<npc id="24283" level="85" type="Folk" name="矮人獵者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15304" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10.8" />
+			<height normal="24.6" />
+		</collision>
+	</npc>
+	<npc id="24284" level="85" type="Folk" name="矮人獵者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15304" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10.8" />
+			<height normal="24.6" />
+		</collision>
+	</npc>
+	<npc id="24285" level="85" type="Folk" name="矮人獵者">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15304" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10.8" />
+			<height normal="24.6" />
+		</collision>
+	</npc>
+	<npc id="24286" level="85" type="Folk" name="矮人法師">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10.8" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="24287" level="85" type="Folk" name="矮人法師">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10.8" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="24288" level="85" type="Folk" name="矮人法師">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10.8" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="24289" level="85" type="Folk" name="矮人法師">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10.8" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="24290" level="85" type="Folk" name="矮人狂戰士　">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="15.6" />
+			<height normal="30.6" />
+		</collision>
+	</npc>
+	<npc id="24291" level="85" type="Folk" name="矮人狂戰士　">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="15.6" />
+			<height normal="30.6" />
+		</collision>
+	</npc>
+	<npc id="24292" level="85" type="Folk" name="矮人狂戰士　">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="15.6" />
+			<height normal="30.6" />
+		</collision>
+	</npc>
+	<npc id="24293" level="85" type="Folk" name="矮人狂戰士　">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="150" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="15.6" />
+			<height normal="30.6" />
+		</collision>
+	</npc>
+	<npc id="24294" level="85" type="Folk" name="戰鬥壓碎機">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="42" />
+			<height normal="63" />
+		</collision>
+	</npc>
+	<npc id="24295" level="85" type="Folk" name="戰鬥壓碎機">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="42" />
+			<height normal="63" />
+		</collision>
+	</npc>
+	<npc id="24296" level="85" type="Folk" name="戰鬥壓碎機" title="Lookout">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="42" />
+			<height normal="63" />
+		</collision>
+	</npc>
+	<npc id="24297" level="85" type="Folk" name="戰鬥壓碎機" title="Lookout">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="42" />
+			<height normal="63" />
+		</collision>
+	</npc>
+	<npc id="24298" level="85" type="Folk" name="戰鬥壓碎機" title="Destroyer">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="42" />
+			<height normal="63" />
+		</collision>
+	</npc>
+	<npc id="24299" level="85" type="Folk" name="魯林">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="16.8" />
+			<height normal="29.4" />
+		</collision>
+	</npc>
+</list>

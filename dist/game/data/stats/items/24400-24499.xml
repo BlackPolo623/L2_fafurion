@@ -1,0 +1,943 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="24400" name="禮服" additionalName="Low-grade/ Debuff Reflect" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24401" name="禮服" additionalName="Low-grade/ Damage Reflection Resistance" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24402" name="禮服" additionalName="Low-grade/ Ranged Resistance" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24403" name="禮服" additionalName="Low-grade/ P. Def. Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24404" name="禮服" additionalName="Low-grade/ M. Def. Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24405" name="禮服" additionalName="Low-grade/ Attribute Resistance" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24406" name="禮服" additionalName="Low-grade/ Received Heal Amount Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24407" name="禮服" additionalName="Low-grade/ Max. HP Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24408" name="禮服" additionalName="Low-grade/ Max. MP Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24409" name="禮服" additionalName="Low-grade/ Max CP Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24410" name="禮服" additionalName="Low-grade/ Speed Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24411" name="禮服" additionalName="Low-grade/ HP Recovery Bonus Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24412" name="禮服" additionalName="Low-grade/ MP Recovery Bonus Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24413" name="禮服" additionalName="Low-grade/ Evasion Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24414" name="禮服" additionalName="Low-grade/ Option 15" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24415" name="禮服" additionalName="Low-grade/ Option 16" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24416" name="禮服" additionalName="Low-grade/ Option 17" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24417" name="禮服" additionalName="Low-grade/ Option 18" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24418" name="禮服" additionalName="Low-grade/ Option 19" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24419" name="禮服" additionalName="Low-grade/ Option 20" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24420" name="禮服" additionalName="Mid-grade/ Debuff Reflect" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24421" name="禮服" additionalName="Mid-grade/ Damage Reflection Resistance" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24422" name="禮服" additionalName="Mid-grade/ Ranged Resistance" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24423" name="禮服" additionalName="Mid-grade/ P. Def. Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24424" name="禮服" additionalName="Mid-grade/ M. Def. Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24425" name="禮服" additionalName="Mid-grade/ Attribute Resistance" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24426" name="禮服" additionalName="Mid-grade/ Received Heal Amount Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24427" name="禮服" additionalName="Mid-grade/ Max. HP Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24428" name="禮服" additionalName="Mid-grade/ Max. MP Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24429" name="禮服" additionalName="Mid-grade/ Max CP Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24430" name="禮服" additionalName="Mid-grade/ Speed Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24431" name="禮服" additionalName="Mid-grade/ HP Recovery Bonus Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24432" name="禮服" additionalName="Mid-grade/ MP Recovery Bonus Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24433" name="禮服" additionalName="Mid-grade/ Evasion Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24434" name="禮服" additionalName="Mid-grade/ Option 15" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24435" name="禮服" additionalName="Mid-grade/ Option 16" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24436" name="禮服" additionalName="Mid-grade/ Option 17" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24437" name="禮服" additionalName="Mid-grade/ Option 18" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24438" name="禮服" additionalName="Mid-grade/ Option 19" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24439" name="禮服" additionalName="Mid-grade/ Option 20" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24440" name="禮服" additionalName="Top-grade/ Debuff Reflect" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24441" name="禮服" additionalName="Top-grade/ Damage Reflection Resistance" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24442" name="禮服" additionalName="Top-grade/ Ranged Resistance" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24443" name="禮服" additionalName="Top-grade/ P. Def. Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24444" name="禮服" additionalName="Top-grade/ M. Def. Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24445" name="禮服" additionalName="Top-grade/ Attribute Resistance" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24446" name="禮服" additionalName="Top-grade/ Received Heal Amount Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24447" name="禮服" additionalName="Top-grade/ Max. HP Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24448" name="禮服" additionalName="Top-grade/ Max. MP Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24449" name="禮服" additionalName="Top-grade/ Max CP Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24450" name="禮服" additionalName="Top-grade/ Speed Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24451" name="禮服" additionalName="Top-grade/ HP Recovery Bonus Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24452" name="禮服" additionalName="Top-grade/ MP Recovery Bonus Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24453" name="禮服" additionalName="Top-grade/ Evasion Increase" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24454" name="禮服" additionalName="Top-grade/ Option 15" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24455" name="禮服" additionalName="Top-grade/ Option 16" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24456" name="禮服" additionalName="Top-grade/ Option 17" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24457" name="禮服" additionalName="Top-grade/ Option 18" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24458" name="禮服" additionalName="Top-grade/ Option 19" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24459" name="禮服" additionalName="Top-grade/ Option 20" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24460" name="男性泳裝No.1" additionalName="Low-grade/ Debuff Reflect" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24461" name="男性泳裝No.1" additionalName="Low-grade/ Damage Reflection Resistance" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24462" name="男性泳裝No.1" additionalName="Low-grade/ Ranged Resistance" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24463" name="男性泳裝No.1" additionalName="Low-grade/ P. Def. Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24464" name="男性泳裝No.1" additionalName="Low-grade/ M. Def. Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24465" name="男性泳裝No.1" additionalName="Low-grade/ Attribute Resistance" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24466" name="男性泳裝No.1" additionalName="Low-grade/ Received Heal Amount Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24467" name="男性泳裝No.1" additionalName="Low-grade/ Max. HP Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24468" name="男性泳裝No.1" additionalName="Low-grade/ Max. MP Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24469" name="男性泳裝No.1" additionalName="Low-grade/ Max CP Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24470" name="男性泳裝No.1" additionalName="Low-grade/ Speed Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24471" name="男性泳裝No.1" additionalName="Low-grade/ HP Recovery Bonus Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24472" name="男性泳裝No.1" additionalName="Low-grade/ MP Recovery Bonus Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24473" name="男性泳裝No.1" additionalName="Low-grade/ Evasion Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24474" name="男性泳裝No.1" additionalName="Low-grade/ Option 15" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24475" name="男性泳裝No.1" additionalName="Low-grade/ Option 16" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24476" name="男性泳裝No.1" additionalName="Low-grade/ Option 17" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24477" name="男性泳裝No.1" additionalName="Low-grade/ Option 18" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24478" name="男性泳裝No.1" additionalName="Low-grade/ Option 19" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24479" name="男性泳裝No.1" additionalName="Low-grade/ Option 20" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24480" name="男性泳裝No.1" additionalName="Mid-grade/ Debuff Reflect" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24481" name="男性泳裝No.1" additionalName="Mid-grade/ Damage Reflection Resistance" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24482" name="男性泳裝No.1" additionalName="Mid-grade/ Ranged Resistance" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24483" name="男性泳裝No.1" additionalName="Mid-grade/ P. Def. Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24484" name="男性泳裝No.1" additionalName="Mid-grade/ M. Def. Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24485" name="男性泳裝No.1" additionalName="Mid-grade/ Attribute Resistance" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24486" name="男性泳裝No.1" additionalName="Mid-grade/ Received Heal Amount Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24487" name="男性泳裝No.1" additionalName="Mid-grade/ Max. HP Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24488" name="男性泳裝No.1" additionalName="Mid-grade/ Max. MP Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24489" name="男性泳裝No.1" additionalName="Mid-grade/ Max CP Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24490" name="男性泳裝No.1" additionalName="Mid-grade/ Speed Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24491" name="男性泳裝No.1" additionalName="Mid-grade/ HP Recovery Bonus Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24492" name="男性泳裝No.1" additionalName="Mid-grade/ MP Recovery Bonus Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24493" name="男性泳裝No.1" additionalName="Mid-grade/ Evasion Increase" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24494" name="男性泳裝No.1" additionalName="Mid-grade/ Option 15" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24495" name="男性泳裝No.1" additionalName="Mid-grade/ Option 16" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24496" name="男性泳裝No.1" additionalName="Mid-grade/ Option 17" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24497" name="男性泳裝No.1" additionalName="Mid-grade/ Option 18" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24498" name="男性泳裝No.1" additionalName="Mid-grade/ Option 19" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="24499" name="男性泳裝No.1" additionalName="Mid-grade/ Option 20" type="Armor">
+		
+		<set name="icon" val="icon.london_olympic_bikini" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+</list>

@@ -1,0 +1,1397 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="21600" name="標準包裹300" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="14055" min="3" max="3" chance="100" name="活力充能飲料" /> 
+			<item id="10649" min="3" max="3" chance="100" name="祝福的羽毛" /> 
+			<item id="14065" min="3" max="3" chance="100" name="高級狩獵幫手交換券" /> 
+		</capsuled_items>
+	</item>
+	<item id="21601" name="經驗值古文 30% 5小時/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20335" min="1" max="1" chance="100" name="經驗值古文 30%" /> 
+		</capsuled_items>
+	</item>
+	<item id="21602" name="經驗值古文 50% 5小時/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20336" min="1" max="1" chance="100" name="經驗值古文 50%" /> 
+		</capsuled_items>
+	</item>
+	<item id="21603" name="經驗值古文 30% 10小時/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20337" min="1" max="1" chance="100" name="經驗值古文 30%" /> 
+		</capsuled_items>
+	</item>
+	<item id="21604" name="經驗值古文 50% 10小時/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20338" min="1" max="1" chance="100" name="經驗值古文 50%" /> 
+		</capsuled_items>
+	</item>
+	<item id="21605" name="經驗值古文 30% 7日/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20339" min="1" max="1" chance="100" name="經驗值古文 30%" /> 
+		</capsuled_items>
+	</item>
+	<item id="21606" name="經驗值古文 50% 7日/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20340" min="1" max="1" chance="100" name="經驗值古文 50%" /> 
+		</capsuled_items>
+	</item>
+	<item id="21607" name="SP古文 30% 5小時/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20341" min="1" max="1" chance="100" name="SP古文 30%" /> 
+		</capsuled_items>
+	</item>
+	<item id="21608" name="SP古文 50% 5小時/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20342" min="1" max="1" chance="100" name="SP古文 50%" /> 
+		</capsuled_items>
+	</item>
+	<item id="21609" name="SP古文 30% 10小時/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20343" min="1" max="1" chance="100" name="SP古文 30%" /> 
+		</capsuled_items>
+	</item>
+	<item id="21610" name="SP古文 50% 10小時/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20344" min="1" max="1" chance="100" name="SP古文 50%" /> 
+		</capsuled_items>
+	</item>
+	<item id="21611" name="SP古文 30% 7日/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20345" min="1" max="1" chance="100" name="SP古文 30%" /> 
+		</capsuled_items>
+	</item>
+	<item id="21612" name="SP古文 50% 7日/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20346" min="1" max="1" chance="100" name="SP古文 50%" /> 
+		</capsuled_items>
+	</item>
+	<item id="21613" name="結晶型古文 3級 5小時/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20347" min="1" max="1" chance="100" name="結晶型古文 3級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21614" name="結晶型古文 5級 5小時/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20348" min="1" max="1" chance="100" name="結晶型古文 5級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21615" name="結晶型古文 3級 10小時/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20349" min="1" max="1" chance="100" name="結晶型古文 3級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21616" name="結晶型古文 5級 10小時/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20350" min="1" max="1" chance="100" name="結晶型古文 5級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21617" name="結晶型古文 3級 7日/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20351" min="1" max="1" chance="100" name="結晶型古文 3級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21618" name="結晶型古文 5級 7日/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20352" min="1" max="1" chance="100" name="結晶型古文 5級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21619" name="羽毛古文 24小時/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22066" min="1" max="1" chance="100" name="羽毛古文" /> 
+		</capsuled_items>
+	</item>
+	<item id="21620" name="武器用強化輔助石-D級/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="WEAPON_ENCHANT_STONE" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="12362" min="1" max="1" chance="100" name="武器用強化輔助石-D級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21621" name="武器用強化輔助石-C級/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="WEAPON_ENCHANT_STONE" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="12363" min="1" max="1" chance="100" name="武器用強化輔助石-C級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21622" name="武器用強化輔助石-B級/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="WEAPON_ENCHANT_STONE" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="12364" min="1" max="1" chance="100" name="武器用強化輔助石-B級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21623" name="武器用強化輔助石-A級/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="WEAPON_ENCHANT_STONE" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="12365" min="1" max="1" chance="100" name="武器用強化輔助石-A級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21624" name="武器用強化輔助石-S級/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="WEAPON_ENCHANT_STONE" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="12366" min="1" max="1" chance="100" name="武器用強化輔助石-S級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21625" name="防具用強化輔助石-D級/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="ARMOR_ENCHANT_STONE" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="12367" min="1" max="1" chance="100" name="防具用強化輔助石-D級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21626" name="防具用強化輔助石-C級/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="ARMOR_ENCHANT_STONE" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="12368" min="1" max="1" chance="100" name="防具用強化輔助石-C級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21627" name="防具用強化輔助石-B級/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="ARMOR_ENCHANT_STONE" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="12369" min="1" max="1" chance="100" name="防具用強化輔助石-B級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21628" name="防具用強化輔助石-A級/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="ARMOR_ENCHANT_STONE" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="12370" min="1" max="1" chance="100" name="防具用強化輔助石-A級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21629" name="防具用強化輔助石-S級/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="ARMOR_ENCHANT_STONE" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="12371" min="1" max="1" chance="100" name="防具用強化輔助石-S級" /> 
+		</capsuled_items>
+	</item>
+	<item id="21630" name="活力維持藥水組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20391" min="1" max="1" chance="100" name="活力維持藥水" /> 
+		</capsuled_items>
+	</item>
+	<item id="21631" name="活力充能藥水組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20392" min="1" max="1" chance="100" name="活力充能藥水" /> 
+		</capsuled_items>
+	</item>
+	<item id="21632" name="香甜水果雞尾酒組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20393" min="1" max="1" chance="100" name="香甜水果雞尾酒" /> 
+		</capsuled_items>
+	</item>
+	<item id="21633" name="爽口水果雞尾酒組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20394" min="1" max="1" chance="100" name="爽口水果雞尾酒" /> 
+		</capsuled_items>
+	</item>
+	<item id="21634" name="淡紫鬃馬騎乘手鐲 7日/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20448" min="1" max="1" chance="100" name="淡紫鬃馬騎乘手鐲" /> 
+		</capsuled_items>
+	</item>
+	<item id="21635" name="淡紫鬃馬騎乘手鐲 30日/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20030" min="1" max="1" chance="100" name="淡紫鬃馬騎乘手鐲" /> 
+		</capsuled_items>
+	</item>
+	<item id="21636" name="淡紫鬃馬騎乘手鐲組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20029" min="1" max="1" chance="100" name="淡紫鬃馬騎乘手鐲" /> 
+		</capsuled_items>
+	</item>
+	<item id="21637" name="蒸汽甲蟲騎乘手鐲 7日/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20449" min="1" max="1" chance="100" name="蒸汽甲蟲騎乘手鐲" /> 
+		</capsuled_items>
+	</item>
+	<item id="21638" name="蒸汽甲蟲騎乘手鐲 30日/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20504" min="1" max="1" chance="100" name="蒸汽甲蟲騎乘手鐲" /> 
+		</capsuled_items>
+	</item>
+	<item id="21639" name="蒸汽甲蟲騎乘手鐲組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20396" min="1" max="1" chance="100" name="蒸汽甲蟲騎乘手鐲" /> 
+		</capsuled_items>
+	</item>
+	<item id="21640" name="黃鬃獅子騎乘手鐲 30日/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20503" min="1" max="1" chance="100" name="黃鬃獅子騎乘手鐲" /> 
+		</capsuled_items>
+	</item>
+	<item id="21641" name="黃鬃獅子騎乘手鐲組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20502" min="1" max="1" chance="100" name="黃鬃獅子騎乘手鐲" /> 
+		</capsuled_items>
+	</item>
+	<item id="21642" name="噴射戰車 7日/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20938" min="1" max="1" chance="100" name="噴射戰車騎乘手鐲" /> 
+		</capsuled_items>
+	</item>
+	<item id="21643" name="噴射戰車 30日/組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20939" min="1" max="1" chance="100" name="噴射戰車騎乘手鐲" /> 
+		</capsuled_items>
+	</item>
+	<item id="21644" name="噴射戰車組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="21088" min="1" max="1" chance="100" name="噴射戰車騎乘手鐲" /> 
+		</capsuled_items>
+	</item>
+	<item id="21645" name="拿破侖帽 7日/組" additionalName="Mana Regeneration" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20427" min="1" max="1" chance="100" name="拿破侖帽" /> 
+		</capsuled_items>
+	</item>
+	<item id="21646" name="拿破侖帽組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20322" min="1" max="1" chance="100" name="拿破侖帽" /> 
+		</capsuled_items>
+	</item>
+	<item id="21647" name="牛角髮飾 7日/組" additionalName="Reflect Damage" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20428" min="1" max="1" chance="100" name="牛角髮飾" /> 
+		</capsuled_items>
+	</item>
+	<item id="21648" name="牛角髮飾組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20323" min="1" max="1" chance="100" name="牛角髮飾" /> 
+		</capsuled_items>
+	</item>
+	<item id="21649" name="黑寶石面具 7日/組" additionalName="Vitality" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20429" min="1" max="1" chance="100" name="黑寶石面具" /> 
+		</capsuled_items>
+	</item>
+	<item id="21650" name="黑寶石面具組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20324" min="1" max="1" chance="100" name="黑寶石面具" /> 
+		</capsuled_items>
+	</item>
+	<item id="21651" name="塑膠假髮 7日/組" additionalName="Blessed Escape" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20430" min="1" max="1" chance="100" name="塑膠假髮" /> 
+		</capsuled_items>
+	</item>
+	<item id="21652" name="塑膠假髮組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20325" min="1" max="1" chance="100" name="塑膠假髮" /> 
+		</capsuled_items>
+	</item>
+	<item id="21653" name="雛菊髮飾 7日/組" additionalName="Dark Resistance" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20431" min="1" max="1" chance="100" name="雛菊髮飾" /> 
+		</capsuled_items>
+	</item>
+	<item id="21654" name="雛菊髮飾組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22156" min="1" max="1" chance="100" name="雛菊髮飾" /> 
+		</capsuled_items>
+	</item>
+	<item id="21655" name="勿忘草髮飾 7日/組" additionalName="Wind Walk" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20432" min="1" max="1" chance="100" name="勿忘草髮飾" /> 
+		</capsuled_items>
+	</item>
+	<item id="21656" name="勿忘草髮飾組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22157" min="1" max="1" chance="100" name="勿忘草髮飾" /> 
+		</capsuled_items>
+	</item>
+	<item id="21657" name="無法者眼罩 7日/組" additionalName="Death Whisper" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20433" min="1" max="1" chance="100" name="無法者眼罩" /> 
+		</capsuled_items>
+	</item>
+	<item id="21658" name="無法者眼罩組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22158" min="1" max="1" chance="100" name="無法者眼罩" /> 
+		</capsuled_items>
+	</item>
+	<item id="21659" name="海盜眼罩 7日/組" additionalName="Agility" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20434" min="1" max="1" chance="100" name="海盜眼罩" /> 
+		</capsuled_items>
+	</item>
+	<item id="21660" name="海盜眼罩組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22159" min="1" max="1" chance="100" name="海盜眼罩" /> 
+		</capsuled_items>
+	</item>
+	<item id="21661" name="單片眼鏡 7日/組" additionalName="Wild Magic" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20435" min="1" max="1" chance="100" name="單片眼鏡" /> 
+		</capsuled_items>
+	</item>
+	<item id="21662" name="單片眼鏡組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22160" min="1" max="1" chance="100" name="單片眼鏡" /> 
+		</capsuled_items>
+	</item>
+	<item id="21663" name="紅魔鬼面具 7日/組" additionalName="Mana Regeneration" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20436" min="1" max="1" chance="100" name="紅魔鬼面具" /> 
+		</capsuled_items>
+	</item>
+	<item id="21664" name="紅魔鬼面具組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22161" min="1" max="1" chance="100" name="紅魔鬼面具" /> 
+		</capsuled_items>
+	</item>
+	<item id="21665" name="勝利者尖角 7日/組" additionalName="Reflect Damage" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20437" min="1" max="1" chance="100" name="勝利者尖角" /> 
+		</capsuled_items>
+	</item>
+	<item id="21666" name="勝利者尖角組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22162" min="1" max="1" chance="100" name="勝利者尖角" /> 
+		</capsuled_items>
+	</item>
+	<item id="21667" name="舞會面具 7日/組" additionalName="Greater Heal" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20438" min="1" max="1" chance="100" name="舞會面具" /> 
+		</capsuled_items>
+	</item>
+	<item id="21668" name="舞會面具組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22163" min="1" max="1" chance="100" name="舞會面具" /> 
+		</capsuled_items>
+	</item>
+	<item id="21669" name="紅色舞會面具 7日/組" additionalName="Dark Resistance" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20439" min="1" max="1" chance="100" name="紅色舞會面具" /> 
+		</capsuled_items>
+	</item>
+	<item id="21670" name="紅色舞會面具組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22164" min="1" max="1" chance="100" name="紅色舞會面具" /> 
+		</capsuled_items>
+	</item>
+	<item id="21671" name="貓耳 7日/組" additionalName="Wind Walk" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20440" min="1" max="1" chance="100" name="貓耳" /> 
+		</capsuled_items>
+	</item>
+	<item id="21672" name="貓耳組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22165" min="1" max="1" chance="100" name="貓耳" /> 
+		</capsuled_items>
+	</item>
+	<item id="21673" name="名媛髮飾 7日/組" additionalName="Death Whisper" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20441" min="1" max="1" chance="100" name="名媛髮飾" /> 
+		</capsuled_items>
+	</item>
+	<item id="21674" name="名媛髮飾組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22166" min="1" max="1" chance="100" name="名媛髮飾" /> 
+		</capsuled_items>
+	</item>
+	<item id="21675" name="狸耳 7日/組" additionalName="Agility" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20442" min="1" max="1" chance="100" name="狸耳" /> 
+		</capsuled_items>
+	</item>
+	<item id="21676" name="狸耳組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22167" min="1" max="1" chance="100" name="狸耳" /> 
+		</capsuled_items>
+	</item>
+	<item id="21677" name="兔耳 7日/組" additionalName="Wild Magic" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20443" min="1" max="1" chance="100" name="兔耳" /> 
+		</capsuled_items>
+	</item>
+	<item id="21678" name="兔耳組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22168" min="1" max="1" chance="100" name="兔耳" /> 
+		</capsuled_items>
+	</item>
+	<item id="21679" name="小天使之翼 7日/組" additionalName="Mana Regeneration" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20444" min="1" max="1" chance="100" name="小天使之翼" /> 
+		</capsuled_items>
+	</item>
+	<item id="21680" name="小天使之翼組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22169" min="1" max="1" chance="100" name="小天使之翼" /> 
+		</capsuled_items>
+	</item>
+	<item id="21681" name="小妖精觸角 7日/組" additionalName="Reflect Damage" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20445" min="1" max="1" chance="100" name="小妖精觸角" /> 
+		</capsuled_items>
+	</item>
+	<item id="21682" name="小妖精觸角組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22170" min="1" max="1" chance="100" name="小妖精觸角" /> 
+		</capsuled_items>
+	</item>
+	<item id="21683" name="吟遊詩人帽 7日/組" additionalName="Greater Heal" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20446" min="1" max="1" chance="100" name="吟遊詩人帽" /> 
+		</capsuled_items>
+	</item>
+	<item id="21684" name="吟遊詩人帽組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22171" min="1" max="1" chance="100" name="吟遊詩人帽" /> 
+		</capsuled_items>
+	</item>
+	<item id="21685" name="工匠的護目鏡 7日/組" additionalName="Vitality" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="20447" min="1" max="1" chance="100" name="工匠的護目鏡" /> 
+		</capsuled_items>
+	</item>
+	<item id="21686" name="工匠的護目鏡組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="is_freightable" val="true" />
+		<capsuled_items>
+			<item id="22172" min="1" max="1" chance="100" name="工匠的護目鏡" /> 
+		</capsuled_items>
+	</item>
+</list>

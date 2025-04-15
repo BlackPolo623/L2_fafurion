@@ -1,0 +1,2342 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="20305" level="40" type="Monster" name="葛雷姆">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="3525" sp="151" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="966.561514195584" hpRegen="4.5" mp="478.507704785077" mpRegen="1.8" />
+			<attack physical="243.716232088325" magical="119.170956098577" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="156.742482323878" magical="114.686925075654" />
+			<speed>
+				<walk ground="70" />
+				<run ground="110" />
+			</speed>
+			<hitTime>300</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4279" level="1" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="3" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true" />
+		<collision>
+			<radius normal="15" />
+			<height normal="29" />
+		</collision>
+	</npc>
+	<npc id="20307" level="9" type="Monster" name="噶倫狼人">
+		<parameters>
+			<param name="MoveAroundSocial" value="72" />
+			<param name="MoveAroundSocial1" value="72" />
+			<param name="MoveAroundSocial2" value="72" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="5" /> 
+		<acquire exp="96" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="143.217665615142" hpRegen="2" mp="100.567721005677" mpRegen="0.9" />
+			<attack physical="24.7371675943104" magical="13.2478649967704" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="60.5516932047544" magical="44.5620883577088" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>WEREWOLF</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="26" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="2" max="6" chance="70" /> 
+				<item id="1060" min="1" max="1" chance="4.375" /> 
+				<item id="36561" min="1" max="1" chance="0.3" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="2.75" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20308" level="16" type="Monster" name="巨勾蜘蛛">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire exp="171" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="264.353312302839" hpRegen="2.5" mp="157.339821573398" mpRegen="1.2" />
+			<attack physical="44.7330447330447" magical="22.7531255265715" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="76.399790685505" magical="56.0209110782625" />
+			<speed>
+				<walk ground="72" />
+				<run ground="130" />
+			</speed>
+			<hitTime>260</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="12" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="26" />
+			<height normal="25.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="4" max="9" chance="70" /> 
+				<item id="36551" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="4.355" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20311" level="6" type="Monster" name="鉤爪安普">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>FAIRY</race>
+		<sex>MALE</sex>
+		<acquire exp="320" sp="6" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="93.3753943217666" hpRegen="2" mp="77.0478507704785" mpRegen="0.9" />
+			<attack physical="19.1387559808612" magical="9.93222584955497" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="54.3666859456333" magical="39.4022676005004" />
+			<speed>
+				<walk ground="60" />
+				<run ground="80" />
+			</speed>
+			<hitTime>340</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4276" level="1" /> 
+			<skill id="4281" level="1" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="13" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>DEMONIC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="20312" level="7" type="Monster" name="鉤爪安普獵人">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>FAIRY</race>
+		<sex>MALE</sex>
+		<acquire exp="374" sp="8" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="108.517350157729" hpRegen="2" mp="84.3471208434712" mpRegen="0.9" />
+			<attack physical="20.5176767676768" magical="11.0917739337666" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="56.0897435897436" magical="40.8485809945664" />
+			<speed>
+				<walk ground="60" />
+				<run ground="80" />
+			</speed>
+			<hitTime>340</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4276" level="1" /> 
+			<skill id="4281" level="1" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="13" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>DEMONIC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="24" />
+		</collision>
+	</npc>
+	<npc id="20313" level="10" type="Monster" name="鉤爪安普首領">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>FAIRY</race>
+		<sex>MALE</sex>
+		<acquire exp="545" sp="12" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="163.406940063091" hpRegen="2" mp="108.67802108678" mpRegen="0.9" />
+			<attack physical="26.7829813284359" magical="14.2497344668924" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="62.1600621600622" magical="45.9124546715788" />
+			<speed>
+				<walk ground="60" />
+				<run ground="80" />
+			</speed>
+			<hitTime>340</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4276" level="1" /> 
+			<skill id="4281" level="1" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="13" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>DEMONIC</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="30" />
+		</collision>
+	</npc>
+	<npc id="20314" level="42" type="Monster" name="大白鯊">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="1177" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="1050.47318611987" hpRegen="5.5" mp="531.224655312247" mpRegen="2.1" />
+			<attack physical="274.11519777932" magical="133.343623182984" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="165.254592735509" magical="121.100026376674" />
+			<speed>
+				<walk ground="80" />
+				<run ground="174" />
+			</speed>
+			<hitTime>300</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" />
+			<height normal="7" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="14" max="33" chance="70" /> 
+				<item id="36517" min="1" max="1" chance="0.3" /> 
+				<item id="36527" min="1" max="1" chance="0.3" /> 
+				<item id="36557" min="1" max="1" chance="0.03" /> 
+				<item id="36542" min="1" max="1" chance="0.03" /> 
+				<item id="36537" min="1" max="1" chance="0.03" /> 
+				<item id="36522" min="1" max="1" chance="0.03" /> 
+				<item id="36547" min="1" max="1" chance="0.0075" /> 
+				<item id="36552" min="1" max="1" chance="0.003" /> 
+				<item id="36562" min="1" max="1" chance="0.003" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="7.979" /> 
+				<item id="36880" min="1" max="1" chance="0.0009" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20316" level="11" type="Monster" name="黑翼蝙蝠">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="587" sp="15" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="185.488958990536" hpRegen="2.5" mp="116.788321167883" mpRegen="1.2" />
+			<attack physical="29.5454545454545" magical="15.2041215899992" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="64.8351648351648" magical="47.2358136591713" />
+			<speed>
+				<walk ground="60" />
+				<run ground="80" />
+			</speed>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4276" level="1" /> 
+			<skill id="4281" level="1" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="20317" level="4" type="Monster" name="黑毛狼">
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="211" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="68.1388012618297" hpRegen="2" mp="62.4493106244931" mpRegen="0.9" />
+			<attack physical="16.1290322580645" magical="8.99704512346321" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="50.5376344086021" magical="36.6271616565942" />
+			<speed>
+				<walk ground="24" />
+				<run ground="110" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<dropLists>
+			<drop>
+				<item id="57" min="1" max="2" chance="70" /> 
+				<item id="36516" min="1" max="1" chance="1.066" /> 
+				<item id="36551" min="1" max="1" chance="0.03" /> 
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="0.75" /> 
+			</spoil>
+			<lucky>
+				<item id="39629" min="1" max="1" chance="100" /> 
+			</lucky>
+		</dropLists>
+		<collision>
+			<radius normal="13" />
+			<height normal="9" />
+		</collision>
+	</npc>
+	<npc id="20318" level="6" type="Monster" name="黑毛野狼">
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="317" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="93.3753943217666" hpRegen="2" mp="77.0478507704785" mpRegen="0.9" />
+			<attack physical="19.2982456140351" magical="10.3011370953956" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="53.6842105263158" magical="39.2709267084987" />
+			<speed>
+				<walk ground="24" />
+				<run ground="110" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="13" />
+			<height normal="10.8" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="1" max="3" chance="70" /> 
+				<item id="1060" min="1" max="1" chance="1.468" /> 
+				<item id="36521" min="1" max="1" chance="0.75" /> 
+				<item id="36556" min="1" max="1" chance="0.3" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="1.448" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20319" level="5" type="Monster" name="盜墓哥布林">
+		<parameters>
+			<param name="MoveAroundSocial" value="42" />
+			<param name="MoveAroundSocial1" value="42" />
+			<param name="MoveAroundSocial2" value="42" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="4" /> 
+		<acquire exp="267" sp="5" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="80.1261829652997" hpRegen="2" mp="69.7485806974858" mpRegen="0.9" />
+			<attack physical="17.7304964539007" magical="10.5445708750751" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="52.1276595744681" magical="37.9631067626098" />
+			<speed>
+				<walk ground="40" />
+				<run ground="110" />
+			</speed>
+			<hitTime>320</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>GOBLIN</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="16.5" />
+		</collision>
+	</npc>
+	<npc id="20320" level="12" type="Monster" name="盜墓哥布林隊長">
+		<parameters>
+			<param name="MoveAroundSocial" value="42" />
+			<param name="MoveAroundSocial1" value="42" />
+			<param name="MoveAroundSocial2" value="42" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="12" /> 
+		<acquire exp="641" sp="16" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="199.369085173502" hpRegen="2.5" mp="124.087591240876" mpRegen="1.2" />
+			<attack physical="32.2446037707219" magical="16.4975710452675" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="66.3366336633663" magical="48.98300048983" />
+			<speed>
+				<walk ground="40" />
+				<run ground="110" />
+			</speed>
+			<hitTime>320</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4415" level="7" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>GOBLIN</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="21.4" />
+		</collision>
+	</npc>
+	<npc id="20322" level="8" type="Monster" name="山賊哥布林">
+		<parameters>
+			<param name="MoveAroundSocial" value="42" />
+			<param name="MoveAroundSocial1" value="42" />
+			<param name="MoveAroundSocial2" value="42" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="4" /> 
+		<acquire exp="85" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="124.290220820189" hpRegen="2" mp="92.4574209245742" mpRegen="0.9" />
+			<attack physical="23.1958762886598" magical="13.1175543854585" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="57.7319587628866" magical="42.6417839315725" />
+			<speed>
+				<walk ground="40" />
+				<run ground="110" />
+			</speed>
+			<hitTime>320</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>GOBLIN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="16.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="2" max="5" chance="70" /> 
+				<item id="36561" min="1" max="1" chance="0.3" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="2.367" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20323" level="14" type="Monster" name="山賊哥布林隊長">
+		<parameters>
+			<param name="MoveAroundSocial" value="42" />
+			<param name="MoveAroundSocial1" value="42" />
+			<param name="MoveAroundSocial2" value="42" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="217" /> 
+		<acquire exp="152" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="230.283911671924" hpRegen="2.5" mp="140.308191403082" mpRegen="1.2" />
+			<attack physical="38.1281850983893" magical="20.1075506642242" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="71.8446601941748" magical="52.7563209159127" />
+			<speed>
+				<walk ground="40" />
+				<run ground="110" />
+			</speed>
+			<hitTime>320</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4415" level="7" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>GOBLIN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="21.4" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="4" max="9" chance="70" /> 
+				<item id="6037" min="1" max="1" chance="5.956" /> 
+				<item id="36561" min="1" max="1" chance="0.3" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="4.252" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20324" level="10" type="Monster" name="山賊哥布林副隊長">
+		<parameters>
+			<param name="MoveAroundSocial" value="42" />
+			<param name="MoveAroundSocial1" value="42" />
+			<param name="MoveAroundSocial2" value="42" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="10" /> 
+		<acquire exp="109" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="163.406940063091" hpRegen="2" mp="108.67802108678" mpRegen="0.9" />
+			<attack physical="27.0908316885328" magical="14.1072371222234" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="62.6262626262626" magical="45.8764449032089" />
+			<speed>
+				<walk ground="40" />
+				<run ground="110" />
+			</speed>
+			<hitTime>320</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4415" level="7" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>GOBLIN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="16.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="3" max="7" chance="70" /> 
+				<item id="36561" min="1" max="1" chance="0.3" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="3.317" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20327" level="5" type="Monster" name="哥布林搜索員">
+		<parameters>
+			<param name="MoveAroundSocial" value="42" />
+			<param name="MoveAroundSocial1" value="42" />
+			<param name="MoveAroundSocial2" value="42" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="4" /> 
+		<acquire exp="267" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="80.1261829652997" hpRegen="2" mp="69.7485806974858" mpRegen="0.9" />
+			<attack physical="17.7304964539007" magical="10.5445708750751" random="20" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="52.1276595744681" magical="37.9631067626098" />
+			<speed>
+				<walk ground="40" />
+				<run ground="110" />
+			</speed>
+			<hitTime>320</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>GOBLIN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="16.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="1" max="2" chance="70" /> 
+				<item id="36526" min="1" max="1" chance="0.75" /> 
+				<item id="36536" min="1" max="1" chance="0.3" /> 
+				<item id="36551" min="1" max="1" chance="0.03" /> 
+				<item id="36561" min="1" max="1" chance="0.03" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="0.999" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20330" level="11" type="Monster" name="山蝙蝠">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="489" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="185.488958990536" hpRegen="2.5" mp="116.788321167883" mpRegen="1.2" />
+			<attack physical="29.5454545454545" magical="15.2041215899992" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="64.8351648351648" magical="47.2358136591713" />
+			<speed>
+				<walk ground="60" />
+				<run ground="80" />
+			</speed>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4276" level="1" /> 
+			<skill id="4281" level="1" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="33.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="3" max="7" chance="70" /> 
+				<item id="36521" min="1" max="1" chance="3.363" /> 
+			</drop>
+			<spoil>
+				<item id="36521" min="1" max="1" chance="3.611" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20331" level="10" type="Monster" name="眼怪追捕者">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<skill name="W_LongRangeDDMagic" id="4151" level="1" />
+			<skill name="W_ShortRangeDDMagic" id="4160" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="445" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="163.406940063091" hpRegen="2" mp="108.67802108678" mpRegen="0.9" />
+			<attack physical="26.8250268250268" magical="15.1081522058618" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="62.4426078971534" magical="45.4295964138919" />
+			<speed>
+				<walk ground="90" />
+				<run ground="134" />
+			</speed>
+			<hitTime>300</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4151" level="1" /> 
+			<skill id="4160" level="1" /> 
+			<skill id="4276" level="1" /> 
+			<skill id="4281" level="1" /> 
+			<skill id="4410" level="10" /> 
+			<skill id="4411" level="10" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="21" />
+			<height normal="43" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="3" max="6" chance="70" /> 
+				<item id="36521" min="1" max="1" chance="3.057" /> 
+			</drop>
+			<spoil>
+				<item id="36521" min="1" max="1" chance="3.139" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20333" level="13" type="Monster" name="灰石高崙">
+		<parameters>
+			<param name="MoveAroundSocial" value="116" />
+			<param name="MoveAroundSocial1" value="116" />
+			<param name="MoveAroundSocial2" value="116" />
+			<skill name="DDMagicSlow" id="4254" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="981" sp="26" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="214.511041009464" hpRegen="2.5" mp="132.197891321979" mpRegen="1.2" />
+			<attack physical="35.0140056022409" magical="19.4490213027728" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="69.5187165775401" magical="50.5314646797695" />
+			<speed>
+				<walk ground="23" />
+				<run ground="23" />
+			</speed>
+			<hitTime>410</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4254" level="1" /> 
+			<skill id="4273" level="3" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4284" level="5" /> 
+			<skill id="4410" level="10" /> 
+			<skill id="4411" level="10" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="19" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4444" level="2" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="20" grown="25" />
+			<height normal="31" grown="37.5" />
+		</collision>
+	</npc>
+	<npc id="20335" level="17" type="Monster" name="大灰熊">
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="179" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="282.018927444795" hpRegen="2.5" mp="166.261151662611" mpRegen="1.2" />
+			<attack physical="48.3792936623125" magical="25.986766419328" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.9022298456261" magical="57.7319817093953" />
+			<speed>
+				<walk ground="40" />
+				<run ground="110" />
+			</speed>
+			<hitTime>340</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="10" /> 
+			<skill id="4411" level="10" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="21" />
+			<height normal="50" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="4" max="10" chance="70" /> 
+				<item id="734" min="1" max="1" chance="0.75" /> 
+				<item id="36561" min="1" max="1" chance="0.3" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="4.576" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20336" level="8" type="Monster" name="綠色樹精">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<acquire exp="85" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="124.290220820189" hpRegen="2" mp="92.4574209245742" mpRegen="0.9" />
+			<attack physical="23.1958762886598" magical="13.1175543854585" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="57.7319587628866" magical="42.6417839315725" />
+			<speed>
+				<walk ground="40" />
+				<run ground="110" />
+			</speed>
+			<hitTime>370</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="13" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="6" />
+			<height normal="15" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="2" max="5" chance="70" /> 
+				<item id="1060" min="1" max="1" chance="2.453" /> 
+				<item id="36536" min="1" max="1" chance="0.75" /> 
+				<item id="36556" min="1" max="1" chance="0.3" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="2.332" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20345" level="16" type="Monster" name="黑夜之懼">
+		<parameters>
+			<param name="MoveAroundSocial" value="110" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="MoveAroundSocial2" value="110" />
+			<skill name="DeBuff" id="4035" level="1" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="800" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="264.353312302839" hpRegen="2.5" mp="157.339821573398" mpRegen="1.2" />
+			<attack physical="44.7330447330447" magical="22.7531255265715" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="76.399790685505" magical="56.0209110782625" />
+			<speed>
+				<walk ground="100" />
+				<run ground="100" />
+			</speed>
+			<hitTime>370</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4035" level="1" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" />
+			<height normal="35" grown="42" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="4" max="9" chance="70" /> 
+				<item id="1831" min="1" max="1" chance="7.76" /> 
+				<item id="5268" min="1" max="1" chance="0.075" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="4.096" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20346" level="13" type="Monster" name="黑暗石高崙">
+		<parameters>
+			<param name="MoveAroundSocial" value="116" />
+			<param name="MoveAroundSocial1" value="116" />
+			<param name="MoveAroundSocial2" value="116" />
+			<skill name="DDMagicSlow" id="4249" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="818" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="214.511041009464" hpRegen="2.5" mp="132.197891321979" mpRegen="1.2" />
+			<attack physical="35.0140056022409" magical="19.4490213027728" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="69.5187165775401" magical="50.5314646797695" />
+			<speed>
+				<walk ground="23" />
+				<run ground="23" />
+			</speed>
+			<hitTime>410</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4249" level="1" /> 
+			<skill id="4273" level="3" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4284" level="5" /> 
+			<skill id="4410" level="10" /> 
+			<skill id="4411" level="10" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="19" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4444" level="2" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" grown="25" />
+			<height normal="31" grown="37.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="3" max="8" chance="70" /> 
+				<item id="36522" min="1" max="1" chance="0.075" /> 
+			</drop>
+			<spoil>
+				<item id="36522" min="1" max="1" chance="0.075" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20347" level="55" type="Monster" name="死亡之刃">
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="DDMagic" id="4001" level="5" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="1472" /> 
+		<acquire exp="6730" sp="1" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="1673.18611987382" hpRegen="6.5" mp="889.699918896999" mpRegen="2.4" />
+			<attack physical="536.090067340067" magical="256.083047985737" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="224.358974358974" magical="164.013241872123" />
+			<speed>
+				<walk ground="100" />
+				<run ground="174" />
+			</speed>
+			<hitTime>450</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4001" level="5" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>UNDEAD</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" grown="25" />
+			<height normal="45" grown="52" />
+		</collision>
+	</npc>
+	<npc id="20351" level="20" type="Monster" name="德雷巴奴追捕者">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<skill name="HoldMagic" id="4047" level="2" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="908" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="342.586750788644" hpRegen="2.5" mp="192.214111922141" mpRegen="1.2" />
+			<attack physical="61.8571031415068" magical="31.4263234787693" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="87.7104546829317" magical="63.7769337963539" />
+			<speed>
+				<walk ground="80" />
+				<run ground="80" />
+			</speed>
+			<hitTime>350</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4047" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>DEMONIC</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="36" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="4" max="9" chance="70" /> 
+				<item id="735" min="1" max="1" chance="0.3" /> 
+				<item id="36561" min="1" max="1" chance="0.3" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="4.264" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20353" level="21" type="Monster" name="德雷巴奴觀察者">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="SleepMagic" id="4046" level="2" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="1169" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="364.03785488959" hpRegen="3.5" mp="205.190592051906" mpRegen="1.5" />
+			<attack physical="66.8044077134986" magical="33.8791178224658" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="89.9100899100899" magical="66.4380226424022" />
+			<speed>
+				<walk ground="80" />
+				<run ground="80" />
+			</speed>
+			<hitTime>350</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4046" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>DEMONIC</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="36" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="5" max="11" chance="70" /> 
+				<item id="36541" min="1" max="1" chance="0.75" /> 
+				<item id="36556" min="1" max="1" chance="0.75" /> 
+				<item id="3953" min="1" max="1" chance="0.03" /> 
+				<item id="5273" min="1" max="1" chance="0.03" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="5.435" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20356" level="25" type="Monster" name="朗克蜥蜴人隊長">
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="SoulShot" value="200" />
+			<param name="SoulShotRate" value="5" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="10" />
+			<param name="LongRangeGuardRate" value="10" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="16" /> 
+		<acquire exp="364" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="460.567823343849" hpRegen="3.5" mp="259.529602595296" mpRegen="1.5" />
+			<attack physical="89.9685110211426" magical="45.6458099782" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="102.07336523126" magical="75.0235095221649" />
+			<speed>
+				<walk ground="52" />
+				<run ground="130" />
+			</speed>
+			<hitTime>590</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="10" /> 
+			<skill id="4411" level="10" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>LIZARDMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="34.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="7" max="17" chance="70" /> 
+				<item id="36527" min="1" max="1" chance="0.3" /> 
+				<item id="36872" min="1" max="1" chance="0.003" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<spoil>
+				<item id="36526" min="1" max="1" chance="26.02" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20357" level="22" type="Monster" name="朗克蜥蜴人副隊長">
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="SoulShot" value="200" />
+			<param name="SoulShotRate" value="5" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="10" />
+			<param name="LongRangeGuardRate" value="10" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="16" /> 
+		<acquire exp="295" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="387.381703470032" hpRegen="3.5" mp="218.167072181671" mpRegen="1.5" />
+			<attack physical="71.7750717750718" magical="36.6767205144897" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="93.3660933660933" magical="68.4161268102874" />
+			<speed>
+				<walk ground="52" />
+				<run ground="130" />
+			</speed>
+			<hitTime>590</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="10" /> 
+			<skill id="4411" level="10" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>LIZARDMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="30" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="6" max="14" chance="70" /> 
+				<item id="36522" min="1" max="1" chance="0.075" /> 
+				<item id="36864" min="1" max="1" chance="0.0009" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<spoil>
+				<item id="36521" min="1" max="1" chance="7.778" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20358" level="18" type="Monster" name="狩獵鼠人">
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="11" /> 
+		<acquire exp="192" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="301.577287066246" hpRegen="2.5" mp="174.371451743715" mpRegen="1.2" />
+			<attack physical="53.1212261795568" magical="27.0445907085593" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="81.5632965165675" magical="59.9486921882719" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>610</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="10" /> 
+			<skill id="4411" level="10" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>WERERAT</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="4" max="10" chance="70" /> 
+				<item id="36521" min="1" max="1" chance="2.57" /> 
+				<item id="36866" min="1" max="1" chance="0.0009" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<spoil>
+				<item id="36522" min="1" max="1" chance="0.3" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20359" level="19" type="Monster" name="鼠人戰士">
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> 
+		<acquire exp="203" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="321.135646687697" hpRegen="2.5" mp="183.292781832928" mpRegen="1.2" />
+			<attack physical="56.8181818181818" magical="28.8649586087831" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="84.4525844525844" magical="61.8917893857067" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>610</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>WERERAT</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="33" min="1" max="1" chance="0.3" /> 
+				<item id="27" min="1" max="1" chance="0.075" /> 
+				<item id="57" min="4" max="10" chance="70" /> 
+				<item id="36563" min="1" max="1" chance="0.0009" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="2.398" /> 
+				<item id="36533" min="1" max="1" chance="0.03" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20360" level="16" type="Monster" name="鼠人間諜">
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="12" /> 
+		<acquire exp="171" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="264.353312302839" hpRegen="2.5" mp="157.339821573398" mpRegen="1.2" />
+			<attack physical="44.7828034034931" magical="22.7531255265715" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="76.399790685505" magical="56.0209110782625" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>610</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>WERERAT</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="18.7" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="4" max="9" chance="70" /> 
+				<item id="36521" min="1" max="1" chance="2.339" /> 
+				<item id="36866" min="1" max="1" chance="0.0009" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<spoil>
+				<item id="36522" min="1" max="1" chance="0.3" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20363" level="9" type="Monster" name="瑪剌庫狼人">
+		<parameters>
+			<param name="MoveAroundSocial" value="72" />
+			<param name="MoveAroundSocial1" value="72" />
+			<param name="MoveAroundSocial2" value="72" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="481" sp="11" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="143.217665615142" hpRegen="2" mp="100.567721005677" mpRegen="0.9" />
+			<attack physical="24.7371675943104" magical="13.2478649967704" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="60.5516932047544" magical="44.5620883577088" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>WEREWOLF</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="26" />
+		</collision>
+	</npc>
+	<npc id="20364" level="14" type="Monster" name="瑪剌庫狼人首領">
+		<parameters>
+			<param name="MoveAroundSocial" value="72" />
+			<param name="MoveAroundSocial1" value="72" />
+			<param name="MoveAroundSocial2" value="72" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="217" /> 
+		<acquire exp="762" sp="20" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="230.283911671924" hpRegen="2.5" mp="140.308191403082" mpRegen="1.2" />
+			<attack physical="38.0436436680159" magical="20.178769851937" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="71.4819161421103" magical="52.7822794139852" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>WEREWOLF</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="11" />
+			<height normal="29.7" />
+		</collision>
+	</npc>
+	<npc id="20365" level="9" type="Monster" name="山蘑菇">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<acquire exp="477" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="139.826498422713" hpRegen="2" mp="104.014598540146" mpRegen="0.9" />
+			<attack physical="25.4803186504217" magical="13.7205824537983" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="64.9994335561346" magical="47.548207680648" />
+			<speed>
+				<walk ground="70" />
+				<run ground="110" />
+			</speed>
+			<hitTime>410</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4277" level="5" /> 
+			<skill id="4279" level="1" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="5" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="57" min="2" max="6" chance="70" /> 
+				<item id="36526" min="1" max="1" chance="1.443" /> 
+				<item id="1060" min="1" max="1" chance="1.406" /> 
+				<item id="36516" min="1" max="1" chance="1.29" /> 
+				<item id="36536" min="1" max="1" chance="0.3" /> 
+				<item id="36556" min="1" max="1" chance="0.3" /> 
+				<item id="36551" min="1" max="1" chance="0.075" /> 
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="2.787" /> 
+			</spoil>
+			<lucky>
+				<item id="39629" min="1" max="1" chance="100" /> 
+			</lucky>
+		</dropLists>
+		<collision>
+			<radius normal="15" />
+			<height normal="22.5" />
+		</collision>
+	</npc>
+	<npc id="20369" level="17" type="Monster" name="月石獸">
+		<parameters>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="179" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="282.018927444795" hpRegen="2.5" mp="166.261151662611" mpRegen="1.2" />
+			<attack physical="48.5991995425958" magical="24.510245600048" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="78.789135392909" magical="58.0147942770171" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<hitTime>240</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="3" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="14" grown="17" />
+			<height normal="14.5" grown="18" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="4" max="10" chance="70" /> 
+				<item id="36561" min="1" max="1" chance="0.3" /> 
+				<item id="36562" min="1" max="1" chance="0.0075" /> 
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<spoil>
+				<item id="36561" min="1" max="1" chance="0.3" /> 
+				<item id="36562" min="1" max="1" chance="0.0075" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20370" level="12" type="Monster" name="長刺蝙蝠">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<param name="HalfAggressive" value="2" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="128" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="199.369085173502" hpRegen="2.5" mp="124.087591240876" mpRegen="1.2" />
+			<attack physical="32.2532253225323" magical="17.3528170273287" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="66.3692742900664" magical="49.4153851095385" />
+			<speed>
+				<walk ground="60" />
+				<run ground="80" />
+			</speed>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4276" level="1" /> 
+			<skill id="4281" level="1" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="33.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="4" max="8" chance="70" /> 
+				<item id="36561" min="1" max="1" chance="0.3" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="3.91" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20371" level="15" type="Monster" name="薄霧之懼">
+		<parameters>
+			<param name="MoveAroundSocial" value="110" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="MoveAroundSocial2" value="110" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="681" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="246.056782334385" hpRegen="2.5" mp="149.229521492295" mpRegen="1.2" />
+			<attack physical="41.520979020979" magical="20.91493921011" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="73.9644970414201" magical="53.9886839718395" />
+			<speed>
+				<walk ground="100" />
+				<run ground="100" />
+			</speed>
+			<hitTime>370</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" />
+			<height normal="35" grown="42" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="3" max="8" chance="70" /> 
+				<item id="36561" min="1" max="1" chance="0.3" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="3.608" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20372" level="10" type="Monster" name="巴拉克獸人鬥士">
+		<parameters>
+			<param name="MoveAroundSocial" value="75" />
+			<param name="MoveAroundSocial1" value="75" />
+			<param name="MoveAroundSocial2" value="75" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> 
+		<acquire exp="454" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="163.406940063091" hpRegen="2" mp="108.67802108678" mpRegen="0.9" />
+			<attack physical="26.7829813284359" magical="14.2497344668924" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="62.1600621600622" magical="45.9124546715788" />
+			<speed>
+				<walk ground="45" />
+				<run ground="110" />
+			</speed>
+			<hitTime>460</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>ORC</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" grown="14" />
+			<height normal="22" grown="26.4" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="3" max="6" chance="70" /> 
+				<item id="36541" min="1" max="1" chance="0.3" /> 
+				<item id="36546" min="1" max="1" chance="0.3" /> 
+				<item id="36561" min="1" max="1" chance="0.075" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="2.842" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20373" level="11" type="Monster" name="巴拉克獸人鬥士隊長">
+		<parameters>
+			<param name="MoveAroundSocial" value="75" />
+			<param name="MoveAroundSocial1" value="75" />
+			<param name="MoveAroundSocial2" value="75" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> 
+		<acquire exp="489" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="185.488958990536" hpRegen="2.5" mp="116.788321167883" mpRegen="1.2" />
+			<attack physical="29.5454545454545" magical="15.2041215899992" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="64.8351648351648" magical="47.2358136591713" />
+			<speed>
+				<walk ground="45" />
+				<run ground="110" />
+			</speed>
+			<hitTime>460</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>ORC</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" grown="14" />
+			<height normal="22" grown="26.4" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="3" max="7" chance="70" /> 
+				<item id="36551" min="1" max="1" chance="0.3" /> 
+			</drop>
+			<spoil>
+				<item id="36531" min="1" max="1" chance="3.144" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20383" level="30" type="Monster" name="縛靈">
+		<parameters>
+			<param name="MoveAroundSocial" value="70" />
+			<param name="MoveAroundSocial1" value="70" />
+			<param name="MoveAroundSocial2" value="70" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="DeBuff" id="4035" level="3" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="2202" sp="80" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="604.416403785489" hpRegen="3.5" mp="329.278183292782" mpRegen="1.5" />
+			<attack physical="128.512943638994" magical="64.1667863072238" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="119.174942704354" magical="86.741177338" />
+			<speed>
+				<walk ground="10" />
+				<run ground="140" />
+			</speed>
+			<hitTime>540</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4035" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4410" level="10" /> 
+			<skill id="4411" level="10" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="true">
+			<clanList>
+				<clan>UNDEAD</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="21" />
+		</collision>
+	</npc>
+	<npc id="20389" level="16" type="Monster" name="布基鼠人">
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="12" /> 
+		<acquire exp="713" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="264.353312302839" hpRegen="2.5" mp="157.339821573398" mpRegen="1.2" />
+			<attack physical="44.7828034034931" magical="22.7531255265715" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="76.399790685505" magical="56.0209110782625" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>610</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>WERERAT</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="3" max="8" chance="70" /> 
+				<item id="36523" min="1" max="1" chance="0.03" /> 
+			</drop>
+			<spoil>
+				<item id="36523" min="1" max="1" chance="0.03" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20390" level="18" type="Monster" name="布基鼠人隊長">
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="12" /> 
+		<acquire exp="800" sp="0" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="301.577287066246" hpRegen="2.5" mp="174.371451743715" mpRegen="1.2" />
+			<attack physical="52.8976519952994" magical="27.2812473117455" random="5" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="82.1608298243812" magical="59.9714086309352" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>610</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>WERERAT</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="4" max="8" chance="70" /> 
+				<item id="36523" min="1" max="1" chance="0.03" /> 
+			</drop>
+			<spoil>
+				<item id="36523" min="1" max="1" chance="0.03" /> 
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="20393" level="16" type="Monster" name="食腐紅蜘蛛">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire exp="856" sp="23" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="264.353312302839" hpRegen="2.5" mp="157.339821573398" mpRegen="1.2" />
+			<attack physical="44.7330447330447" magical="22.7531255265715" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="76.399790685505" magical="56.0209110782625" />
+			<speed>
+				<walk ground="72" />
+				<run ground="130" />
+			</speed>
+			<hitTime>260</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="12" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>ALL</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="26" />
+			<height normal="25.5" />
+		</collision>
+	</npc>
+</list>

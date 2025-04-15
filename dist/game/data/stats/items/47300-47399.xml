@@ -1,0 +1,1525 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="47300" name="次元外來者護身符階段10" type="Armor">
+		
+		<set name="icon" val="icon.etc_stranger_talisman" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="16738" level="10" /> 
+		</skills>
+	</item>
+	<item id="47301" name="巨人追擊隊護身符階段1" type="Armor">
+		
+		<set name="icon" val="icon.etc_giantslayer_talisman" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="16739" level="1" /> 
+		</skills>
+	</item>
+	<item id="47302" name="巨人追擊隊護身符階段2" type="Armor">
+		
+		<set name="icon" val="icon.etc_giantslayer_talisman" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="16739" level="2" /> 
+		</skills>
+	</item>
+	<item id="47303" name="巨人追擊隊護身符階段3" type="Armor">
+		
+		<set name="icon" val="icon.etc_giantslayer_talisman" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="16739" level="3" /> 
+		</skills>
+	</item>
+	<item id="47304" name="巨人追擊隊護身符階段4" type="Armor">
+		
+		<set name="icon" val="icon.etc_giantslayer_talisman" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="16739" level="4" /> 
+		</skills>
+	</item>
+	<item id="47305" name="巨人追擊隊護身符階段5" type="Armor">
+		
+		<set name="icon" val="icon.etc_giantslayer_talisman" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="16739" level="5" /> 
+		</skills>
+	</item>
+	<item id="47306" name="巨人追擊隊護身符階段6" type="Armor">
+		
+		<set name="icon" val="icon.etc_giantslayer_talisman" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="16739" level="6" /> 
+		</skills>
+	</item>
+	<item id="47307" name="巨人追擊隊護身符階段7" type="Armor">
+		
+		<set name="icon" val="icon.etc_giantslayer_talisman" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="16739" level="7" /> 
+		</skills>
+	</item>
+	<item id="47308" name="巨人追擊隊護身符階段8" type="Armor">
+		
+		<set name="icon" val="icon.etc_giantslayer_talisman" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="16739" level="8" /> 
+		</skills>
+	</item>
+	<item id="47309" name="巨人追擊隊護身符階段9" type="Armor">
+		
+		<set name="icon" val="icon.etc_giantslayer_talisman" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="16739" level="9" /> 
+		</skills>
+	</item>
+	<item id="47310" name="巨人追擊隊護身符階段10" type="Armor">
+		
+		<set name="icon" val="icon.etc_giantslayer_talisman" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="GOLD" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="16739" level="10" /> 
+		</skills>
+	</item>
+	<item id="47311" name="清香的香料" type="EtcItem">
+		
+		<set name="icon" val="icon.blank_glass_bottle_i00" />
+		<set name="price" val="150000" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="47312" name="萬能調味料" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_life_dust_i03" />
+		<set name="price" val="150000" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="47313" name="血腥艾迪奧斯頭盔" additionalName="Attack Type/ Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">162</stat>
+		</stats>
+	</item>
+	<item id="47314" name="血腥艾迪奧斯胸甲" additionalName="Attack Type/ Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t801_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">433</stat>
+		</stats>
+	</item>
+	<item id="47315" name="血腥艾迪奧斯脛甲" additionalName="Attack Type/ Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t801_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">270</stat>
+		</stats>
+	</item>
+	<item id="47316" name="血腥艾迪奧斯護手" additionalName="Attack Type/ Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t801_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
+	</item>
+	<item id="47317" name="血腥艾迪奧斯靴" additionalName="Attack Type/ Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t801_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
+	</item>
+	<item id="47318" name="祝福的艾迪奧斯盾" additionalName="Attack Type/ Heavy" type="Armor">
+		
+		<set name="icon" val="icon.weapon_akra_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1130" />
+		<set name="price" val="110851000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="rEvas">-8</stat>
+			<stat type="rShld">20</stat>
+			<stat type="sDef">557</stat>
+		</stats>
+	</item>
+	<item id="47319" name="血腥艾迪奧斯皮頭盔" additionalName="Assassin Type/ Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">162</stat>
+		</stats>
+	</item>
+	<item id="47320" name="血腥艾迪奧斯皮甲" additionalName="Assassin Type/ Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t802_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">346</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
+	</item>
+	<item id="47321" name="血腥艾迪奧斯皮脛甲" additionalName="Assassin Type/ Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t802_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">216</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
+	</item>
+	<item id="47322" name="血腥艾迪奧斯皮手套" additionalName="Assassin Type/ Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t802_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
+	</item>
+	<item id="47323" name="血腥艾迪奧斯皮靴" additionalName="Assassin Type/ Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t802_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
+	</item>
+	<item id="47324" name="血腥艾迪奧斯頭箍" additionalName="Magic Type/ Robe" type="Armor">
+		
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">162</stat>
+		</stats>
+	</item>
+	<item id="47325" name="血腥艾迪奧斯外衣" additionalName="Magic Type/ Robe" type="Armor">
+		
+		<set name="icon" val="icon.armor_t803_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">238</stat>
+			<stat type="mDef">56</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
+		<skills>
+			<skill id="13063" level="1" /> 
+			<skill id="8845" level="1" /> 
+			<skill id="13812" level="1" /> 
+			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="47326" name="血腥艾迪奧斯長襪" additionalName="Magic Type/ Robe" type="Armor">
+		
+		<set name="icon" val="icon.armor_t803_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="mDef">37</stat>
+			<stat type="pDef">148</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
+	</item>
+	<item id="47327" name="血腥艾迪奧斯手套" additionalName="Magic Type/ Robe" type="Armor">
+		
+		<set name="icon" val="icon.armor_t803_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
+	</item>
+	<item id="47328" name="血腥艾迪奧斯鞋" additionalName="Magic Type/ Robe" type="Armor">
+		
+		<set name="icon" val="icon.armor_t803_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
+	</item>
+	<item id="47329" name="血腥艾迪奧斯頭盔" additionalName="Defense Type/ Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">162</stat>
+		</stats>
+	</item>
+	<item id="47330" name="血腥艾迪奧斯胸甲" additionalName="Defense Type/ Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t801_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="7520" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">433</stat>
+		</stats>
+	</item>
+	<item id="47331" name="血腥艾迪奧斯脛甲" additionalName="Defense Type/ Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t801_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="3170" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">270</stat>
+		</stats>
+	</item>
+	<item id="47332" name="血腥艾迪奧斯護手" additionalName="Defense Type/ Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t801_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
+	</item>
+	<item id="47333" name="血腥艾迪奧斯靴" additionalName="Defense Type/ Heavy Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t801_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
+	</item>
+	<item id="47334" name="祝福的艾迪奧斯盾" additionalName="Defense Type/ Heavy" type="Armor">
+		
+		<set name="icon" val="icon.weapon_akra_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="DAMASCUS" />
+		<set name="weight" val="1130" />
+		<set name="price" val="110851000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="rEvas">-8</stat>
+			<stat type="rShld">20</stat>
+			<stat type="sDef">557</stat>
+		</stats>
+	</item>
+	<item id="47335" name="血腥艾迪奧斯皮頭盔" additionalName="Enchant Type/ Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">162</stat>
+		</stats>
+	</item>
+	<item id="47336" name="血腥艾迪奧斯皮甲" additionalName="Enchant Type/ Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t802_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="4140" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">346</stat>
+			<stat type="rEvas">5</stat>
+		</stats>
+	</item>
+	<item id="47337" name="血腥艾迪奧斯皮脛甲" additionalName="Enchant Type/ Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t802_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="1320" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">216</stat>
+			<stat type="rEvas">3</stat>
+		</stats>
+	</item>
+	<item id="47338" name="血腥艾迪奧斯皮手套" additionalName="Enchant Type/ Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t802_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
+	</item>
+	<item id="47339" name="血腥艾迪奧斯皮靴" additionalName="Enchant Type/ Light Armor" type="Armor">
+		
+		<set name="icon" val="icon.armor_t802_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
+	</item>
+	<item id="47340" name="血腥艾迪奧斯頭箍" additionalName="Recovery Type/ Robe" type="Armor">
+		
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BONE" />
+		<set name="weight" val="530" />
+		<set name="price" val="158359000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">162</stat>
+		</stats>
+	</item>
+	<item id="47341" name="血腥艾迪奧斯外衣" additionalName="Recovery Type/ Robe" type="Armor">
+		
+		<set name="icon" val="icon.armor_t803_u_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="BRONZE" />
+		<set name="weight" val="1750" />
+		<set name="price" val="422292000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">238</stat>
+			<stat type="mDef">56</stat>
+			<stat type="maxMp">649</stat>
+		</stats>
+		<skills>
+			<skill id="13063" level="1" /> 
+			<skill id="8845" level="1" /> 
+			<skill id="13812" level="1" /> 
+			<skill id="13312" level="3" type="ON_ENCHANT" type_value="4" /> 
+		</skills>
+	</item>
+	<item id="47342" name="血腥艾迪奧斯長襪" additionalName="Recovery Type/ Robe" type="Armor">
+		
+		<set name="icon" val="icon.armor_t803_l_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="SCALE_OF_DRAGON" />
+		<set name="weight" val="850" />
+		<set name="price" val="263933000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="mDef">37</stat>
+			<stat type="pDef">148</stat>
+			<stat type="maxMp">427</stat>
+		</stats>
+	</item>
+	<item id="47343" name="血腥艾迪奧斯手套" additionalName="Recovery Type/ Robe" type="Armor">
+		
+		<set name="icon" val="icon.armor_t803_g_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="510" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
+	</item>
+	<item id="47344" name="血腥艾迪奧斯鞋" additionalName="Recovery Type/ Robe" type="Armor">
+		
+		<set name="icon" val="icon.armor_t803_b_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="1070" />
+		<set name="price" val="105573000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">108</stat>
+		</stats>
+	</item>
+	<item id="47345" name="祝福的艾迪奧斯符印" additionalName="Robe" type="Armor">
+		<set name="icon" val="icon.elos_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SIGIL" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="R99" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="920" />
+		<set name="price" val="110851000" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pDef">51</stat>
+			<stat type="pAtkRange">40</stat>
+			<stat type="rEvas">-8</stat>
+		</stats>
+	</item>
+	<item id="47346" name="+8血腥艾迪奧斯套裝組" additionalName="Attack Type/ Heavy Armor" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="47313" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯頭盔" /> 
+			<item id="47314" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯胸甲" /> 
+			<item id="47315" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯脛甲" /> 
+			<item id="47316" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯護手" /> 
+			<item id="47317" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯靴" /> 
+		</capsuled_items>
+	</item>
+	<item id="47347" name="+8血腥艾迪奧斯套裝組" additionalName="Assassin Type/ Light Armor" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="47319" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯皮頭盔" /> 
+			<item id="47320" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯皮甲" /> 
+			<item id="47321" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯皮脛甲" /> 
+			<item id="47322" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯皮手套" /> 
+			<item id="47323" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯皮靴" /> 
+		</capsuled_items>
+	</item>
+	<item id="47348" name="+8血腥艾迪奧斯套裝組" additionalName="Magic Type/ Robe" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="47324" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯頭箍" /> 
+			<item id="47325" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯外衣" /> 
+			<item id="47326" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯長襪" /> 
+			<item id="47327" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯手套" /> 
+			<item id="47328" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯鞋" /> 
+		</capsuled_items>
+	</item>
+	<item id="47349" name="+8血腥艾迪奧斯套裝組" additionalName="Defense Type/ Heavy Armor" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="47329" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯頭盔" /> 
+			<item id="47330" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯胸甲" /> 
+			<item id="47331" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯脛甲" /> 
+			<item id="47332" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯護手" /> 
+			<item id="47333" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯靴" /> 
+		</capsuled_items>
+	</item>
+	<item id="47350" name="+8血腥艾迪奧斯套裝組" additionalName="Enchant Type/ Light Armor" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="47335" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯皮頭盔" /> 
+			<item id="47336" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯皮甲" /> 
+			<item id="47337" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯皮脛甲" /> 
+			<item id="47338" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯皮手套" /> 
+			<item id="47339" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯皮靴" /> 
+		</capsuled_items>
+	</item>
+	<item id="47351" name="+8血腥艾迪奧斯套裝組" additionalName="Recovery Type/ Robe" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="47340" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯頭箍" /> 
+			<item id="47341" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯外衣" /> 
+			<item id="47342" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯長襪" /> 
+			<item id="47343" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯手套" /> 
+			<item id="47344" min="1" max="1" chance="100" minEnchant="8" maxEnchant="8" name="血腥艾迪奧斯鞋" /> 
+		</capsuled_items>
+	</item>
+	<item id="47352" name="+8血腥艾迪奧斯禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="47346" min="1" max="1" chance="100" name="+8血腥艾迪奧斯套裝組" /> 
+			<item id="47347" min="1" max="1" chance="100" name="+8血腥艾迪奧斯套裝組" /> 
+			<item id="47348" min="1" max="1" chance="100" name="+8血腥艾迪奧斯套裝組" /> 
+			<item id="47349" min="1" max="1" chance="100" name="+8血腥艾迪奧斯套裝組" /> 
+			<item id="47350" min="1" max="1" chance="100" name="+8血腥艾迪奧斯套裝組" /> 
+			<item id="47351" min="1" max="1" chance="100" name="+8血腥艾迪奧斯套裝組" /> 
+		</capsuled_items>
+	</item>
+	<item id="47353" name="稀有飾品禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="37667" min="1" max="1" chance="100" name="祝福的安塔瑞斯耳環" /> 
+			<item id="37668" min="1" max="1" chance="100" name="祝福的巴拉卡斯項鏈" /> 
+			<item id="37670" min="1" max="1" chance="100" name="地蟲心臟戒指" /> 
+			<item id="37669" min="1" max="1" chance="100" name="塔武提戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="47354" name="史奈曼皇帝的武器套裝組" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="46693" min="1" max="1" chance="100" name="史奈曼皇帝的刨刀" /> 
+			<item id="46694" min="1" max="1" chance="100" name="史奈曼皇帝的切刃" /> 
+			<item id="46695" min="1" max="1" chance="100" name="史奈曼皇帝的殺刃" /> 
+			<item id="46696" min="1" max="1" chance="100" name="史奈曼皇帝的復讎者" /> 
+			<item id="46697" min="1" max="1" chance="100" name="史奈曼皇帝的戰爪" /> 
+			<item id="46698" min="1" max="1" chance="100" name="史奈曼皇帝的風暴者" /> 
+			<item id="46699" min="1" max="1" chance="100" name="史奈曼皇帝的投弓" /> 
+			<item id="46700" min="1" max="1" chance="100" name="史奈曼皇帝的射靈" /> 
+			<item id="46701" min="1" max="1" chance="100" name="史奈曼皇帝的爆刃" /> 
+			<item id="46702" min="1" max="1" chance="100" name="史奈曼皇帝的術杖" /> 
+			<item id="46703" min="1" max="1" chance="100" name="史奈曼皇帝的報恨者" /> 
+			<item id="46704" min="1" max="1" chance="100" name="史奈曼皇帝的雙刀" /> 
+			<item id="46705" min="1" max="1" chance="100" name="史奈曼皇帝的雙匕首" /> 
+			<item id="46706" min="1" max="1" chance="100" name="史奈曼皇帝的雙鈍器" /> 
+		</capsuled_items>
+	</item>
+	<item id="47355" name="修佩利歐支援禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="57" min="2000000000" max="2000000000" chance="100" name="金幣" /> 
+			<item id="34989" min="1" max="1" chance="100" name="憧憬的護身符" /> 
+			<item id="35294" min="1" max="1" chance="100" name="進階型塔武提手鐲" /> 
+			<item id="36167" min="1" max="1" chance="100" name="奴爾卡皮帶" /> 
+			<item id="47005" min="1" max="1" chance="100" name="老舊殷海薩襯衫" /> 
+			<item id="35715" min="1" max="1" chance="100" name="充滿GM祝福的時髦浪漫圓帽" /> 
+			<item id="35716" min="1" max="1" chance="100" name="充滿GM祝福的時髦浪漫圓帽" /> 
+			<item id="35717" min="1" max="1" chance="100" name="充滿GM祝福的時髦浪漫圓帽" /> 
+			<item id="37134" min="1" max="1" chance="100" name="Lv5 傳說染料禮盒" /> 
+			<item id="47353" min="1" max="1" chance="100" name="稀有飾品禮盒" /> 
+			<item id="47352" min="1" max="1" chance="100" name="+8血腥艾迪奧斯禮盒" /> 
+			<item id="47354" min="1" max="1" chance="100" name="史奈曼皇帝的武器套裝組" /> 
+			<item id="34603" min="20000" max="20000" chance="100" name="神秘的靈魂彈-普通" /> 
+			<item id="34610" min="20000" max="20000" chance="100" name="神秘的祝福的魔靈彈-普通" /> 
+		</capsuled_items>
+	</item>
+	<item id="47356" name="基本補給箱" additionalName="Blackbird Clan" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_readybox_bronze" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="18619" level="1" /> 
+		</skills>
+	</item>
+	<item id="47357" name="中級補給箱" additionalName="Blackbird Clan" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_readybox_silver" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="18619" level="2" /> 
+		</skills>
+	</item>
+	<item id="47358" name="高級補給箱" additionalName="Blackbird Clan" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_readybox_gold" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="18619" level="3" /> 
+		</skills>
+	</item>
+	<item id="47359" name="基本補給箱" additionalName="Giant Trackers" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_readybox_bronze" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="18620" level="1" /> 
+		</skills>
+	</item>
+	<item id="47360" name="中級補給箱" additionalName="Giant Trackers" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_readybox_silver" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="18620" level="2" /> 
+		</skills>
+	</item>
+	<item id="47361" name="高級補給箱" additionalName="Giant Trackers" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_readybox_gold" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="18620" level="3" /> 
+		</skills>
+	</item>
+	<item id="47362" name="補給箱" additionalName="Kingdom's Royal Guard" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_readybox_bronze" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="LEATHER" />
+		<skills>
+			<skill id="18621" level="1" /> 
+		</skills>
+	</item>
+	<item id="47363" name="紅色貴族外型加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="Appearance" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="47364" name="白色貴族外型加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="Appearance" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="47365" name="藍色步兵外型加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="Appearance" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="47366" name="紅色步兵外型加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="Appearance" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="47367" name="皇家救援交換券禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_pendant_pve_box" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="47368" name="壺精禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_box_joy_pack" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="47369" name="修佩利歐染料禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="47370" name="修佩利歐艾斯恩箱子" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_special_pendant_abradant_box" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="47371" name="修佩利歐秘傳書禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_pirate_king_box" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="47372" name="財富護身符-限時30日" additionalName="Skill Power" type="Armor">
+		
+		<set name="icon" val="icon.bm_magic_square_talisman" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="crystal_type" val="R" />
+		<skills>
+			<skill id="13959" level="1" /> 
+		</skills>
+	</item>
+	<item id="47373" name="財富護身符-限時30日" additionalName="Attack Attribute" type="Armor">
+		
+		<set name="icon" val="icon.bm_magic_square_talisman" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="crystal_type" val="R" />
+		<skills>
+			<skill id="13960" level="1" /> 
+		</skills>
+	</item>
+	<item id="47374" name="財富護身符-限時30日" additionalName="Skill Cooldown" type="Armor">
+		
+		<set name="icon" val="icon.bm_magic_square_talisman" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="GOLD" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="crystal_type" val="R" />
+		<skills>
+			<skill id="13961" level="1" /> 
+		</skills>
+	</item>
+	<item id="47375" name="財富護身符禮盒-技能威力" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_pirate_king_box" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="47372" min="1" max="1" chance="100" name="財富護身符-限時30日" /> 
+		</capsuled_items>
+	</item>
+	<item id="47376" name="財富護身符禮盒-攻擊屬性" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_pirate_king_box" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="47373" min="1" max="1" chance="100" name="財富護身符-限時30日" /> 
+		</capsuled_items>
+	</item>
+	<item id="47377" name="財富護身符禮盒-技能再使用時間" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="icon.bm_pirate_king_box" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="47374" min="1" max="1" chance="100" name="財富護身符-限時30日" /> 
+		</capsuled_items>
+	</item>
+	<item id="47378" name="雷德的R99交換券" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_memo" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="47379" name="雷德的黑暗/血腥交換券" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_memo" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="47380" name="祝福的武器強化輔助石禮盒-R" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_orc_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="47381" name="祝福的防具強化輔助石禮盒-R" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_orc_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="47382" name="芙蕾雅的風之捲軸" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.freya_scroll" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_event_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="material" val="PAPER" />
+		<cond>
+			<player MinimumVitalityPoints="35000" />
+		</cond>
+		<skills>
+			<skill id="27629" level="1" /> 
+		</skills>
+	</item>
+	<item id="47383" name="紅色天秤補給品Lv5" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.event_mahum_coinbox" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="47384" name="高速巴士通行卡" type="EtcItem">
+		
+		<set name="icon" val="icon.card_hidden" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="handler" val="ItemSkills" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="material" val="PAPER" />
+		<cond msgId="1902">
+			<player levelRange="99;255" />
+		</cond>
+		<skills>
+			<skill id="18628" level="1" /> 
+		</skills>
+	</item>
+	<item id="47385" name="班卓斯騎士團憑證" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_balthus_token" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="47386" name="西比斯的書信" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_royal_membership_i00" />
+		<set name="default_action" val="SHOW_HTML" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="47387" name="班卓斯騎士團補給品" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_ev_kalie_treasure_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="reuse_delay" val="86400000" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="FISH" />
+		<capsuled_items>
+			<item id="47385" min="3" max="3" chance="100" name="班卓斯騎士團憑證" /> 
+		</capsuled_items>
+	</item>
+	<item id="47388" name="12周年紀念品" type="EtcItem">
+		
+		<set name="icon" val="icon.ev_10th_present1" />
+		<set name="price" val="2000000000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="47389" name="12周年紀念補給品" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="47388" min="10" max="10" chance="100" name="12周年紀念品" /> 
+		</capsuled_items>
+	</item>
+	<item id="47390" name="禁墓/憧憬護身符/憧憬氣息禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="LEATHER" />
+		<capsuled_items>
+			<item id="34987" min="1" max="1" chance="25" name="業火的護身符" /> 
+			<item id="34989" min="1" max="1" chance="25" name="憧憬的護身符" /> 
+			<item id="47420" min="1" max="1" chance="25" name="憧憬氣息" /> 
+		</capsuled_items>
+	</item>
+	<item id="47391" name="貝尼勒11/12/13階段護身符禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i02" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="LEATHER" />
+		<capsuled_items>
+			<item id="39644" min="1" max="1" chance="25" name="貝尼勒護身符" /> 
+			<item id="39645" min="1" max="1" chance="25" name="貝尼勒護身符" /> 
+			<item id="39646" min="1" max="1" chance="25" name="貝尼勒護身符" /> 
+		</capsuled_items>
+	</item>
+	<item id="47392" name="閃耀的殷海薩襯衫強化捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.g_scrl_of_ench_wolf_shirt" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="47393" name="黑暗刺客/白色刺客套裝禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i04" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="LEATHER" />
+		<capsuled_items>
+			<item id="47464" min="1" max="1" chance="34" name="雪白刺客套裝加工石" /> 
+			<item id="40270" min="1" max="1" chance="34" name="黑暗刺客套裝加工石" /> 
+		</capsuled_items>
+	</item>
+	<item id="47394" name="祝福的捲軸R99/R95/R(2)禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i05" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="LEATHER" />
+	</item>
+	<item id="47395" name="安塔瑞斯/巴拉卡斯/巴溫靈魂之瓶禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i06" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="LEATHER" />
+		<capsuled_items>
+			<item id="19465" min="1" max="1" chance="25" name="裝有安塔瑞斯靈魂之瓶" /> 
+			<item id="19466" min="1" max="1" chance="25" name="裝有巴拉卡斯靈魂之瓶" /> 
+			<item id="37520" min="1" max="1" chance="25" name="裝有巴溫靈魂之瓶" /> 
+		</capsuled_items>
+	</item>
+	<item id="47396" name="奴爾卡/莉迪亞/古斯達夫皮帶禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i07" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="LEATHER" />
+		<capsuled_items>
+			<item id="36167" min="1" max="1" chance="33.333" name="奴爾卡皮帶" /> 
+			<item id="36168" min="1" max="1" chance="33.333" name="莉迪亞皮帶" /> 
+			<item id="36169" min="1" max="1" chance="33.333" name="古斯達夫皮帶" /> 
+		</capsuled_items>
+	</item>
+	<item id="47397" name="七封印/亞納/莉莉絲護身符禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="LEATHER" />
+		<capsuled_items>
+			<item id="37717" min="1" max="1" chance="25" name="七封印護身符" /> 
+			<item id="37714" min="1" max="1" chance="25" name="莉莉絲護身符" /> 
+			<item id="37715" min="1" max="1" chance="25" name="亞納護身符" /> 
+		</capsuled_items>
+	</item>
+	<item id="47398" name="血腥艾迪奧斯強化石-2個禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i04" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="LEATHER" />
+		<capsuled_items>
+			<item id="35569" min="2" max="2" chance="75" name="血腥防具強化石" /> 
+		</capsuled_items>
+	</item>
+	<item id="47399" name="西比斯貨幣禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i10" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="LEATHER" />
+		<capsuled_items>
+			<item id="49783" min="1500" max="1500" chance="75" name="西比斯貨幣" /> 
+		</capsuled_items>
+	</item>
+</list>

@@ -1,0 +1,1996 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="18600" toLevel="3" name="高級補給箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">47175</value> 
+			<value level="2">47176</value> 
+			<value level="3">47177</value> 
+		</itemConsumeId>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Restoration">
+				<itemId>47258</itemId> 
+				<itemCount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+				</itemCount>
+			</effect>
+			<effect name="Restoration">
+				<itemId>47362</itemId> 
+				<itemCount>1</itemCount>
+			</effect>
+			<effect name="RestorationRandom" level="1">
+				<items>
+					<item chance="40">
+						<item id="19440" count="1" /> 
+					</item>
+					<item chance="40">
+						<item id="36563" count="1" /> 
+					</item>
+					<item chance="20">
+						<item id="36564" count="1" /> 
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="2">
+				<items>
+					<item chance="35">
+						<item id="19440" count="1" /> 
+					</item>
+					<item chance="35">
+						<item id="36563" count="1" /> 
+					</item>
+					<item chance="20">
+						<item id="36564" count="1" /> 
+					</item>
+					<item chance="10">
+						<item id="36565" count="1" /> 
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="3">
+				<items>
+					<item chance="40">
+						<item id="19440" count="1" /> 
+					</item>
+					<item chance="40">
+						<item id="36564" count="1" /> 
+					</item>
+					<item chance="20">
+						<item id="36565" count="1" /> 
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18601" toLevel="6" name="世界樹守護者高級箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">47178</value> 
+			<value level="2">47179</value> 
+			<value level="3">47180</value> 
+			<value level="4">48397</value> 
+			<value level="5">48398</value> 
+			<value level="6">48399</value> 
+		</itemConsumeId>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Restoration">
+				<itemId>47257</itemId> 
+				<itemCount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+					<value level="4">3</value>
+					<value level="5">6</value>
+					<value level="6">9</value>
+				</itemCount>
+			</effect>
+			<effect name="Restoration">
+				<itemId>36513</itemId> 
+				<itemCount>1</itemCount>
+			</effect>
+			<effect name="RestorationRandom" level="1">
+				<items>
+					<item chance="18.5">
+						<item id="36523" count="1" /> 
+					</item>
+					<item chance="19.5">
+						<item id="36543" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35330" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35335" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35328" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35331" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35327" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35329" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35332" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35334" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35333" count="1" /> 
+					</item>
+					<item chance="27.0">
+						<item id="36524" count="1" /> 
+					</item>
+					<item chance="18.5">
+						<item id="36544" count="1" /> 
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="2">
+				<items>
+					<item chance="18.5">
+						<item id="36523" count="1" /> 
+					</item>
+					<item chance="19.5">
+						<item id="36543" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35330" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35335" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35328" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35331" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35327" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35329" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35332" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35334" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35333" count="1" /> 
+					</item>
+					<item chance="27.0">
+						<item id="36524" count="1" /> 
+					</item>
+					<item chance="18.5">
+						<item id="36544" count="1" /> 
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="3">
+				<items>
+					<item chance="18.5">
+						<item id="36523" count="1" /> 
+					</item>
+					<item chance="19.5">
+						<item id="36543" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35330" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35335" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35328" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35331" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35327" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35329" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35332" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35334" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35333" count="1" /> 
+					</item>
+					<item chance="27.0">
+						<item id="36524" count="1" /> 
+					</item>
+					<item chance="18.5">
+						<item id="36544" count="1" /> 
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="4">
+				<items>
+					<item chance="18.5">
+						<item id="36523" count="1" /> 
+					</item>
+					<item chance="19.5">
+						<item id="36543" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35330" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35335" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35328" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35331" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35327" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35329" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35332" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35334" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35333" count="1" /> 
+					</item>
+					<item chance="27.0">
+						<item id="36524" count="1" /> 
+					</item>
+					<item chance="18.5">
+						<item id="36544" count="1" /> 
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="5">
+				<items>
+					<item chance="18.5">
+						<item id="36523" count="1" /> 
+					</item>
+					<item chance="19.5">
+						<item id="36543" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35330" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35335" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35328" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35331" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35327" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35329" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35332" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35334" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35333" count="1" /> 
+					</item>
+					<item chance="27.0">
+						<item id="36524" count="1" /> 
+					</item>
+					<item chance="18.5">
+						<item id="36544" count="1" /> 
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="6">
+				<items>
+					<item chance="18.5">
+						<item id="36523" count="1" /> 
+					</item>
+					<item chance="19.5">
+						<item id="36543" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35330" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35335" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35328" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35331" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35336" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35327" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35329" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35332" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35334" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35333" count="1" /> 
+					</item>
+					<item chance="27.0">
+						<item id="36524" count="1" /> 
+					</item>
+					<item chance="18.5">
+						<item id="36544" count="1" /> 
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18602" toLevel="3" name="高級補給箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">47181</value> 
+			<value level="2">47182</value> 
+			<value level="3">47183</value> 
+		</itemConsumeId>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Restoration">
+				<itemId>47259</itemId> 
+				<itemCount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+				</itemCount>
+			</effect>
+			<effect name="RestorationRandom" level="1">
+				<items>
+					<item chance="8.0">
+						<item id="17526" count="1" /> 
+					</item>
+					<item chance="40.0">
+						<item id="17527" count="1" /> 
+					</item>
+					<item chance="40.0">
+						<item id="36548" count="1" /> 
+					</item>
+					<item chance="12.0">
+						<item id="36549" count="1" /> 
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="2">
+				<items>
+					<item chance="8.0">
+						<item id="17526" count="1" /> 
+					</item>
+					<item chance="39.0">
+						<item id="17527" count="1" /> 
+					</item>
+					<item chance="2.0">
+						<item id="19448" count="1" /> 
+					</item>
+					<item chance="39.0">
+						<item id="36548" count="1" /> 
+					</item>
+					<item chance="12.0">
+						<item id="36549" count="1" /> 
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="3">
+				<items>
+					<item chance="18.5">
+						<item id="17526" count="1" /> 
+					</item>
+					<item chance="30.0">
+						<item id="17527" count="1" /> 
+					</item>
+					<item chance="0.5">
+						<item id="19447" count="1" /> 
+					</item>
+					<item chance="1.0">
+						<item id="19448" count="1" /> 
+					</item>
+					<item chance="50.0">
+						<item id="36549" count="1" /> 
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18603" toLevel="3" name="高級補給箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">47184</value> 
+			<value level="2">47185</value> 
+			<value level="3">47186</value> 
+		</itemConsumeId>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Restoration">
+				<itemId>47260</itemId> 
+				<itemCount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+				</itemCount>
+			</effect>
+			<effect name="RestorationRandom" level="1">
+				<items>
+					<item chance="1.8">
+						<item id="35330" count="1" /> 
+					</item>
+					<item chance="1.8">
+						<item id="35335" count="1" /> 
+					</item>
+					<item chance="1.8">
+						<item id="35336" count="1" /> 
+					</item>
+					<item chance="1.8">
+						<item id="35328" count="1" /> 
+					</item>
+					<item chance="1.8">
+						<item id="35331" count="1" /> 
+					</item>
+					<item chance="1.8">
+						<item id="35337" count="1" /> 
+					</item>
+					<item chance="1.8">
+						<item id="35327" count="1" /> 
+					</item>
+					<item chance="1.8">
+						<item id="35334" count="1" /> 
+					</item>
+					<item chance="1.8">
+						<item id="35329" count="1" /> 
+					</item>
+					<item chance="1.8">
+						<item id="35332" count="1" /> 
+					</item>
+					<item chance="1.8">
+						<item id="35333" count="1" /> 
+					</item>
+					<item chance="30.2">
+						<item id="30297" count="1" /> 
+					</item>
+					<item chance="21.5">
+						<item id="30299" count="1" /> 
+					</item>
+					<item chance="15.5">
+						<item id="30298" count="1" /> 
+					</item>
+					<item chance="5.0">
+						<item id="36549" count="1" /> 
+					</item>
+					<item chance="8.0">
+						<item id="36548" count="1" /> 
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="2">
+				<items>
+					<item chance="5">
+						<item id="36554" count="1" /> 
+					</item>
+					<item chance="8">
+						<item id="36553" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35342" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35339" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35349" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35340" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35341" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35352" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35338" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35345" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35348" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35347" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35344" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35346" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35343" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35353" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35354" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35351" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35350" count="1" /> 
+					</item>
+					<item chance="30.45">
+						<item id="30297" count="1" /> 
+					</item>
+					<item chance="21.5">
+						<item id="30299" count="1" /> 
+					</item>
+					<item chance="15.5">
+						<item id="30298" count="1" /> 
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="3">
+				<items>
+					<item chance="5">
+						<item id="36554" count="1" /> 
+					</item>
+					<item chance="8">
+						<item id="36553" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35342" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35339" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35349" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35340" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35341" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35352" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35338" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35345" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35348" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35347" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35344" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35346" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35343" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35353" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35354" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35351" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35350" count="1" /> 
+					</item>
+					<item chance="30.45">
+						<item id="30297" count="1" /> 
+					</item>
+					<item chance="21.5">
+						<item id="30299" count="1" /> 
+					</item>
+					<item chance="15.5">
+						<item id="30298" count="1" /> 
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18604" toLevel="1" name="控制裝置房卡片鑰匙">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>DOOR_TREASURE</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>40</castRange>
+		<effectPoint>-1</effectPoint>
+		<effectRange>400</effectRange>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic> 
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47126</itemConsumeId> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<reuseDelay>5000</reuseDelay>
+		<conditions>
+			<condition name="OpUnlock" />
+			<condition name="OpTargetDoor">
+				<doorIds>
+					<item>22230711</item>
+				</doorIds>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="OpenDoor">
+				<chance>100</chance>
+				<isItem>true</isItem>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18605" toLevel="1" name="辣鮮魚湯-智慧">
+		<icon>icon.fish_stew_residence_luc</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="18606" toLevel="1" name="辣鮮魚湯-智力">
+		<icon>icon.fish_stew_residence_luc</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="18607" toLevel="1" name="辣鮮魚湯-精神">
+		<icon>icon.fish_stew_residence_luc</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="18608" toLevel="1" name="辣鮮魚湯-敏捷">
+		<icon>icon.fish_stew_residence_luc</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="18609" toLevel="1" name="辣鮮魚湯-力量">
+		<icon>icon.fish_stew_residence_luc</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="18610" toLevel="1" name="辣鮮魚湯-體質">
+		<icon>icon.fish_stew_residence_luc</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="18611" toLevel="1" name="奶油鮮魚湯-智慧">
+		<icon>icon.fish_stew_residence_cha</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="18612" toLevel="1" name="奶油鮮魚湯-智力">
+		<icon>icon.fish_stew_residence_cha</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="18613" toLevel="1" name="奶油鮮魚湯-精神">
+		<icon>icon.fish_stew_residence_cha</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="18614" toLevel="1" name="奶油鮮魚湯-敏捷">
+		<icon>icon.fish_stew_residence_cha</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="18615" toLevel="1" name="奶油鮮魚湯-力量">
+		<icon>icon.fish_stew_residence_cha</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="18616" toLevel="1" name="奶油鮮魚湯-體質">
+		<icon>icon.fish_stew_residence_cha</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="18617" toLevel="1" name="西斯提寶箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18618" toLevel="14" name="移動卷軸-水晶的神諭所">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>
+			<value level="1">1500</value>
+			<value level="2">1500</value>
+			<value level="3">1500</value>
+			<value level="4">1500</value>
+			<value level="5">1500</value>
+			<value level="6">1500</value>
+			<value level="7">1500</value>
+			<value level="8">1500</value>
+			<value level="9">1500</value>
+			<value level="10">1500</value>
+			<value level="11">1500</value>
+			<value level="12">1000</value>
+			<value level="13">1000</value>
+			<value level="14">1000</value>
+		</hitTime>
+		<isMagic>2</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">47234</value> 
+			<value level="2">47235</value> 
+			<value level="3">47236</value> 
+			<value level="4">47237</value> 
+			<value level="5">47238</value> 
+			<value level="6">47239</value> 
+			<value level="7">47240</value> 
+			<value level="8">47241</value> 
+			<value level="9">47242</value> 
+			<value level="10">47243</value> 
+			<value level="11">47243</value>  
+			<value level="12">47243</value>  
+			<value level="13">47243</value>  
+			<value level="14">47243</value>  
+		</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<conditions>
+			<condition name="OpAlignment">
+				<affectType>CASTER</affectType>
+				<alignment>LAWFUL</alignment>
+			</condition>
+			<condition name="OpCanEscape" />
+		</conditions>
+		<effects>
+			<effect name="Teleport" level="1">
+				<x>-48223</x>
+				<y>69566</y>
+				<z>-3080</z>
+			</effect>
+			<effect name="Teleport" level="2">
+				<x>181737</x>
+				<y>46469</y>
+				<z>-4276</z>
+			</effect>
+			<effect name="Teleport" level="3">
+				<x>181737</x>
+				<y>46469</y>
+				<z>-4276</z>
+			</effect>
+			<effect name="Teleport" level="4">
+				<x>-11802</x>
+				<y>236360</y>
+				<z>-3271</z>
+			</effect>
+			<effect name="Teleport" level="5">
+				<x>155310</x>
+				<y>-16339</y>
+				<z>-3320</z>
+			</effect>
+			<effect name="Teleport" level="6">
+				<x>-14916</x>
+				<y>-135329</y>
+				<z>-1216</z>
+			</effect>
+			<effect name="Teleport" level="7">
+				<x>-2568</x>
+				<y>-105972</y>
+				<z>-2632</z>
+			</effect>
+			<effect name="Teleport" level="8">
+				<x>15659</x>
+				<y>-114414</y>
+				<z>-240</z>
+			</effect>
+			<effect name="Teleport" level="9">
+				<x>167047</x>
+				<y>20304</y>
+				<z>-3328</z>
+			</effect>
+			<effect name="Teleport" level="10">
+				<x>36603</x>
+				<y>-51202</y>
+				<z>712</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18619" toLevel="3" name="高級補給箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">47356</value> 
+			<value level="2">47357</value> 
+			<value level="3">47358</value> 
+		</itemConsumeId>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Restoration">
+				<itemId>47256</itemId> 
+				<itemCount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+				</itemCount>
+			</effect>
+			<effect name="Restoration" level="3">
+				<itemId>37791</itemId> 
+				<itemCount>1</itemCount>
+			</effect>
+			<effect name="Restoration">
+				<itemId>37893</itemId> 
+				<itemCount>1</itemCount>
+			</effect>
+			<effect name="RestorationRandom" fromLevel="1" toLevel="2">
+				<items>
+					<item chance="50">
+						<item id="37791" count="1" /> 
+					</item>
+					<item chance="50">
+						<item id="37893" count="1" /> 
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="3">
+				<items>
+					<item chance="35">
+						<item id="37791" count="1" /> 
+					</item>
+					<item chance="30">
+						<item id="37791" count="2" /> 
+					</item>
+					<item chance="35">
+						<item id="37893" count="1" /> 
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18620" toLevel="3" name="高級補給箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">47359</value> 
+			<value level="2">47360</value> 
+			<value level="3">47361</value> 
+		</itemConsumeId>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Restoration">
+				<itemId>47260</itemId> 
+				<itemCount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+				</itemCount>
+			</effect>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="1.15">
+						<item id="35342" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35339" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35349" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35340" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35341" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35352" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35338" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35345" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35348" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35347" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35344" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35346" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35343" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35353" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35354" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35351" count="1" /> 
+					</item>
+					<item chance="1.15">
+						<item id="35350" count="1" /> 
+					</item>
+					<item chance="30.45">
+						<item id="30297" count="1" /> 
+					</item>
+					<item chance="21.5">
+						<item id="30299" count="1" /> 
+					</item>
+					<item chance="15.5">
+						<item id="30298" count="1" /> 
+					</item>
+					<item chance="5">
+						<item id="36554" count="1" /> 
+					</item>
+					<item chance="8">
+						<item id="36553" count="1" /> 
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18621" toLevel="1" name="補給箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47362</itemConsumeId> 
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="34.0">
+						<item id="36554" count="1" /> 
+					</item>
+					<item chance="40.5">
+						<item id="36553" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35338" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35339" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35340" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35341" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35342" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35343" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35344" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35345" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35346" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35347" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35348" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35349" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35350" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35351" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35352" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35353" count="1" /> 
+					</item>
+					<item chance="1.5">
+						<item id="35354" count="1" /> 
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18622" toLevel="6" name="+8血腥艾迪奧斯禮盒">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18623" toLevel="14" name="女武神衣裳加工石">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18624" toLevel="2" name="壺精禮盒">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18625" toLevel="2" name="艾斯恩箱子">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18626" toLevel="1" name="祕傳書禮盒">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18627" toLevel="2" name="祝福的防具強化輔助石禮盒-R">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18628" toLevel="1" name="高速巴士通行卡">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic> 
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47384</itemConsumeId> 
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<reuseDelay>1000</reuseDelay>
+		<effects>
+			<effect name="GiveXp">
+				<xp>100000000000</xp>
+			</effect>
+			<effect name="GiveSp">
+				<xp>240000000</xp>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18629" toLevel="1" name="班卓斯騎士團偽裝">
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<effectPoint>780</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18630" toLevel="1" name="班卓斯騎士團偽裝">
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<effectPoint>780</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18631" toLevel="1" name="班卓斯騎士團偽裝">
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<effectPoint>780</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18632" toLevel="1" name="班卓斯騎士團偽裝">
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<effectPoint>780</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18633" toLevel="1" name="班卓斯騎士團偽裝">
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<effectPoint>780</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18634" toLevel="1" name="二重奏- 芙蕾雅之風">
+		<icon>icon.freya_cube_box</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>600</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>0</effectPoint>
+		<isMagic>4</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>36331</itemConsumeId>
+		<reuseDelay>1800000</reuseDelay>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>100</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>100</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18635" toLevel="1" name="二重奏-預言">
+		<icon>icon.skill0837</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>300</abnormalTime>
+		<affectObject>FRIEND_PC</affectObject>
+		<affectRange>600</affectRange>
+		<affectScope>PARTY</affectScope>
+		<castRange>400</castRange>
+		<coolTime>300</coolTime>
+		<effectPoint>712</effectPoint>
+		<effectRange>600</effectRange>
+		<hitTime>1000</hitTime>
+		<reuseDelay>270000</reuseDelay>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>1</minLevel>
+				<maxLevel>85</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+			<condition name="TargetMyParty">
+				<includeMe>true</includeMe>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18636" toLevel="2" name="二重奏-祝福氣息">
+		<icon>icon.skill10101</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10800</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>
+			<value level="1">100</value>
+			<value level="2">1</value>
+		</effectPoint>
+		<hitTime>
+			<value level="1">100</value>
+			<value level="2">0</value>
+		</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>
+			<value level="1">36000000</value>
+			<value level="2">0</value>
+		</reuseDelay>
+		<conditions>
+			<condition name="CheckLevel">
+				<minLevel>1</minLevel>
+				<maxLevel>85</maxLevel>
+				<affectType>CASTER</affectType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="ExpModify">
+				<amount>30</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18637" toLevel="1" name="二重奏活力凝結石">
+		<icon>icon.etc_capture_stone_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>3600</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18638" toLevel="1" name="活動點數禮券(200點)">
+		<icon>icon.etc_ticket_i00</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="18639" toLevel="3" name="經驗之書(雙職業用)">
+		<icon>
+			<value level="1">icon.etc_codex_of_giant_i01</value>
+			<value level="2">icon.etc_codex_of_giant_i01</value>
+			<value level="3">icon.giant_book_i01</value>
+		</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18640" toLevel="1" name="二重奏成長古文30%">
+		<icon>BranchSys3.lcon.g_rune_itemdrop_up</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18641" toLevel="1" name="班卓斯騎士團補給品">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18642" toLevel="15" name="聖紋石幸運箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18643" toLevel="1" name="二重奏禮物">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="18644" toLevel="3" name="芙蕾雅幸運魔杖">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18645" toLevel="2" name="闇黑芙蕾雅的報恩">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18646" toLevel="1" name="芙蕾雅的暴風卷軸">
+		<icon>icon.bm_freya_storm_scroll</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>600</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>27673</itemConsumeId>
+		<reuseDelay>540000</reuseDelay>
+		<effects>
+			<effect name="VitalityPointsRate">
+				<amount>150</amount>
+			</effect>
+			<effect name="ExpModify">
+				<amount>150</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>150</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18647" toLevel="1" name="芙蕾雅的血腥古文">
+		<icon>icon.bm_freya_bloody_rune</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18648" toLevel="1" name="芙蕾雅的古文">
+		<icon>icon.bm_freya_rune</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>STR</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>DEX</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>INT</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>WIT</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="DefenceTrait">
+				<PARALYZE>10</PARALYZE>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18649" toLevel="1" name="芙蕾雅的活力古文">
+		<icon>icon.bm_freya_vital_rune</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="VitalityPointsRate">
+				<amount>-15</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18650" toLevel="2" name="神秘護身符-屬性防禦">
+		<icon>
+			<value level="1">Icon.etc_allstat_talisman_i00</value>
+			<value level="2">icon.npoint_talisman_stat</value>
+		</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18651" toLevel="11" name="凱爾烈光武器禮盒">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47761</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>10</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="20">
+						<item id="37718" count="1" minEnchant="7" maxEnchant="7" /> 
+					</item>
+					<item chance="40">
+						<item id="46193" count="1" minEnchant="7" maxEnchant="7" /> 
+					</item>
+					<item chance="40">
+						<item id="46194" count="1" minEnchant="7" maxEnchant="7" /> 
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18652" toLevel="1" name="閃耀的殷海薩襯衫強化卷軸">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18653" toLevel="1" name="麗亞絲補給品">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18654" toLevel="1" name="加工效果-軀體">
+		<icon>icon.rare_acc_smith_piece</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18655" toLevel="1" name="加工效果-心靈">
+		<icon>icon.rare_acc_smith_piece</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18656" toLevel="1" name="加工效果-屏障">
+		<icon>icon.rare_acc_smith_piece</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18657" toLevel="1" name="加工效果-保護盾">
+		<icon>icon.rare_acc_smith_piece</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18658" toLevel="1" name="加工效果-地">
+		<icon>icon.rare_acc_smith_piece</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18659" toLevel="1" name="加工效果-純淨">
+		<icon>icon.rare_acc_smith_piece</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18660" toLevel="1" name="加工效果-STR">
+		<icon>icon.rare_acc_smith_piece</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18661" toLevel="1" name="加工效果-INT">
+		<icon>icon.rare_acc_smith_piece</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18662" toLevel="1" name="加工效果-CON">
+		<icon>icon.rare_acc_smith_piece</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18663" toLevel="4" name="星座壺精禮盒">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic> 
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47554</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>10</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+	</skill>
+	<skill id="18664" toLevel="7" name="擊倒巨大魔物獎勵品">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18665" toLevel="2" name="聖地牙哥上級報酬箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18666" toLevel="1" name="活動寶箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18667" toLevel="1" name="皇家藍色救援交換券(R)-防具用">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18668" toLevel="1" name="皇家藍色救援交換券((R95)-防具用">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18669" toLevel="1" name="皇家藍色救援交換券((R9)-防具用">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18670" toLevel="1" name="格蘭肯靈藥">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic> 
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47578</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="Hp">
+				<power>7000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18671" toLevel="1" name="力之預言-活動專用">
+		<icon>icon.skill19204</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<effectPoint>687</effectPoint>
+		<hitTime>300</hitTime>
+	</skill>
+	<skill id="18672" toLevel="1" name="聖誕派對藥草">
+		<icon>BranchSys.icon.br_xmas_present_fun_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="18673" toLevel="1" name="變身卷軸-土偶">
+		<icon>icon.skilltransform1</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18674" toLevel="1" name="變身卷軸-誘餌土偶">
+		<icon>icon.skilltransform1</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18675" toLevel="1" name="變身卷軸-沉重土偶">
+		<icon>icon.skilltransform1</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18676" toLevel="1" name="變身卷軸-膽怯土偶">
+		<icon>icon.skilltransform1</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18677" toLevel="1" name="變身卷軸-豬">
+		<icon>icon.skilltransform1</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18678" toLevel="1" name="變身卷軸-兔">
+		<icon>icon.skilltransform1</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18679" toLevel="1" name="變身卷軸-巨蟻女王">
+		<icon>icon.skilltransform1</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18680" toLevel="1" name="變身卷軸-奧爾芬">
+		<icon>icon.skilltransform1</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18681" toLevel="1" name="變身卷軸-亞納">
+		<icon>icon.skilltransform1</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18682" toLevel="1" name="變身卷軸-莉莉絲">
+		<icon>icon.skilltransform1</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18683" toLevel="1" name="貓戰爪加工石">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="18684" toLevel="1" name="溫暖熊掌加工石">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="18685" toLevel="1" name="拳擊手套加工石">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="18686" toLevel="1" name="邱比特之弓加工石">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="18687" toLevel="1" name="婚禮花束加工石-單手鈍器">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="18688" toLevel="1" name="豬豬塔糖加工石">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="18689" toLevel="1" name="主廚猴的香蕉藥草">
+		<icon>Icon.ev_monkey_banana</icon>
+		<operateType>A1</operateType>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="18690" toLevel="1" name="主廚猴的寶箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18691" toLevel="2" name="姜太公寶箱">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18692" toLevel="1" name="皇家紫色救援交換券(R)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18693" toLevel="1" name="皇家紫色救援交換券(R95)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18694" toLevel="1" name="皇家紫色救援交換券(R99)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18695" toLevel="1" name="守護藥水-捕獲">
+		<icon>icon.etc_fruit_juice_glass_bottle_i03</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>1800</abnormalTime>
+		<abnormalType>POTION_OF_PROTECTION</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic> 
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47657</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="DefenceTrait">
+				<PULL>5</PULL>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18696" toLevel="1" name="守護藥水-危險區域">
+		<icon>icon.etc_fruit_juice_glass_bottle_i03</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>1800</abnormalTime>
+		<abnormalType>POTION_OF_PROTECTION</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic> 
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47658</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="DefenceTrait">
+				<ZONE>5</ZONE>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18697" toLevel="1" name="守護藥水-魅惑">
+		<icon>icon.etc_fruit_juice_glass_bottle_i04</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>1800</abnormalTime>
+		<abnormalType>POTION_OF_PROTECTION</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic> 
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47659</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="DefenceTrait">
+				<DERANGEMENT>5</DERANGEMENT> 
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18698" toLevel="1" name="守護藥水-愚弄">
+		<icon>icon.etc_fruit_juice_glass_bottle_i09</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>1800</abnormalTime>
+		<abnormalType>POTION_OF_PROTECTION</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic> 
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47660</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="DefenceTrait">
+				<DERANGEMENT>5</DERANGEMENT> 
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18699" toLevel="1" name="守護藥水-昏厥">
+		<icon>icon.etc_fruit_juice_glass_bottle_i08</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>1800</abnormalTime>
+		<abnormalType>POTION_OF_PROTECTION</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic> 
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47661</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="DefenceTrait">
+				<DERANGEMENT>5</DERANGEMENT> 
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+</list>

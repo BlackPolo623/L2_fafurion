@@ -1,0 +1,2211 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="16600" toLevel="1" name="惡魔風暴">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-828</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>2</isMagic> 
+		<magicLevel>102</magicLevel>
+		<mpConsume>10</mpConsume>
+		<effects>
+			<effect name="PhysicalDamage"> 
+				<power>100000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16601" toLevel="1" name="惡魔射擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-828</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic> 
+		<magicLevel>102</magicLevel>
+		<mpConsume>10</mpConsume>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>1500</power> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16602" toLevel="1" name="黑暗詛咒">
+		<icon>icon.skill1164</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>3</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-150</effectPoint>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>2</isMagic> 
+		<magicLevel>102</magicLevel>
+		<mpConsume>10</mpConsume>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>-30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>-30</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16603" toLevel="1" name="劇毒震波">
+		<icon>icon.skill0129</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>3</abnormalLevel>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>POISON</abnormalType>
+		<abnormalVisualEffect>DOT_POISON</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<castRange>100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-150</effectPoint>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>2</isMagic> 
+		<magicLevel>102</magicLevel>
+		<mpConsume>10</mpConsume>
+		<effects>
+			<effect name="DamOverTime">
+				<power>250</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16604" toLevel="1" name="惡魔陷阱">
+		<icon>icon.skill1298</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>3</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>ROOT_MAGICALLY</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1578</effectPoint>
+		<isDebuff>true</isDebuff>
+		<isMagic>2</isMagic> 
+		<magicLevel>102</magicLevel>
+		<mpConsume>10</mpConsume>
+		<effects>
+			<effect name="Speed">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16605" toLevel="4" name="閃耀能量充能">
+		<icon>icon.skill0788</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<affectObject>FRIEND</affectObject>
+		<affectRange>1000</affectRange>
+		<affectScope>SINGLE</affectScope>
+		<castRange>400</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>418</effectPoint>
+		<hitTime>3000</hitTime>
+		<isMagic>4</isMagic> 
+		<magicLevel>102</magicLevel>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>30000</reuseDelay>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16606" toLevel="1" name="能量顫動">
+		<icon>icon.skill10262</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>2</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>KNOCKBACK</abnormalVisualEffect>
+		<activateRate>200</activateRate>
+		<affectLimit>10-10</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-709</effectPoint>
+		<effectRange>100</effectRange>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>2</isMagic> 
+		<magicLevel>102</magicLevel>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>15000</reuseDelay>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="PhysicalDamage"> 
+				<power>100000</power>
+			</effect>
+			<effect name="KnockBack">
+				<speed>400</speed>
+				<distance>200</distance>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16607" toLevel="1" name="米密爾">
+		<icon>icon.skillboss</icon>
+		<operateType>P</operateType>
+		<targetType>SELF</targetType>
+	</skill>
+	<skill id="16608" toLevel="10" name="使魔攻擊弱點">
+		<icon>icon.skill1497</icon>
+		<operateType>P</operateType>
+		<targetType>SELF</targetType>
+	</skill>
+	<skill id="16609" toLevel="1" name="赫利奧斯等離子">
+		<icon>icon.skill1265</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>PARALYZE</abnormalType>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<activateRate>100</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>2500</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effectRange>2500</effectRange>
+		<hitTime>2500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<reuseDelay>10000</reuseDelay>
+		<trait>PARALYZE</trait>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power> 
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16610" toLevel="1" name="赫利奧斯極致等離子">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectLimit>40-80</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>600</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<castRange>2500</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16611" toLevel="1" name="赫利奧斯痛苦的王座">
+		<icon>icon.skill1275</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>5</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<activateRate>100</activateRate>
+		<affectLimit>40-80</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>600</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<effectPoint>-52</effectPoint>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<mpConsume>10</mpConsume>
+		<reuseDelay>20000</reuseDelay>
+		<trait>KNOCKDOWN</trait>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>157</power> 
+			</effect>
+			<effect name="KnockBack">
+				<speed>600</speed>
+				<distance>200</distance>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16612" toLevel="1" name="赫利奧斯皇帝的權力">
+		<icon>icon.skill16612</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>5</abnormalLevel>
+		<abnormalTime>30</abnormalTime>
+		<activateRate>100</activateRate>
+		<affectLimit>40-80</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>600</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<castRange>2500</castRange>
+		<effectPoint>-52</effectPoint>
+		<effectRange>2500</effectRange>
+		<hitTime>2500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<mpConsume>10</mpConsume>
+		<reuseDelay>20000</reuseDelay>
+		<trait>GIANT_WEAKNESS</trait>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16613" toLevel="1" name="赫利奧斯皇帝謁見">
+		<icon>icon.skill16612</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>5</abnormalLevel>
+		<abnormalTime>30</abnormalTime> 
+		<activateRate>200</activateRate>
+		<affectLimit>40-80</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<castRange>2500</castRange>
+		<effectPoint>-52</effectPoint>
+		<effectRange>2500</effectRange>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<mpConsume>10</mpConsume>
+		<reuseDelay>30000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<trait>HOLD</trait>
+		<effects>
+			<effect name="Speed">
+				<amount>-80</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16614" toLevel="1" name="赫利奧斯等離子壓">
+		<icon>icon.skill1172</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime> 
+		<abnormalType>PARALYZE</abnormalType>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<activateRate>100</activateRate>
+		<affectLimit>40-80</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>1200</castRange>
+		<effectPoint>-52</effectPoint>
+		<effectRange>2500</effectRange>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<mpConsume>10</mpConsume>
+		<trait>PARALYZE</trait>
+		<effects>
+			<effect name="PhysicalDamage"> 
+				<power>34255</power>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16615" toLevel="1" name="赫利奧斯等離子之牆">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<activateRate>100</activateRate>
+		<affectLimit>45-45</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>2500</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effectRange>2500</effectRange>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<mpConsume>10</mpConsume>
+		<reuseDelay>10000</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>157</power> 
+			</effect>
+			<effect name="MagicalDamageMp">
+				<power>250</power>
+				<critical>true</critical>
+				<criticalLimit>1600</criticalLimit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16616" toLevel="1" name="赫利奧斯威攝視線">
+		<icon>icon.skill16614</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime>
+		<abnormalType>PARALYZE</abnormalType>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<activateRate>100</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1200</castRange>
+		<effectPoint>-52</effectPoint>
+		<effectRange>2500</effectRange>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<mpConsume>10</mpConsume>
+		<reuseDelay>10000</reuseDelay>
+		<trait>PARALYZE</trait>
+		<effects>
+			<effect name="DamOverTime">
+				<power>2000</power> 
+				<ticks>1</ticks>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16617" toLevel="1" name="諸天之上-紅色閃電的槍">
+		<icon>icon.skill16617</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>5</abnormalLevel>
+		<abnormalTime>3</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<activateRate>200</activateRate>
+		<affectLimit>40-80</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>3500</castRange>
+		<effectPoint>-52</effectPoint>
+		<effectRange>3500</effectRange>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>5000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<staticReuse>true</staticReuse>
+		<trait>KNOCKDOWN</trait>
+		<effects>
+			<effect name="PhysicalDamage"> 
+				<power>10000</power>
+			</effect>
+			<effect name="KnockBack">
+				<speed>600</speed>
+				<distance>200</distance>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16618" toLevel="1" name="諸天之上-藍色閃電的槍">
+		<icon>icon.skill16618</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>5</abnormalLevel>
+		<abnormalTime>3</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<activateRate>200</activateRate>
+		<affectLimit>40-80</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>3500</castRange>
+		<effectPoint>-52</effectPoint>
+		<effectRange>3500</effectRange>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>5000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<staticReuse>true</staticReuse>
+		<trait>KNOCKDOWN</trait>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power> 
+			</effect>
+			<effect name="KnockBack">
+				<speed>600</speed>
+				<distance>200</distance>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16619" toLevel="1" name="烈火烙印">
+		<icon>icon.skill1181</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<castRange>3500</castRange>
+		<effectPoint>0</effectPoint>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+	</skill>
+	<skill id="16620" toLevel="1" name="雷擊烙印">
+		<icon>icon.skill0048</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<castRange>3500</castRange>
+		<effectPoint>0</effectPoint>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+	</skill>
+	<skill id="16621" toLevel="1" name="赫利奧斯神聖之刺">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>400</affectRange>
+		<affectScope>SINGLE</affectScope>
+		<castRange>2500</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effectRange>2500</effectRange>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<mpConsume>12</mpConsume>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+			<effect name="MagicalDamageMp">
+				<power>250</power>
+				<critical>true</critical>
+				<criticalLimit>1600</criticalLimit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16622" toLevel="1" name="赫利奧斯超群炸彈">
+		<icon>icon.skill11030</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>2500</castRange>
+		<effectPoint>-696</effectPoint>
+		<effectRange>2500</effectRange>
+		<hitTime>5000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<mpConsume>12</mpConsume>
+		<reuseDelay>10000</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+			<effect name="DamOverTime">
+				<power>5120</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16623" toLevel="1" name="赫利奧斯憤怒閃電">
+		<icon>icon.skll10094</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime>
+		<abnormalType>PARALYZE</abnormalType>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<activateRate>100</activateRate>
+		<affectLimit>40-80</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>2500</castRange>
+		<effectPoint>-438</effectPoint>
+		<effectRange>2500</effectRange>
+		<hitTime>2500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic> 
+		<trait>PARALYZE</trait>
+		<effects>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16624" toLevel="1" name="光之盾牌-佛拉赫爾哈(100%)">
+		<icon>icon.skill16624</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>INVINCIBILITY_SPECIAL</abnormalType>
+		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>438</effectPoint>
+		<hitTime>5000</hitTime>
+		<isMagic>1</isMagic>
+		<reuseDelay>60000</reuseDelay>
+		<effects>
+			<effect name="DispelBySlotMyself">
+				<dispel>MAGICAL_STANCE</dispel>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="DebuffBlock" />
+		</effects>
+	</skill>
+	<skill id="16625" toLevel="4" name="赫利奧斯的憤怒">
+		<icon>icon.skill16612</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>300</abnormalTime> 
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>1</effectPoint>
+		<hitTime>5000</hitTime>
+		<isMagic>1</isMagic>
+		<reuseDelay>30000</reuseDelay>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">100</value>
+					<value level="3">150</value>
+					<value level="4">200</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">100</value>
+					<value level="3">150</value>
+					<value level="4">200</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">100</value>
+					<value level="3">150</value>
+					<value level="4">200</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">100</value>
+					<value level="3">150</value>
+					<value level="4">200</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16626" toLevel="1" name="巨人的粒子分解裝置">
+		<icon>icon.skill11030</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectRange>200</affectRange>
+		<affectScope>SINGLE</affectScope>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effectRange>600</effectRange>
+		<hitTime>5000</hitTime>
+		<isMagic>1</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47129</itemConsumeId> 
+		<reuseDelay>60000</reuseDelay>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>INVINCIBILITY_SPECIAL</dispel>
+				<rate>100</rate>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16627" toLevel="1" name="巨人烈火保護藥水">
+		<icon>icon.giant_red_potion</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>438</effectPoint>
+		<isMagic>1</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47127</itemConsumeId> 
+		<reuseDelay>300000</reuseDelay>
+		<effects>
+			<effect name="ResistSkill">
+				<skillId1>16617</skillId1>
+				<skillId2>16618</skillId2>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16628" toLevel="1" name="巨人雷擊保護藥水">
+		<icon>icon.giant_blue_potion</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>438</effectPoint>
+		<isMagic>1</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>47128</itemConsumeId> 
+		<reuseDelay>300000</reuseDelay>
+		<effects>
+			<effect name="ResistSkill">
+				<skillId1>16617</skillId1>
+				<skillId2>16618</skillId2>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16629" toLevel="1" name="雷歐波爾德炸彈">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>SINGLE</affectScope>
+		<castRange>3500</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effectRange>3500</effectRange>
+		<hitTime>5000</hitTime>
+		<isMagic>1</isMagic>
+		<reuseDelay>10000</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16630" toLevel="1" name="雷歐波爾德等離子炸彈">
+		<icon>icon.skill1064</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<affectRange>200</affectRange>
+		<affectScope>SINGLE</affectScope>
+		<castRange>3500</castRange>
+		<effectPoint>438</effectPoint>
+		<effectRange>3500</effectRange>
+		<hitTime>7000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>10000</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power> 
+			</effect>
+			<effect name="DamOverTime">
+				<power>2000</power> 
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16631" toLevel="1" name="雷歐波爾德能量炸彈">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectRange>200</affectRange>
+		<affectScope>SINGLE</affectScope>
+		<castRange>3500</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effectRange>3500</effectRange>
+		<hitTime>7000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>10000</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power> 
+			</effect>
+			<effect name="MagicalDamageMp">
+				<power>300</power>
+				<critical>true</critical>
+				<criticalLimit>1600</criticalLimit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16632" toLevel="1" name="雷歐波爾德迷你砲">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1200</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effectRange>1200</effectRange>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16633" toLevel="1" name="雷歐波爾德噴擊">
+		<icon>icon.skill0507</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>15</abnormalTime> 
+		<activateRate>150</activateRate>
+		<affectLimit>40-80</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>1200</castRange>
+		<effectPoint>-438</effectPoint>
+		<effectRange>1200</effectRange>
+		<hitTime>2500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+			<effect name="Speed">
+				<amount>-80</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16634" toLevel="1" name="雷歐波爾德魚叉">
+		<icon>icon.skll10321</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>PARALYZE</abnormalType>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<activateRate>150</activateRate>
+		<affectRange>200</affectRange>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1200</castRange>
+		<effectPoint>-438</effectPoint>
+		<effectRange>1200</effectRange>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<trait>PARALYZE</trait>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;30516</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16635" toLevel="1" name="諸天之上射擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1200</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<effects>
+			<effect name="PhysicalDamage"> 
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16636" toLevel="1" name="原始槍舞旋風">
+		<icon>icon.skill0922</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>15</abnormalTime> 
+		<abnormalType>BLEEDING</abnormalType>
+		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
+		<activateRate>150</activateRate>
+		<affectLimit>40-80</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>1200</castRange>
+		<effectPoint>-438</effectPoint>
+		<effectRange>1200</effectRange>
+		<hitTime>2500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<trait>BLEED</trait>
+		<effects>
+			<effect name="PhysicalDamage"> 
+				<power>10000</power>
+			</effect>
+			<effect name="DamOverTime">
+				<power>2000</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16637" toLevel="1" name="原始雷霆魚叉">
+		<icon>icon.skill0279</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime> 
+		<activateRate>150</activateRate>
+		<affectRange>200</affectRange>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1200</castRange>
+		<effectPoint>438</effectPoint>
+		<effectRange>1200</effectRange>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage"> 
+				<power>10000</power>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16638" toLevel="1" name="三角等離子強雷">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>SYNERGY_LENKER</abnormalType> 
+		<activateRate>200</activateRate>
+		<affectLimit>10-10</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>1100</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>1200</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-438</effectPoint>
+		<effectRange>1200</effectRange>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16639" toLevel="1" name="皇家等離子強雷">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>SYNERGY_LENKER</abnormalType> 
+		<activateRate>200</activateRate>
+		<affectLimit>10-10</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>1100</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>1200</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-438</effectPoint>
+		<effectRange>1200</effectRange>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16640" toLevel="1" name="三連擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effectRange>1400</effectRange>
+		<hitTime>1500</hitTime>
+		<isMagic>6</isMagic>
+		<effects>
+			<effect name="PhysicalDamage"> 
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16641" toLevel="1" name="激巨等離子射擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effectRange>1400</effectRange>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16642" toLevel="1" name="激巨等離子爆射">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>40-80</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effectRange>1100</effectRange>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16643" toLevel="1" name="納旁之死">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>40-80</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>FAN_PB</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<fanRange>0;0;1100;180</fanRange>
+		<hitTime>3000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>1500</power> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16644" toLevel="1" name="襲擊雷霆">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectLimit>40-40</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>RING_RANGE</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>3000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16645" toLevel="1" name="襲擊雷霆巨射">
+		<icon>icon.skill0279</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime> 
+		<abnormalType>PARALYZE</abnormalType>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<activateRate>150</activateRate>
+		<affectLimit>40-40</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>RING_RANGE</affectScope>
+		<effectPoint>-438</effectPoint>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<trait>PARALYZE</trait>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power> 
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16646" toLevel="1" name="激巨念動力">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectLimit>40-40</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>RING_RANGE</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>3000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16647" toLevel="1" name="極巨念動力">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectLimit>40-40</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>RING_RANGE</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>3000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16648" toLevel="1" name="死亡之舞">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectLimit>40-40</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>100</affectRange>
+		<affectScope>RING_RANGE</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power> 
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16649" toLevel="1" name="極大淨化">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectLimit>40-40</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>2500</affectRange>
+		<affectScope>RING_RANGE</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>10000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="DispelByCategory">
+				<slot>BUFF</slot>
+				<rate>100</rate>
+				<max>5</max>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16650" toLevel="1" name="縱向破擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>1500</hitTime>
+		<effects>
+			<effect name="PhysicalDamage"> 
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16651" toLevel="1" name="水平破擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>20-20</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>FAN_PB</affectScope>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<fanRange>0;0;200;360</fanRange>
+		<hitTime>1500</hitTime>
+		<effects>
+			<effect name="PhysicalDamage"> 
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16652" toLevel="1" name="墓石攻擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>1500</hitTime>
+		<effects>
+			<effect name="PhysicalDamage"> 
+				<power>100000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16653" toLevel="1" name="三角多重射擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange>
+		<affectScope>FAN</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<fanRange>0;0;900;90</fanRange>
+		<hitTime>1500</hitTime>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16654" toLevel="1" name="三角衝擊箭">
+		<icon>icon.skill0101</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>90</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>PHYSICAL</basicProperty>
+		<castRange>1100</castRange>
+		<effectPoint>-438</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16655" toLevel="1" name="三角等離子球">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16656" toLevel="1" name="三角等離子震波">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>10-10</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16657" toLevel="1" name="皇家強力挑撥">
+		<icon>icon.skill10027</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<affectLimit>10-10</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<effectPoint>-438</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="TargetMe" />
+			<effect name="GetAgro" />
+		</effects>
+	</skill>
+	<skill id="16658" toLevel="1" name="皇家鎖鍊直擊">
+		<icon>icon.skill10016</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>1</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>RANGE</affectScope>
+		<basicProperty>PHYSICAL</basicProperty>
+		<effectPoint>-438</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<trait>PULL</trait>
+		<effects>
+			<effect name="PullBack">
+				<speed>600</speed>
+				<delay>650</delay>
+			</effect>
+			<effect name="BlockActions" />
+			<effect name="GetAgro" />
+		</effects>
+	</skill>
+	<skill id="16659" toLevel="1" name="皇家首擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>1500</hitTime>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16660" toLevel="1" name="皇家多重射擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange>
+		<affectScope>FAN</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<fanRange>0;0;900;90</fanRange>
+		<hitTime>1500</hitTime>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16661" toLevel="1" name="皇家衝擊箭">
+		<icon>icon.skill0101</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>90</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>PHYSICAL</basicProperty>
+		<castRange>1100</castRange>
+		<effectPoint>-438</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16662" toLevel="1" name="皇家等離子球">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16663" toLevel="1" name="皇家等離子震波">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>10-10</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16664" toLevel="1" name="皇家沉睡之雲">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>SLEEP</abnormalType>
+		<abnormalVisualEffect>SLEEP</abnormalVisualEffect>
+		<activateRate>100</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>MAGIC</basicProperty>
+		<effectPoint>-438</effectPoint>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<trait>SLEEP</trait>
+		<effects>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912</allowedSkills>
+			</effect>
+			<effect name="DefenceTrait">
+				<SLEEP>100</SLEEP>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16665" toLevel="1" name="皇家強力攻擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>1500</hitTime>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+				<criticalChance>3</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16666" toLevel="1" name="皇家防具弱化">
+		<icon>icon.skill10258</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>90</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>-438</effectPoint>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+				<criticalChance>5</criticalChance>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-23</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16667" toLevel="1" name="皇家襲擊雷霆">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>10-10</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16668" toLevel="1" name="皇家快速射擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>500</hitTime>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16669" toLevel="1" name="皇家死亡之印記">
+		<icon>icon.skill1435</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>60</abnormalTime>
+		<activateRate>90</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<effectPoint>-438</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="DamOverTime">
+				<power>400</power>
+				<ticks>1</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16670" toLevel="1" name="皇家超級等離子球">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16671" toLevel="1" name="皇家超級等離子震波">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>10-10</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16672" toLevel="1" name="皇家超級魔法屏障衰弱">
+		<icon>icon.skill1036</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>90</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>-438</effectPoint>
+		<hitTime>2000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16673" toLevel="1" name="皇家超級雷霆磁場">
+		<icon>icon.skill0048</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>PARALYZE</abnormalType>
+		<abnormalVisualEffect>PARALYZE</abnormalVisualEffect>
+		<activateRate>50</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>MAGIC</basicProperty>
+		<effectPoint>-438</effectPoint>
+		<hitTime>3000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<trait>PARALYZE</trait>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+			<effect name="BlockActions" />
+			<effect name="DefenceTrait">
+				<PARALYZE>100</PARALYZE>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16674" toLevel="1" name="激巨攻擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>1500</hitTime>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16675" toLevel="1" name="過激十億攻擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>2000</hitTime>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16676" toLevel="1" name="過激嘲弄">
+		<icon>icon.skill1376</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>90</activateRate>
+		<affectLimit>10-25</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<basicProperty>PHYSICAL</basicProperty>
+		<effectPoint>-438</effectPoint>
+		<hitTime>500</hitTime>
+		<isDebuff>true</isDebuff>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16677" toLevel="1" name="過激強力">
+		<icon>icon.skill0077</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime>
+		<effectPoint>-438</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16678" toLevel="1" name="過激知能">
+		<icon>icon.skill1059</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime>
+		<effectPoint>-438</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16679" toLevel="1" name="過激閃避">
+		<icon>icon.skill0198</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime>
+		<effectPoint>-438</effectPoint>
+		<hitTime>2000</hitTime>
+		<effects>
+			<effect name="PhysicalEvasion">
+				<amount>8</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16680" toLevel="1" name="指揮官強力挑撥">
+		<icon>icon.skill10027</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<affectLimit>10-10</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<effectPoint>-438</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="TargetMe" />
+			<effect name="GetAgro" />
+		</effects>
+	</skill>
+	<skill id="16681" toLevel="1" name="為了女王">
+		<icon>icon.skill1427</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>60</abnormalTime>
+		<abnormalType>INVINCIBILITY_SPECIAL</abnormalType>
+		<abnormalVisualEffect>INVINCIBILITY</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<effectPoint>438</effectPoint>
+		<hitTime>6000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="DispelBySlotMyself">
+				<dispel>MAGICAL_STANCE</dispel>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_HP</type>
+			</effect>
+			<effect name="DamageBlock">
+				<type>BLOCK_MP</type>
+			</effect>
+			<effect name="DebuffBlock" />
+		</effects>
+	</skill>
+	<skill id="16682" toLevel="1" name="末日槌">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>10-25</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<effectRange>900</effectRange>
+		<hitTime>2000</hitTime>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>150000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16683" toLevel="1" name="衝擊箭">
+		<icon>icon.skill0101</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>90</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<effectPoint>-438</effectPoint>
+		<effectRange>1100</effectRange>
+		<hitTime>1500</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>2</isMagic> 
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="PhysicalDamage"> 
+				<power>100000</power>
+			</effect>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16684" toLevel="1" name="多重射擊">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>10-10</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>FAN</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<fanRange>0;0;1100;120</fanRange>
+		<hitTime>1500</hitTime>
+		<isMagic>2</isMagic> 
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>150000</power>
+				<criticalChance>5</criticalChance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16685" toLevel="1" name="極大等離子球">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16686" toLevel="1" name="極大等離子震波">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
+		<castRange>900</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-52</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>15000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16687" toLevel="1" name="赫利奧斯威攝地帶">
+		<icon>icon.skill0096</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>COMBINATION</abnormalType>
+		<activateRate>90</activateRate>
+		<affectLimit>20-20</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>400</affectRange>
+		<affectScope>RANGE</affectScope>
+		<castRange>2000</castRange>
+		<effectPoint>-100</effectPoint>
+		<effectRange>2000</effectRange>
+		<hitCancelTime>0</hitCancelTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<specialLevel>-1</specialLevel>
+		<effects>
+			<effect name="DamOverTime">
+				<power>335</power>
+				<ticks>5</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16688" toLevel="1" name="赫利奧斯黃帝之命令">
+		<icon>icon.skill0096</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>200</activateRate>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>RANGE</affectScope>
+		<castRange>2000</castRange>
+		<effectPoint>-100</effectPoint>
+		<effectRange>1100</effectRange>
+		<isDebuff>true</isDebuff>
+		<isMagic>2</isMagic> 
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="BlockActions" />
+		</effects>
+	</skill>
+	<skill id="16689" toLevel="2" name="布拉克巴德血盟的祝福">
+		<icon>icon.etc_residence_sw</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>3600</abnormalTime>
+		<affectObject>FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>204</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16690" toLevel="2" name="巨人追擊隊的祝福">
+		<icon>icon.etc_residence_sw</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>3600</abnormalTime>
+		<affectObject>FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>204</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16691" toLevel="2" name="次元外來者的祝福">
+		<icon>icon.etc_residence_sw</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>3600</abnormalTime>
+		<affectObject>FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>204</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>WIND</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16692" toLevel="2" name="世界樹守護者的加護">
+		<icon>icon.etc_residence_sh</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>3600</abnormalTime>
+		<affectObject>FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>204</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>WATER</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16693" toLevel="2" name="王國親衛隊的加護">
+		<icon>icon.etc_residence_sh</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>3600</abnormalTime>
+		<affectObject>FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
+		<effectPoint>204</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16694" toLevel="1" name="雷歐波爾德情勢變換">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<hitTime>1000</hitTime>
+	</skill>
+	<skill id="16695" toLevel="1" name="追擊隊的閃耀能量注入">
+		<icon>icon.etc_a_broken_piece_of_soul_stone_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<castRange>300</castRange>
+		<hitTime>1500</hitTime>
+		<reuseDelay>15000</reuseDelay>
+	</skill>
+	<skill id="16696" toLevel="1" name="淨化">
+		<icon>icon.etc_holy_water_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>300</castRange>
+		<hitTime>1500</hitTime>
+		<reuseDelay>15000</reuseDelay>
+	</skill>
+	<skill id="16697" toLevel="1" name="乾渴消除">
+		<icon>icon.release_thirst</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime> 
+		<affectScope>SINGLE</affectScope>
+		<castRange>1300</castRange>
+		<effectPoint>650</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>55</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>55</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>55</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>55</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16698" toLevel="1" name="乾渴消除">
+		<icon>icon.release_thirst</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime> 
+		<affectScope>SINGLE</affectScope>
+		<castRange>1300</castRange>
+		<effectPoint>650</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>5000</reuseDelay>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>60</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>60</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>60</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>60</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="16699" toLevel="1" name="致命攻擊提升">
+		<icon>icon.skill1242</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>30</abnormalTime> 
+		<affectScope>SINGLE</affectScope>
+		<castRange>600</castRange>
+		<effectPoint>650</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>1</isMagic>
+		<mpConsume>10</mpConsume>
+		<reuseDelay>1000</reuseDelay>
+		<effects>
+			<effect name="MagicCriticalDamage">
+				<amount>10</amount> 
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>10</amount> 
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+</list>

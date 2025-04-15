@@ -1,0 +1,1414 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="23800" name="強力雅戴妮生命石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_life_dust_general_adenia" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23801" name="圖騰專用超強力雅戴妮生命石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_life_dust_general_adenia" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23802" name="雅戴妮生命石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_life_dust_general_adenia" />
+		<set name="weight" val="100" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23803" name="強力雅戴妮生命石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_life_dust_general_adenia" />
+		<set name="weight" val="100" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23804" name="圖騰專用超強力雅戴妮生命石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_life_dust_general_adenia" />
+		<set name="weight" val="100" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="WOOD" />
+	</item>
+	<item id="23805" name="免費Ncoin" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_coins_gold_i00" />
+		<set name="is_depositable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="23806" name="海賊王 烏山卡變身藥水" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
+		<set name="weight" val="120" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23807" name="梅芙上級古文 30%" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="time" val="43200" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="22588" level="1" /> 
+		</skills>
+	</item>
+	<item id="23808" name="梅芙上級古文 50%" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="time" val="43200" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="22588" level="2" /> 
+		</skills>
+	</item>
+	<item id="23809" name="梅芙上級古文 100%" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="time" val="43200" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="22588" level="3" /> 
+		</skills>
+	</item>
+	<item id="23810" name="梅芙上級古文 30%組" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="time" val="43200" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="22588" level="1" /> 
+		</skills>
+	</item>
+	<item id="23811" name="梅芙上級古文 50%組" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="time" val="43200" />
+		<set name="material" val="PAPER" />
+		<skills>
+			<skill id="22588" level="2" /> 
+		</skills>
+	</item>
+	<item id="23812" name="梅芙上級古文 100%組" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="time" val="43200" />
+		<set name="default_action" val="PEEL" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<capsuled_items>
+			<item id="23809" min="1" max="1" chance="100" name="梅芙上級古文 100%" /> 
+		</capsuled_items>
+	</item>
+	<item id="23813" name="優質晶體組" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="23761" min="1" max="1" chance="100" name="優質晶體" /> 
+		</capsuled_items>
+	</item>
+	<item id="23814" name="渾沌的精髓組" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="PAPER" />
+		<capsuled_items>
+			<item id="36949" min="1" max="1" chance="100" name="渾沌的精髓" /> 
+		</capsuled_items>
+	</item>
+	<item id="23815" name="渾沌的精髓-雙職業用組" additionalName="30-day" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="material" val="PAPER" />
+		<capsuled_items>
+			<item id="37494" min="1" max="1" chance="100" name="渾沌的精髓-雙職業用" /> 
+		</capsuled_items>
+	</item>
+	<item id="23816" name="海賊王 烏山卡的寶物" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_ev_kalie_treasure_box" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23817" name="海賊王 烏山卡戒指" type="Armor">
+		
+		<set name="icon" val="BranchSys3.lcon.g_ring_of_uthanka" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="150" />
+		<set name="is_sellable" val="false" />
+		<set name="commissionItemType" val="RING" />
+		<set name="material" val="BRONZE" />
+		<set name="bodypart" val="rfinger;lfinger" />
+	</item>
+	<item id="23818" name="海賊王 烏山卡戒指" additionalName="7-day" type="Armor">
+		
+		<set name="icon" val="BranchSys3.lcon.g_ring_of_uthanka" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="10080" />
+		<set name="material" val="BRONZE" />
+		<set name="bodypart" val="rfinger;lfinger" />
+	</item>
+	<item id="23819" name="海賊王 烏山卡戒指組" additionalName="7-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="10080" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="23818" min="1" max="1" chance="100" name="海賊王 烏山卡戒指" /> 
+		</capsuled_items>
+	</item>
+	<item id="23820" name="海賊王 烏山卡之墓回歸捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23821" name="壺精封印手鐲-海賊王 烏山卡" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_aga_uthanka_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="SILVER" />
+		<set name="bodypart" val="lbracelet" />
+	</item>
+	<item id="23822" name="壺精封印手鐲-海賊王 烏山卡" additionalName="7-day" type="Armor">
+		
+		<set name="icon" val="BranchSys.icon.br_aga_uthanka_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="10080" />
+		<set name="material" val="SILVER" />
+		<set name="bodypart" val="lbracelet" />
+	</item>
+	<item id="23823" name="烏山卡壺精組" additionalName="7-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="10080" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="23822" min="1" max="1" chance="100" name="壺精封印手鐲-海賊王 烏山卡" /> 
+		</capsuled_items>
+	</item>
+	<item id="23824" name="祝福的烏山卡復活捲軸" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_scroll_of_resurrection_i01" />
+		<set name="weight" val="120" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23825" name="神秘人類染料" additionalName="Unbind, 7-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_race_human" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="23826" name="神秘精靈染料" additionalName="Prevision, 7-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_race_elf" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="23827" name="神秘黑暗精靈染料" additionalName="Disparition, 7-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_race_darkelf" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="23828" name="神秘半獸人染料" additionalName="Savage, 7-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_race_orc" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="23829" name="神秘矮人染料" additionalName="Endurance, 7-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_race_dwarf" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="23830" name="神秘闇天使染料" additionalName="Soul Protection, 7-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_race_kamael" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="23831" name="奈比特古文100%-1小時禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="35985" min="1" max="1" chance="100" name="奈比特古文100%-1小時" /> 
+		</capsuled_items>
+	</item>
+	<item id="23832" name="帕格立歐的暖風-1小時禮盒" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="weight" val="100" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="36329" min="1" max="1" chance="100" name="帕格立歐的暖風-1小時" /> 
+		</capsuled_items>
+	</item>
+	<item id="23833" name="豐饒護身符" additionalName="War" type="Armor">
+		
+		<set name="icon" val="BranchSys2.icon.g_giant_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="weight" val="150" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="21364" level="1" /> 
+		</skills>
+	</item>
+	<item id="23834" name="豐饒護身符" additionalName="Tactics" type="Armor">
+		
+		<set name="icon" val="BranchSys2.icon.g_giant_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="weight" val="150" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="21364" level="2" /> 
+		</skills>
+	</item>
+	<item id="23835" name="豐饒護身符" additionalName="Morale" type="Armor">
+		
+		<set name="icon" val="BranchSys2.icon.g_giant_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="weight" val="150" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="21364" level="3" /> 
+		</skills>
+	</item>
+	<item id="23836" name="豐饒護身符" additionalName="Physique" type="Armor">
+		
+		<set name="icon" val="BranchSys2.icon.g_giant_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="weight" val="150" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="21364" level="4" /> 
+		</skills>
+	</item>
+	<item id="23837" name="追擊者護身符" additionalName="Abundance" type="Armor">
+		
+		<set name="icon" val="BranchSys2.icon.g_twilight_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="weight" val="150" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="21364" level="5" /> 
+			<skill id="21365" level="1" type="ON_EQUIP" /> 
+			<skill id="21373" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="23838" name="虐殺者護身符" additionalName="Abundance" type="Armor">
+		
+		<set name="icon" val="BranchSys2.icon.g_twilight_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="weight" val="150" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="21364" level="6" /> 
+			<skill id="21370" level="1" type="ON_EQUIP" /> 
+			<skill id="21374" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="23839" name="征服者護身符" additionalName="Abundance" type="Armor">
+		
+		<set name="icon" val="BranchSys2.icon.g_twilight_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="weight" val="150" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="21364" level="7" /> 
+			<skill id="21371" level="1" type="ON_EQUIP" /> 
+			<skill id="21375" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="23840" name="無法者護身符" additionalName="Abundance" type="Armor">
+		
+		<set name="icon" val="BranchSys2.icon.g_twilight_gem" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="deco1" />
+		<set name="weight" val="150" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="GOLD" />
+		<skills>
+			<skill id="21364" level="8" /> 
+			<skill id="21372" level="1" type="ON_EQUIP" /> 
+			<skill id="21376" level="1" type="ON_UNEQUIP" /> 
+		</skills>
+	</item>
+	<item id="23841" name="豐饒禮盒" additionalName="War" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			
+			<item id="19448" min="1" max="1" chance="1" name="祝福的防具強化捲軸-R級" /> 
+			<item id="19447" min="1" max="1" chance="1" name="祝福的武器強化捲軸-R級" /> 
+			<item id="23348" min="1" max="1" chance="1" name="防具用強化輔助石-R級" /> 
+			<item id="23347" min="1" max="1" chance="1" name="武器用強化輔助石-R級" /> 
+			<item id="23946" min="1" max="1" chance="10" name="奈比特古文(龍之飛翔)1小時禮盒" /> 
+			<item id="23831" min="1" max="1" chance="10" name="奈比特古文100%-1小時禮盒" /> 
+			<item id="23832" min="1" max="1" chance="20" name="帕格立歐的暖風-1小時禮盒" /> 
+			<item id="36513" min="1" max="1" chance="20" name="艾斯恩粉末" /> 
+			<item id="17527" min="1" max="1" chance="25" name="防具強化捲軸-R級" /> 
+			<item id="17526" min="1" max="1" chance="15" name="武器強化捲軸-R級" /> 
+			<item id="23833" min="1" max="1" chance="25" name="豐饒護身符" /> 
+			<item id="23760" min="1" max="1" chance="25" name="梅芙上級古文 100%組" /> 
+			<item id="37041" min="1" max="1" chance="25" name="加護靈藥" /> 
+		</capsuled_items>
+	</item>
+	<item id="23842" name="豐饒禮盒" additionalName="Tactics" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			
+			<item id="19448" min="1" max="1" chance="1" name="祝福的防具強化捲軸-R級" /> 
+			<item id="19447" min="1" max="1" chance="1" name="祝福的武器強化捲軸-R級" /> 
+			<item id="23348" min="1" max="1" chance="1" name="防具用強化輔助石-R級" /> 
+			<item id="23347" min="1" max="1" chance="1" name="武器用強化輔助石-R級" /> 
+			<item id="23946" min="1" max="1" chance="10" name="奈比特古文(龍之飛翔)1小時禮盒" /> 
+			<item id="23831" min="1" max="1" chance="10" name="奈比特古文100%-1小時禮盒" /> 
+			<item id="23832" min="1" max="1" chance="20" name="帕格立歐的暖風-1小時禮盒" /> 
+			<item id="36513" min="1" max="1" chance="20" name="艾斯恩粉末" /> 
+			<item id="17527" min="1" max="1" chance="25" name="防具強化捲軸-R級" /> 
+			<item id="17526" min="1" max="1" chance="15" name="武器強化捲軸-R級" /> 
+			<item id="23834" min="1" max="1" chance="25" name="豐饒護身符" /> 
+			<item id="23760" min="1" max="1" chance="25" name="梅芙上級古文 100%組" /> 
+			<item id="37041" min="1" max="1" chance="25" name="加護靈藥" /> 
+		</capsuled_items>
+	</item>
+	<item id="23843" name="豐饒禮盒" additionalName="Morale" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			
+			<item id="19448" min="1" max="1" chance="1" name="祝福的防具強化捲軸-R級" /> 
+			<item id="19447" min="1" max="1" chance="1" name="祝福的武器強化捲軸-R級" /> 
+			<item id="23348" min="1" max="1" chance="1" name="防具用強化輔助石-R級" /> 
+			<item id="23347" min="1" max="1" chance="1" name="武器用強化輔助石-R級" /> 
+			<item id="23946" min="1" max="1" chance="10" name="奈比特古文(龍之飛翔)1小時禮盒" /> 
+			<item id="23831" min="1" max="1" chance="10" name="奈比特古文100%-1小時禮盒" /> 
+			<item id="23832" min="1" max="1" chance="20" name="帕格立歐的暖風-1小時禮盒" /> 
+			<item id="36513" min="1" max="1" chance="20" name="艾斯恩粉末" /> 
+			<item id="17527" min="1" max="1" chance="25" name="防具強化捲軸-R級" /> 
+			<item id="17526" min="1" max="1" chance="15" name="武器強化捲軸-R級" /> 
+			<item id="23835" min="1" max="1" chance="25" name="豐饒護身符" /> 
+			<item id="23760" min="1" max="1" chance="25" name="梅芙上級古文 100%組" /> 
+			<item id="37041" min="1" max="1" chance="25" name="加護靈藥" /> 
+		</capsuled_items>
+	</item>
+	<item id="23844" name="豐饒禮盒" additionalName="Physique" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="material" val="PAPER" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			
+			<item id="19448" min="1" max="1" chance="1" name="祝福的防具強化捲軸-R級" /> 
+			<item id="19447" min="1" max="1" chance="1" name="祝福的武器強化捲軸-R級" /> 
+			<item id="23348" min="1" max="1" chance="1" name="防具用強化輔助石-R級" /> 
+			<item id="23347" min="1" max="1" chance="1" name="武器用強化輔助石-R級" /> 
+			<item id="23946" min="1" max="1" chance="10" name="奈比特古文(龍之飛翔)1小時禮盒" /> 
+			<item id="23831" min="1" max="1" chance="10" name="奈比特古文100%-1小時禮盒" /> 
+			<item id="23832" min="1" max="1" chance="20" name="帕格立歐的暖風-1小時禮盒" /> 
+			<item id="36513" min="1" max="1" chance="20" name="艾斯恩粉末" /> 
+			<item id="17527" min="1" max="1" chance="25" name="防具強化捲軸-R級" /> 
+			<item id="17526" min="1" max="1" chance="15" name="武器強化捲軸-R級" /> 
+			<item id="23836" min="1" max="1" chance="25" name="豐饒護身符" /> 
+			<item id="23760" min="1" max="1" chance="25" name="梅芙上級古文 100%組" /> 
+			<item id="37041" min="1" max="1" chance="25" name="加護靈藥" /> 
+		</capsuled_items>
+	</item>
+	<item id="23845" name="神秘追擊染料" additionalName="P. Def., Speed, 1-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_etc_defence" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="23846" name="神秘殺戮染料" additionalName="Damage Reflection Resistance, Received Damage Decrease, 1-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_premium_dye_etc_slaughter" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="etcitem_type" val="DYE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="23847" name="優質塔羅牌交換券" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_luckygame_card_trade_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="23848" name="優質塔羅牌交換券" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_luckygame_card_trade_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="23849" name="優質塔羅牌交換券" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_luckygame_card_trade_i00" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="23850" name="優質塔羅牌交換券" additionalName="Event" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_luckygame_card_trade_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="23851" name="國立軍事訓練所入場券" type="EtcItem">
+		
+		<set name="icon" val="icon.ticket_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23852" name="透明防具" additionalName="Test" type="Armor">
+		
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="1000" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="23853" name="透明防具加工石" additionalName="Test" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SCROLL" />
+		<set name="handler" val="Appearance" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="23854" name="奈比特古文(龍之飛翔)3小時禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="STEEL" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="23392" min="1" max="1" chance="100" name="奈比特古文(龍之飛翔)" /> 
+		</capsuled_items>
+	</item>
+	<item id="23855" name="黃金小盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="STEEL" />
+		<set name="is_sellable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			
+			<item id="23784" min="1" max="1" chance="5" name="祝福的巨人防具用強化輔助石-R級" /> 
+			<item id="23783" min="1" max="1" chance="5" name="祝福的巨人武器用強化輔助石-R級" /> 
+			<item id="18566" min="1" max="3" chance="10" name="特級生命石-R級" /> 
+			<item id="33490" min="1" max="1" chance="10" name="風之水晶-Super" /> 
+			<item id="33488" min="1" max="1" chance="10" name="水之水晶-Super" /> 
+			<item id="33489" min="1" max="1" chance="10" name="地之水晶-Super" /> 
+			<item id="33487" min="1" max="1" chance="10" name="火之水晶-Super" /> 
+			<item id="33492" min="1" max="1" chance="10" name="聖之水晶-Super" /> 
+			<item id="33491" min="1" max="1" chance="10" name="暗之水晶-Super" /> 
+			<item id="33486" min="1" max="1" chance="10" name="聖之原石-Super" /> 
+			<item id="19440" min="1" max="40" chance="15" name="寶石-R級" /> 
+			<item id="35563" min="1" max="8" chance="20" name="巨人之力" /> 
+			<item id="35569" min="1" max="1" chance="20" name="血腥防具強化石" /> 
+			<item id="35568" min="1" max="1" chance="20" name="血腥武器強化石" /> 
+			<item id="35567" min="1" max="1" chance="20" name="黑暗防具強化石" /> 
+			<item id="35566" min="1" max="1" chance="20" name="黑暗武器強化石" /> 
+			<item id="36184" min="1" max="1" chance="20" name="卡利艾之力" /> 
+			<item id="36185" min="1" max="1" chance="20" name="卡利艾之力" /> 
+			<item id="36186" min="1" max="1" chance="20" name="卡利艾之力" /> 
+			<item id="35562" min="1" max="20" chance="20" name="破壞之力" /> 
+		</capsuled_items>
+	</item>
+	<item id="23856" name="白銀小盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_sellable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			
+			<item id="23784" min="1" max="1" chance="5" name="祝福的巨人防具用強化輔助石-R級" /> 
+			<item id="19448" min="1" max="1" chance="5" name="祝福的防具強化捲軸-R級" /> 
+			<item id="19447" min="1" max="1" chance="5" name="祝福的武器強化捲軸-R級" /> 
+			<item id="36979" min="1" max="1" chance="6" name="頭飾用生命石" /> 
+			<item id="34954" min="1" max="1" chance="5" name="Lv5傳說染料禮盒" /> 
+			<item id="34670" min="1" max="1" chance="6.667" name="風之原石-Super 150" /> 
+			<item id="34668" min="1" max="1" chance="6.667" name="水之原石-Super 150" /> 
+			<item id="34669" min="1" max="1" chance="6.667" name="地之原石-Super 150" /> 
+			<item id="34667" min="1" max="1" chance="6.667" name="火之原石-Super 150" /> 
+			<item id="34672" min="1" max="1" chance="6.667" name="聖之原石-Super 150" /> 
+			<item id="34671" min="1" max="1" chance="6.667" name="暗之原石-Super 150" /> 
+			<item id="36159" min="1" max="1" chance="5" name="祝福的捲軸-R(1)級" /> 
+			<item id="36160" min="1" max="1" chance="5" name="祝福的捲軸-R(2)級" /> 
+			<item id="36161" min="1" max="1" chance="5" name="祝福的捲軸-R95級" /> 
+			<item id="36162" min="1" max="1" chance="5" name="祝福的捲軸-R99級" /> 
+			<item id="36389" min="1" max="1" chance="5" name="巨人防具強化捲軸-R級" /> 
+			<item id="36386" min="1" max="1" chance="5" name="巨人武器強化捲軸-R級" /> 
+			<item id="36978" min="1" max="1" chance="7" name="頭飾強化捲軸" /> 
+			<item id="23647" min="1" max="1" chance="5" name="防具用高級強化輔助石-R級" /> 
+			<item id="23646" min="1" max="1" chance="5" name="武器用高級強化輔助石-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="23857" name="青銅小盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i02" />
+		<set name="material" val="STEEL" />
+		<set name="is_sellable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			
+			<item id="21582" min="1" max="5" chance="5" name="祝福的沃夫襯衫強化捲軸" /> 
+			<item id="18566" min="1" max="1" chance="5" name="特級生命石-R級" /> 
+			<item id="23346" min="1" max="1" chance="10" name="文字收藏家的禮物" /> 
+			<item id="34664" min="1" max="1" chance="6.667" name="風之原石-Super 60" /> 
+			<item id="34662" min="1" max="1" chance="6.667" name="水之原石-Super 60" /> 
+			<item id="34663" min="1" max="1" chance="6.667" name="地之原石-Super 60" /> 
+			<item id="34661" min="1" max="1" chance="6.667" name="火之原石-Super 60" /> 
+			<item id="34666" min="1" max="1" chance="6.667" name="聖之原石-Super 60" /> 
+			<item id="34665" min="1" max="1" chance="6.667" name="暗之原石-Super 60" /> 
+			<item id="23439" min="1" max="1" chance="5" name="祝福的羽毛 1張/組" /> 
+			<item id="23376" min="1" max="1" chance="5" name="頭飾加工石&amp;復原石-1個組" /> 
+			<item id="23374" min="1" max="1" chance="5" name="防具加工石&amp;復原石-R級/1個組" /> 
+			<item id="23372" min="1" max="1" chance="5" name="武器加工石&amp;復原石-R級/1個組" /> 
+			<item id="22515" min="1" max="1" chance="5" name="高級狩獵幫手交換券 1張/組" /> 
+			<item id="21241" min="1" max="1" chance="5" name="超級健康果汁(CP)組" /> 
+			<item id="21237" min="1" max="1" chance="7" name="超級健康果汁(HP)組" /> 
+			<item id="23876" min="1" max="1" chance="5" name="梅芙上級古文100%組" /> 
+			<item id="23349" min="1" max="1" chance="5" name="強化的沃夫襯衫組" /> 
+		</capsuled_items>
+	</item>
+	<item id="23858" name="護身符小盒" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_sellable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="18540" min="1" max="1" chance="8.333" name="R特別護身符-MP消耗量減少" /> 
+			<item id="32247" min="1" max="1" chance="8.333" name="R護身符-詛咒魔法解除{主動}" /> 
+			<item id="30415" min="1" max="1" chance="8.333" name="R護身符-驅逐抗性 {被動}" /> 
+			<item id="30416" min="1" max="1" chance="8.333" name="R護身符-變異抗性 {被動}" /> 
+			<item id="30413" min="1" max="1" chance="8.333" name="R護身符-束縛抗性 {被動}" /> 
+			<item id="30412" min="1" max="1" chance="8.333" name="R護身符-擊倒抗性 {被動}" /> 
+			<item id="33768" min="1" max="1" chance="8.333" name="R護身符-傷害反射抗性{主動}" /> 
+			<item id="30411" min="1" max="1" chance="8.333" name="R護身符-擊退抗性 {被動}" /> 
+			<item id="30414" min="1" max="1" chance="8.333" name="R護身符-捕獲抗性 {被動}" /> 
+			<item id="33767" min="1" max="1" chance="8.333" name="R護身符-即死攻擊抗性 {主動}" /> 
+			<item id="33472" min="1" max="1" chance="8.333" name="特殊魔法防禦護身符" /> 
+			<item id="30473" min="1" max="1" chance="8.333" name="束縛的巨大戰斧-怒擊" /> 
+		</capsuled_items>
+	</item>
+	<item id="23859" name="血盟名稱變更" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_exchange_ticket_i01" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="material" val="FISH" />
+	</item>
+	<item id="23860" name="狩獵首領靈魂箱子" type="EtcItem">
+		
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="37520" min="1" max="1" chance="20" name="裝有巴溫靈魂之瓶" /> 
+			<item id="36252" min="1" max="1" chance="20" name="裝有巨蟻女王靈魂之瓶" /> 
+			<item id="36253" min="1" max="1" chance="20" name="裝有奧爾芬靈魂之瓶" /> 
+			<item id="16027" min="1" max="1" chance="20" name="裝有芙蕾雅靈魂之瓶" /> 
+			<item id="37519" min="1" max="1" chance="20" name="裝有芙琳泰沙靈魂之瓶" /> 
+		</capsuled_items>
+	</item>
+	<item id="23861" name="巴拉卡斯靈魂之瓶碎片" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.iconItem.g_bottle_of_valakas_soul_fragment" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23862" name="安塔瑞斯靈魂之瓶碎片" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.iconItem.g_bottle_of_antaras_soul_fragment" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23863" name="巴溫靈魂之瓶碎片" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.iconItem.g_bottle_of_baium_soul_fragment" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23864" name="奧爾芬靈魂之瓶碎片" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.iconItem.g_bottle_of_orfen_soul_fragment" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23865" name="巨蟻女王靈魂之瓶碎片" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.iconItem.g_bottle_of_queen_ant_soul_fragment" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23866" name="芙琳泰沙靈魂之瓶碎片" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.iconItem.g_bottle_of_frintessa_soul_fragment" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23867" name="芙蕾雅靈魂之瓶碎片" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.iconItem.g_bottle_of_freya_soul_fragment" />
+		<set name="is_stackable" val="true" />
+		<set name="commissionItemType" val="OTHER_ITEM" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23868" name="壺精封印手鐲-班 胡爾特原住民的回憶" type="Armor">
+		
+		<set name="icon" val="BranchSys2.icon.br_aga_tiger_grandma_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<set name="bodypart" val="lbracelet" />
+	</item>
+	<item id="23869" name="天使貓的祝福組" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="23870" min="1" max="1" chance="100" name="天使貓的祝福" /> 
+		</capsuled_items>
+	</item>
+	<item id="23870" name="天使貓的祝福" type="EtcItem">
+		
+		<set name="icon" val="icon.accessory_cat_the_cat_cap_i00" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="LIQUID" />
+	</item>
+	<item id="23871" name="梅芙上級古文100%" additionalName="1-hour" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="time" val="60" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23872" name="梅芙上級古文100%" additionalName="5-hour" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="time" val="300" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23873" name="梅芙上級古文100%" additionalName="7-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.lcon.g_rune_itemdrop_up" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="time" val="10080" />
+		<set name="material" val="PAPER" />
+	</item>
+	<item id="23874" name="梅芙上級古文100%組" additionalName="1-hour" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="time" val="60" />
+		<set name="default_action" val="PEEL" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="23871" min="1" max="1" chance="100" name="梅芙上級古文100%" /> 
+		</capsuled_items>
+	</item>
+	<item id="23875" name="梅芙上級古文100%組" additionalName="5-hour" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="time" val="300" />
+		<set name="default_action" val="PEEL" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="23872" min="1" max="1" chance="100" name="梅芙上級古文100%" /> 
+		</capsuled_items>
+	</item>
+	<item id="23876" name="梅芙上級古文100%組" additionalName="7-day" type="EtcItem">
+		
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="time" val="10080" />
+		<set name="default_action" val="PEEL" />
+		<set name="material" val="PAPER" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="23873" min="1" max="1" chance="100" name="梅芙上級古文100%" /> 
+		</capsuled_items>
+	</item>
+	<item id="23877" name="日本武士頭飾" type="Armor">
+		
+		<set name="icon" val="BranchSys3.iconArmar.g_co_japan_general_hair_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="hairall" />
+	</item>
+	<item id="23878" name="日本武士頭飾加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="handler" val="Appearance" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC_FIXED" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="23879" name="日本武士衣裳" type="Armor">
+		
+		<set name="icon" val="BranchSys3.iconArmar.g_co_japan_general_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="23880" name="日本武士衣裳加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
+		<set name="handler" val="Appearance" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="23881" name="亞納衣裳" type="Armor">
+		
+		<set name="icon" val="BranchSys3.iconArmar.g_co_anakim_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="alldress" />
+	</item>
+	<item id="23882" name="亞納衣裳加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
+		<set name="handler" val="Appearance" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="23883" name="吸血鬼衣裳上衣" type="Armor">
+		
+		<set name="icon" val="BranchSys3.iconArmar.g_co_vampiric_u_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="LEATHER" />
+		<set name="bodypart" val="chest" />
+	</item>
+	<item id="23884" name="吸血鬼衣裳下衣" type="Armor">
+		
+		<set name="icon" val="BranchSys3.iconArmar.g_co_vampiric_l_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="LEATHER" />
+		<set name="bodypart" val="legs" />
+	</item>
+	<item id="23885" name="吸血鬼衣裳手套" type="Armor">
+		
+		<set name="icon" val="BranchSys3.iconArmar.g_co_vampiric_g_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="LEATHER" />
+		<set name="bodypart" val="gloves" />
+	</item>
+	<item id="23886" name="吸血鬼衣裳鞋" type="Armor">
+		
+		<set name="icon" val="BranchSys3.iconArmar.g_co_vampiric_b_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="LEATHER" />
+		<set name="bodypart" val="feet" />
+	</item>
+	<item id="23887" name="吸血鬼頭飾" type="Armor">
+		
+		<set name="icon" val="BranchSys3.iconArmar.g_co_vampiric_hair_i00" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="default_action" val="EQUIP" />
+		<set name="material" val="CLOTH" />
+		<set name="bodypart" val="hairall" />
+	</item>
+	<item id="23888" name="吸血鬼衣裳上衣加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_chest" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
+		<set name="handler" val="Appearance" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="23889" name="吸血鬼衣裳下衣加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_legs" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
+		<set name="handler" val="Appearance" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="23890" name="吸血鬼衣裳手套加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_gloves" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
+		<set name="handler" val="Appearance" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="23891" name="吸血鬼衣裳鞋加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.icon1.g_scrl_change_feet" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_AM_FIXED" />
+		<set name="handler" val="Appearance" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="23892" name="吸血鬼頭飾加工石" type="EtcItem">
+		
+		<set name="icon" val="BranchSys3.Icon.g_shape_shifting_hair2" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="etcitem_type" val="SHAPE_SHIFTING_HAIRACC_FIXED" />
+		<set name="handler" val="Appearance" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+	</item>
+	<item id="23893" name="生命石禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="18563" min="1" max="1" chance="40" name="生命石-R級" /> 
+			<item id="18565" min="1" max="1" chance="15" name="高級生命石-R級" /> 
+			<item id="18566" min="1" max="1" chance="10" name="特級生命石-R級" /> 
+			<item id="36731" min="1" max="1" chance="5" name="蘊含巨人力量的生命石" /> 
+			<item id="18564" min="1" max="1" chance="30" name="中級生命石-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="23894" name="雅戴妮生命石禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="23802" min="1" max="1" chance="60" name="雅戴妮生命石" /> 
+			<item id="23803" min="1" max="1" chance="30" name="強力雅戴妮生命石" /> 
+			<item id="23804" min="1" max="1" chance="10" name="圖騰專用超強力雅戴妮生命石" /> 
+		</capsuled_items>
+	</item>
+	<item id="23895" name="防具用輔助石禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="23798" min="1" max="1" chance="10" name="祝福的防具用強化輔助石-R級" /> 
+			<item id="23348" min="1" max="1" chance="40" name="防具用強化輔助石-R級" /> 
+			<item id="23780" min="1" max="1" chance="30" name="防具用強化增效輔助石-R級" /> 
+			<item id="23647" min="1" max="1" chance="20" name="防具用高級強化輔助石-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="23896" name="武器用輔助石禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="23792" min="1" max="1" chance="10" name="祝福的武器用強化輔助石-R級" /> 
+			<item id="23347" min="1" max="1" chance="40" name="武器用強化輔助石-R級" /> 
+			<item id="23774" min="1" max="1" chance="30" name="武器用強化增效輔助石-R級" /> 
+			<item id="23646" min="1" max="1" chance="20" name="武器用高級強化輔助石-R級" /> 
+		</capsuled_items>
+	</item>
+	<item id="23897" name="靈魂禮盒" type="EtcItem">
+		
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="19465" min="1" max="1" chance="5" name="裝有安塔瑞斯靈魂之瓶" /> 
+			<item id="37520" min="1" max="1" chance="5" name="裝有巴溫靈魂之瓶" /> 
+			<item id="19466" min="1" max="1" chance="5" name="裝有巴拉卡斯靈魂之瓶" /> 
+			<item id="36252" min="1" max="1" chance="5" name="裝有巨蟻女王靈魂之瓶" /> 
+			<item id="36253" min="1" max="1" chance="5" name="裝有奧爾芬靈魂之瓶" /> 
+			<item id="16027" min="1" max="1" chance="5" name="裝有芙蕾雅靈魂之瓶" /> 
+			<item id="37519" min="1" max="1" chance="5" name="裝有芙琳泰沙靈魂之瓶" /> 
+			<item id="23862" min="1" max="1" chance="14.271" name="安塔瑞斯靈魂之瓶碎片" /> 
+			<item id="23863" min="1" max="1" chance="14.271" name="巴溫靈魂之瓶碎片" /> 
+			<item id="23861" min="1" max="1" chance="14.271" name="巴拉卡斯靈魂之瓶碎片" /> 
+			<item id="23865" min="1" max="1" chance="14.271" name="巨蟻女王靈魂之瓶碎片" /> 
+			<item id="23864" min="1" max="1" chance="14.271" name="奧爾芬靈魂之瓶碎片" /> 
+			<item id="23867" min="1" max="1" chance="14.271" name="芙蕾雅靈魂之瓶碎片" /> 
+			<item id="23866" min="1" max="1" chance="14.271" name="芙琳泰沙靈魂之瓶碎片" /> 
+		</capsuled_items>
+	</item>
+	<item id="23898" name="潘朵拉的箱子" type="EtcItem">
+		
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		
+		<capsuled_items>
+			<item id="36731" min="1" max="1" chance="5" name="蘊含巨人力量的生命石" /> 
+			<item id="37044" min="1" max="1" chance="5" name="不變的秘傳書序章" /> 
+			<item id="34691" min="1" max="1" chance="5" name="頭飾禮盒" /> 
+			<item id="34955" min="1" max="1" chance="5" name="Lv5古代染料禮盒" /> 
+			<item id="34953" min="1" max="1" chance="5" name="Lv5巨人染料禮盒" /> 
+			<item id="34692" min="1" max="1" chance="5" name="墜子禮盒" /> 
+			<item id="34954" min="1" max="1" chance="5" name="Lv5傳說染料禮盒" /> 
+			<item id="21243" min="1" max="1" chance="14.5" name="超級健康果汁(CP)" /> 
+			<item id="21239" min="1" max="1" chance="14.5" name="超級健康果汁(HP)" /> 
+			<item id="8868" min="1" max="100" chance="5" name="無上的寶石" /> 
+			<item id="33479" min="1" max="1" chance="5" name="破滅防具強化捲軸-R級" /> 
+			<item id="33478" min="1" max="1" chance="5" name="破滅武器強化捲軸-R級" /> 
+			<item id="23404" min="1" max="1" chance="5" name="變身捲軸-亞納" /> 
+			<item id="23405" min="1" max="1" chance="5" name="變身捲軸-貝諾姆" /> 
+			<item id="23406" min="1" max="1" chance="5" name="變身捲軸-高登" /> 
+			<item id="23403" min="1" max="1" chance="5" name="變身捲軸-札肯" /> 
+			<item id="23408" min="1" max="1" chance="5" name="變身捲軸-基亞齊" /> 
+			<item id="23402" min="1" max="1" chance="5" name="變身捲軸-人偶刀手" /> 
+			<item id="23409" min="1" max="1" chance="5" name="變身捲軸-惡魔公爵" /> 
+			<item id="23407" min="1" max="1" chance="5" name="變身捲軸-勞庫" /> 
+			<item id="23400" min="1" max="1" chance="5" name="變身捲軸-劍齒虎" /> 
+			<item id="23401" min="1" max="1" chance="5" name="變身捲軸-奧耶豺狼" /> 
+			<item id="22205" min="1" max="1" chance="25" name="屬性水晶禮盒" /> 
+			<item id="36515" min="1" max="1" chance="5" name="艾斯恩" /> 
+			<item id="36184" min="1" max="1" chance="5" name="卡利艾之力" /> 
+			<item id="36185" min="1" max="1" chance="5" name="卡利艾之力" /> 
+			<item id="36186" min="1" max="1" chance="5" name="卡利艾之力" /> 
+		</capsuled_items>
+	</item>
+	<item id="23899" name="賭徒之箱" type="EtcItem">
+		
+		<set name="icon" val="icon.present_of_destination_event" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		
+		<capsuled_items>
+			<item id="19448" min="1" max="1" chance="5" name="祝福的防具強化捲軸-R級" /> 
+			<item id="23468" min="1" max="1" chance="20" name="夢幻的藍色藥瓶" /> 
+			<item id="18563" min="1" max="1" chance="5" name="生命石-R級" /> 
+			<item id="37008" min="1" max="1" chance="20" name="草莓蛋糕(HP靈藥)" /> 
+			<item id="35749" min="1" max="1" chance="5" name="武器屬性變更水晶-R級" /> 
+			<item id="8868" min="1" max="100" chance="5" name="無上的寶石" /> 
+			<item id="19440" min="1" max="1" chance="5" name="寶石-R級" /> 
+			<item id="1538" min="1" max="1" chance="25" name="祝福的返回捲軸" /> 
+			<item id="36978" min="1" max="1" chance="5" name="頭飾強化捲軸" /> 
+			<item id="22204" min="1" max="1" chance="20" name="屬性原石禮盒" /> 
+		</capsuled_items>
+	</item>
+</list>

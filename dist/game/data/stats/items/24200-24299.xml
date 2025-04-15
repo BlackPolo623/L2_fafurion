@@ -1,0 +1,2193 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="24200" name="來自星星的魔羯座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_dec_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="653" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17611" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="27350" level="1" /> 
+			<skill id="17623" level="1" /> 
+		</skills>
+	</item>
+	<item id="24201" name="來自星星的魔羯座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_dec_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1254" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17611" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="27350" level="2" /> 
+			<skill id="17623" level="1" /> 
+		</skills>
+	</item>
+	<item id="24202" name="來自星星的魔羯座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_dec_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1929" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17611" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27350" level="3" /> 
+			<skill id="17623" level="1" /> 
+		</skills>
+	</item>
+	<item id="24203" name="來自星星的魔羯座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_dec_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_count" val="2564" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17611" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27350" level="4" /> 
+			<skill id="17623" level="1" /> 
+		</skills>
+	</item>
+	<item id="24204" name="來自星星的魔羯座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_dec_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1825" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17611" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27350" level="5" /> 
+			<skill id="17623" level="1" /> 
+		</skills>
+	</item>
+	<item id="24205" name="來自星星的魔羯座壺精手鐲" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_dec_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2553" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17611" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27350" level="6" /> 
+			<skill id="17623" level="1" /> 
+		</skills>
+	</item>
+	<item id="24206" name="來自星星的魔羯座壺精手鐲" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_dec_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2974" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17611" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27350" level="7" /> 
+			<skill id="17623" level="1" /> 
+		</skills>
+	</item>
+	<item id="24207" name="來自星星的魔羯座壺精手鐲" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_dec_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="3692" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17611" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27350" level="8" /> 
+			<skill id="17623" level="1" /> 
+		</skills>
+	</item>
+	<item id="24208" name="來自星星的魔羯座壺精手鐲" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_dec_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="4598" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17611" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27350" level="9" /> 
+			<skill id="17623" level="1" /> 
+		</skills>
+	</item>
+	<item id="24209" name="來自星星的魔羯座壺精手鐲" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_dec_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="5478" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17611" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27350" level="10" /> 
+			<skill id="17623" level="1" /> 
+		</skills>
+	</item>
+	<item id="24210" name="來自星星的魔羯座壺精手鐲" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_dec_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="6432" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17611" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27350" level="11" /> 
+			<skill id="17623" level="1" /> 
+		</skills>
+	</item>
+	<item id="24211" name="來自星星的魔羯座壺精手鐲" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_dec_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="8947" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17611" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="6" /> 
+			<skill id="27350" level="12" /> 
+			<skill id="17623" level="1" /> 
+		</skills>
+	</item>
+	<item id="24212" name="來自星星的天秤座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_sep_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="653" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17612" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="27351" level="1" /> 
+			<skill id="17624" level="1" /> 
+		</skills>
+	</item>
+	<item id="24213" name="來自星星的天秤座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_sep_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_count" val="1254" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17612" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27351" level="2" /> 
+			<skill id="17624" level="1" /> 
+		</skills>
+	</item>
+	<item id="24214" name="來自星星的天秤座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_sep_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_count" val="1929" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17612" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27351" level="3" /> 
+			<skill id="17624" level="1" /> 
+		</skills>
+	</item>
+	<item id="24215" name="來自星星的天秤座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_sep_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_count" val="2564" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17612" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27351" level="4" /> 
+			<skill id="17624" level="1" /> 
+		</skills>
+	</item>
+	<item id="24216" name="來自星星的天秤座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_sep_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1825" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17612" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27351" level="5" /> 
+			<skill id="17624" level="1" /> 
+		</skills>
+	</item>
+	<item id="24217" name="來自星星的天秤座壺精手鐲" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_sep_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2553" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17612" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27351" level="6" /> 
+			<skill id="17624" level="1" /> 
+		</skills>
+	</item>
+	<item id="24218" name="來自星星的天秤座壺精手鐲" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_sep_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2974" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17612" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27351" level="7" /> 
+			<skill id="17624" level="1" /> 
+		</skills>
+	</item>
+	<item id="24219" name="來自星星的天秤座壺精手鐲" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_sep_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="3692" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17612" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27351" level="8" /> 
+			<skill id="17624" level="1" /> 
+		</skills>
+	</item>
+	<item id="24220" name="來自星星的天秤座壺精手鐲" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_sep_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="4598" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17612" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27351" level="9" /> 
+			<skill id="17624" level="1" /> 
+		</skills>
+	</item>
+	<item id="24221" name="來自星星的天秤座壺精手鐲" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_sep_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="5478" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17612" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27351" level="10" /> 
+			<skill id="17624" level="1" /> 
+		</skills>
+	</item>
+	<item id="24222" name="來自星星的天秤座壺精手鐲" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_sep_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="6432" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17612" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27351" level="11" /> 
+			<skill id="17624" level="1" /> 
+		</skills>
+	</item>
+	<item id="24223" name="來自星星的天秤座壺精手鐲" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_sep_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="8947" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17612" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="6" /> 
+			<skill id="27351" level="12" /> 
+			<skill id="17624" level="1" /> 
+		</skills>
+	</item>
+	<item id="24224" name="來自星星的牡羊座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessory_lbracelet_march_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="crystal_type" val="R" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_count" val="653" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17613" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="27352" level="1" /> 
+			<skill id="17625" level="1" /> 
+		</skills>
+	</item>
+	<item id="24225" name="來自星星的牡羊座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessory_lbracelet_march_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1254" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17613" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27352" level="2" /> 
+			<skill id="17625" level="1" /> 
+		</skills>
+	</item>
+	<item id="24226" name="來自星星的牡羊座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessory_lbracelet_march_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1929" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17613" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27352" level="3" /> 
+			<skill id="17625" level="1" /> 
+		</skills>
+	</item>
+	<item id="24227" name="來自星星的牡羊座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessory_lbracelet_march_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2564" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17613" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27352" level="4" /> 
+			<skill id="17625" level="1" /> 
+		</skills>
+	</item>
+	<item id="24228" name="來自星星的牡羊座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessory_lbracelet_march_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1825" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17613" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27352" level="5" /> 
+			<skill id="17625" level="1" /> 
+		</skills>
+	</item>
+	<item id="24229" name="來自星星的牡羊座壺精手鐲" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessory_lbracelet_march_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2553" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17613" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27352" level="6" /> 
+			<skill id="17625" level="1" /> 
+		</skills>
+	</item>
+	<item id="24230" name="來自星星的牡羊座壺精手鐲" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessory_lbracelet_march_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2974" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17613" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27352" level="7" /> 
+			<skill id="17625" level="1" /> 
+		</skills>
+	</item>
+	<item id="24231" name="來自星星的牡羊座壺精手鐲" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessory_lbracelet_march_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="3692" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17613" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27352" level="8" /> 
+			<skill id="17625" level="1" /> 
+		</skills>
+	</item>
+	<item id="24232" name="來自星星的牡羊座壺精手鐲" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessory_lbracelet_march_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="4598" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17613" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27352" level="9" /> 
+			<skill id="17625" level="1" /> 
+		</skills>
+	</item>
+	<item id="24233" name="來自星星的牡羊座壺精手鐲" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessory_lbracelet_march_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="5478" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17613" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27352" level="10" /> 
+			<skill id="17625" level="1" /> 
+		</skills>
+	</item>
+	<item id="24234" name="來自星星的牡羊座壺精手鐲" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessory_lbracelet_march_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="6432" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17613" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27352" level="11" /> 
+			<skill id="17625" level="1" /> 
+		</skills>
+	</item>
+	<item id="24235" name="來自星星的牡羊座壺精手鐲" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessory_lbracelet_march_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="8947" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17613" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="6" /> 
+			<skill id="27352" level="12" /> 
+			<skill id="17625" level="1" /> 
+		</skills>
+	</item>
+	<item id="24236" name="來自星星的金牛座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_april_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="653" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17614" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="27353" level="1" /> 
+			<skill id="17626" level="1" /> 
+		</skills>
+	</item>
+	<item id="24237" name="來自星星的金牛座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_april_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1254" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17614" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27353" level="2" /> 
+			<skill id="17626" level="1" /> 
+		</skills>
+	</item>
+	<item id="24238" name="來自星星的金牛座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_april_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1929" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17614" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27353" level="3" /> 
+			<skill id="17626" level="1" /> 
+		</skills>
+	</item>
+	<item id="24239" name="來自星星的金牛座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_april_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2564" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17614" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27353" level="4" /> 
+			<skill id="17626" level="1" /> 
+		</skills>
+	</item>
+	<item id="24240" name="來自星星的金牛座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_april_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1825" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17614" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27353" level="5" /> 
+			<skill id="17626" level="1" /> 
+		</skills>
+	</item>
+	<item id="24241" name="來自星星的金牛座壺精手鐲" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_april_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2553" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17614" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27353" level="6" /> 
+			<skill id="17626" level="1" /> 
+		</skills>
+	</item>
+	<item id="24242" name="來自星星的金牛座壺精手鐲" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_april_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2974" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17614" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27353" level="7" /> 
+			<skill id="17626" level="1" /> 
+		</skills>
+	</item>
+	<item id="24243" name="來自星星的金牛座壺精手鐲" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_april_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="3692" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17614" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27353" level="8" /> 
+			<skill id="17626" level="1" /> 
+		</skills>
+	</item>
+	<item id="24244" name="來自星星的金牛座壺精手鐲" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_april_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="4598" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17614" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27353" level="9" /> 
+			<skill id="17626" level="1" /> 
+		</skills>
+	</item>
+	<item id="24245" name="來自星星的金牛座壺精手鐲" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_april_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="5478" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17614" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27353" level="10" /> 
+			<skill id="17626" level="1" /> 
+		</skills>
+	</item>
+	<item id="24246" name="來自星星的金牛座壺精手鐲" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_april_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="6432" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17614" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27353" level="11" /> 
+			<skill id="17626" level="1" /> 
+		</skills>
+	</item>
+	<item id="24247" name="來自星星的金牛座壺精手鐲" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_april_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="8947" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17614" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="6" /> 
+			<skill id="27353" level="12" /> 
+			<skill id="17626" level="1" /> 
+		</skills>
+	</item>
+	<item id="24248" name="來自星星的獅子座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_july_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="653" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17615" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="27354" level="1" /> 
+			<skill id="17627" level="1" /> 
+		</skills>
+	</item>
+	<item id="24249" name="來自星星的獅子座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_july_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1254" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17615" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27354" level="2" /> 
+			<skill id="17627" level="1" /> 
+		</skills>
+	</item>
+	<item id="24250" name="來自星星的獅子座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_july_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1929" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17615" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27354" level="3" /> 
+			<skill id="17627" level="1" /> 
+		</skills>
+	</item>
+	<item id="24251" name="來自星星的獅子座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_july_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2564" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17615" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27354" level="4" /> 
+			<skill id="17627" level="1" /> 
+		</skills>
+	</item>
+	<item id="24252" name="來自星星的獅子座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_july_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1825" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17615" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27354" level="5" /> 
+			<skill id="17627" level="1" /> 
+		</skills>
+	</item>
+	<item id="24253" name="來自星星的獅子座壺精手鐲" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_july_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2553" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17615" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27354" level="6" /> 
+			<skill id="17627" level="1" /> 
+		</skills>
+	</item>
+	<item id="24254" name="來自星星的獅子座壺精手鐲" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_july_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2974" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17615" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27354" level="7" /> 
+			<skill id="17627" level="1" /> 
+		</skills>
+	</item>
+	<item id="24255" name="來自星星的獅子座壺精手鐲" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_july_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="3692" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17615" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27354" level="8" /> 
+			<skill id="17627" level="1" /> 
+		</skills>
+	</item>
+	<item id="24256" name="來自星星的獅子座壺精手鐲" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_july_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="4598" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17615" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27354" level="9" /> 
+			<skill id="17627" level="1" /> 
+		</skills>
+	</item>
+	<item id="24257" name="來自星星的獅子座壺精手鐲" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_july_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="5478" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17615" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27354" level="10" /> 
+			<skill id="17627" level="1" /> 
+		</skills>
+	</item>
+	<item id="24258" name="來自星星的獅子座壺精手鐲" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_july_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="6432" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17615" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27354" level="11" /> 
+			<skill id="17627" level="1" /> 
+		</skills>
+	</item>
+	<item id="24259" name="來自星星的獅子座壺精手鐲" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_july_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="8947" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17615" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="6" /> 
+			<skill id="27354" level="12" /> 
+			<skill id="17627" level="1" /> 
+		</skills>
+	</item>
+	<item id="24260" name="來自星星的雙子座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_may_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="653" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17616" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="27355" level="1" /> 
+			<skill id="17628" level="1" /> 
+		</skills>
+	</item>
+	<item id="24261" name="來自星星的雙子座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_may_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1254" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17616" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27355" level="2" /> 
+			<skill id="17628" level="1" /> 
+		</skills>
+	</item>
+	<item id="24262" name="來自星星的雙子座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_may_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1929" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17616" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27355" level="3" /> 
+			<skill id="17628" level="1" /> 
+		</skills>
+	</item>
+	<item id="24263" name="來自星星的雙子座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_may_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2564" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17616" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27355" level="4" /> 
+			<skill id="17628" level="1" /> 
+		</skills>
+	</item>
+	<item id="24264" name="來自星星的雙子座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_may_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1825" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17616" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27355" level="5" /> 
+			<skill id="17628" level="1" /> 
+		</skills>
+	</item>
+	<item id="24265" name="來自星星的雙子座壺精手鐲" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_may_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2553" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17616" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27355" level="6" /> 
+			<skill id="17628" level="1" /> 
+		</skills>
+	</item>
+	<item id="24266" name="來自星星的雙子座壺精手鐲" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_may_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2974" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17616" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27355" level="7" /> 
+			<skill id="17628" level="1" /> 
+		</skills>
+	</item>
+	<item id="24267" name="來自星星的雙子座壺精手鐲" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_may_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="3692" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17616" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27355" level="8" /> 
+			<skill id="17628" level="1" /> 
+		</skills>
+	</item>
+	<item id="24268" name="來自星星的雙子座壺精手鐲" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_may_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="4598" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17616" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27355" level="9" /> 
+			<skill id="17628" level="1" /> 
+		</skills>
+	</item>
+	<item id="24269" name="來自星星的雙子座壺精手鐲" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_may_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="5478" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17616" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27355" level="10" /> 
+			<skill id="17628" level="1" /> 
+		</skills>
+	</item>
+	<item id="24270" name="來自星星的雙子座壺精手鐲" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_may_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="6432" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17616" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27355" level="11" /> 
+			<skill id="17628" level="1" /> 
+		</skills>
+	</item>
+	<item id="24271" name="來自星星的雙子座壺精手鐲" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_may_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="8947" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17616" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="6" /> 
+			<skill id="27355" level="12" /> 
+			<skill id="17628" level="1" /> 
+		</skills>
+	</item>
+	<item id="24272" name="來自星星的天蠍座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_oct_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="653" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17617" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="27356" level="1" /> 
+			<skill id="17629" level="1" /> 
+		</skills>
+	</item>
+	<item id="24273" name="來自星星的天蠍座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_oct_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1254" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17617" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27356" level="2" /> 
+			<skill id="17629" level="1" /> 
+		</skills>
+	</item>
+	<item id="24274" name="來自星星的天蠍座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_oct_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1929" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17617" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27356" level="3" /> 
+			<skill id="17629" level="1" /> 
+		</skills>
+	</item>
+	<item id="24275" name="來自星星的天蠍座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_oct_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2564" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17617" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27356" level="4" /> 
+			<skill id="17629" level="1" /> 
+		</skills>
+	</item>
+	<item id="24276" name="來自星星的天蠍座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_oct_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1825" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17617" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27356" level="5" /> 
+			<skill id="17629" level="1" /> 
+		</skills>
+	</item>
+	<item id="24277" name="來自星星的天蠍座壺精手鐲" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_oct_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2553" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17617" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27356" level="6" /> 
+			<skill id="17629" level="1" /> 
+		</skills>
+	</item>
+	<item id="24278" name="來自星星的天蠍座壺精手鐲" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_oct_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2974" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17617" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27356" level="7" /> 
+			<skill id="17629" level="1" /> 
+		</skills>
+	</item>
+	<item id="24279" name="來自星星的天蠍座壺精手鐲" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_oct_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="3692" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17617" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27356" level="8" /> 
+			<skill id="17629" level="1" /> 
+		</skills>
+	</item>
+	<item id="24280" name="來自星星的天蠍座壺精手鐲" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_oct_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="4598" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17617" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27356" level="9" /> 
+			<skill id="17629" level="1" /> 
+		</skills>
+	</item>
+	<item id="24281" name="來自星星的天蠍座壺精手鐲" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_oct_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="5478" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17617" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27356" level="10" /> 
+			<skill id="17629" level="1" /> 
+		</skills>
+	</item>
+	<item id="24282" name="來自星星的天蠍座壺精手鐲" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_oct_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="6432" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17617" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27356" level="11" /> 
+			<skill id="17629" level="1" /> 
+		</skills>
+	</item>
+	<item id="24283" name="來自星星的天蠍座壺精手鐲" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_oct_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="8947" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17617" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="6" /> 
+			<skill id="27356" level="12" /> 
+			<skill id="17629" level="1" /> 
+		</skills>
+	</item>
+	<item id="24284" name="來自星星的水瓶座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_jan_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="653" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17618" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="27357" level="1" /> 
+			<skill id="17630" level="1" /> 
+		</skills>
+	</item>
+	<item id="24285" name="來自星星的水瓶座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_jan_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1254" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17618" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27357" level="2" /> 
+			<skill id="17630" level="1" /> 
+		</skills>
+	</item>
+	<item id="24286" name="來自星星的水瓶座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_jan_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1929" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17618" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27357" level="3" /> 
+			<skill id="17630" level="1" /> 
+		</skills>
+	</item>
+	<item id="24287" name="來自星星的水瓶座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_jan_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2564" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17618" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27357" level="4" /> 
+			<skill id="17630" level="1" /> 
+		</skills>
+	</item>
+	<item id="24288" name="來自星星的水瓶座壺精手鐲" additionalName="Stage 5" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_jan_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1825" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17618" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27357" level="5" /> 
+			<skill id="17630" level="1" /> 
+		</skills>
+	</item>
+	<item id="24289" name="來自星星的水瓶座壺精手鐲" additionalName="Stage 6" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_jan_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2553" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17618" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="3" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27357" level="6" /> 
+			<skill id="17630" level="1" /> 
+		</skills>
+	</item>
+	<item id="24290" name="來自星星的水瓶座壺精手鐲" additionalName="Stage 7" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_jan_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2974" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17618" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="3" /> 
+			<skill id="27357" level="7" /> 
+			<skill id="17630" level="1" /> 
+		</skills>
+	</item>
+	<item id="24291" name="來自星星的水瓶座壺精手鐲" additionalName="Stage 8" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_jan_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="3692" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17618" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="4" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27357" level="8" /> 
+			<skill id="17630" level="1" /> 
+		</skills>
+	</item>
+	<item id="24292" name="來自星星的水瓶座壺精手鐲" additionalName="Stage 9" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_jan_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="4598" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17618" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="4" /> 
+			<skill id="27357" level="9" /> 
+			<skill id="17630" level="1" /> 
+		</skills>
+	</item>
+	<item id="24293" name="來自星星的水瓶座壺精手鐲" additionalName="Stage 10" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_jan_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="5478" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17618" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="5" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27357" level="10" /> 
+			<skill id="17630" level="1" /> 
+		</skills>
+	</item>
+	<item id="24294" name="來自星星的水瓶座壺精手鐲" additionalName="Stage 11" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_jan_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="6432" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17618" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="5" /> 
+			<skill id="27357" level="11" /> 
+			<skill id="17630" level="1" /> 
+		</skills>
+	</item>
+	<item id="24295" name="來自星星的水瓶座壺精手鐲" additionalName="Stage 12" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_jan_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="8947" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17618" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="6" /> 
+			<skill id="26116" level="6" /> 
+			<skill id="27357" level="12" /> 
+			<skill id="17630" level="1" /> 
+		</skills>
+	</item>
+	<item id="24296" name="來自星星的雙魚座壺精手鐲" additionalName="Stage 1" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_feb_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="653" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17619" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="27358" level="1" /> 
+			<skill id="17631" level="1" /> 
+		</skills>
+	</item>
+	<item id="24297" name="來自星星的雙魚座壺精手鐲" additionalName="Stage 2" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_feb_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1254" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17619" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="1" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27358" level="2" /> 
+			<skill id="17631" level="1" /> 
+		</skills>
+	</item>
+	<item id="24298" name="來自星星的雙魚座壺精手鐲" additionalName="Stage 3" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_feb_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="1929" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17619" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="1" /> 
+			<skill id="27358" level="3" /> 
+			<skill id="17631" level="1" /> 
+		</skills>
+	</item>
+	<item id="24299" name="來自星星的雙魚座壺精手鐲" additionalName="Stage 4" type="Armor">
+		
+		<set name="icon" val="BranchIcon.Icon.accessary_lbracelet_sign_agathion_feb_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="crystal_type" val="R" />
+		<set name="crystal_count" val="2564" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="weight" val="150" />
+		<set name="material" val="SILVER" />
+		<skills>
+			<skill id="17619" level="2" /> 
+			<skill id="3267" level="1" type="ON_UNEQUIP" /> 
+			<skill id="26117" level="2" /> 
+			<skill id="26116" level="2" /> 
+			<skill id="27358" level="4" /> 
+			<skill id="17631" level="1" /> 
+		</skills>
+	</item>
+</list>

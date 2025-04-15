@@ -1,0 +1,4382 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="29300" level="97" type="RaidBoss" name="巴爾德卡倫" title="Dimensional Invader">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="9058597719" sp="2174064" raidPoints="100" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="227125529.422745" hpRegen="379.3777269" mp="46148.8763761491" mpRegen="3" />
+			<attack physical="277597.722358994" magical="142687.711009491" random="30" critical="4" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="14422.3135611433" magical="12541.9014684005" />
+			<attribute>
+				<attack type="DARK" value="450" />
+				<defence fire="350" water="350" wind="350" earth="350" holy="300" dark="350" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+			<speed>
+				<walk ground="63" />
+				<run ground="300" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="16510" level="1" /> 
+			<skill id="16763" level="1" /> 
+			<skill id="16764" level="1" /> 
+			<skill id="16766" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="38" />
+			<height normal="100" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="17401" min="1" max="1" chance="0.75" /> 
+				<item id="17407" min="1" max="1" chance="0.75" /> 
+				<item id="17410" min="1" max="1" chance="0.75" /> 
+				<item id="17411" min="1" max="1" chance="0.75" /> 
+				<item id="17412" min="1" max="1" chance="0.75" /> 
+				<item id="17526" min="1" max="1" chance="100" /> 
+				<item id="47714" min="1" max="1" chance="100" /> 
+				<item id="17527" min="2" max="2" chance="100" /> 
+				<item id="17690" min="3" max="3" chance="17.41" /> 
+				<item id="17685" min="3" max="3" chance="16.14" /> 
+				<item id="17689" min="3" max="3" chance="16.05" /> 
+				<item id="17686" min="3" max="3" chance="15.97" /> 
+				<item id="17688" min="3" max="3" chance="15.89" /> 
+				<item id="17687" min="3" max="3" chance="15.84" /> 
+				<item id="38574" min="1" max="1" chance="2.232" /> 
+				<item id="46504" min="1" max="1" chance="1.288" /> 
+				<item id="46474" min="1" max="1" chance="1.211" /> 
+				<item id="46489" min="1" max="1" chance="1.201" /> 
+				<item id="46505" min="1" max="1" chance="1.028" /> 
+				<item id="46490" min="1" max="1" chance="1.027" /> 
+				<item id="46475" min="1" max="1" chance="1.008" /> 
+				<item id="46459" min="1" max="1" chance="0.75" /> 
+				<item id="46491" min="1" max="1" chance="0.75" /> 
+				<item id="46461" min="1" max="1" chance="0.75" /> 
+				<item id="46445" min="1" max="1" chance="0.75" /> 
+				<item id="46476" min="1" max="1" chance="0.75" /> 
+				<item id="46446" min="1" max="1" chance="0.75" /> 
+				<item id="46444" min="1" max="1" chance="0.75" /> 
+				<item id="46506" min="1" max="1" chance="0.75" /> 
+				<item id="46460" min="1" max="1" chance="0.75" /> 
+				<item id="46462" min="1" max="1" chance="0.3" /> 
+				<item id="38038" min="1" max="1" chance="0.3" /> 
+				<item id="38017" min="1" max="1" chance="0.3" /> 
+				<item id="38016" min="1" max="1" chance="0.3" /> 
+				<item id="46463" min="1" max="1" chance="0.3" /> 
+				<item id="46477" min="1" max="1" chance="0.3" /> 
+				<item id="46478" min="1" max="1" chance="0.3" /> 
+				<item id="46508" min="1" max="1" chance="0.3" /> 
+				<item id="46507" min="1" max="1" chance="0.3" /> 
+				<item id="38012" min="1" max="1" chance="0.3" /> 
+				<item id="38013" min="1" max="1" chance="0.3" /> 
+				<item id="46493" min="1" max="1" chance="0.3" /> 
+				<item id="38035" min="1" max="1" chance="0.3" /> 
+				<item id="38014" min="1" max="1" chance="0.3" /> 
+				<item id="38015" min="1" max="1" chance="0.3" /> 
+				<item id="46492" min="1" max="1" chance="0.3" /> 
+				<item id="46448" min="1" max="1" chance="0.3" /> 
+				<item id="46447" min="1" max="1" chance="0.3" /> 
+				<item id="38030" min="1" max="1" chance="0.3" /> 
+				<item id="38029" min="1" max="1" chance="0.3" /> 
+				<item id="38027" min="1" max="1" chance="0.3" /> 
+				<item id="38026" min="1" max="1" chance="0.3" /> 
+				<item id="38024" min="1" max="1" chance="0.3" /> 
+				<item id="38023" min="1" max="1" chance="0.3" /> 
+				<item id="38022" min="1" max="1" chance="0.3" /> 
+				<item id="38021" min="1" max="1" chance="0.3" /> 
+				<item id="38031" min="1" max="1" chance="0.3" /> 
+				<item id="38032" min="1" max="1" chance="0.3" /> 
+				<item id="38033" min="1" max="1" chance="0.3" /> 
+				<item id="38025" min="1" max="1" chance="0.3" /> 
+				<item id="38028" min="1" max="1" chance="0.3" /> 
+				<item id="38018" min="1" max="1" chance="0.3" /> 
+				<item id="38039" min="1" max="1" chance="0.3" /> 
+				<item id="38037" min="1" max="1" chance="0.3" /> 
+				<item id="38036" min="1" max="1" chance="0.3" /> 
+				<item id="38019" min="1" max="1" chance="0.3" /> 
+				<item id="38034" min="1" max="1" chance="0.3" /> 
+				<item id="38020" min="1" max="1" chance="0.3" /> 
+				
+				<item id="8600" min="1" max="1" chance="10" /> 
+				<item id="8601" min="1" max="1" chance="8" /> 
+				<item id="8602" min="1" max="1" chance="2" /> 
+				<item id="8603" min="1" max="1" chance="19.8" /> 
+				<item id="8604" min="1" max="1" chance="9.9" /> 
+				<item id="8605" min="1" max="1" chance="3.3" /> 
+				<item id="34849" min="1" max="1" chance="0.7" /> 
+				<item id="34850" min="1" max="1" chance="0.7" /> 
+				<item id="13028" min="1" max="1" chance="0.1" /> 
+			</drop>
+			<lucky>
+				<item id="39629" min="2" max="2" chance="100" /> 
+			</lucky>
+		</dropLists>
+	</npc>
+	<npc id="29301" level="99" type="Monster" name="部下 莫尼札">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="168928" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<attack physical="34698.673564342" magical="11614.211485465" critical="4" attackSpeed="253" range="40" />
+			<defence physical="1872.4946037619" magical="1243.0937820887" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="230" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="27" />
+		</collision>
+	</npc>
+	<npc id="29302" level="99" type="Monster" name="部下 莫尼修">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="15302" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="168928" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<attack physical="34698.673564342" magical="11614.211485465" critical="4" attackSpeed="253" range="40" />
+			<defence physical="1872.4946037619" magical="1243.0937820887" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="100" dark="200" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="18" />
+			<height normal="27.5" />
+		</collision>
+	</npc>
+	<npc id="29303" level="105" type="GrandBoss" name="赫利奧斯" title="Emperor of the Beginning">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="247524303.233935" hpRegen="1842.10526315789" mp="51696.3036963037" mpRegen="1944.44444444444" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="2247422.68041237" magical="916616.487631411" critical="4" accuracy="4.75" attackSpeed="253" range="40" />
+			<defence physical="89896.9072164948" magical="44948.608092938" />
+			<attribute>
+				<attack type="EARTH" value="700" />
+				<defence fire="650" water="650" wind="600" earth="650" holy="650" dark="650" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="16746" level="2" /> 
+		</skillList>
+		<ai clanHelpRange="1000" aggroRange="1000" isAggressive="true">
+			<clanList>
+				<clan>HELIOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="105" />
+			<height normal="124" />
+		</collision>
+	</npc>
+	<npc id="29304" level="105" type="GrandBoss" name="赫利奧斯" title="Emperor of the Beginning">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="247524303.233935" hpRegen="1842.10526315789" mp="51696.3036963037" mpRegen="1944.44444444444" />
+			<attribute>
+				<attack type="EARTH" value="700" />
+				<defence fire="650" water="650" wind="600" earth="650" holy="650" dark="650" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="2247422.68041237" magical="916616.487631411" critical="4" accuracy="4.75" attackSpeed="253" range="40" />
+			<defence physical="89896.9072164948" magical="44948.608092938" />
+		</stats>
+		<status canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="16746" level="2" /> 
+		</skillList>
+		<ai clanHelpRange="1000" aggroRange="1000" isAggressive="true">
+			<clanList>
+				<clan>HELIOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="105" />
+			<height normal="152" />
+		</collision>
+	</npc>
+	<npc id="29305" level="105" type="GrandBoss" name="赫利奧斯" title="Emperor of the Beginning">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire exp="6127016742000" sp="12254033484" raidPoints="1000" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="247524303.233935" hpRegen="444.7141361" mp="51696.3036963037" mpRegen="3.3" />
+			<attribute>
+				<attack type="EARTH" value="700" />
+				<defence fire="650" water="650" wind="600" earth="650" holy="650" dark="650" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="2247422.68041237" magical="916616.487631411" critical="4" accuracy="4.75" attackSpeed="253" range="40" />
+			<defence physical="89896.9072164948" magical="44948.608092938" />
+		</stats>
+		<status canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="16746" level="2" /> 
+		</skillList>
+		<ai clanHelpRange="1000" aggroRange="1000" isAggressive="true">
+			<clanList>
+				<clan>HELIOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="105" />
+			<height normal="180" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="47245" min="1" max="1" chance="100" /> 
+				<item id="47214" min="1" max="1" chance="40.26" /> 
+				<item id="17436" min="1" max="3" chance="20.42" /> 
+				<item id="17437" min="1" max="3" chance="20.36" /> 
+				<item id="17440" min="1" max="3" chance="19.65" /> 
+				<item id="17438" min="1" max="3" chance="19.51" /> 
+				<item id="17439" min="1" max="3" chance="19.44" /> 
+				<item id="17446" min="1" max="3" chance="17.235" /> 
+				<item id="17441" min="1" max="3" chance="17.16" /> 
+				<item id="17432" min="1" max="3" chance="17" /> 
+				<item id="17433" min="1" max="3" chance="16.98" /> 
+				<item id="17443" min="1" max="3" chance="16.89" /> 
+				<item id="17434" min="1" max="3" chance="16.87" /> 
+				<item id="17445" min="1" max="3" chance="16.51" /> 
+				<item id="17430" min="1" max="3" chance="16.3" /> 
+				<item id="17442" min="1" max="3" chance="16.22" /> 
+				<item id="17435" min="1" max="3" chance="16.2" /> 
+				<item id="17431" min="1" max="3" chance="16.19" /> 
+				<item id="17444" min="1" max="3" chance="15.92" /> 
+				<item id="17426" min="1" max="2" chance="9.158" /> 
+				<item id="17425" min="1" max="2" chance="9.152" /> 
+				<item id="17421" min="1" max="2" chance="9.149" /> 
+				<item id="17419" min="1" max="2" chance="9.115" /> 
+				<item id="17418" min="1" max="2" chance="9.112" /> 
+				<item id="17416" min="1" max="2" chance="9.091" /> 
+				<item id="17422" min="1" max="2" chance="9.086" /> 
+				<item id="17423" min="1" max="2" chance="9.078" /> 
+				<item id="17424" min="1" max="2" chance="9.07" /> 
+				<item id="17417" min="1" max="2" chance="9.062" /> 
+				<item id="17420" min="1" max="2" chance="9.035" /> 
+				<item id="37781" min="1" max="1" chance="50.4" /> 
+				<item id="37772" min="1" max="1" chance="48.86" /> 
+				<item id="35568" min="1" max="1" chance="39.83" /> 
+				<item id="36389" min="8" max="8" chance="29.21" /> 
+				<item id="19448" min="8" max="8" chance="28.87" /> 
+				<item id="46478" min="1" max="1" chance="23.74" /> 
+				<item id="46507" min="1" max="2" chance="23.58" /> 
+				<item id="46508" min="1" max="1" chance="23.29" /> 
+				<item id="46493" min="1" max="1" chance="22.73" /> 
+				<item id="46477" min="1" max="2" chance="22.46" /> 
+				<item id="46492" min="1" max="2" chance="21.85" /> 
+				<item id="36386" min="4" max="4" chance="20.05" /> 
+				<item id="19447" min="4" max="4" chance="20.05" /> 
+				<item id="46494" min="1" max="1" chance="19.75" /> 
+				<item id="46509" min="1" max="1" chance="19.17" /> 
+				<item id="46479" min="1" max="1" chance="18.31" /> 
+				<item id="17707" min="1" max="1" chance="17.41" /> 
+				<item id="17714" min="1" max="1" chance="17.4" /> 
+				<item id="17698" min="1" max="1" chance="17.34" /> 
+				<item id="17697" min="1" max="1" chance="17.18" /> 
+				<item id="17711" min="1" max="1" chance="17.17" /> 
+				<item id="17699" min="1" max="1" chance="17.16" /> 
+				<item id="17713" min="1" max="1" chance="17.14" /> 
+				<item id="17708" min="1" max="1" chance="16.7" /> 
+				<item id="17700" min="1" max="1" chance="16.66" /> 
+				<item id="17704" min="1" max="1" chance="16.65" /> 
+				<item id="17706" min="1" max="1" chance="16.65" /> 
+				<item id="17702" min="1" max="1" chance="16.58" /> 
+				<item id="17703" min="1" max="1" chance="16.5" /> 
+				<item id="17710" min="1" max="1" chance="16.33" /> 
+				<item id="17701" min="1" max="1" chance="16.28" /> 
+				<item id="17712" min="1" max="1" chance="16.09" /> 
+				<item id="46462" min="1" max="2" chance="15.97" /> 
+				<item id="46448" min="1" max="1" chance="15.9" /> 
+				<item id="46463" min="1" max="1" chance="15.85" /> 
+				<item id="17709" min="1" max="1" chance="15.93" /> 
+				<item id="17705" min="1" max="1" chance="15.83" /> 
+				<item id="46447" min="1" max="2" chance="15.08" /> 
+				<item id="46464" min="1" max="1" chance="12.87" /> 
+				<item id="46449" min="1" max="1" chance="12.27" /> 
+				<item id="46510" min="1" max="1" chance="11.85" /> 
+				<item id="46495" min="1" max="1" chance="11.56" /> 
+				<item id="46480" min="1" max="1" chance="11.33" /> 
+				<item id="36162" min="1" max="1" chance="9.98" /> 
+				<item id="39483" min="1" max="1" chance="8.392" /> 
+				<item id="39484" min="1" max="1" chance="8.301" /> 
+				<item id="39485" min="1" max="1" chance="8.299" /> 
+				<item id="46450" min="1" max="1" chance="7.797" /> 
+				<item id="46511" min="1" max="1" chance="7.716" /> 
+				<item id="46465" min="1" max="1" chance="7.72" /> 
+				<item id="46481" min="1" max="1" chance="7.698" /> 
+				<item id="46496" min="1" max="1" chance="7.688" /> 
+				<item id="46451" min="1" max="1" chance="5.214" /> 
+				<item id="46466" min="1" max="1" chance="5.136" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29306" level="99" type="Monster" name="雷歐波爾德" title="Superion Siege Cannon">
+		
+		<race>ETC</race>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="600826" hpRegen="10.5" mp="25848" mpRegen="3.6" />
+			<attack physical="2118998.52724595" magical="987999.233689125" critical="4" attackSpeed="253" range="40" />
+			<defence physical="84759.941089838" magical="42379.970544919" />
+			<attribute>
+				<attack type="EARTH" value="450" />
+				<defence fire="450" water="450" wind="450" earth="400" holy="450" dark="450" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="230" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="1" />
+			<height normal="249" />
+		</collision>
+	</npc>
+	<npc id="29307" level="99" type="Monster" name="赫利奧斯的紅色閃電" title="Enuma Elish">
+		
+		<race>ETC</race>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="159275.821635012" hpRegen="10.5" mp="2220.53748231966" mpRegen="3.6" />
+			<attack physical="2118998.52724595" magical="987999.233689125" critical="4" attackSpeed="253" range="900" type="BOW" distance="10" />
+			<defence physical="84759.941089838" magical="42379.970544919" />
+			<attribute>
+				<attack type="EARTH" value="450" />
+				<defence fire="450" water="450" wind="450" earth="400" holy="450" dark="450" />
+			</attribute>
+			<speed>
+				<walk ground="10" />
+				<run ground="230" />
+			</speed>
+		</stats>
+		<status canMove="false" attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="25" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="29308" level="99" type="Monster" name="赫利奧斯的藍色閃電" title="Enuma Elish">
+		
+		<race>ETC</race>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="159275.821635012" hpRegen="10.5" mp="2220.53748231966" mpRegen="3.6" />
+			<attack physical="2118998.52724595" magical="987999.233689125" critical="4" attackSpeed="253" range="900" type="BOW" distance="10" />
+			<defence physical="84759.941089838" magical="42379.970544919" />
+			<attribute>
+				<attack type="EARTH" value="450" />
+				<defence fire="450" water="450" wind="450" earth="400" holy="450" dark="450" />
+			</attribute>
+			<speed>
+				<walk ground="10" />
+				<run ground="230" />
+			</speed>
+		</stats>
+		<status canMove="false" attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="25" />
+			<height normal="33.5" />
+		</collision>
+	</npc>
+	<npc id="29309" level="105" type="Monster" name="雷歐波爾德原始型" title="Ultimate Kamael">
+		<parameters>
+			<skill name="Skill01_ID" id="16636" level="1" />
+			<skill name="Skill02_ID" id="16637" level="1" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2403304.04624277" hpRegen="7.5" mp="25848.1848184818" mpRegen="2.7" />
+			<attack physical="2247422.68041237" magical="1047877.97512483" critical="4" attackSpeed="253" range="900" type="BOW" distance="10" />
+			<defence physical="33711.8556701031" magical="16855.8402231976" />
+			<attribute>
+				<attack type="EARTH" value="650" />
+				<defence fire="650" water="650" wind="650" earth="600" holy="650" dark="650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="55" />
+				<run ground="230" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="4438" level="5" /> 
+			<skill id="4440" level="5" /> 
+			<skill id="4441" level="5" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<ai type="BALANCED" clanHelpRange="1000" aggroRange="1000" isAggressive="true">
+			<clanList>
+				<clan>HELIOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="18" />
+			<height normal="45.5" />
+		</collision>
+	</npc>
+	<npc id="29310" level="105" type="Monster" name="諸天之上原始型" title="Ultimate Kamael">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="2403304.04624277" hpRegen="7.5" mp="25848.1848184818" mpRegen="2.7" />
+			<attack physical="2247422.68041237" magical="1047877.97512483" critical="4" attackSpeed="253" range="40" />
+			<defence physical="33711.8556701031" magical="16855.8402231976" />
+			<attribute>
+				<attack type="EARTH" value="650" />
+				<defence fire="650" water="650" wind="650" earth="600" holy="650" dark="650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="55" />
+				<run ground="230" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="4438" level="5" /> 
+			<skill id="4440" level="5" /> 
+			<skill id="4441" level="5" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="16635" level="1" /> 
+		</skillList>
+		<ai type="BALANCED" clanHelpRange="1000" aggroRange="1000" isAggressive="true">
+			<clanList>
+				<clan>HELIOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="18" />
+			<height normal="45.5" />
+		</collision>
+	</npc>
+	<npc id="29311" level="105" type="Monster" name="皇家神殿騎士菁英" title="Emperor's Escort">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3004130.05780347" hpRegen="7.5" mp="25848.1848184818" mpRegen="2.7" />
+			<attack physical="3034021.00066487" magical="1886180.30036932" critical="4" attackSpeed="253" range="40" />
+			<defence physical="33711.8556701031" magical="16855.8402231976" />
+			<attribute>
+				<attack type="EARTH" value="650" />
+				<defence fire="650" water="650" wind="650" earth="600" holy="650" dark="650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4071" level="1" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="4435" level="5" /> 
+			<skill id="4461" level="1" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="16608" level="1" /> 
+			<skill id="16665" level="1" /> 
+			<skill id="16666" level="1" /> 
+			<skill id="16667" level="1" /> 
+		</skillList>
+		<ai type="BALANCED" clanHelpRange="1000" aggroRange="1000" isAggressive="true">
+			<clanList>
+				<clan>HELIOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+	</npc>
+	<npc id="29312" level="105" type="Monster" name="皇家銳利弩弓手" title="Emperor's Escort">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<equipment rhand="47163" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3004130.05780347" hpRegen="7.5" mp="25848.1848184818" mpRegen="2.7" />
+			<attack physical="3034021.00066487" magical="1886180.30036932" critical="8" attackSpeed="253" range="900" type="BOW" distance="10" />
+			<defence physical="33711.8556701031" magical="16855.8402231976" />
+			<attribute>
+				<attack type="EARTH" value="650" />
+				<defence fire="650" water="650" wind="650" earth="600" holy="650" dark="650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="55" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4071" level="1" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="4461" level="1" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="16608" level="1" /> 
+			<skill id="16659" level="1" /> 
+			<skill id="16660" level="1" /> 
+			<skill id="16661" level="1" /> 
+		</skillList>
+		<ai type="BALANCED" clanHelpRange="1000" aggroRange="1000" isAggressive="true">
+			<clanList>
+				<clan>HELIOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+	</npc>
+	<npc id="29313" level="105" type="Monster" name="皇家大魔導士" title="Emperor's Escort">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3004130.05780347" hpRegen="7.5" mp="25848.1848184818" mpRegen="2.7" />
+			<attack physical="3034021.00066487" magical="1886180.30036932" critical="4" attackSpeed="253" range="40" />
+			<defence physical="33711.8556701031" magical="16855.8402231976" />
+			<attribute>
+				<attack type="EARTH" value="650" />
+				<defence fire="650" water="650" wind="650" earth="600" holy="650" dark="650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4071" level="1" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="4438" level="5" /> 
+			<skill id="4461" level="1" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="16608" level="1" /> 
+			<skill id="16670" level="1" /> 
+			<skill id="16671" level="1" /> 
+			<skill id="16672" level="1" /> 
+			<skill id="16673" level="1" /> 
+		</skillList>
+		<ai type="BALANCED" clanHelpRange="1000" aggroRange="1000" isAggressive="true">
+			<clanList>
+				<clan>HELIOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+	</npc>
+	<npc id="29314" level="105" type="Monster" name="皇家守門人" title="Emperor's Escort">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="3004130.05780347" hpRegen="7.5" mp="25848.1848184818" mpRegen="2.7" />
+			<attack physical="3034021.00066487" magical="1886180.30036932" critical="4" attackSpeed="253" range="40" />
+			<defence physical="33711.8556701031" magical="16855.8402231976" />
+			<attribute>
+				<attack type="EARTH" value="650" />
+				<defence fire="650" water="650" wind="650" earth="600" holy="650" dark="650" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4071" level="1" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="4435" level="5" /> 
+			<skill id="4461" level="1" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="16608" level="1" /> 
+			<skill id="16657" level="1" /> 
+			<skill id="16658" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="1000" aggroRange="1000" isAggressive="true">
+			<clanList>
+				<clan>HELIOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+	</npc>
+	<npc id="29315" level="105" type="Monster" name="密密里恩" title="Red Lightning Watchman">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="60082600" hpRegen="7.5" mp="25848.1848184818" mpRegen="2.7" />
+			<attack physical="3034021.00066487" magical="1886180.30036932" critical="4" attackSpeed="253" range="40" />
+			<defence physical="33711.8556701031" magical="16855.8402231976" />
+			<attribute>
+				<attack type="EARTH" value="600" />
+				<defence fire="600" water="600" wind="550" earth="600" holy="600" dark="600" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="5465" level="1" /> 
+		</skillList>
+		<ai type="BALANCED" clanHelpRange="1000" aggroRange="1000" isAggressive="true">
+			<clanList>
+				<clan>HELIOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="32" />
+			<height normal="50.5" />
+		</collision>
+	</npc>
+	<npc id="29316" level="105" type="Monster" name="密密路斯" title="Blue Lightning Watchman">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="60082600" hpRegen="7.5" mp="25848.1848184818" mpRegen="2.7" />
+			<attack physical="3034021.00066487" magical="1886180.30036932" critical="4" attackSpeed="253" range="40" />
+			<defence physical="33711.8556701031" magical="16855.8402231976" />
+			<attribute>
+				<attack type="EARTH" value="600" />
+				<defence fire="600" water="600" wind="550" earth="600" holy="600" dark="600" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="5465" level="1" /> 
+		</skillList>
+		<ai type="BALANCED" clanHelpRange="1000" aggroRange="1000" isAggressive="true">
+			<clanList>
+				<clan>HELIOS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="32" />
+			<height normal="50.5" />
+		</collision>
+	</npc>
+	<npc id="29317" level="85" type="Monster" name="林德拜爾" title="Wind Dragon">
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="171194854.073111" hpRegen="10.5" mp="38495.5189041728" mpRegen="3.6" />
+			<attribute>
+				<attack type="WIND" value="450" />
+				<defence fire="450" water="450" wind="450" earth="400" holy="450" dark="450" />
+			</attribute>
+			<speed>
+				<walk ground="100" />
+				<run ground="270" />
+			</speed>
+			<attack physical="1804005.57991232" magical="723391.437086412" critical="4" attackSpeed="253" range="40" />
+			<defence physical="108240.334794739" magical="54120.2520078566" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5464" level="1" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="15638" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="525" />
+			<height normal="316.5" />
+		</collision>
+	</npc>
+	<npc id="29318" level="109" type="GrandBoss" name="耶提斯 潘 艾帝納" title="Overlord">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="446461141.07331" hpRegen="479.3278415" mp="89800.408" mpRegen="3.3" />
+			<attack physical="324513.8663" magical="232725.1967" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="37623.95403" magical="18364.41698" />
+			<attribute>
+				<defence fire="750" water="750" wind="750" earth="750" holy="650" dark="750" default="750" />
+				<attack type="DARK" value="750" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<ai aggroRange="500" clanHelpRange="1000" isAggressive="true">
+			<clanList>
+				<clan>GREAT_TEMPLE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="30" />
+			<height normal="78.6" />
+		</collision>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="32001" level="1" /> 
+			<skill id="32002" level="1" /> 
+			<skill id="32003" level="1" /> 
+			<skill id="32007" level="1" /> 
+		</skillList>
+	</npc>
+	<npc id="29319" level="109" type="GrandBoss" name="耶提斯 潘 艾帝納" title="Overlord">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="12443307520419" sp="11198971195" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="446461141.07331" hpRegen="479.3278415" mp="89800.408" mpRegen="3.3" />
+			<attack physical="324513.8663" magical="232725.1967" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="37623.95403" magical="18364.41698" />
+			<attribute>
+				<defence fire="750" water="750" wind="750" earth="750" holy="650" dark="750" default="750" />
+				<attack type="DARK" value="750" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<ai aggroRange="500" clanHelpRange="1000" isAggressive="true">
+			<clanList>
+				<clan>GREAT_TEMPLE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="42" />
+			<height normal="136.2" />
+		</collision>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="32001" level="1" /> 
+			<skill id="32002" level="1" /> 
+			<skill id="32003" level="1" /> 
+			<skill id="32007" level="1" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="17437" min="1" max="3" chance="20.78" /> 
+				<item id="17439" min="1" max="3" chance="20.64" /> 
+				<item id="17440" min="1" max="3" chance="20.35" /> 
+				<item id="17436" min="1" max="3" chance="19.69" /> 
+				<item id="17438" min="1" max="3" chance="19.44" /> 
+				<item id="17446" min="1" max="3" chance="17.48" /> 
+				<item id="17442" min="1" max="3" chance="17.46" /> 
+				<item id="17430" min="1" max="3" chance="17.23" /> 
+				<item id="17445" min="1" max="3" chance="17.04" /> 
+				<item id="17434" min="1" max="3" chance="16.92" /> 
+				<item id="17443" min="1" max="3" chance="16.8" /> 
+				<item id="17431" min="1" max="3" chance="16.77" /> 
+				<item id="17433" min="1" max="3" chance="16.49" /> 
+				<item id="17441" min="1" max="3" chance="16.47" /> 
+				<item id="17435" min="1" max="3" chance="16.195" /> 
+				<item id="17444" min="1" max="3" chance="15.87" /> 
+				<item id="17432" min="1" max="3" chance="15.86" /> 
+				<item id="17423" min="1" max="2" chance="9.156" /> 
+				<item id="17420" min="1" max="2" chance="9.151" /> 
+				<item id="17418" min="1" max="2" chance="9.114" /> 
+				<item id="17416" min="1" max="2" chance="9.106" /> 
+				<item id="17426" min="1" max="2" chance="9.097" /> 
+				<item id="17419" min="1" max="2" chance="9.078" /> 
+				<item id="17422" min="1" max="2" chance="9.062" /> 
+				<item id="17425" min="1" max="2" chance="9.049" /> 
+				<item id="17421" min="1" max="2" chance="9.041" /> 
+				<item id="17424" min="1" max="2" chance="9.036" /> 
+				<item id="17417" min="1" max="2" chance="9.03" /> 
+				<item id="35566" min="1" max="1" chance="80.44" /> 
+				<item id="35568" min="1" max="1" chance="79.99" /> 
+				<item id="37781" min="1" max="1" chance="49.98" /> 
+				<item id="36389" min="10" max="20" chance="30.3" /> 
+				<item id="36162" min="1" max="1" chance="30.18" /> 
+				<item id="19448" min="10" max="20" chance="29.38" /> 
+				<item id="37772" min="1" max="1" chance="29.06" /> 
+				<item id="46508" min="1" max="1" chance="23.38" /> 
+				<item id="46478" min="1" max="1" chance="22.47" /> 
+				<item id="46493" min="1" max="1" chance="22.42" /> 
+				<item id="46494" min="1" max="1" chance="20.45" /> 
+				<item id="46509" min="1" max="1" chance="20.13" /> 
+				<item id="36386" min="10" max="20" chance="19.39" /> 
+				<item id="46479" min="1" max="1" chance="19.16" /> 
+				<item id="19447" min="10" max="20" chance="19.09" /> 
+				<item id="17710" min="1" max="1" chance="17.43" /> 
+				<item id="17707" min="1" max="1" chance="17.27" /> 
+				<item id="17709" min="1" max="1" chance="17.24" /> 
+				<item id="17705" min="1" max="1" chance="17.12" /> 
+				<item id="17699" min="1" max="1" chance="17.07" /> 
+				<item id="17714" min="1" max="1" chance="17.06" /> 
+				<item id="17706" min="1" max="1" chance="16.98" /> 
+				<item id="17711" min="1" max="1" chance="16.92" /> 
+				<item id="46480" min="1" max="1" chance="16.74" /> 
+				<item id="46495" min="1" max="1" chance="16.64" /> 
+				<item id="46510" min="1" max="1" chance="16.54" /> 
+				<item id="17713" min="1" max="1" chance="16.53" /> 
+				<item id="17712" min="1" max="1" chance="16.53" /> 
+				<item id="17702" min="1" max="1" chance="16.45" /> 
+				<item id="17704" min="1" max="1" chance="16.34" /> 
+				<item id="17701" min="1" max="1" chance="16.22" /> 
+				<item id="17708" min="1" max="1" chance="16.13" /> 
+				<item id="17703" min="1" max="1" chance="16" /> 
+				<item id="17698" min="1" max="1" chance="15.91" /> 
+				<item id="46463" min="1" max="1" chance="15.75" /> 
+				<item id="17697" min="1" max="1" chance="15.85" /> 
+				<item id="17700" min="1" max="1" chance="15.83" /> 
+				<item id="46448" min="1" max="1" chance="15.6" /> 
+				<item id="39485" min="1" max="1" chance="13.96" /> 
+				<item id="39484" min="1" max="1" chance="13.84" /> 
+				<item id="46464" min="1" max="1" chance="13.71" /> 
+				<item id="39483" min="1" max="1" chance="13.69" /> 
+				<item id="46449" min="1" max="1" chance="13.2" /> 
+				<item id="46496" min="1" max="1" chance="12.83" /> 
+				<item id="46511" min="1" max="1" chance="12.68" /> 
+				<item id="46481" min="1" max="1" chance="12.08" /> 
+				<item id="46465" min="1" max="1" chance="10.465" /> 
+				<item id="46450" min="1" max="1" chance="10.4" /> 
+				<item id="46451" min="1" max="1" chance="8.5925" /> 
+				<item id="46466" min="1" max="1" chance="8.536" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29320" level="109" type="GrandBoss" name="卡因  班 胡爾特" title="Disciple of Void">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="10730098508044" sp="9657078777" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="364757533.74678" hpRegen="479.3278415" mp="89800.408" mpRegen="3.3" />
+			<attack physical="324513.8663" magical="232725.1967" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="37623.95403" magical="18364.41698" />
+			<attribute>
+				<defence fire="750" water="750" wind="750" earth="750" holy="650" dark="750" default="750" />
+				<attack type="DARK" value="750" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<ai aggroRange="500" clanHelpRange="1000" isAggressive="true">
+			<clanList>
+				<clan>GREAT_TEMPLE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="36" />
+			<height normal="87" />
+		</collision>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14804" level="10" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="17440" min="1" max="3" chance="20.88" /> 
+				<item id="17437" min="1" max="3" chance="20.35" /> 
+				<item id="17438" min="1" max="3" chance="20.34" /> 
+				<item id="17436" min="1" max="3" chance="19.32" /> 
+				<item id="17439" min="1" max="3" chance="19.14" /> 
+				<item id="17435" min="1" max="3" chance="17.09" /> 
+				<item id="17441" min="1" max="3" chance="17.08" /> 
+				<item id="17433" min="1" max="3" chance="16.98" /> 
+				<item id="17446" min="1" max="3" chance="16.625" /> 
+				<item id="17430" min="1" max="3" chance="16.51" /> 
+				<item id="17444" min="1" max="3" chance="16.46" /> 
+				<item id="17432" min="1" max="3" chance="16.35" /> 
+				<item id="17434" min="1" max="3" chance="16.22" /> 
+				<item id="17442" min="1" max="3" chance="16.12" /> 
+				<item id="17443" min="1" max="3" chance="16.09" /> 
+				<item id="17445" min="1" max="3" chance="16.05" /> 
+				<item id="17431" min="1" max="3" chance="15.95" /> 
+				<item id="17419" min="1" max="2" chance="9.14" /> 
+				<item id="17426" min="1" max="2" chance="9.135" /> 
+				<item id="17421" min="1" max="2" chance="9.131" /> 
+				<item id="17422" min="1" max="2" chance="9.126" /> 
+				<item id="17423" min="1" max="2" chance="9.106" /> 
+				<item id="17416" min="1" max="2" chance="9.104" /> 
+				<item id="17424" min="1" max="2" chance="9.076" /> 
+				<item id="17418" min="1" max="2" chance="9.069" /> 
+				<item id="17425" min="1" max="2" chance="9.035" /> 
+				<item id="17420" min="1" max="2" chance="9.03" /> 
+				<item id="17417" min="1" max="2" chance="9.028" /> 
+				<item id="35568" min="1" max="1" chance="71.21" /> 
+				<item id="35566" min="1" max="1" chance="68.41" /> 
+				<item id="36160" min="1" max="3" chance="31.12" /> 
+				<item id="19448" min="10" max="20" chance="30.73" /> 
+				<item id="36389" min="10" max="20" chance="30.38" /> 
+				<item id="36162" min="1" max="1" chance="29.55" /> 
+				<item id="36161" min="1" max="3" chance="29.02" /> 
+				<item id="46508" min="1" max="1" chance="23.6" /> 
+				<item id="46493" min="1" max="1" chance="23.16" /> 
+				<item id="46478" min="1" max="1" chance="22.47" /> 
+				<item id="36386" min="10" max="20" chance="20.2" /> 
+				<item id="19447" min="10" max="20" chance="19.63" /> 
+				<item id="46479" min="1" max="1" chance="19.31" /> 
+				<item id="46509" min="1" max="1" chance="19.13" /> 
+				<item id="46494" min="1" max="1" chance="18.63" /> 
+				<item id="17712" min="1" max="1" chance="17.39" /> 
+				<item id="17711" min="1" max="1" chance="17.28" /> 
+				<item id="17705" min="1" max="1" chance="17.25" /> 
+				<item id="17707" min="1" max="1" chance="17.18" /> 
+				<item id="17706" min="1" max="1" chance="17.18" /> 
+				<item id="17700" min="1" max="1" chance="17.16" /> 
+				<item id="17703" min="1" max="1" chance="17.14" /> 
+				<item id="17709" min="1" max="1" chance="17.08" /> 
+				<item id="17708" min="1" max="1" chance="16.86" /> 
+				<item id="17699" min="1" max="1" chance="16.83" /> 
+				<item id="17714" min="1" max="1" chance="16.55" /> 
+				<item id="17713" min="1" max="1" chance="16.32" /> 
+				<item id="17702" min="1" max="1" chance="16.3" /> 
+				<item id="17698" min="1" max="1" chance="16.21" /> 
+				<item id="17704" min="1" max="1" chance="16.2" /> 
+				<item id="17710" min="1" max="1" chance="16.02" /> 
+				<item id="17701" min="1" max="1" chance="16.02" /> 
+				<item id="17697" min="1" max="1" chance="15.94" /> 
+				<item id="46448" min="1" max="1" chance="15.29" /> 
+				<item id="46463" min="1" max="1" chance="14.74" /> 
+				<item id="46480" min="1" max="1" chance="14.49" /> 
+				<item id="46495" min="1" max="1" chance="14.26" /> 
+				<item id="46510" min="1" max="1" chance="13.39" /> 
+				<item id="46464" min="1" max="1" chance="12.87" /> 
+				<item id="46449" min="1" max="1" chance="12.04" /> 
+				<item id="46465" min="1" max="1" chance="9.353" /> 
+				<item id="46450" min="1" max="1" chance="9.285" /> 
+				<item id="46511" min="1" max="1" chance="9.208" /> 
+				<item id="46496" min="1" max="1" chance="9.139" /> 
+				<item id="46481" min="1" max="1" chance="9.131" /> 
+				<item id="39484" min="1" max="1" chance="8.349" /> 
+				<item id="39483" min="1" max="1" chance="8.312" /> 
+				<item id="39485" min="1" max="1" chance="8.2915" /> 
+				<item id="46451" min="1" max="1" chance="6.163" /> 
+				<item id="46466" min="1" max="1" chance="6.151" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29321" level="108" type="Monster" name="貪慾殉教者">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="15747706368" sp="14171760" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="78694960.44237" hpRegen="9.5" mp="32075.861" mpRegen="3.3" />
+			<attack physical="65855" magical="56801" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="6269" magical="3641" />
+			<attribute>
+				<defence fire="750" water="750" wind="750" earth="750" holy="650" dark="750" default="750" />
+				<attack type="DARK" value="750" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<ai aggroRange="500" clanHelpRange="1000" isAggressive="true">
+			<clanList>
+				<clan>GREAT_TEMPLE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="22" />
+			<height normal="65" />
+		</collision>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="16758" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="4435" level="5" /> 
+			<skill id="4440" level="5" /> 
+			<skill id="32295" level="1" /> 
+			<skill id="32296" level="1" /> 
+		</skillList>
+	</npc>
+	<npc id="29322" level="108" type="Monster" name="傲慢引導者">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="15747706368" sp="14171760" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="78694960.44237" hpRegen="9.5" mp="32075.861" mpRegen="3.3" />
+			<attack physical="65855" magical="56801" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="6269" magical="3641" />
+			<attribute>
+				<defence fire="750" water="750" wind="750" earth="750" holy="650" dark="750" default="750" />
+				<attack type="DARK" value="750" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<ai aggroRange="500" clanHelpRange="1000" isAggressive="true">
+			<clanList>
+				<clan>GREAT_TEMPLE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="22" />
+			<height normal="65" />
+		</collision>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="16758" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="4435" level="5" /> 
+			<skill id="4440" level="5" /> 
+			<skill id="32292" level="1" /> 
+			<skill id="32293" level="1" /> 
+		</skillList>
+	</npc>
+	<npc id="29323" level="108" type="Monster" name="絕望求道者">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="15747706368" sp="14171760" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="78694960.44237" hpRegen="9.5" mp="32075.861" mpRegen="3.3" />
+			<attack physical="65855" magical="56801" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="6269" magical="3641" />
+			<attribute>
+				<defence fire="750" water="750" wind="750" earth="750" holy="650" dark="750" default="750" />
+				<attack type="DARK" value="750" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<ai aggroRange="500" clanHelpRange="1000" isAggressive="true">
+			<clanList>
+				<clan>GREAT_TEMPLE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="22" />
+			<height normal="60" />
+		</collision>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="16758" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="4438" level="5" /> 
+			<skill id="4440" level="5" /> 
+			<skill id="32300" level="1" /> 
+			<skill id="32301" level="1" /> 
+		</skillList>
+	</npc>
+	<npc id="29324" level="108" type="Monster" name="慾望解放者">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="15747706368" sp="14171760" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="78694960.44237" hpRegen="9.5" mp="32075.861" mpRegen="3.3" />
+			<attack physical="65855" magical="56801" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="6269" magical="3641" />
+			<attribute>
+				<defence fire="750" water="750" wind="750" earth="750" holy="650" dark="750" default="750" />
+				<attack type="DARK" value="750" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<ai aggroRange="500" clanHelpRange="1000" isAggressive="true">
+			<clanList>
+				<clan>GREAT_TEMPLE</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="22" />
+			<height normal="60" />
+		</collision>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="16758" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="4438" level="5" /> 
+			<skill id="4440" level="5" /> 
+			<skill id="32308" level="1" /> 
+			<skill id="32309" level="1" /> 
+		</skillList>
+	</npc>
+	<npc id="29325" level="108" type="GrandBoss" name="奧爾芬" title="Master of the Sea of Spores">
+		<parameters>
+			<minions name="Privates">
+				<npc id="29326" count="4" respawnTime="360" weightPoint="1" />
+			</minions>
+			<skill name="Orfen_SkillID1" id="32486" level="1" />
+			<skill name="Orfen_SkillID2" id="32487" level="1" />
+			<skill name="Orfen_SkillID3" id="32488" level="1" />
+			<skill name="Orfen_SkillID4" id="32489" level="1" />
+			<skill name="Orfen_SkillID5" id="32491" level="1" />
+			<skill name="Orfen_SkillID6" id="32492" level="1" />
+			<skill name="Orfen_SkillID7" id="32493" level="1" />
+			<skill name="Orfen_SkillID8" id="32496" level="1" />
+			<param name="Orfen_SkillID1_Probablity" value="200" />
+			<param name="Orfen_SkillID2_Probablity" value="200" />
+			<param name="Orfen_SkillID3_Probablity" value="200" />
+			<param name="Orfen_SkillID4_Probablity" value="500" />
+			<param name="Orfen_SkillID5_Probablity" value="200" />
+			<param name="Orfen_SkillID6_Probablity" value="500" />
+			<param name="Orfen_SkillID7_Probablity" value="200" />
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+		</parameters>
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<acquire exp="2377901025504" sp="2140110720" raidPoints="300" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="103787467.02735" hpRegen="470.5528213" mp="88540.925" mpRegen="3.3" />
+			<attack physical="318573.0144" magical="228464.7134" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="36935.17502" magical="18028.22092" />
+			<attribute>
+				<attack type="EARTH" value="850" />
+				<defence fire="850" water="850" wind="800" earth="850" holy="850" dark="850" default="800" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="180" />
+			</speed>
+			<hitTime>710</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<collision>
+			<radius normal="75" />
+			<height normal="147" />
+		</collision>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4062" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="32486" level="1" /> 
+			<skill id="32487" level="1" /> 
+			<skill id="32488" level="1" /> 
+			<skill id="32489" level="1" /> 
+			<skill id="32490" level="1" /> 
+			<skill id="32491" level="1" /> 
+			<skill id="32492" level="1" /> 
+			<skill id="32493" level="1" /> 
+			<skill id="32494" level="1" /> 
+			<skill id="32495" level="1" /> 
+			<skill id="32496" level="1" /> 
+			<skill id="4416" level="13" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="32675" level="1" /> 
+			<skill id="14804" level="10" /> 
+		</skillList>
+		<corpseTime>300</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>ORFEN</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="48841" min="1" max="1" chance="100" /> 
+				<item id="36389" min="1" max="1" chance="79.21" /> 
+				<item id="46477" min="1" max="1" chance="23.71" /> 
+				<item id="46508" min="1" max="1" chance="23.02" /> 
+				<item id="46492" min="1" max="1" chance="22.7" /> 
+				<item id="46493" min="1" max="1" chance="22.39" /> 
+				<item id="46478" min="1" max="1" chance="22.23" /> 
+				<item id="46507" min="1" max="1" chance="22.21" /> 
+				<item id="46509" min="1" max="1" chance="19.81" /> 
+				<item id="36386" min="1" max="1" chance="19.87" /> 
+				<item id="46479" min="1" max="1" chance="19.03" /> 
+				<item id="46494" min="1" max="1" chance="18.24" /> 
+				<item id="17710" min="1" max="1" chance="17.18" /> 
+				<item id="17714" min="1" max="1" chance="17.17" /> 
+				<item id="17709" min="1" max="1" chance="17.13" /> 
+				<item id="17711" min="1" max="1" chance="16.52" /> 
+				<item id="17712" min="1" max="1" chance="16.33" /> 
+				<item id="17713" min="1" max="1" chance="16.15" /> 
+				<item id="46463" min="1" max="1" chance="15.9" /> 
+				<item id="46447" min="1" max="1" chance="15.05" /> 
+				<item id="46448" min="1" max="1" chance="14.93" /> 
+				<item id="46462" min="1" max="1" chance="14.73" /> 
+				<item id="46464" min="1" max="1" chance="13.46" /> 
+				<item id="46449" min="1" max="1" chance="12.62" /> 
+				<item id="46510" min="1" max="1" chance="11.61" /> 
+				<item id="46495" min="1" max="1" chance="11.37" /> 
+				<item id="46480" min="1" max="1" chance="11.28" /> 
+				<item id="46450" min="1" max="1" chance="7.777" /> 
+				<item id="46465" min="1" max="1" chance="7.74" /> 
+				<item id="46511" min="1" max="1" chance="7.72" /> 
+				<item id="46496" min="1" max="1" chance="7.714" /> 
+				<item id="46481" min="1" max="1" chance="7.637" /> 
+				<item id="46466" min="1" max="1" chance="5.177" /> 
+				<item id="46451" min="1" max="1" chance="5.141" /> 
+				<item id="38060" min="1" max="1" chance="5.057" /> 
+				<item id="38064" min="1" max="1" chance="5.051" /> 
+				<item id="38062" min="1" max="1" chance="5.041" /> 
+				<item id="38061" min="1" max="1" chance="4.979" /> 
+				<item id="38063" min="1" max="1" chance="4.935" /> 
+				<item id="38055" min="1" max="1" chance="4.2245" /> 
+				<item id="38068" min="1" max="1" chance="4.2245" /> 
+				<item id="38056" min="1" max="1" chance="4.2225" /> 
+				<item id="38070" min="1" max="1" chance="4.202" /> 
+				<item id="38065" min="1" max="1" chance="4.1685" /> 
+				<item id="38057" min="1" max="1" chance="4.1365" /> 
+				<item id="38059" min="1" max="1" chance="4.133" /> 
+				<item id="38069" min="1" max="1" chance="4.126" /> 
+				<item id="38066" min="1" max="1" chance="4.1135" /> 
+				<item id="38058" min="1" max="1" chance="4.112" /> 
+				<item id="38054" min="1" max="1" chance="4.1105" /> 
+				<item id="38067" min="1" max="1" chance="4.0945" /> 
+				<item id="35567" min="1" max="1" chance="2.529" /> 
+				<item id="35569" min="1" max="1" chance="2.524" /> 
+				<item id="38052" min="1" max="1" chance="0.3" /> 
+				<item id="38043" min="1" max="1" chance="0.3" /> 
+				<item id="38044" min="1" max="1" chance="0.3" /> 
+				<item id="38045" min="1" max="1" chance="0.3" /> 
+				<item id="38046" min="1" max="1" chance="0.3" /> 
+				<item id="38047" min="1" max="1" chance="0.3" /> 
+				<item id="38053" min="1" max="1" chance="0.3" /> 
+				<item id="38049" min="1" max="1" chance="0.3" /> 
+				<item id="38050" min="1" max="1" chance="0.3" /> 
+				<item id="38051" min="1" max="1" chance="0.3" /> 
+				<item id="38048" min="1" max="1" chance="0.3" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29326" level="108" type="Monster" name="亞麗瑪" title="Orfen's Handmaiden">
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+		</parameters>
+		<race>BUG</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4605994" mp="53993" mpRegen="3.5" hpRegen="3.5" />
+			<attack physical="378413.22412" magical="352501.98913043" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1602" magical="293" evasion="-18" />
+			<attribute>
+				<attack type="WIND" value="850" />
+				<defence fire="850" water="850" wind="850" earth="750" holy="850" dark="850" />
+			</attribute>
+			<speed>
+				<walk ground="90" />
+				<run ground="180" />
+			</speed>
+			<hitTime>710</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4416" level="12" /> 
+			<skill id="5464" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="32675" level="1" /> 
+		</skillList>
+		<corpseTime>300</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>ORFEN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="30" />
+			<height normal="101" />
+		</collision>
+	</npc>
+	<npc id="29327" level="108" type="Monster" name="雅莉穆斯" title="Orfen's Handmaiden">
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+		</parameters>
+		<race>BUG</race>
+		<sex>FEMALE</sex>
+		<acquire exp="525848112" sp="466560" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="454663.84743" hpRegen="9.5" mp="32075.861" mpRegen="3.3" />
+			<attack physical="378413.22412" magical="352501.98913043" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1602" magical="293" evasion="-18" />
+			<speed>
+				<walk ground="90" />
+				<run ground="180" />
+			</speed>
+			<hitTime>710</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4416" level="12" /> 
+			<skill id="5464" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<corpseTime>300</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>ORFEN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="30" />
+			<height normal="101" />
+		</collision>
+	</npc>
+	<npc id="29328" level="85" type="Folk" name="托勒培度">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="32" />
+			<height normal="63.4" />
+		</collision>
+	</npc>
+	<npc id="29329" level="85" type="Folk" name="哈納芮">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="140" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="30" />
+			<height normal="18.5" />
+		</collision>
+	</npc>
+	<npc id="29330" level="85" type="Folk" name="艾斯克黎多" title="Fragment of the Sea of Spores">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="32" />
+			<height normal="63.4" />
+		</collision>
+	</npc>
+	<npc id="29331" level="85" type="Folk" name="阿拉雷亞" title="Fragment of the Sea of Spores">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="140" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="30" />
+			<height normal="18.5" />
+		</collision>
+	</npc>
+	<npc id="29332" level="85" type="Folk" name="托勒培度">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="40" />
+			<height normal="80" />
+		</collision>
+	</npc>
+	<npc id="29333" level="85" type="Folk" name="哈納芮">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="140" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="48" />
+			<height normal="31.4" />
+		</collision>
+	</npc>
+	<npc id="29334" level="85" type="Folk" name="艾斯克黎多">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="40" />
+			<height normal="80" />
+		</collision>
+	</npc>
+	<npc id="29335" level="85" type="Folk" name="阿拉雷亞">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="140" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950.2231755595" magical="1331.5869440987" critical="4" attackSpeed="253" range="40" />
+			<defence physical="405.85106382979" magical="297.0297029703" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="48" />
+			<height normal="31.4" />
+		</collision>
+	</npc>
+	<npc id="29336" level="110" type="GrandBoss" name="莉莉絲" title="Apostle">
+		<parameters>
+			<skill name="Skill01_ID" id="32536" level="1" />
+			<skill name="Skill02_ID" id="32537" level="1" />
+			<skill name="Skill03_ID" id="32538" level="1" />
+			<param name="Skill01_Probablity" value="2000" />
+			<param name="Skill02_Probablity" value="2000" />
+			<param name="Skill03_Probablity" value="500" />
+			<minions name="Privates">
+				<npc id="29337" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="29338" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="29339" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<param name="SSQLoserTeleport" value="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="5789917167100" sp="5210925500" raidPoints="300" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="147435690.38708" hpRegen="488.1839242" mp="91059.891" mpRegen="3.6" />
+			<attack physical="330509.599" magical="237025.0379" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="38319.09589" magical="18703.71877" />
+			<speed>
+				<walk ground="45" />
+				<run ground="180" />
+			</speed>
+			<attribute>
+				<attack type="DARK" value="450" />
+				<defence fire="450" water="450" wind="450" earth="450" holy="450" dark="450" />
+			</attribute>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<collision>
+			<radius normal="42.5" />
+			<height normal="55" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="32675" level="1" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="32536" level="1" /> 
+			<skill id="32537" level="1" /> 
+			<skill id="32538" level="1" /> 
+			<skill id="32539" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" />
+		<dropLists>
+			<drop>
+				<item id="37714" min="1" max="1" chance="71.21" /> 
+				<item id="17440" min="1" max="2" chance="20.91" /> 
+				<item id="17437" min="1" max="2" chance="20.87" /> 
+				<item id="17438" min="1" max="2" chance="20.49" /> 
+				<item id="17439" min="1" max="2" chance="20.02" /> 
+				<item id="17436" min="1" max="2" chance="19.91" /> 
+				<item id="17444" min="1" max="2" chance="17.45" /> 
+				<item id="17443" min="1" max="2" chance="17.36" /> 
+				<item id="17431" min="1" max="2" chance="16.87" /> 
+				<item id="17432" min="1" max="2" chance="16.83" /> 
+				<item id="17434" min="1" max="2" chance="16.71" /> 
+				<item id="17433" min="1" max="2" chance="16.67" /> 
+				<item id="17442" min="1" max="2" chance="16.3" /> 
+				<item id="17435" min="1" max="2" chance="16.215" /> 
+				<item id="17446" min="1" max="2" chance="16.055" /> 
+				<item id="17441" min="1" max="2" chance="15.97" /> 
+				<item id="17430" min="1" max="2" chance="15.96" /> 
+				<item id="17445" min="1" max="2" chance="15.93" /> 
+				<item id="17417" min="1" max="1" chance="9.146" /> 
+				<item id="17416" min="1" max="1" chance="9.143" /> 
+				<item id="17420" min="1" max="1" chance="9.142" /> 
+				<item id="17419" min="1" max="1" chance="9.114" /> 
+				<item id="17421" min="1" max="1" chance="9.107" /> 
+				<item id="17426" min="1" max="1" chance="9.076" /> 
+				<item id="17424" min="1" max="1" chance="9.06" /> 
+				<item id="17425" min="1" max="1" chance="9.041" /> 
+				<item id="17423" min="1" max="1" chance="9.035" /> 
+				<item id="17422" min="1" max="1" chance="9.031" /> 
+				<item id="17418" min="1" max="1" chance="9.025" /> 
+				<item id="19448" min="5" max="5" chance="100" /> 
+				<item id="19447" min="10" max="10" chance="100" /> 
+				<item id="37716" min="1" max="1" chance="28.75" /> 
+				<item id="17713" min="1" max="1" chance="17.41" /> 
+				<item id="17707" min="1" max="1" chance="17.39" /> 
+				<item id="17712" min="1" max="1" chance="17.32" /> 
+				<item id="17711" min="1" max="1" chance="17.23" /> 
+				<item id="17714" min="1" max="1" chance="17.22" /> 
+				<item id="17697" min="1" max="1" chance="17.22" /> 
+				<item id="17705" min="1" max="1" chance="16.92" /> 
+				<item id="17700" min="1" max="1" chance="16.81" /> 
+				<item id="17709" min="1" max="1" chance="16.64" /> 
+				<item id="17706" min="1" max="1" chance="16.56" /> 
+				<item id="17710" min="1" max="1" chance="16.46" /> 
+				<item id="17701" min="1" max="1" chance="16.45" /> 
+				<item id="17699" min="1" max="1" chance="16.31" /> 
+				<item id="17702" min="1" max="1" chance="16.29" /> 
+				<item id="17698" min="1" max="1" chance="16.29" /> 
+				<item id="46492" min="1" max="1" chance="15.98" /> 
+				<item id="17703" min="1" max="1" chance="15.96" /> 
+				<item id="17708" min="1" max="1" chance="15.94" /> 
+				<item id="17704" min="1" max="1" chance="15.88" /> 
+				<item id="37780" min="1" max="1" chance="15.67" /> 
+				<item id="46477" min="1" max="1" chance="15.37" /> 
+				<item id="46507" min="1" max="1" chance="14.65" /> 
+				<item id="46508" min="1" max="1" chance="11.63" /> 
+				<item id="46478" min="1" max="1" chance="11.46" /> 
+				<item id="46493" min="1" max="1" chance="11.15" /> 
+				<item id="46447" min="1" max="1" chance="10.16" /> 
+				<item id="46462" min="1" max="1" chance="10.1" /> 
+				<item id="46479" min="1" max="1" chance="9.572" /> 
+				<item id="46509" min="1" max="1" chance="9.56" /> 
+				<item id="46494" min="1" max="1" chance="9.56" /> 
+				<item id="46463" min="1" max="1" chance="7.728" /> 
+				<item id="46448" min="1" max="1" chance="7.725" /> 
+				<item id="46464" min="1" max="1" chance="6.449" /> 
+				<item id="46449" min="1" max="1" chance="6.389" /> 
+				<item id="46480" min="1" max="1" chance="5.75" /> 
+				<item id="46495" min="1" max="1" chance="5.693" /> 
+				<item id="46510" min="1" max="1" chance="5.691" /> 
+				<item id="37781" min="1" max="1" chance="5.063" /> 
+				<item id="46465" min="1" max="1" chance="3.9105" /> 
+				<item id="46496" min="1" max="1" chance="3.824" /> 
+				<item id="46450" min="1" max="1" chance="3.806" /> 
+				<item id="46511" min="1" max="1" chance="3.797" /> 
+				<item id="46481" min="1" max="1" chance="3.793" /> 
+				<item id="37771" min="1" max="1" chance="3.727" /> 
+				<item id="46466" min="1" max="1" chance="2.617" /> 
+				<item id="46451" min="1" max="1" chance="2.583" /> 
+				<item id="39483" min="1" max="1" chance="2.487" /> 
+				<item id="39484" min="1" max="1" chance="2.432" /> 
+				<item id="37772" min="1" max="1" chance="1.187" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29337" level="109" type="Monster" name="莉莉絲精銳鬥士">
+		<parameters>
+			<skill name="HealMagic_a" id="4209" level="8" />
+			<skill name="SelfRangeBuff_a" id="4212" level="8" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18886789.420995" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="69212" magical="60406" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="6625" magical="3848" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attribute>
+				<attack type="DARK" value="300" />
+				<defence fire="300" water="300" wind="300" earth="300" holy="150" dark="300" />
+			</attribute>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4209" level="8" /> 
+			<skill id="4212" level="8" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="32541" level="1" /> 
+			<skill id="32543" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" />
+		<collision>
+			<radius normal="12" />
+			<height normal="45" />
+		</collision>
+	</npc>
+	<npc id="29338" level="109" type="Monster" name="莉莉絲精銳戰士">
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18886789.420995" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="69212" magical="60406" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="6625" magical="3848" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attribute>
+				<attack type="DARK" value="300" />
+				<defence fire="300" water="300" wind="300" earth="300" holy="150" dark="300" />
+			</attribute>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="32542" level="1" /> 
+			<skill id="32543" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" />
+		<collision>
+			<radius normal="12" grown="14.4" />
+			<height normal="43" grown="51.6" />
+		</collision>
+	</npc>
+	<npc id="29339" level="109" type="Monster" name="莉莉絲精銳術士">
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18886789.420995" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="69212" magical="60406" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="6625" magical="3848" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attribute>
+				<attack type="DARK" value="300" />
+				<defence fire="300" water="300" wind="300" earth="300" holy="150" dark="300" />
+			</attribute>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="32544" level="1" /> 
+			<skill id="32545" level="1" /> 
+			<skill id="32546" level="1" /> 
+			<skill id="32547" level="1" /> 
+			<skill id="32548" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" />
+		<collision>
+			<radius normal="20" />
+			<height normal="53" />
+		</collision>
+	</npc>
+	<npc id="29340" level="109" type="Monster" name="莉莉恩上位鬥士">
+		<parameters>
+			<param name="MoveAroundSocial" value="70" />
+			<param name="MoveAroundSocial1" value="70" />
+			<param name="MoveAroundSocial2" value="70" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="SelfRangeDDMagic" id="4072" level="6" />
+			<skill name="SelfBuff" id="4091" level="1" />
+			<skill name="PhysicalSpecial" id="4032" level="6" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9443395.025955" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="541.44774" magical="369.73862" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="262.19426" magical="174.571895122369" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="6" /> 
+			<skill id="4072" level="6" /> 
+			<skill id="4091" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29340</ignoreNpcId> 
+				<ignoreNpcId>29341</ignoreNpcId> 
+				<ignoreNpcId>29342</ignoreNpcId> 
+				<ignoreNpcId>29343</ignoreNpcId> 
+				<ignoreNpcId>29344</ignoreNpcId> 
+				<ignoreNpcId>29345</ignoreNpcId> 
+				<ignoreNpcId>29346</ignoreNpcId> 
+				<ignoreNpcId>29347</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" grown="13.2" />
+			<height normal="39" grown="46.8" />
+		</collision>
+	</npc>
+	<npc id="29341" level="109" type="Monster" name="莉莉恩軍團兵">
+		<parameters>
+			<param name="MoveAroundSocial" value="71" />
+			<param name="MoveAroundSocial1" value="71" />
+			<param name="MoveAroundSocial2" value="71" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="6" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9443395.025955" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="603.79903" magical="412.31647" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="276.72752" magical="184.248304515217" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="6" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29340</ignoreNpcId> 
+				<ignoreNpcId>29341</ignoreNpcId> 
+				<ignoreNpcId>29342</ignoreNpcId> 
+				<ignoreNpcId>29343</ignoreNpcId> 
+				<ignoreNpcId>29344</ignoreNpcId> 
+				<ignoreNpcId>29345</ignoreNpcId> 
+				<ignoreNpcId>29346</ignoreNpcId> 
+				<ignoreNpcId>29347</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20.4" />
+			<height normal="53.4" />
+		</collision>
+	</npc>
+	<npc id="29342" level="109" type="Monster" name="莉莉恩偵查兵">
+		<parameters>
+			<param name="MoveAroundSocial" value="71" />
+			<param name="MoveAroundSocial1" value="71" />
+			<param name="MoveAroundSocial2" value="71" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="6" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="48232" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="7082545.79628" hpRegen="9.5" mp="29693.143" mpRegen="3.3" />
+			<attack physical="603.79903" magical="412.31647" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="276.72752" magical="184.248304515217" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="6" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29340</ignoreNpcId> 
+				<ignoreNpcId>29341</ignoreNpcId> 
+				<ignoreNpcId>29342</ignoreNpcId> 
+				<ignoreNpcId>29343</ignoreNpcId> 
+				<ignoreNpcId>29344</ignoreNpcId> 
+				<ignoreNpcId>29345</ignoreNpcId> 
+				<ignoreNpcId>29346</ignoreNpcId> 
+				<ignoreNpcId>29347</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="17" />
+			<height normal="44" />
+		</collision>
+	</npc>
+	<npc id="29343" level="109" type="Monster" name="莉莉恩祭司長">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<skill name="CheckMagic" id="4098" level="6" />
+			<skill name="CheckMagic1" id="4046" level="6" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="MagicHeal" id="4065" level="6" />
+			<skill name="CancelMagic" id="4094" level="6" />
+			<skill name="Buff" id="4030" level="3" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4721697.19752" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="667.50361" magical="455.81844" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="291.15063" magical="193.851368417065" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4030" level="3" /> 
+			<skill id="4046" level="6" /> 
+			<skill id="4065" level="6" /> 
+			<skill id="4094" level="6" /> 
+			<skill id="4098" level="6" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29340</ignoreNpcId> 
+				<ignoreNpcId>29341</ignoreNpcId> 
+				<ignoreNpcId>29342</ignoreNpcId> 
+				<ignoreNpcId>29343</ignoreNpcId> 
+				<ignoreNpcId>29344</ignoreNpcId> 
+				<ignoreNpcId>29345</ignoreNpcId> 
+				<ignoreNpcId>29346</ignoreNpcId> 
+				<ignoreNpcId>29347</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="21" grown="14" />
+			<height normal="44" grown="56" />
+		</collision>
+	</npc>
+	<npc id="29344" level="109" type="Monster" name="莉莉恩搜索兵">
+		<parameters>
+			<param name="MoveAroundSocial" value="71" />
+			<param name="MoveAroundSocial1" value="71" />
+			<param name="MoveAroundSocial2" value="71" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="8" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="7082545.79628" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="212.557735094503" />
+			<speed>
+				<walk ground="45" />
+				<run ground="180" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="8" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29340</ignoreNpcId> 
+				<ignoreNpcId>29341</ignoreNpcId> 
+				<ignoreNpcId>29342</ignoreNpcId> 
+				<ignoreNpcId>29343</ignoreNpcId> 
+				<ignoreNpcId>29344</ignoreNpcId> 
+				<ignoreNpcId>29345</ignoreNpcId> 
+				<ignoreNpcId>29346</ignoreNpcId> 
+				<ignoreNpcId>29347</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15.6" />
+			<height normal="34.05" />
+		</collision>
+	</npc>
+	<npc id="29345" level="109" type="Monster" name="莉莉恩騎士團長">
+		<parameters>
+			<param name="MoveAroundSocial" value="71" />
+			<param name="MoveAroundSocial1" value="71" />
+			<param name="MoveAroundSocial2" value="71" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="8" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="13983" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18886789.420995" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="212.557735094503" />
+			<speed>
+				<walk ground="73" />
+				<run ground="180" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="8" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29340</ignoreNpcId> 
+				<ignoreNpcId>29341</ignoreNpcId> 
+				<ignoreNpcId>29342</ignoreNpcId> 
+				<ignoreNpcId>29343</ignoreNpcId> 
+				<ignoreNpcId>29344</ignoreNpcId> 
+				<ignoreNpcId>29345</ignoreNpcId> 
+				<ignoreNpcId>29346</ignoreNpcId> 
+				<ignoreNpcId>29347</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="27.1" />
+		</collision>
+	</npc>
+	<npc id="29346" level="109" type="Monster" name="莉莉恩上位祭司" title="Lilith's eye">
+		<parameters>
+			<param name="MoveAroundSocial" value="71" />
+			<param name="MoveAroundSocial1" value="71" />
+			<param name="MoveAroundSocial2" value="71" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="8" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9443395.025955" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="212.557735094503" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="8" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29340</ignoreNpcId> 
+				<ignoreNpcId>29341</ignoreNpcId> 
+				<ignoreNpcId>29342</ignoreNpcId> 
+				<ignoreNpcId>29343</ignoreNpcId> 
+				<ignoreNpcId>29344</ignoreNpcId> 
+				<ignoreNpcId>29345</ignoreNpcId> 
+				<ignoreNpcId>29346</ignoreNpcId> 
+				<ignoreNpcId>29347</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" />
+			<height normal="49" />
+		</collision>
+	</npc>
+	<npc id="29347" level="110" type="Monster" name="莉莉恩軍團長" title="Catacomb Guardian">
+		<parameters>
+			<param name="MoveAroundSocial" value="70" />
+			<param name="MoveAroundSocial1" value="70" />
+			<param name="MoveAroundSocial2" value="70" />
+			<skill name="SelfRangeDDMagic" id="4072" level="9" />
+			<skill name="SelfBuff" id="4091" level="1" />
+			<skill name="PhysicalSpecial" id="4032" level="9" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="28330185.70878" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="912.6537108" magical="635.688655236" random="30" critical="4" accuracy="6.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="348.2025" magical="231.837152158566" evasion="2" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="9" /> 
+			<skill id="4072" level="9" /> 
+			<skill id="4091" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29340</ignoreNpcId> 
+				<ignoreNpcId>29341</ignoreNpcId> 
+				<ignoreNpcId>29342</ignoreNpcId> 
+				<ignoreNpcId>29343</ignoreNpcId> 
+				<ignoreNpcId>29344</ignoreNpcId> 
+				<ignoreNpcId>29345</ignoreNpcId> 
+				<ignoreNpcId>29346</ignoreNpcId> 
+				<ignoreNpcId>29347</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" grown="15.6" />
+			<height normal="48" grown="57.6" />
+		</collision>
+	</npc>
+	<npc id="29348" level="110" type="GrandBoss" name="亞納" title="Fallen Angel">
+		<parameters>
+			<skill name="Skill01_ID" id="32566" level="1" />
+			<skill name="Skill02_ID" id="32567" level="1" />
+			<skill name="Skill03_ID" id="32568" level="1" />
+			<param name="Skill01_Probablity" value="2000" />
+			<param name="Skill02_Probablity" value="2000" />
+			<param name="Skill03_Probablity" value="500" />
+			<minions name="Privates">
+				<npc id="29349" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="29350" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="29351" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<param name="SSQLoserTeleport" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>FEMALE</sex>
+		<acquire exp="5789917167100" sp="5210925500" raidPoints="300" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="147435690.38708" hpRegen="488.1839242" mp="91059.891" mpRegen="3.6" />
+			<attack physical="330509.599" magical="237025.0379" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="38319.09589" magical="18703.71877" />
+			<speed>
+				<walk ground="45" />
+				<run ground="180" />
+			</speed>
+			<attribute>
+				<attack type="HOLY" value="450" />
+				<defence fire="450" water="450" wind="450" earth="450" holy="450" dark="450" />
+			</attribute>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<collision>
+			<radius normal="27.9" />
+			<height normal="54.6" />
+		</collision>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="32566" level="1" /> 
+			<skill id="32567" level="1" /> 
+			<skill id="32568" level="1" /> 
+			<skill id="32569" level="1" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="5466" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="4494" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" />
+		<dropLists>
+			<drop>
+				<item id="37715" min="1" max="1" chance="70.29" /> 
+				<item id="17436" min="1" max="2" chance="20.62" /> 
+				<item id="17440" min="1" max="2" chance="19.97" /> 
+				<item id="17438" min="1" max="2" chance="19.68" /> 
+				<item id="17439" min="1" max="2" chance="19.12" /> 
+				<item id="17437" min="1" max="2" chance="19.07" /> 
+				<item id="17430" min="1" max="2" chance="17.48" /> 
+				<item id="17435" min="1" max="2" chance="17.305" /> 
+				<item id="17444" min="1" max="2" chance="17.25" /> 
+				<item id="17431" min="1" max="2" chance="17.15" /> 
+				<item id="17441" min="1" max="2" chance="17.04" /> 
+				<item id="17434" min="1" max="2" chance="16.93" /> 
+				<item id="17432" min="1" max="2" chance="16.81" /> 
+				<item id="17442" min="1" max="2" chance="16.69" /> 
+				<item id="17445" min="1" max="2" chance="16.47" /> 
+				<item id="17446" min="1" max="2" chance="16.45" /> 
+				<item id="17433" min="1" max="2" chance="16.43" /> 
+				<item id="17443" min="1" max="2" chance="16.2" /> 
+				<item id="17416" min="1" max="1" chance="9.156" /> 
+				<item id="17419" min="1" max="1" chance="9.148" /> 
+				<item id="17425" min="1" max="1" chance="9.145" /> 
+				<item id="17422" min="1" max="1" chance="9.127" /> 
+				<item id="17423" min="1" max="1" chance="9.123" /> 
+				<item id="17426" min="1" max="1" chance="9.095" /> 
+				<item id="17417" min="1" max="1" chance="9.071" /> 
+				<item id="17421" min="1" max="1" chance="9.058" /> 
+				<item id="17420" min="1" max="1" chance="9.042" /> 
+				<item id="17418" min="1" max="1" chance="9.038" /> 
+				<item id="17424" min="1" max="1" chance="9.027" /> 
+				<item id="19448" min="5" max="5" chance="100" /> 
+				<item id="19447" min="10" max="10" chance="100" /> 
+				<item id="37716" min="1" max="1" chance="28.53" /> 
+				<item id="17714" min="1" max="1" chance="17.31" /> 
+				<item id="17706" min="1" max="1" chance="17.28" /> 
+				<item id="17697" min="1" max="1" chance="17.25" /> 
+				<item id="17701" min="1" max="1" chance="17.11" /> 
+				<item id="17698" min="1" max="1" chance="16.97" /> 
+				<item id="17704" min="1" max="1" chance="16.92" /> 
+				<item id="17699" min="1" max="1" chance="16.91" /> 
+				<item id="17711" min="1" max="1" chance="16.9" /> 
+				<item id="17712" min="1" max="1" chance="16.88" /> 
+				<item id="17703" min="1" max="1" chance="16.72" /> 
+				<item id="17700" min="1" max="1" chance="16.47" /> 
+				<item id="17708" min="1" max="1" chance="16.38" /> 
+				<item id="17713" min="1" max="1" chance="16.22" /> 
+				<item id="17702" min="1" max="1" chance="16.17" /> 
+				<item id="17707" min="1" max="1" chance="16.17" /> 
+				<item id="17710" min="1" max="1" chance="16.16" /> 
+				<item id="17709" min="1" max="1" chance="16.12" /> 
+				<item id="17705" min="1" max="1" chance="15.84" /> 
+				<item id="46492" min="1" max="1" chance="15.5" /> 
+				<item id="46507" min="1" max="1" chance="15.12" /> 
+				<item id="46477" min="1" max="1" chance="14.71" /> 
+				<item id="37780" min="1" max="1" chance="14.25" /> 
+				<item id="46508" min="1" max="1" chance="11.92" /> 
+				<item id="46493" min="1" max="1" chance="11.85" /> 
+				<item id="46478" min="1" max="1" chance="11.08" /> 
+				<item id="46462" min="1" max="1" chance="10.68" /> 
+				<item id="46447" min="1" max="1" chance="10.21" /> 
+				<item id="46494" min="1" max="1" chance="9.625" /> 
+				<item id="46479" min="1" max="1" chance="9.564" /> 
+				<item id="46509" min="1" max="1" chance="9.548" /> 
+				<item id="46463" min="1" max="1" chance="7.716" /> 
+				<item id="46448" min="1" max="1" chance="7.715" /> 
+				<item id="46449" min="1" max="1" chance="6.482" /> 
+				<item id="46464" min="1" max="1" chance="6.478" /> 
+				<item id="46480" min="1" max="1" chance="5.81" /> 
+				<item id="46510" min="1" max="1" chance="5.752" /> 
+				<item id="46495" min="1" max="1" chance="5.68" /> 
+				<item id="37781" min="1" max="1" chance="4.996" /> 
+				<item id="46450" min="1" max="1" chance="3.9025" /> 
+				<item id="46496" min="1" max="1" chance="3.878" /> 
+				<item id="46481" min="1" max="1" chance="3.865" /> 
+				<item id="46465" min="1" max="1" chance="3.8515" /> 
+				<item id="46511" min="1" max="1" chance="3.834" /> 
+				<item id="37771" min="1" max="1" chance="3.748" /> 
+				<item id="46466" min="1" max="1" chance="2.624" /> 
+				<item id="39483" min="1" max="1" chance="2.567" /> 
+				<item id="39484" min="1" max="1" chance="2.552" /> 
+				<item id="46451" min="1" max="1" chance="2.555" /> 
+				<item id="37772" min="1" max="1" chance="1.186" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29349" level="109" type="Monster" name="亞納精銳隊長">
+		<parameters>
+			<skill name="HealMagic_a" id="4209" level="8" />
+			<skill name="SelfRangeBuff_a" id="4212" level="8" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18886789.420995" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="69212" magical="60406" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="6625" magical="3848" evasion="-18" />
+			<speed>
+				<walk ground="49" />
+				<run ground="180" />
+			</speed>
+			<attribute>
+				<attack type="HOLY" value="300" />
+				<defence fire="300" water="300" wind="300" earth="300" holy="300" dark="150" />
+			</attribute>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="32572" level="1" /> 
+			<skill id="32573" level="1" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="5466" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" />
+		<collision>
+			<radius normal="19.2" />
+			<height normal="36.6" />
+		</collision>
+	</npc>
+	<npc id="29350" level="109" type="Monster" name="亞納精銳戰士">
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18886789.420995" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="69212" magical="60406" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="6625" magical="3848" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attribute>
+				<attack type="HOLY" value="300" />
+				<defence fire="300" water="300" wind="300" earth="300" holy="300" dark="150" />
+			</attribute>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4416" level="8" /> 
+			<skill id="5466" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="32571" level="1" /> 
+			<skill id="32572" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" />
+		<collision>
+			<radius normal="12" grown="14.4" />
+			<height normal="43" grown="51.6" />
+		</collision>
+	</npc>
+	<npc id="29351" level="109" type="Monster" name="亞納精銳祭司">
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18886789.420995" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="69212" magical="60406" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="6625" magical="3848" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attribute>
+				<attack type="HOLY" value="300" />
+				<defence fire="300" water="300" wind="300" earth="300" holy="300" dark="150" />
+			</attribute>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4416" level="8" /> 
+			<skill id="5466" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="32574" level="1" /> 
+			<skill id="32575" level="1" /> 
+			<skill id="32576" level="1" /> 
+			<skill id="32577" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" />
+		<collision>
+			<radius normal="12" />
+			<height normal="30.6" />
+		</collision>
+	</npc>
+	<npc id="29352" level="109" type="Monster" name="那芙琳親衛隊長">
+		<parameters>
+			<param name="MoveAroundSocial" value="70" />
+			<param name="MoveAroundSocial1" value="70" />
+			<param name="MoveAroundSocial2" value="70" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="SelfRangeDDMagic" id="4072" level="6" />
+			<skill name="SelfBuff" id="4091" level="1" />
+			<skill name="PhysicalSpecial" id="4032" level="6" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9443395.025955" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="541.44774" magical="369.73862" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="262.19426" magical="174.571895122369" />
+			<speed>
+				<walk ground="30" />
+				<run ground="180" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="6" /> 
+			<skill id="4072" level="6" /> 
+			<skill id="4091" level="1" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="5466" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29352</ignoreNpcId> 
+				<ignoreNpcId>29353</ignoreNpcId> 
+				<ignoreNpcId>29354</ignoreNpcId> 
+				<ignoreNpcId>29355</ignoreNpcId> 
+				<ignoreNpcId>29356</ignoreNpcId> 
+				<ignoreNpcId>29357</ignoreNpcId> 
+				<ignoreNpcId>29358</ignoreNpcId> 
+				<ignoreNpcId>29359</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" grown="13.2" />
+			<height normal="39" grown="46.8" />
+		</collision>
+	</npc>
+	<npc id="29353" level="109" type="Monster" name="那芙琳暗殺者">
+		<parameters>
+			<param name="MoveAroundSocial" value="71" />
+			<param name="MoveAroundSocial1" value="71" />
+			<param name="MoveAroundSocial2" value="71" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="6" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="7082545.79628" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="603.79903" magical="412.31647" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="276.72752" magical="184.248304515217" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="6" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="5466" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29352</ignoreNpcId> 
+				<ignoreNpcId>29353</ignoreNpcId> 
+				<ignoreNpcId>29354</ignoreNpcId> 
+				<ignoreNpcId>29355</ignoreNpcId> 
+				<ignoreNpcId>29356</ignoreNpcId> 
+				<ignoreNpcId>29357</ignoreNpcId> 
+				<ignoreNpcId>29358</ignoreNpcId> 
+				<ignoreNpcId>29359</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="21" />
+			<height normal="37.5" />
+		</collision>
+	</npc>
+	<npc id="29354" level="109" type="Monster" name="那芙琳狙擊兵">
+		<parameters>
+			<param name="MoveAroundSocial" value="71" />
+			<param name="MoveAroundSocial1" value="71" />
+			<param name="MoveAroundSocial2" value="71" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="6" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="15302" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="7082545.79628" hpRegen="9.5" mp="29693.143" mpRegen="3.3" />
+			<attack physical="603.79903" magical="412.31647" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="276.72752" magical="184.248304515217" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="6" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="5466" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29352</ignoreNpcId> 
+				<ignoreNpcId>29353</ignoreNpcId> 
+				<ignoreNpcId>29354</ignoreNpcId> 
+				<ignoreNpcId>29355</ignoreNpcId> 
+				<ignoreNpcId>29356</ignoreNpcId> 
+				<ignoreNpcId>29357</ignoreNpcId> 
+				<ignoreNpcId>29358</ignoreNpcId> 
+				<ignoreNpcId>29359</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="33" />
+		</collision>
+	</npc>
+	<npc id="29355" level="109" type="Monster" name="那芙琳大主教">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<skill name="CheckMagic" id="4098" level="6" />
+			<skill name="CheckMagic1" id="4046" level="6" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="MagicHeal" id="4065" level="6" />
+			<skill name="CancelMagic" id="4094" level="6" />
+			<skill name="Buff" id="4030" level="3" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="4721697.19752" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="667.50361" magical="455.81844" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="291.15063" magical="193.851368417065" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4030" level="3" /> 
+			<skill id="4046" level="6" /> 
+			<skill id="4065" level="6" /> 
+			<skill id="4094" level="6" /> 
+			<skill id="4098" level="6" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="5466" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29352</ignoreNpcId> 
+				<ignoreNpcId>29353</ignoreNpcId> 
+				<ignoreNpcId>29354</ignoreNpcId> 
+				<ignoreNpcId>29355</ignoreNpcId> 
+				<ignoreNpcId>29356</ignoreNpcId> 
+				<ignoreNpcId>29357</ignoreNpcId> 
+				<ignoreNpcId>29358</ignoreNpcId> 
+				<ignoreNpcId>29359</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="21" grown="14" />
+			<height normal="44" grown="56" />
+		</collision>
+	</npc>
+	<npc id="29356" level="109" type="Monster" name="那芙琳禁衛兵">
+		<parameters>
+			<param name="MoveAroundSocial" value="71" />
+			<param name="MoveAroundSocial1" value="71" />
+			<param name="MoveAroundSocial2" value="71" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="8" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="9443395.025955" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="212.557735094503" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="8" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="5466" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29352</ignoreNpcId> 
+				<ignoreNpcId>29353</ignoreNpcId> 
+				<ignoreNpcId>29354</ignoreNpcId> 
+				<ignoreNpcId>29355</ignoreNpcId> 
+				<ignoreNpcId>29356</ignoreNpcId> 
+				<ignoreNpcId>29357</ignoreNpcId> 
+				<ignoreNpcId>29358</ignoreNpcId> 
+				<ignoreNpcId>29359</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="30" />
+			<height normal="33" />
+		</collision>
+	</npc>
+	<npc id="29357" level="109" type="Monster" name="那芙琳戰士">
+		<parameters>
+			<param name="MoveAroundSocial" value="71" />
+			<param name="MoveAroundSocial1" value="71" />
+			<param name="MoveAroundSocial2" value="71" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="8" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="7082545.79628" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="212.557735094503" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="8" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="5466" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29352</ignoreNpcId> 
+				<ignoreNpcId>29353</ignoreNpcId> 
+				<ignoreNpcId>29354</ignoreNpcId> 
+				<ignoreNpcId>29355</ignoreNpcId> 
+				<ignoreNpcId>29356</ignoreNpcId> 
+				<ignoreNpcId>29357</ignoreNpcId> 
+				<ignoreNpcId>29358</ignoreNpcId> 
+				<ignoreNpcId>29359</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="30" />
+			<height normal="33" />
+		</collision>
+	</npc>
+	<npc id="29358" level="109" type="Monster" name="那芙琳騎士團長" title="Anakim's Eye">
+		<parameters>
+			<param name="MoveAroundSocial" value="71" />
+			<param name="MoveAroundSocial1" value="71" />
+			<param name="MoveAroundSocial2" value="71" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="PhysicalSpecial" id="4032" level="8" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="18886789.420995" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="794.70901" magical="542.68324" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="212.557735094503" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="8" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="5466" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>29352</ignoreNpcId> 
+				<ignoreNpcId>29353</ignoreNpcId> 
+				<ignoreNpcId>29354</ignoreNpcId> 
+				<ignoreNpcId>29355</ignoreNpcId> 
+				<ignoreNpcId>29356</ignoreNpcId> 
+				<ignoreNpcId>29357</ignoreNpcId> 
+				<ignoreNpcId>29358</ignoreNpcId> 
+				<ignoreNpcId>29359</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="49" />
+		</collision>
+	</npc>
+	<npc id="29359" level="110" type="Monster" name="那芙琳軍團長" title="Necropolis Guardian">
+		<parameters>
+			<param name="MoveAroundSocial" value="70" />
+			<param name="MoveAroundSocial1" value="70" />
+			<param name="MoveAroundSocial2" value="70" />
+			<skill name="SelfRangeDDMagic" id="4072" level="9" />
+			<skill name="SelfBuff" id="4091" level="1" />
+			<skill name="PhysicalSpecial" id="4032" level="9" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="28330185.70878" hpRegen="9.5" mp="31115.637" mpRegen="3.3" />
+			<attack physical="912.6537108" magical="635.688655236" random="30" critical="4" accuracy="6.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="348.2025" magical="231.837152158566" evasion="2" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4032" level="9" /> 
+			<skill id="4072" level="9" /> 
+			<skill id="4091" level="1" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="5466" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="400" aggroRange="450">
+			<clanList>
+				<clan>C_DUNGEON</clan>
+				<ignoreNpcId>21175</ignoreNpcId> 
+				<ignoreNpcId>21176</ignoreNpcId> 
+				<ignoreNpcId>21177</ignoreNpcId> 
+				<ignoreNpcId>21178</ignoreNpcId> 
+				<ignoreNpcId>21179</ignoreNpcId> 
+				<ignoreNpcId>21180</ignoreNpcId> 
+				<ignoreNpcId>21181</ignoreNpcId> 
+				<ignoreNpcId>21182</ignoreNpcId> 
+				<ignoreNpcId>21183</ignoreNpcId> 
+				<ignoreNpcId>21184</ignoreNpcId> 
+				<ignoreNpcId>21185</ignoreNpcId> 
+				<ignoreNpcId>21186</ignoreNpcId> 
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" grown="15.6" />
+			<height normal="48" grown="57.6" />
+		</collision>
+	</npc>
+	<npc id="29361" level="118" type="GrandBoss" name="法利昂" title="Wrathful Water Dragon">
+		<race>DRAGON</race>
+		<acquire exp="108452897573760" sp="97607602024" raidPoints="1000" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="260487323.99993" hpRegen="561.9508371" mp="100626.447" mpRegen="3.6" />
+			<speed>
+				<walk ground="45" />
+				<run ground="270" />
+			</speed>
+			<attack physical="56190.4761904762" magical="9915.96638655462" critical="4" attackSpeed="253" range="40" />
+			<defence physical="4370.37037037037" magical="2537.63440860215" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>FAFURION</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="200" />
+			<height normal="320" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="32675" level="1" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="32726" level="1" /> 
+			<skill id="32727" level="3" /> 
+			<skill id="32705" level="1" /> 
+			<skill id="32706" level="1" /> 
+			<skill id="32708" level="1" /> 
+			<skill id="32709" level="1" /> 
+			<skill id="32711" level="1" /> 
+			<skill id="32712" level="1" /> 
+			<skill id="32713" level="1" /> 
+			<skill id="32714" level="1" /> 
+			<skill id="32715" level="1" /> 
+			<skill id="32716" level="1" /> 
+			<skill id="32717" level="1" /> 
+			<skill id="32723" level="1" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="80113" min="1" max="2" chance="20.59" /> 
+				<item id="80110" min="1" max="2" chance="20.49" /> 
+				<item id="80111" min="1" max="2" chance="19.88" /> 
+				<item id="80114" min="1" max="2" chance="19.63" /> 
+				<item id="80112" min="1" max="2" chance="19.41" /> 
+				<item id="80107" min="1" max="2" chance="17.34" /> 
+				<item id="80104" min="1" max="2" chance="17.33" /> 
+				<item id="80118" min="1" max="2" chance="16.73" /> 
+				<item id="80105" min="1" max="2" chance="16.67" /> 
+				<item id="80115" min="1" max="2" chance="16.62" /> 
+				<item id="80120" min="1" max="2" chance="16.535" /> 
+				<item id="80117" min="1" max="2" chance="16.4" /> 
+				<item id="80109" min="1" max="2" chance="16.34" /> 
+				<item id="80116" min="1" max="2" chance="16.3" /> 
+				<item id="80106" min="1" max="2" chance="15.92" /> 
+				<item id="80119" min="1" max="2" chance="15.91" /> 
+				<item id="80108" min="1" max="2" chance="15.87" /> 
+				<item id="80099" min="1" max="2" chance="9.153" /> 
+				<item id="80090" min="1" max="2" chance="9.141" /> 
+				<item id="80091" min="1" max="2" chance="9.124" /> 
+				<item id="80095" min="1" max="2" chance="9.121" /> 
+				<item id="80098" min="1" max="2" chance="9.115" /> 
+				<item id="80100" min="1" max="2" chance="9.113" /> 
+				<item id="80093" min="1" max="2" chance="9.107" /> 
+				<item id="80094" min="1" max="2" chance="9.066" /> 
+				<item id="80097" min="1" max="2" chance="9.058" /> 
+				<item id="80096" min="1" max="2" chance="9.044" /> 
+				<item id="80092" min="1" max="2" chance="9.038" /> 
+				<item id="19448" min="3" max="4" chance="30.6" /> 
+				<item id="36389" min="3" max="4" chance="30" /> 
+				<item id="37781" min="1" max="1" chance="25.68" /> 
+				<item id="46492" min="1" max="2" chance="23.88" /> 
+				<item id="46507" min="1" max="2" chance="23.72" /> 
+				<item id="37772" min="1" max="1" chance="23.87" /> 
+				<item id="46493" min="1" max="1" chance="23.25" /> 
+				<item id="46478" min="1" max="1" chance="23.03" /> 
+				<item id="46477" min="1" max="2" chance="22.44" /> 
+				<item id="46508" min="1" max="1" chance="21.88" /> 
+				<item id="19447" min="3" max="4" chance="20.99" /> 
+				<item id="46494" min="1" max="1" chance="19.23" /> 
+				<item id="36386" min="3" max="4" chance="19.12" /> 
+				<item id="46509" min="1" max="1" chance="18.93" /> 
+				<item id="46479" min="1" max="1" chance="18.79" /> 
+				<item id="46463" min="1" max="1" chance="16.07" /> 
+				<item id="46462" min="1" max="2" chance="15.77" /> 
+				<item id="46448" min="1" max="1" chance="15.55" /> 
+				<item id="46447" min="1" max="2" chance="15.45" /> 
+				<item id="35568" min="1" max="1" chance="14.36" /> 
+				<item id="46464" min="1" max="1" chance="13.52" /> 
+				<item id="46449" min="1" max="1" chance="13.44" /> 
+				<item id="46480" min="1" max="1" chance="11.99" /> 
+				<item id="46510" min="1" max="1" chance="11.36" /> 
+				<item id="46495" min="1" max="1" chance="11.35" /> 
+				<item id="36162" min="1" max="1" chance="10.003" /> 
+				<item id="46465" min="1" max="1" chance="7.811" /> 
+				<item id="46511" min="1" max="1" chance="7.684" /> 
+				<item id="46450" min="1" max="1" chance="7.684" /> 
+				<item id="46481" min="1" max="1" chance="7.675" /> 
+				<item id="46496" min="1" max="1" chance="7.673" /> 
+				<item id="17702" min="1" max="1" chance="6.738" /> 
+				<item id="17708" min="1" max="1" chance="6.727" /> 
+				<item id="17711" min="1" max="1" chance="6.722" /> 
+				<item id="17699" min="1" max="1" chance="6.709" /> 
+				<item id="17712" min="1" max="1" chance="6.702" /> 
+				<item id="17714" min="1" max="1" chance="6.691" /> 
+				<item id="17701" min="1" max="1" chance="6.689" /> 
+				<item id="39485" min="1" max="1" chance="6.685" /> 
+				<item id="17703" min="1" max="1" chance="6.662" /> 
+				<item id="17706" min="1" max="1" chance="6.658" /> 
+				<item id="17705" min="1" max="1" chance="6.655" /> 
+				<item id="17709" min="1" max="1" chance="6.634" /> 
+				<item id="17700" min="1" max="1" chance="6.63" /> 
+				<item id="17713" min="1" max="1" chance="6.62" /> 
+				<item id="17710" min="1" max="1" chance="6.618" /> 
+				<item id="39484" min="1" max="1" chance="6.615" /> 
+				<item id="17697" min="1" max="1" chance="6.614" /> 
+				<item id="39483" min="1" max="1" chance="6.609" /> 
+				<item id="17707" min="1" max="1" chance="6.607" /> 
+				<item id="17704" min="1" max="1" chance="6.601" /> 
+				<item id="17698" min="1" max="1" chance="6.594" /> 
+				<item id="46451" min="1" max="1" chance="5.2" /> 
+				<item id="46466" min="1" max="1" chance="5.134" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29362" level="118" type="GrandBoss" name="法利昂" title="Wrathful Water Dragon">
+		<race>DRAGON</race>
+		<acquire exp="108452897573760" sp="97607602024" raidPoints="1000" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="347316433.05143" hpRegen="561.9508371" mp="100626.447" mpRegen="3.6" />
+			<speed>
+				<walk ground="45" />
+				<run ground="270" />
+			</speed>
+			<attack physical="56190.4761904762" magical="9915.96638655462" critical="4" attackSpeed="253" range="40" />
+			<defence physical="4370.37037037037" magical="2537.63440860215" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>FAFURION</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="200" />
+			<height normal="320" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="32675" level="1" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="32726" level="1" /> 
+			<skill id="32727" level="2" /> 
+			<skill id="32705" level="1" /> 
+			<skill id="32706" level="1" /> 
+			<skill id="32708" level="1" /> 
+			<skill id="32709" level="1" /> 
+			<skill id="32711" level="1" /> 
+			<skill id="32712" level="1" /> 
+			<skill id="32713" level="1" /> 
+			<skill id="32714" level="1" /> 
+			<skill id="32715" level="1" /> 
+			<skill id="32716" level="1" /> 
+			<skill id="32717" level="1" /> 
+			<skill id="32723" level="1" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="80335" min="1" max="2" chance="38.02" /> 
+				<item id="80113" min="1" max="2" chance="20.86" /> 
+				<item id="80114" min="1" max="2" chance="20.53" /> 
+				<item id="80110" min="1" max="2" chance="20.46" /> 
+				<item id="80112" min="1" max="2" chance="19.95" /> 
+				<item id="80111" min="1" max="2" chance="19.8" /> 
+				<item id="80107" min="1" max="2" chance="17.42" /> 
+				<item id="80118" min="1" max="2" chance="17.26" /> 
+				<item id="80117" min="1" max="2" chance="17.2" /> 
+				<item id="80119" min="1" max="2" chance="17.18" /> 
+				<item id="80120" min="1" max="2" chance="17.16" /> 
+				<item id="80106" min="1" max="2" chance="17.05" /> 
+				<item id="80115" min="1" max="2" chance="16.65" /> 
+				<item id="80104" min="1" max="2" chance="16.51" /> 
+				<item id="80105" min="1" max="2" chance="16.45" /> 
+				<item id="80108" min="1" max="2" chance="16.43" /> 
+				<item id="80109" min="1" max="2" chance="16.14" /> 
+				<item id="80116" min="1" max="2" chance="15.86" /> 
+				<item id="80333" min="1" max="1" chance="13.22" /> 
+				<item id="80334" min="1" max="1" chance="12.67" /> 
+				<item id="80098" min="1" max="2" chance="9.156" /> 
+				<item id="80095" min="1" max="2" chance="9.13" /> 
+				<item id="80092" min="1" max="2" chance="9.128" /> 
+				<item id="80100" min="1" max="2" chance="9.121" /> 
+				<item id="80090" min="1" max="2" chance="9.116" /> 
+				<item id="80091" min="1" max="2" chance="9.073" /> 
+				<item id="80096" min="1" max="2" chance="9.043" /> 
+				<item id="80099" min="1" max="2" chance="9.041" /> 
+				<item id="80094" min="1" max="2" chance="9.036" /> 
+				<item id="80093" min="1" max="2" chance="9.031" /> 
+				<item id="80097" min="1" max="2" chance="9.029" /> 
+				<item id="36414" min="2" max="2" chance="49.72" /> 
+				<item id="37772" min="1" max="1" chance="40.64" /> 
+				<item id="37781" min="1" max="1" chance="38.89" /> 
+				<item id="36389" min="4" max="5" chance="30" /> 
+				<item id="19448" min="4" max="5" chance="29.82" /> 
+				<item id="46508" min="1" max="1" chance="23.94" /> 
+				<item id="46477" min="1" max="2" chance="23.87" /> 
+				<item id="46507" min="1" max="2" chance="23.82" /> 
+				<item id="46478" min="1" max="1" chance="22.61" /> 
+				<item id="46493" min="1" max="1" chance="22.52" /> 
+				<item id="35568" min="1" max="1" chance="22.33" /> 
+				<item id="46492" min="1" max="2" chance="21.97" /> 
+				<item id="36386" min="4" max="5" chance="20.58" /> 
+				<item id="19447" min="4" max="5" chance="19.74" /> 
+				<item id="46509" min="1" max="1" chance="18.69" /> 
+				<item id="46494" min="1" max="1" chance="18.67" /> 
+				<item id="46479" min="1" max="1" chance="18.66" /> 
+				<item id="46462" min="1" max="2" chance="15.57" /> 
+				<item id="46463" min="1" max="1" chance="15.44" /> 
+				<item id="46448" min="1" max="1" chance="15.14" /> 
+				<item id="46447" min="1" max="2" chance="14.74" /> 
+				<item id="17699" min="1" max="1" chance="13.99" /> 
+				<item id="17697" min="1" max="1" chance="13.96" /> 
+				<item id="17707" min="1" max="1" chance="13.8" /> 
+				<item id="17704" min="1" max="1" chance="13.79" /> 
+				<item id="17710" min="1" max="1" chance="13.49" /> 
+				<item id="17700" min="1" max="1" chance="13.31" /> 
+				<item id="17701" min="1" max="1" chance="13.29" /> 
+				<item id="17712" min="1" max="1" chance="13.25" /> 
+				<item id="17703" min="1" max="1" chance="13.23" /> 
+				<item id="17708" min="1" max="1" chance="13.23" /> 
+				<item id="46464" min="1" max="1" chance="13.18" /> 
+				<item id="17711" min="1" max="1" chance="13.15" /> 
+				<item id="17706" min="1" max="1" chance="13.11" /> 
+				<item id="39485" min="1" max="1" chance="13.07" /> 
+				<item id="17709" min="1" max="1" chance="13.07" /> 
+				<item id="17705" min="1" max="1" chance="13.04" /> 
+				<item id="39484" min="1" max="1" chance="13" /> 
+				<item id="17714" min="1" max="1" chance="12.96" /> 
+				<item id="46449" min="1" max="1" chance="12.87" /> 
+				<item id="17713" min="1" max="1" chance="12.9" /> 
+				<item id="17698" min="1" max="1" chance="12.82" /> 
+				<item id="17702" min="1" max="1" chance="12.72" /> 
+				<item id="39483" min="1" max="1" chance="12.68" /> 
+				<item id="46480" min="1" max="1" chance="12.04" /> 
+				<item id="46495" min="1" max="1" chance="11.65" /> 
+				<item id="46510" min="1" max="1" chance="11.17" /> 
+				<item id="36162" min="1" max="1" chance="10" /> 
+				<item id="46465" min="1" max="1" chance="7.803" /> 
+				<item id="46450" min="1" max="1" chance="7.693" /> 
+				<item id="46511" min="1" max="1" chance="7.679" /> 
+				<item id="46496" min="1" max="1" chance="7.64" /> 
+				<item id="46481" min="1" max="1" chance="7.636" /> 
+				<item id="46451" min="1" max="1" chance="5.225" /> 
+				<item id="46466" min="1" max="1" chance="5.154" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29363" level="118" type="GrandBoss" name="法利昂" title="Wrathful Water Dragon">
+		<race>DRAGON</race>
+		<acquire exp="108452897573760" sp="97607602024" raidPoints="1000" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="434145540.8411" hpRegen="561.9508371" mp="100626.447" mpRegen="3.6" />
+			<speed>
+				<walk ground="45" />
+				<run ground="270" />
+			</speed>
+			<attack physical="56190.4761904762" magical="9915.96638655462" critical="4" attackSpeed="253" range="40" />
+			<defence physical="4370.37037037037" magical="2537.63440860215" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>FAFURION</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="200" />
+			<height normal="320" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="32675" level="1" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="32726" level="1" /> 
+			<skill id="32727" level="1" /> 
+			<skill id="32705" level="1" /> 
+			<skill id="32706" level="1" /> 
+			<skill id="32708" level="1" /> 
+			<skill id="32709" level="1" /> 
+			<skill id="32711" level="1" /> 
+			<skill id="32712" level="1" /> 
+			<skill id="32713" level="1" /> 
+			<skill id="32714" level="1" /> 
+			<skill id="32715" level="1" /> 
+			<skill id="32716" level="1" /> 
+			<skill id="32717" level="1" /> 
+			<skill id="32723" level="1" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="80335" min="1" max="2" chance="78.45" /> 
+				<item id="80334" min="1" max="1" chance="27.62" /> 
+				<item id="80333" min="1" max="1" chance="25.46" /> 
+				<item id="80110" min="1" max="3" chance="20.42" /> 
+				<item id="80113" min="1" max="3" chance="20.23" /> 
+				<item id="80112" min="1" max="3" chance="20.02" /> 
+				<item id="80114" min="1" max="3" chance="19.48" /> 
+				<item id="80111" min="1" max="3" chance="19.31" /> 
+				<item id="80120" min="1" max="3" chance="17.355" /> 
+				<item id="80107" min="1" max="3" chance="17.23" /> 
+				<item id="80117" min="1" max="3" chance="17.16" /> 
+				<item id="80115" min="1" max="3" chance="17.14" /> 
+				<item id="80119" min="1" max="3" chance="16.92" /> 
+				<item id="80109" min="1" max="3" chance="16.84" /> 
+				<item id="80104" min="1" max="3" chance="16.42" /> 
+				<item id="80108" min="1" max="3" chance="16.35" /> 
+				<item id="80118" min="1" max="3" chance="16.27" /> 
+				<item id="80106" min="1" max="3" chance="16.14" /> 
+				<item id="80116" min="1" max="3" chance="16.13" /> 
+				<item id="80105" min="1" max="3" chance="15.98" /> 
+				<item id="80092" min="1" max="3" chance="9.151" /> 
+				<item id="80096" min="1" max="3" chance="9.151" /> 
+				<item id="80091" min="1" max="3" chance="9.133" /> 
+				<item id="80090" min="1" max="3" chance="9.124" /> 
+				<item id="80100" min="1" max="3" chance="9.119" /> 
+				<item id="80095" min="1" max="3" chance="9.115" /> 
+				<item id="80099" min="1" max="3" chance="9.107" /> 
+				<item id="80094" min="1" max="3" chance="9.091" /> 
+				<item id="80098" min="1" max="3" chance="9.051" /> 
+				<item id="80093" min="1" max="3" chance="9.049" /> 
+				<item id="80097" min="1" max="3" chance="9.034" /> 
+				<item id="80071" min="1" max="1" chance="0.03" /> 
+				<item id="80070" min="1" max="1" chance="0.03" /> 
+				<item id="80069" min="1" max="1" chance="0.03" /> 
+				<item id="80315" min="1" max="1" chance="0.03" /> 
+				<item id="80068" min="1" max="1" chance="0.03" /> 
+				<item id="80067" min="1" max="1" chance="0.03" /> 
+				<item id="80066" min="1" max="1" chance="0.03" /> 
+				<item id="36414" min="2" max="2" chance="100" /> 
+				<item id="37781" min="1" max="1" chance="46.07" /> 
+				<item id="37772" min="1" max="1" chance="45.44" /> 
+				<item id="36389" min="5" max="10" chance="30.99" /> 
+				<item id="19448" min="5" max="10" chance="30.84" /> 
+				<item id="35568" min="1" max="1" chance="25.29" /> 
+				<item id="46477" min="1" max="2" chance="23.56" /> 
+				<item id="46478" min="1" max="1" chance="23.11" /> 
+				<item id="46492" min="1" max="2" chance="23.09" /> 
+				<item id="46493" min="1" max="1" chance="22.57" /> 
+				<item id="46508" min="1" max="1" chance="22.17" /> 
+				<item id="46507" min="1" max="2" chance="21.96" /> 
+				<item id="19447" min="5" max="10" chance="20.87" /> 
+				<item id="46509" min="1" max="1" chance="19.72" /> 
+				<item id="36386" min="5" max="10" chance="19.65" /> 
+				<item id="46494" min="1" max="1" chance="19.38" /> 
+				<item id="46479" min="1" max="1" chance="18.67" /> 
+				<item id="46462" min="1" max="2" chance="16.05" /> 
+				<item id="46447" min="1" max="2" chance="15.24" /> 
+				<item id="46463" min="1" max="1" chance="15.01" /> 
+				<item id="46448" min="1" max="1" chance="14.97" /> 
+				<item id="36162" min="1" max="1" chance="14.38" /> 
+				<item id="17700" min="1" max="1" chance="13.95" /> 
+				<item id="17707" min="1" max="1" chance="13.91" /> 
+				<item id="17702" min="1" max="1" chance="13.84" /> 
+				<item id="17706" min="1" max="1" chance="13.73" /> 
+				<item id="39483" min="1" max="1" chance="13.7" /> 
+				<item id="17698" min="1" max="1" chance="13.63" /> 
+				<item id="17697" min="1" max="1" chance="13.61" /> 
+				<item id="17701" min="1" max="1" chance="13.55" /> 
+				<item id="17705" min="1" max="1" chance="13.41" /> 
+				<item id="46449" min="1" max="1" chance="13.34" /> 
+				<item id="17710" min="1" max="1" chance="13.2" /> 
+				<item id="39484" min="1" max="1" chance="13.09" /> 
+				<item id="17708" min="1" max="1" chance="13.05" /> 
+				<item id="17699" min="1" max="1" chance="13" /> 
+				<item id="17713" min="1" max="1" chance="12.96" /> 
+				<item id="17712" min="1" max="1" chance="12.95" /> 
+				<item id="17714" min="1" max="1" chance="12.94" /> 
+				<item id="17711" min="1" max="1" chance="12.93" /> 
+				<item id="46464" min="1" max="1" chance="12.85" /> 
+				<item id="17704" min="1" max="1" chance="12.87" /> 
+				<item id="17709" min="1" max="1" chance="12.84" /> 
+				<item id="17703" min="1" max="1" chance="12.75" /> 
+				<item id="39485" min="1" max="1" chance="12.7" /> 
+				<item id="46495" min="1" max="1" chance="11.93" /> 
+				<item id="46510" min="1" max="1" chance="11.76" /> 
+				<item id="46480" min="1" max="1" chance="11.1" /> 
+				<item id="46465" min="1" max="1" chance="7.73" /> 
+				<item id="46511" min="1" max="1" chance="7.713" /> 
+				<item id="46450" min="1" max="1" chance="7.687" /> 
+				<item id="46481" min="1" max="1" chance="7.648" /> 
+				<item id="46496" min="1" max="1" chance="7.641" /> 
+				<item id="46451" min="1" max="1" chance="5.221" /> 
+				<item id="46466" min="1" max="1" chance="5.147" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29364" level="118" type="GrandBoss" name="法利昂" title="Wrathful Water Dragon">
+		<race>DRAGON</race>
+		<acquire exp="108452897573760" sp="97607602024" raidPoints="1000" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="520974648.63077" hpRegen="561.9508371" mp="100626.447" mpRegen="3.6" />
+			<speed>
+				<walk ground="45" />
+				<run ground="270" />
+			</speed>
+			<attack physical="56190.4761904762" magical="9915.96638655462" critical="4" attackSpeed="253" range="40" />
+			<defence physical="4370.37037037037" magical="2537.63440860215" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>FAFURION</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="200" />
+			<height normal="320" />
+		</collision>
+		<skillList>
+			<skill id="32727" level="3" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="32675" level="1" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="32726" level="1" /> 
+			<skill id="32705" level="1" /> 
+			<skill id="32706" level="1" /> 
+			<skill id="32708" level="1" /> 
+			<skill id="32709" level="1" /> 
+			<skill id="32711" level="1" /> 
+			<skill id="32712" level="1" /> 
+			<skill id="32713" level="1" /> 
+			<skill id="32714" level="1" /> 
+			<skill id="32715" level="1" /> 
+			<skill id="32716" level="1" /> 
+			<skill id="32717" level="1" /> 
+			<skill id="32723" level="1" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="80335" min="1" max="2" chance="100" /> 
+				<item id="80334" min="1" max="1" chance="34.2" /> 
+				<item id="80333" min="1" max="1" chance="32.68" /> 
+				<item id="80111" min="1" max="3" chance="20.97" /> 
+				<item id="80112" min="1" max="3" chance="20.77" /> 
+				<item id="80110" min="1" max="3" chance="20.1" /> 
+				<item id="80114" min="1" max="3" chance="19.9" /> 
+				<item id="80113" min="1" max="3" chance="19.35" /> 
+				<item id="80115" min="1" max="3" chance="17.39" /> 
+				<item id="80116" min="1" max="3" chance="17.36" /> 
+				<item id="80120" min="1" max="3" chance="16.93" /> 
+				<item id="80117" min="1" max="3" chance="16.84" /> 
+				<item id="80105" min="1" max="3" chance="16.79" /> 
+				<item id="80109" min="1" max="3" chance="16.735" /> 
+				<item id="80119" min="1" max="3" chance="16.7" /> 
+				<item id="80118" min="1" max="3" chance="16.53" /> 
+				<item id="80104" min="1" max="3" chance="16.23" /> 
+				<item id="80107" min="1" max="3" chance="16.19" /> 
+				<item id="80106" min="1" max="3" chance="16.17" /> 
+				<item id="80108" min="1" max="3" chance="15.95" /> 
+				<item id="80092" min="1" max="3" chance="9.159" /> 
+				<item id="80098" min="1" max="3" chance="9.159" /> 
+				<item id="80100" min="1" max="3" chance="9.154" /> 
+				<item id="80097" min="1" max="3" chance="9.122" /> 
+				<item id="80090" min="1" max="3" chance="9.109" /> 
+				<item id="80093" min="1" max="3" chance="9.086" /> 
+				<item id="80094" min="1" max="3" chance="9.076" /> 
+				<item id="80095" min="1" max="3" chance="9.045" /> 
+				<item id="80099" min="1" max="3" chance="9.026" /> 
+				<item id="80091" min="1" max="3" chance="9.022" /> 
+				<item id="80096" min="1" max="3" chance="9.022" /> 
+				<item id="80067" min="1" max="1" chance="0.075" /> 
+				<item id="80068" min="1" max="1" chance="0.075" /> 
+				<item id="80315" min="1" max="1" chance="0.075" /> 
+				<item id="80069" min="1" max="1" chance="0.075" /> 
+				<item id="80070" min="1" max="1" chance="0.075" /> 
+				<item id="80071" min="1" max="1" chance="0.075" /> 
+				<item id="80066" min="1" max="1" chance="0.075" /> 
+				<item id="36414" min="2" max="2" chance="100" /> 
+				<item id="35568" min="1" max="1" chance="49.7" /> 
+				<item id="37772" min="1" max="1" chance="49.47" /> 
+				<item id="37781" min="1" max="1" chance="49.31" /> 
+				<item id="36389" min="10" max="10" chance="29.83" /> 
+				<item id="19448" min="10" max="10" chance="28.76" /> 
+				<item id="46508" min="1" max="1" chance="24" /> 
+				<item id="46507" min="1" max="2" chance="23.65" /> 
+				<item id="46492" min="1" max="2" chance="23.28" /> 
+				<item id="46478" min="1" max="1" chance="23.27" /> 
+				<item id="46477" min="1" max="2" chance="22.35" /> 
+				<item id="46493" min="1" max="1" chance="22.02" /> 
+				<item id="36386" min="10" max="10" chance="19.76" /> 
+				<item id="46509" min="1" max="1" chance="19.59" /> 
+				<item id="46479" min="1" max="1" chance="19.5" /> 
+				<item id="19447" min="10" max="10" chance="19.15" /> 
+				<item id="36162" min="1" max="1" chance="19.1" /> 
+				<item id="46494" min="1" max="1" chance="18.23" /> 
+				<item id="17711" min="1" max="1" chance="17.48" /> 
+				<item id="17706" min="1" max="1" chance="17.42" /> 
+				<item id="17713" min="1" max="1" chance="17.35" /> 
+				<item id="17709" min="1" max="1" chance="17.29" /> 
+				<item id="17712" min="1" max="1" chance="17.21" /> 
+				<item id="17710" min="1" max="1" chance="17.21" /> 
+				<item id="17704" min="1" max="1" chance="17.13" /> 
+				<item id="17705" min="1" max="1" chance="17.07" /> 
+				<item id="17702" min="1" max="1" chance="16.71" /> 
+				<item id="39484" min="1" max="1" chance="16.62" /> 
+				<item id="39485" min="1" max="1" chance="16.6" /> 
+				<item id="17714" min="1" max="1" chance="16.6" /> 
+				<item id="17707" min="1" max="1" chance="16.58" /> 
+				<item id="17699" min="1" max="1" chance="16.52" /> 
+				<item id="39483" min="1" max="1" chance="16.49" /> 
+				<item id="46448" min="1" max="1" chance="16.27" /> 
+				<item id="17708" min="1" max="1" chance="16.36" /> 
+				<item id="17703" min="1" max="1" chance="16.35" /> 
+				<item id="46462" min="1" max="2" chance="15.91" /> 
+				<item id="17700" min="1" max="1" chance="16" /> 
+				<item id="17698" min="1" max="1" chance="15.97" /> 
+				<item id="17697" min="1" max="1" chance="15.89" /> 
+				<item id="17701" min="1" max="1" chance="15.86" /> 
+				<item id="46447" min="1" max="2" chance="15.03" /> 
+				<item id="46463" min="1" max="1" chance="14.74" /> 
+				<item id="46449" min="1" max="1" chance="13.54" /> 
+				<item id="46464" min="1" max="1" chance="12.63" /> 
+				<item id="46510" min="1" max="1" chance="11.1" /> 
+				<item id="46480" min="1" max="1" chance="11.07" /> 
+				<item id="46495" min="1" max="1" chance="11.04" /> 
+				<item id="46450" min="1" max="1" chance="7.773" /> 
+				<item id="46481" min="1" max="1" chance="7.71" /> 
+				<item id="46496" min="1" max="1" chance="7.705" /> 
+				<item id="46465" min="1" max="1" chance="7.701" /> 
+				<item id="46511" min="1" max="1" chance="7.613" /> 
+				<item id="46466" min="1" max="1" chance="5.13" /> 
+				<item id="46451" min="1" max="1" chance="5.122" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29365" level="118" type="GrandBoss" name="法利昂" title="Wrathful Water Dragon">
+		<race>DRAGON</race>
+		<acquire exp="108452897573760" sp="97607602024" raidPoints="1000" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="694632864.84102" hpRegen="561.9508371" mp="100626.447" mpRegen="3.6" />
+			<speed>
+				<walk ground="45" />
+				<run ground="270" />
+			</speed>
+			<attack physical="380451.1715" magical="272840.6485" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44109.29354" magical="21529.93964" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>FAFURION</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="200" />
+			<height normal="320" />
+		</collision>
+		<skillList>
+			<skill id="32727" level="3" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="32675" level="1" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="32726" level="1" /> 
+			<skill id="32728" level="1" /> 
+			<skill id="32705" level="1" /> 
+			<skill id="32706" level="1" /> 
+			<skill id="32708" level="1" /> 
+			<skill id="32709" level="1" /> 
+			<skill id="32711" level="1" /> 
+			<skill id="32712" level="1" /> 
+			<skill id="32713" level="1" /> 
+			<skill id="32714" level="1" /> 
+			<skill id="32715" level="1" /> 
+			<skill id="32716" level="1" /> 
+			<skill id="32717" level="1" /> 
+			<skill id="32723" level="1" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="80335" min="1" max="2" chance="100" /> 
+				<item id="80334" min="1" max="1" chance="33.67" /> 
+				<item id="80333" min="1" max="1" chance="31.91" /> 
+				<item id="80112" min="1" max="3" chance="20.68" /> 
+				<item id="80114" min="1" max="3" chance="20.14" /> 
+				<item id="80113" min="1" max="3" chance="19.7" /> 
+				<item id="80111" min="1" max="3" chance="19.29" /> 
+				<item id="80110" min="1" max="3" chance="19.28" /> 
+				<item id="80107" min="1" max="3" chance="17.47" /> 
+				<item id="80120" min="1" max="3" chance="17.305" /> 
+				<item id="80105" min="1" max="3" chance="17.17" /> 
+				<item id="80119" min="1" max="3" chance="17.01" /> 
+				<item id="80104" min="1" max="3" chance="16.9" /> 
+				<item id="80118" min="1" max="3" chance="16.85" /> 
+				<item id="80115" min="1" max="3" chance="16.8" /> 
+				<item id="80116" min="1" max="3" chance="16.76" /> 
+				<item id="80117" min="1" max="3" chance="16.71" /> 
+				<item id="80109" min="1" max="3" chance="16.27" /> 
+				<item id="80106" min="1" max="3" chance="16.03" /> 
+				<item id="80108" min="1" max="3" chance="15.9" /> 
+				<item id="80090" min="1" max="3" chance="9.157" /> 
+				<item id="80096" min="1" max="3" chance="9.155" /> 
+				<item id="80098" min="1" max="3" chance="9.149" /> 
+				<item id="80099" min="1" max="3" chance="9.142" /> 
+				<item id="80091" min="1" max="3" chance="9.136" /> 
+				<item id="80095" min="1" max="3" chance="9.119" /> 
+				<item id="80093" min="1" max="3" chance="9.069" /> 
+				<item id="80100" min="1" max="3" chance="9.064" /> 
+				<item id="80097" min="1" max="3" chance="9.05" /> 
+				<item id="80094" min="1" max="3" chance="9.036" /> 
+				<item id="80092" min="1" max="3" chance="9.027" /> 
+				<item id="80071" min="1" max="1" chance="0.075" /> 
+				<item id="80070" min="1" max="1" chance="0.075" /> 
+				<item id="80069" min="1" max="1" chance="0.075" /> 
+				<item id="80315" min="1" max="1" chance="0.075" /> 
+				<item id="80068" min="1" max="1" chance="0.075" /> 
+				<item id="80067" min="1" max="1" chance="0.075" /> 
+				<item id="80066" min="1" max="1" chance="0.075" /> 
+				<item id="36414" min="2" max="2" chance="100" /> 
+				<item id="47951" min="5" max="5" chance="51.12" /> 
+				<item id="37772" min="1" max="1" chance="51.02" /> 
+				<item id="37781" min="1" max="1" chance="50.27" /> 
+				<item id="35568" min="1" max="1" chance="48.94" /> 
+				<item id="47952" min="15" max="15" chance="48.78" /> 
+				<item id="36389" min="10" max="10" chance="30.08" /> 
+				<item id="19448" min="10" max="10" chance="29.61" /> 
+				<item id="46477" min="1" max="2" chance="23.56" /> 
+				<item id="46508" min="1" max="1" chance="23.24" /> 
+				<item id="46507" min="1" max="2" chance="22.73" /> 
+				<item id="46493" min="1" max="1" chance="22.4" /> 
+				<item id="46478" min="1" max="1" chance="22.09" /> 
+				<item id="46492" min="1" max="2" chance="22.07" /> 
+				<item id="36386" min="10" max="10" chance="20.61" /> 
+				<item id="19447" min="10" max="10" chance="20.23" /> 
+				<item id="46479" min="1" max="1" chance="19.71" /> 
+				<item id="36162" min="1" max="1" chance="19.49" /> 
+				<item id="46509" min="1" max="1" chance="19.34" /> 
+				<item id="46494" min="1" max="1" chance="18.49" /> 
+				<item id="17713" min="1" max="1" chance="17.46" /> 
+				<item id="17714" min="1" max="1" chance="17.46" /> 
+				<item id="17698" min="1" max="1" chance="17.34" /> 
+				<item id="17711" min="1" max="1" chance="17.33" /> 
+				<item id="17703" min="1" max="1" chance="17.18" /> 
+				<item id="17707" min="1" max="1" chance="16.79" /> 
+				<item id="17712" min="1" max="1" chance="16.64" /> 
+				<item id="39484" min="1" max="1" chance="16.63" /> 
+				<item id="39483" min="1" max="1" chance="16.59" /> 
+				<item id="17704" min="1" max="1" chance="16.5" /> 
+				<item id="17709" min="1" max="1" chance="16.46" /> 
+				<item id="17705" min="1" max="1" chance="16.45" /> 
+				<item id="17710" min="1" max="1" chance="16.43" /> 
+				<item id="17697" min="1" max="1" chance="16.38" /> 
+				<item id="17700" min="1" max="1" chance="16.25" /> 
+				<item id="17702" min="1" max="1" chance="16.24" /> 
+				<item id="46462" min="1" max="2" chance="16.09" /> 
+				<item id="39485" min="1" max="1" chance="16.15" /> 
+				<item id="17708" min="1" max="1" chance="16.12" /> 
+				<item id="17699" min="1" max="1" chance="16.08" /> 
+				<item id="17701" min="1" max="1" chance="15.97" /> 
+				<item id="17706" min="1" max="1" chance="15.9" /> 
+				<item id="46463" min="1" max="1" chance="15.52" /> 
+				<item id="46448" min="1" max="1" chance="15.4" /> 
+				<item id="46447" min="1" max="2" chance="15.13" /> 
+				<item id="46464" min="1" max="1" chance="13.09" /> 
+				<item id="46449" min="1" max="1" chance="12.94" /> 
+				<item id="46480" min="1" max="1" chance="11.65" /> 
+				<item id="46510" min="1" max="1" chance="11.57" /> 
+				<item id="46495" min="1" max="1" chance="11.3" /> 
+				<item id="46465" min="1" max="1" chance="7.812" /> 
+				<item id="46450" min="1" max="1" chance="7.744" /> 
+				<item id="46481" min="1" max="1" chance="7.724" /> 
+				<item id="46511" min="1" max="1" chance="7.669" /> 
+				<item id="46496" min="1" max="1" chance="7.601" /> 
+				<item id="46466" min="1" max="1" chance="5.225" /> 
+				<item id="46451" min="1" max="1" chance="5.123" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29366" level="118" type="GrandBoss" name="法利昂" title="Wrathful Water Dragon">
+		<race>DRAGON</race>
+		<acquire exp="108452897573760" sp="97607602024" raidPoints="1000" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="781461972.63069" hpRegen="561.9508371" mp="100626.447" mpRegen="3.6" />
+			<speed>
+				<walk ground="45" />
+				<run ground="270" />
+			</speed>
+			<attack physical="380451.1715" magical="272840.6485" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44109.29354" magical="21529.93964" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>FAFURION</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="200" />
+			<height normal="320" />
+		</collision>
+		<skillList>
+			<skill id="32727" level="3" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="32675" level="1" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="32726" level="1" /> 
+			<skill id="32728" level="2" /> 
+			<skill id="32705" level="1" /> 
+			<skill id="32706" level="1" /> 
+			<skill id="32708" level="1" /> 
+			<skill id="32709" level="1" /> 
+			<skill id="32711" level="1" /> 
+			<skill id="32712" level="1" /> 
+			<skill id="32713" level="1" /> 
+			<skill id="32714" level="1" /> 
+			<skill id="32715" level="1" /> 
+			<skill id="32716" level="1" /> 
+			<skill id="32717" level="1" /> 
+			<skill id="32723" level="1" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="80335" min="1" max="2" chance="100" /> 
+				<item id="80333" min="1" max="1" chance="33.13" /> 
+				<item id="80334" min="1" max="1" chance="31.45" /> 
+				<item id="80112" min="1" max="3" chance="20.16" /> 
+				<item id="80113" min="1" max="3" chance="19.97" /> 
+				<item id="80114" min="1" max="3" chance="19.59" /> 
+				<item id="80111" min="1" max="3" chance="19.52" /> 
+				<item id="80110" min="1" max="3" chance="19.51" /> 
+				<item id="80107" min="1" max="3" chance="17.41" /> 
+				<item id="80115" min="1" max="3" chance="17.3" /> 
+				<item id="80106" min="1" max="3" chance="17.17" /> 
+				<item id="80117" min="1" max="3" chance="17.01" /> 
+				<item id="80119" min="1" max="3" chance="16.7" /> 
+				<item id="80109" min="1" max="3" chance="16.64" /> 
+				<item id="80104" min="1" max="3" chance="16.64" /> 
+				<item id="80108" min="1" max="3" chance="16.56" /> 
+				<item id="80120" min="1" max="3" chance="16.535" /> 
+				<item id="80105" min="1" max="3" chance="16.33" /> 
+				<item id="80118" min="1" max="3" chance="16.27" /> 
+				<item id="80116" min="1" max="3" chance="15.87" /> 
+				<item id="80094" min="1" max="3" chance="9.147" /> 
+				<item id="80099" min="1" max="3" chance="9.099" /> 
+				<item id="80095" min="1" max="3" chance="9.097" /> 
+				<item id="80100" min="1" max="3" chance="9.09" /> 
+				<item id="80090" min="1" max="3" chance="9.086" /> 
+				<item id="80092" min="1" max="3" chance="9.078" /> 
+				<item id="80093" min="1" max="3" chance="9.075" /> 
+				<item id="80096" min="1" max="3" chance="9.053" /> 
+				<item id="80098" min="1" max="3" chance="9.038" /> 
+				<item id="80097" min="1" max="3" chance="9.03" /> 
+				<item id="80091" min="1" max="3" chance="9.024" /> 
+				<item id="80069" min="1" max="1" chance="0.075" /> 
+				<item id="80070" min="1" max="1" chance="0.075" /> 
+				<item id="80071" min="1" max="1" chance="0.075" /> 
+				<item id="80315" min="1" max="1" chance="0.075" /> 
+				<item id="80068" min="1" max="1" chance="0.075" /> 
+				<item id="80067" min="1" max="1" chance="0.075" /> 
+				<item id="80066" min="1" max="1" chance="0.075" /> 
+				<item id="36414" min="2" max="2" chance="100" /> 
+				<item id="37781" min="1" max="1" chance="50.57" /> 
+				<item id="37772" min="1" max="1" chance="49.9" /> 
+				<item id="35568" min="1" max="1" chance="49.87" /> 
+				<item id="47951" min="5" max="5" chance="49.74" /> 
+				<item id="47952" min="15" max="15" chance="48.78" /> 
+				<item id="36389" min="10" max="10" chance="30.59" /> 
+				<item id="19448" min="10" max="10" chance="30.12" /> 
+				<item id="46477" min="1" max="2" chance="24.06" /> 
+				<item id="46492" min="1" max="2" chance="23.71" /> 
+				<item id="46507" min="1" max="2" chance="23.55" /> 
+				<item id="46508" min="1" max="1" chance="23.54" /> 
+				<item id="46478" min="1" max="1" chance="23.37" /> 
+				<item id="46493" min="1" max="1" chance="22.1" /> 
+				<item id="36386" min="10" max="10" chance="20.72" /> 
+				<item id="19447" min="10" max="10" chance="20.6" /> 
+				<item id="46494" min="1" max="1" chance="19.9" /> 
+				<item id="36162" min="1" max="1" chance="19.89" /> 
+				<item id="46479" min="1" max="1" chance="19.43" /> 
+				<item id="46509" min="1" max="1" chance="18.89" /> 
+				<item id="39483" min="1" max="1" chance="17.43" /> 
+				<item id="17700" min="1" max="1" chance="17.41" /> 
+				<item id="17708" min="1" max="1" chance="17.37" /> 
+				<item id="17699" min="1" max="1" chance="17.36" /> 
+				<item id="17698" min="1" max="1" chance="17.29" /> 
+				<item id="17706" min="1" max="1" chance="17.29" /> 
+				<item id="17712" min="1" max="1" chance="17.25" /> 
+				<item id="17703" min="1" max="1" chance="17.16" /> 
+				<item id="17704" min="1" max="1" chance="17.13" /> 
+				<item id="17710" min="1" max="1" chance="16.68" /> 
+				<item id="17707" min="1" max="1" chance="16.65" /> 
+				<item id="17711" min="1" max="1" chance="16.42" /> 
+				<item id="17714" min="1" max="1" chance="16.34" /> 
+				<item id="39485" min="1" max="1" chance="16.29" /> 
+				<item id="17701" min="1" max="1" chance="16.28" /> 
+				<item id="17713" min="1" max="1" chance="16.26" /> 
+				<item id="46447" min="1" max="2" chance="16.05" /> 
+				<item id="46448" min="1" max="1" chance="16.04" /> 
+				<item id="39484" min="1" max="1" chance="16.15" /> 
+				<item id="17705" min="1" max="1" chance="16.12" /> 
+				<item id="17709" min="1" max="1" chance="16.12" /> 
+				<item id="17702" min="1" max="1" chance="15.9" /> 
+				<item id="17697" min="1" max="1" chance="15.89" /> 
+				<item id="46463" min="1" max="1" chance="15.26" /> 
+				<item id="46462" min="1" max="2" chance="15.2" /> 
+				<item id="46449" min="1" max="1" chance="13.36" /> 
+				<item id="46464" min="1" max="1" chance="12.65" /> 
+				<item id="46480" min="1" max="1" chance="11.76" /> 
+				<item id="46510" min="1" max="1" chance="11.7" /> 
+				<item id="46495" min="1" max="1" chance="11.16" /> 
+				<item id="46465" min="1" max="1" chance="7.784" /> 
+				<item id="46450" min="1" max="1" chance="7.758" /> 
+				<item id="46511" min="1" max="1" chance="7.7" /> 
+				<item id="46481" min="1" max="1" chance="7.634" /> 
+				<item id="46496" min="1" max="1" chance="7.601" /> 
+				<item id="46451" min="1" max="1" chance="5.199" /> 
+				<item id="46466" min="1" max="1" chance="5.117" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29367" level="118" type="GrandBoss" name="法利昂" title="Wrathful Water Dragon">
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<acquire exp="108452897573760" sp="97607602024" raidPoints="1000" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="520974648.63077" hpRegen="561.9508371" mp="100626.447" mpRegen="3.6" />
+			<attack physical="380451.1715" magical="272840.6485" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44109.29354" magical="21529.93964" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="300" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>FAFURION</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="200" />
+			<height normal="320" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="32675" level="1" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="32726" level="1" /> 
+			<skill id="32727" level="3" /> 
+			<skill id="32705" level="1" /> 
+			<skill id="32706" level="1" /> 
+			<skill id="32708" level="1" /> 
+			<skill id="32709" level="1" /> 
+			<skill id="32711" level="1" /> 
+			<skill id="32712" level="1" /> 
+			<skill id="32713" level="1" /> 
+			<skill id="32714" level="1" /> 
+			<skill id="32715" level="1" /> 
+			<skill id="32716" level="1" /> 
+			<skill id="32717" level="1" /> 
+			<skill id="32723" level="1" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="80335" min="1" max="2" chance="100" /> 
+				<item id="80334" min="1" max="1" chance="34.23" /> 
+				<item id="80333" min="1" max="1" chance="31.93" /> 
+				<item id="80113" min="1" max="2" chance="20.59" /> 
+				<item id="80110" min="1" max="2" chance="20.49" /> 
+				<item id="80111" min="1" max="2" chance="19.88" /> 
+				<item id="80114" min="1" max="2" chance="19.63" /> 
+				<item id="80112" min="1" max="2" chance="19.41" /> 
+				<item id="80107" min="1" max="2" chance="17.34" /> 
+				<item id="80104" min="1" max="2" chance="17.33" /> 
+				<item id="80118" min="1" max="2" chance="16.73" /> 
+				<item id="80105" min="1" max="2" chance="16.67" /> 
+				<item id="80115" min="1" max="2" chance="16.62" /> 
+				<item id="80120" min="1" max="2" chance="16.535" /> 
+				<item id="80117" min="1" max="2" chance="16.4" /> 
+				<item id="80109" min="1" max="2" chance="16.34" /> 
+				<item id="80116" min="1" max="2" chance="16.3" /> 
+				<item id="80106" min="1" max="2" chance="15.92" /> 
+				<item id="80119" min="1" max="2" chance="15.91" /> 
+				<item id="80108" min="1" max="2" chance="15.87" /> 
+				<item id="80099" min="1" max="2" chance="9.153" /> 
+				<item id="80090" min="1" max="2" chance="9.141" /> 
+				<item id="80091" min="1" max="2" chance="9.124" /> 
+				<item id="80095" min="1" max="2" chance="9.121" /> 
+				<item id="80098" min="1" max="2" chance="9.115" /> 
+				<item id="80100" min="1" max="2" chance="9.113" /> 
+				<item id="80093" min="1" max="2" chance="9.107" /> 
+				<item id="80094" min="1" max="2" chance="9.066" /> 
+				<item id="80097" min="1" max="2" chance="9.058" /> 
+				<item id="80096" min="1" max="2" chance="9.044" /> 
+				<item id="80092" min="1" max="2" chance="9.038" /> 
+				<item id="19448" min="3" max="4" chance="30.6" /> 
+				<item id="36389" min="3" max="4" chance="30" /> 
+				<item id="37781" min="1" max="1" chance="25.68" /> 
+				<item id="46492" min="1" max="2" chance="23.88" /> 
+				<item id="46507" min="1" max="2" chance="23.72" /> 
+				<item id="37772" min="1" max="1" chance="23.87" /> 
+				<item id="46493" min="1" max="1" chance="23.25" /> 
+				<item id="46478" min="1" max="1" chance="23.03" /> 
+				<item id="46477" min="1" max="2" chance="22.44" /> 
+				<item id="46508" min="1" max="1" chance="21.88" /> 
+				<item id="19447" min="3" max="4" chance="20.99" /> 
+				<item id="46494" min="1" max="1" chance="19.23" /> 
+				<item id="36386" min="3" max="4" chance="19.12" /> 
+				<item id="46509" min="1" max="1" chance="18.93" /> 
+				<item id="46479" min="1" max="1" chance="18.79" /> 
+				<item id="46463" min="1" max="1" chance="16.07" /> 
+				<item id="46462" min="1" max="2" chance="15.77" /> 
+				<item id="46448" min="1" max="1" chance="15.55" /> 
+				<item id="46447" min="1" max="2" chance="15.45" /> 
+				<item id="35568" min="1" max="1" chance="14.36" /> 
+				<item id="46464" min="1" max="1" chance="13.52" /> 
+				<item id="46449" min="1" max="1" chance="13.44" /> 
+				<item id="46480" min="1" max="1" chance="11.99" /> 
+				<item id="46510" min="1" max="1" chance="11.36" /> 
+				<item id="46495" min="1" max="1" chance="11.35" /> 
+				<item id="36162" min="1" max="1" chance="10.003" /> 
+				<item id="46465" min="1" max="1" chance="7.811" /> 
+				<item id="46511" min="1" max="1" chance="7.684" /> 
+				<item id="46450" min="1" max="1" chance="7.684" /> 
+				<item id="46481" min="1" max="1" chance="7.675" /> 
+				<item id="46496" min="1" max="1" chance="7.673" /> 
+				<item id="17702" min="1" max="1" chance="6.738" /> 
+				<item id="17708" min="1" max="1" chance="6.727" /> 
+				<item id="17711" min="1" max="1" chance="6.722" /> 
+				<item id="17699" min="1" max="1" chance="6.709" /> 
+				<item id="17712" min="1" max="1" chance="6.702" /> 
+				<item id="17714" min="1" max="1" chance="6.691" /> 
+				<item id="17701" min="1" max="1" chance="6.689" /> 
+				<item id="39485" min="1" max="1" chance="6.685" /> 
+				<item id="17703" min="1" max="1" chance="6.662" /> 
+				<item id="17706" min="1" max="1" chance="6.658" /> 
+				<item id="17705" min="1" max="1" chance="6.655" /> 
+				<item id="17709" min="1" max="1" chance="6.634" /> 
+				<item id="17700" min="1" max="1" chance="6.63" /> 
+				<item id="17713" min="1" max="1" chance="6.62" /> 
+				<item id="17710" min="1" max="1" chance="6.618" /> 
+				<item id="39484" min="1" max="1" chance="6.615" /> 
+				<item id="17697" min="1" max="1" chance="6.614" /> 
+				<item id="39483" min="1" max="1" chance="6.609" /> 
+				<item id="17707" min="1" max="1" chance="6.607" /> 
+				<item id="17704" min="1" max="1" chance="6.601" /> 
+				<item id="17698" min="1" max="1" chance="6.594" /> 
+				<item id="46451" min="1" max="1" chance="5.2" /> 
+				<item id="46466" min="1" max="1" chance="5.134" /> 
+			</drop>
+		</dropLists>
+	</npc>
+	<npc id="29368" level="115" type="Monster" name="翡翠龍" title="Servant">
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="84542140" hpRegen="10.5" mp="30835" mpRegen="3.6" />
+			<attack physical="89354" magical="82036" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="8761" magical="5090" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>FAFURION</clan>
+			</clanList>
+		</ai>
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="32675" level="1" /> 
+			<skill id="32730" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="63" />
+			<height normal="75" />
+		</collision>
+	</npc>
+	<npc id="29369" level="115" type="Monster" name="水藍之龍" title="Servant">
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="84542140" hpRegen="10.5" mp="30835" mpRegen="3.6" />
+			<attack physical="89354" magical="82036" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="160200" magical="29300" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>FAFURION</clan>
+			</clanList>
+		</ai>
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="32675" level="1" /> 
+			<skill id="32732" level="1" /> 
+			<skill id="32733" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="63" />
+			<height normal="75" />
+		</collision>
+	</npc>
+	<npc id="29370" level="115" type="Monster" name="法利昂守護者">
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="169084280" hpRegen="10.5" mp="30835" mpRegen="3.6" />
+			<attack physical="89354" magical="82036" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="8761" magical="5090" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<speed>
+				<walk ground="85" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>FAFURION</clan>
+			</clanList>
+		</ai>
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="32675" level="1" /> 
+			<skill id="32735" level="1" /> 
+			<skill id="32736" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="63" />
+			<height normal="107" />
+		</collision>
+	</npc>
+	<npc id="29371" level="115" type="Monster" name="精銳軍團士兵">
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8454214" hpRegen="10.5" mp="30835" mpRegen="3.6" />
+			<attack physical="89354" magical="82036" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="8761" magical="5090" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<speed>
+				<walk ground="65" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>FAFURION</clan>
+			</clanList>
+		</ai>
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="16417" level="10" /> 
+			<skill id="4435" level="5" /> 
+			<skill id="4440" level="5" /> 
+			<skill id="16177" level="10" /> 
+			<skill id="32736" level="1" /> 
+			<skill id="32737" level="1" /> 
+			<skill id="32738" level="1" /> 
+			<skill id="32739" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="25" />
+			<height normal="62" />
+		</collision>
+	</npc>
+	<npc id="29372" level="115" type="Monster" name="精銳劍鬥士">
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="8454214" hpRegen="10.5" mp="30835" mpRegen="3.6" />
+			<attack physical="89354" magical="82036" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="8761" magical="5090" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<speed>
+				<walk ground="65" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>FAFURION</clan>
+			</clanList>
+		</ai>
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="16417" level="10" /> 
+			<skill id="4435" level="5" /> 
+			<skill id="4440" level="5" /> 
+			<skill id="16177" level="10" /> 
+			<skill id="32733" level="1" /> 
+			<skill id="32734" level="1" /> 
+			<skill id="32735" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="25" />
+			<height normal="62" />
+		</collision>
+	</npc>
+	<npc id="29373" level="115" type="Monster" name="精銳巫師">
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="7303072" hpRegen="10.5" mp="30835" mpRegen="3.6" />
+			<attack physical="89354" magical="82036" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="8761" magical="5090" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="3500" isAggressive="true">
+			<clanList>
+				<clan>FAFURION</clan>
+			</clanList>
+		</ai>
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="16417" level="10" /> 
+			<skill id="4435" level="5" /> 
+			<skill id="4440" level="5" /> 
+			<skill id="16177" level="10" /> 
+			<skill id="32740" level="1" /> 
+			<skill id="32741" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="17" />
+			<height normal="44" />
+		</collision>
+	</npc>
+	<npc id="29374" level="116" type="RaidBoss" name="薩拉克斯" title="Fafurion's High Priest">
+		<parameters>
+			<minions name="Privates">
+				<npc id="29375" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="29378" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<skill name="Aqua_Arrow" id="32740" level="1" />
+			<skill name="Aqua_Flush" id="32741" level="1" />
+			<skill name="Aqua_Wave" id="32742" level="1" />
+			<skill name="Surge_Wave" id="32743" level="1" />
+			<param name="Attack_BoostValue" value="130" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="136411306.91373" hpRegen="543.0227337" mp="98179.66" mpRegen="3.6" />
+			<attack physical="367636.4933" magical="263650.599" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="42623.567" magical="20804.75" />
+			<speed>
+				<walk ground="65" />
+				<run ground="270" />
+			</speed>
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="30" />
+			<height normal="72" />
+		</collision>
+		<skillList>
+			<skill id="32740" level="1" /> 
+			<skill id="32741" level="1" /> 
+			<skill id="32742" level="1" /> 
+			<skill id="32743" level="1" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="32675" level="1" /> 
+			<skill id="14804" level="10" /> 
+			<skill id="32747" level="1" /> 
+			<skill id="32744" level="1" /> 
+			<skill id="32743" level="1" /> 
+			<skill id="32742" level="1" /> 
+		</skillList>
+		<ai type="MAGE" clanHelpRange="3500" aggroRange="450" isAggressive="false">
+			<clanList>
+				<clan>CYRAX</clan>
+			</clanList>
+		</ai>
+	</npc>
+	<npc id="29375" level="115" type="Monster" name="神殿精銳隊長">
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="239135357.24486" hpRegen="9.5" mp="36834.809" mpRegen="3.3" />
+			<attack physical="89354" magical="82036" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="8761" magical="5090" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<speed>
+				<walk ground="70" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" clanHelpRange="3500">
+			<clanList>
+				<clan>CYRAX</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="30" />
+			<height normal="59" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="32736" level="1" /> 
+			<skill id="32737" level="1" /> 
+			<skill id="32738" level="1" /> 
+			<skill id="32739" level="1" /> 
+		</skillList>
+	</npc>
+	<npc id="29376" level="115" type="Monster" name="神殿精銳弓手">
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<equipment rhand="15302" />
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="39855892.979295" hpRegen="9.5" mp="36834.809" mpRegen="3.3" />
+			<attack physical="89354" magical="82036" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="BOW" range="1100" distance="80" width="120" />
+			<defence physical="8761" magical="5090" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<speed>
+				<walk ground="75" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" clanHelpRange="3500">
+			<clanList>
+				<clan>CYRAX</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="28" />
+			<height normal="73" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="32740" level="1" /> 
+			<skill id="32741" level="1" /> 
+		</skillList>
+	</npc>
+	<npc id="29377" level="115" type="Monster" name="神殿精銳勇士">
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="59783839.153485" hpRegen="9.5" mp="36834.809" mpRegen="3.3" />
+			<attack physical="89354" magical="82036" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="8761" magical="5090" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<speed>
+				<walk ground="75" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" clanHelpRange="3500">
+			<clanList>
+				<clan>CYRAX</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="28" />
+			<height normal="72.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="32733" level="1" /> 
+			<skill id="32734" level="1" /> 
+			<skill id="32735" level="1" /> 
+		</skillList>
+	</npc>
+	<npc id="29378" level="115" type="Monster" name="神殿精銳魔法師">
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<stats str="88" int="79" dex="55" wit="78" con="82" men="78">
+			<vitals hp="59783839.153485" hpRegen="9.5" mp="36834.809" mpRegen="3.3" />
+			<attack physical="89354" magical="82036" random="30" critical="4.75" accuracy="4.75" attackSpeed="250" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="8761" magical="5090" />
+			<attribute>
+				<attack type="WATER" value="850" />
+				<defence fire="750" water="850" wind="850" earth="850" holy="850" dark="850" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<ai type="BALANCED" clanHelpRange="3500">
+			<clanList>
+				<clan>CYRAX</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="17" />
+			<height normal="44" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5463" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="32740" level="1" /> 
+			<skill id="32741" level="1" /> 
+		</skillList>
+	</npc>
+</list>
