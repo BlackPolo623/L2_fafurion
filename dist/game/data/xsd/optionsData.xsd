@@ -3,7 +3,7 @@
 	<xs:element name="list">
 		<xs:complexType>
 			<xs:sequence maxOccurs="1" minOccurs="1">
-				<xs:element name="option" maxOccurs="3000" minOccurs="1">
+				<xs:element name="option" maxOccurs="5000" minOccurs="1">
 					<xs:complexType>
 						<xs:sequence maxOccurs="1" minOccurs="1">
 							<xs:element name="effects" minOccurs="0" maxOccurs="1">

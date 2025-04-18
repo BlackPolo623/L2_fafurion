@@ -7,21 +7,21 @@
 					<optionRange from="50000" to="50199" chance="1" /> <!-- 精煉系統重製 -->
 				</optionCategory>
 				<optionCategory chance="30.0">
-					<optionRange from="50200" to="51399" chance="0.5" />
+					<optionRange from="50200" to="53399" chance="0.5" />
 				</optionCategory>
 				<optionCategory chance="10.0">
-					<optionRange from="51400" to="52999" chance="0.1" />
+					<optionRange from="53400" to="54999" chance="0.1" />
 				</optionCategory>
 			</optionGroup>
 			<optionGroup weaponType="warrior" order="1">
 				<optionCategory chance="30.0">
 					<optionRange from="50000" to="50199" chance="1" /> <!-- 精煉系統重製 -->
 				</optionCategory>
-				<optionCategory chance="60.0">
-					<optionRange from="50200" to="51399" chance="0.5" />
+				<optionCategory chance="30.0">
+					<optionRange from="50200" to="53399" chance="0.5" />
 				</optionCategory>
 				<optionCategory chance="10.0">
-					<optionRange from="51400" to="52999" chance="0.1" />
+					<optionRange from="53400" to="54999" chance="0.1" />
 				</optionCategory>
 			</optionGroup>
 			<optionGroup weaponType="mage" order="0">
@@ -29,21 +29,21 @@
 					<optionRange from="50000" to="50199" chance="1" /> <!-- 精煉系統重製 -->
 				</optionCategory>
 				<optionCategory chance="30.0">
-					<optionRange from="50200" to="51399" chance="0.5" />
+					<optionRange from="50200" to="53399" chance="0.5" />
 				</optionCategory>
 				<optionCategory chance="10.0">
-					<optionRange from="51400" to="52999" chance="0.1" />
+					<optionRange from="53400" to="54999" chance="0.1" />
 				</optionCategory>
 			</optionGroup>
 			<optionGroup weaponType="mage" order="1">
 				<optionCategory chance="30.0">
 					<optionRange from="50000" to="50199" chance="1" /> <!-- 精煉系統重製 -->
 				</optionCategory>
-				<optionCategory chance="60.0">
-					<optionRange from="50200" to="51399" chance="0.5" />
+				<optionCategory chance="30.0">
+					<optionRange from="50200" to="53399" chance="0.5" />
 				</optionCategory>
 				<optionCategory chance="10.0">
-					<optionRange from="51400" to="52999" chance="0.1" />
+					<optionRange from="53400" to="54999" chance="0.1" />
 				</optionCategory>
 			</optionGroup>
 		</variation>

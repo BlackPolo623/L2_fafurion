@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance id="403" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/instance.xsd">
+	<!-- War-Torn Plains (70-79) -->
+	<time duration="10" empty="200000" />
+	<locations>
+		<enter type="FIXED">
+			<location x="-88345" y="-252862" z="-3333" />
+		</enter>
+		<exit type="FIXED">
+			<location x="82698" z="148638" y="-3473" />
+		</exit>
+	</locations>
+	<conditions>
+		<condition type="Level">
+			<param name="min" value="40" />
+			<param name="max" value="99" />
+		</condition>
+		<condition type="Reenter" />
+	</conditions>
+	<reenter apply="ON_FINISH">
+		<reset day="MONDAY" hour="6" minute="30" />
+		<reset day="TUESDAY" hour="6" minute="30" />
+		<reset day="WEDNESDAY" hour="6" minute="30" />
+		<reset day="THURSDAY" hour="6" minute="30" />
+		<reset day="FRIDAY" hour="6" minute="30" />
+		<reset day="SATURDAY" hour="6" minute="30" />
+		<reset day="SUNDAY" hour="6" minute="30" />
+	</reenter>
+	<spawnlist>
+		<group>
+         
+		</group>
+	</spawnlist>
+</instance>

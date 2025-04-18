@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance id="891" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/instance.xsd">
+	<!-- War-Torn Plains (70-79) -->
+	<time duration="14400" empty="14400" />
+	<locations>
+		<enter type="FIXED">
+			<location x="82698" y="148638" z="-3473" />
+		</enter>
+		<exit type="FIXED">
+			<location x="82698" z="148638" y="-3473" />
+		</exit>
+	</locations>
+	<spawnlist>
+		<group>		
+		
+			</group>
+	</spawnlist>
+</instance>

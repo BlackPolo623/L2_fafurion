@@ -416,6 +416,25 @@ public class InstanceManager implements IXmlReader
 		return _instanceWorlds.get(instanceId);
 	}
 	
+	public boolean createInstanceFromTemplate(int id, int templateId)
+	{
+		if (getInstance(id) != null)
+		{
+			return false;
+		}
+		return true;
+	}
+	
+	public Instance createInstanceone(int id, int id2, Player player)
+	{
+		if (!_instanceTemplates.containsKey(id))
+		{
+			LOGGER.warning(getClass().getSimpleName() + ": Missing template for instance with id " + id + "!");
+			return null;
+		}
+		return new Instance(id2, _instanceTemplates.get(id), player);
+	}
+	
 	/**
 	 * Get all active instances.
 	 * @return Collection of all instances

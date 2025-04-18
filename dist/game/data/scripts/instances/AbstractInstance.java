@@ -207,6 +207,32 @@ public abstract class AbstractInstance extends AbstractNpcAI
 		}
 	}
 	
+	protected final void enterInstanceone(Player player, Npc npc, int templateId)
+	{
+		Instance instance = getPlayerInstance(player);
+		// Get instance template
+		final InstanceManager manager = InstanceManager.getInstance();
+		final InstanceTemplate template = manager.getInstanceTemplate(templateId);
+		if (template == null)
+		{
+			LOGGER.warning(player + " wants to create instance with unknown template id " + templateId + "!");
+			return;
+		}
+		
+		// Check if maximum world count limit is exceeded
+		if ((template.getMaxWorlds() != -1) && (manager.getWorldCount(templateId) >= template.getMaxWorlds()))
+		{
+			player.sendPacket(new ExShowScreenMessage("已超出可以創立即時地區的上限。請稍候再試。", 3000));
+			return;
+		}
+		
+		// Create new instance for enter player group
+		instance = manager.createInstance(template, player);
+		
+		onEnter(player, instance, true);
+		
+	}
+	
 	/**
 	 * This function is called when player enter into instance trough NPC.
 	 * @param player player who enter

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance id="601" maxWorlds="80" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/instance.xsd">
+	<time duration="10" empty="0" />
+	<locations>
+		<enter type="FIXED">
+			<location x="-88345" y="-252862" z="-3333" />
+		</enter>
+		<exit type="FIXED">
+			<location x="82698" z="148638" y="-3473" />
+		</exit>
+	</locations>
+	<conditions>
+		<condition type="PartyLeader" />
+		<condition type="Distance" />
+	</conditions>
+	<spawnlist>
+		<group>
+			
+		</group>
+	</spawnlist>	
+	
+</instance>
